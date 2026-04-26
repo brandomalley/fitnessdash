@@ -1458,13 +1458,78 @@ function renderMore() {
     const nd = d.net_deficit||0;
     const dotColor = isGym?'var(--green)':d.cardio_type&&d.cardio_type!=='none'?'var(--yellow)':'var(--border)';
     const defColor = nd>=500?'text-g':nd>=200?'text-y':nd<0?'text-r':'';
-    return '<div class="hrow">'
+    return '<div class="hrow" data-day-date="'+d.date+'" style="cursor:pointer">'
       +'<div class="hdot" style="background:'+dotColor+'"></div>'
       +'<div class="hdate"><div class="hd">'+fmtDate(d.date)+'</div><div class="hday">'+fmtDay(d.date)+'</div></div>'
       +'<div class="hmac"><div class="hk">'+d.calories_consumed+' kcal</div>'
       +'<div class="hp">'+d.protein_g+'g pro'+(isGym?' 🏋️':d.cardio_type&&d.cardio_type!=='none'?' 🏃':'')+'</div></div>'
-      +'<div class="hdef"><div class="hd2 '+defColor+'">'+(nd>=0?'+':'')+nd+'</div><div class="hl">net deficit</div></div></div>';
+      +'<div class="hdef"><div class="hd2 '+defColor+'">'+(nd>=0?'+':'')+nd+'</div><div class="hl">net deficit</div></div>'
+      +'<div style="font-size:16px;color:var(--text2);padding-left:4px">›</div>'
+      +'</div>';
   }).join('');
+}
+
+// ---- Day Detail Modal ----
+function openDayDetail(date) {
+  const data = DB.getData();
+  const d = data.find(function(r){return r.date===date;});
+  if(!d) return;
+
+  const nd = d.net_deficit||0;
+  const defColor = nd>=500?'var(--green)':nd>=200?'var(--yellow)':nd<0?'var(--red)':'var(--text2)';
+  const isGym = d.gym_session;
+  const hasCardio = d.cardio_type && d.cardio_type!=='none';
+  const calOver = d.calories_consumed > d.calorie_target;
+
+  function row(label, value, color) {
+    return '<div class="info-row"><span class="ik">'+label+'</span>'
+      +'<span class="iv" style="color:'+(color||'var(--text)')+'">'+value+'</span></div>';
+  }
+
+  let html = '';
+
+  // Nutrition block
+  html += '<div class="ib-ttl">🥗 Nutrition</div>';
+  html += '<div class="info-box" style="margin-bottom:12px">';
+  html += row('Calories', d.calories_consumed+' / '+d.calorie_target+' kcal', calOver?'var(--red)':'var(--green)');
+  html += row('Protein',  d.protein_g+'g / '+d.protein_target_g+'g target', d.protein_g>=d.protein_target_g?'var(--green)':'var(--orange)');
+  html += row('Carbs',    d.carbs_g+'g');
+  html += row('Fat',      d.fat_g+'g');
+  if(d.weight_lb) html += row('Weight', d.weight_lb+' lb', 'var(--blue)');
+  html += '</div>';
+
+  // Deficit block
+  html += '<div class="ib-ttl">📊 Deficit</div>';
+  html += '<div class="info-box" style="margin-bottom:12px">';
+  html += row('Food Deficit',  '+'+(d.food_deficit||0)+' kcal');
+  html += row('🔥 Burned',     '+'+(d.exercise_calories_burned||0)+' kcal', d.exercise_calories_burned>0?'var(--green)':'var(--text2)');
+  html += row('Net Deficit',   (nd>=0?'+':'')+nd+' kcal', defColor);
+  html += row('Running Total', (d.cumulative_deficit||0).toLocaleString()+' kcal cumulative');
+  html += row('Est. Fat Lost', ((d.cumulative_deficit||0)/3500).toFixed(2)+' lb total');
+  html += '</div>';
+
+  // Activity block
+  html += '<div class="ib-ttl">'+(isGym?'🏋️':'🏃')+' Activity</div>';
+  html += '<div class="info-box" style="margin-bottom:12px">';
+  if(isGym) html += row('Session', 'Gym day');
+  if(hasCardio) html += row('Cardio', d.cardio_type+(d.cardio_minutes?' · '+d.cardio_minutes+' min':''));
+  if(!isGym && !hasCardio) html += row('Activity', 'Rest day');
+  if(d.sleep_quality) html += row('Sleep', d.sleep_quality+' / 10');
+  if(d.energy_level)  html += row('Energy', d.energy_level+' / 10');
+  html += row('Log Status', d.log_completeness==='complete'?'✅ Complete':'⚠️ Partial', d.log_completeness==='complete'?'var(--green)':'var(--yellow)');
+  html += '</div>';
+
+  // Notes
+  if(d.notes) {
+    html += '<div class="ib-ttl">📝 Notes</div>';
+    html += '<div class="info-box" style="margin-bottom:4px"><span style="font-size:13px;line-height:1.6;color:var(--text)">'+esc(d.notes)+'</span></div>';
+  }
+
+  const fullDate = new Date(date+'T12:00:00').toLocaleDateString('en-US',{weekday:'long',month:'long',day:'numeric'});
+  document.getElementById('modal-title').textContent = fullDate;
+  document.getElementById('modal-sub').textContent = fmtDay(date)+' summary';
+  document.getElementById('modal-body').innerHTML = html;
+  document.getElementById('modal-bg').classList.add('open');
 }
 
 // ---- Export / Import ----
@@ -1578,6 +1643,9 @@ document.addEventListener('click', function(e) {
   // Workout checks
   const chk = e.target.closest('[data-chk-date]');
   if(chk){toggleCheck(chk.dataset.chkDate, chk.dataset.chkId);return;}
+  // History day detail
+  const hrow = e.target.closest('[data-day-date]');
+  if(hrow){openDayDetail(hrow.dataset.dayDate);return;}
   // Modal close
   if(e.target===document.getElementById('modal-bg')||e.target.closest('#modal-close')){closeModal();return;}
   // Filter buttons
