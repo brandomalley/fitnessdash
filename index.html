@@ -92,6 +92,16 @@ html,body{height:100%;background:var(--bg);color:var(--text);font-family:-apple-
 .wrow input{width:80px;background:var(--card2);border:1px solid var(--border);border-radius:8px;color:var(--text);font-size:18px;font-weight:700;padding:6px 10px;text-align:center;outline:none}
 .wrow input:focus{border-color:var(--blue)}
 .wrow .unit{font-size:12px;color:var(--text2)}
+.sleep-dots{display:flex;gap:4px;flex:1;justify-content:flex-end}
+.sleep-dot{width:22px;height:22px;border-radius:50%;border:1.5px solid var(--border);background:var(--card2);cursor:pointer;font-size:10px;font-weight:700;color:var(--text2);display:flex;align-items:center;justify-content:center;transition:all .15s}
+.sleep-dot.active{border-color:var(--blue);background:var(--blue);color:#fff}
+.cof-row{display:flex;align-items:center;padding:6px 0;border-bottom:1px solid var(--border)}
+.cof-row:last-child{border-bottom:none}
+.cof-lbl{font-size:13px;color:var(--text);flex:1}
+.cof-sub{font-size:11px;color:var(--text2)}
+.cof-ctr{display:flex;align-items:center;gap:10px}
+.cof-btn{width:28px;height:28px;border-radius:50%;border:1.5px solid var(--border);background:var(--card2);color:var(--text);font-size:16px;font-weight:700;cursor:pointer;display:flex;align-items:center;justify-content:center;line-height:1}
+.cof-val{min-width:20px;text-align:center;font-size:16px;font-weight:700;color:var(--text)}
 /* Exercise */
 .exgrid{display:grid;grid-template-columns:1fr 1fr 1fr;gap:7px;margin-bottom:8px}
 .exbtn{padding:10px 4px;border-radius:10px;border:1.5px solid var(--border);background:var(--card2);color:var(--text);font-size:11px;cursor:pointer;text-align:center;transition:all .15s;display:block;width:100%}
@@ -238,6 +248,10 @@ html,body{height:100%;background:var(--bg);color:var(--text);font-family:-apple-
         <input type="number" id="weight-inp" placeholder="&#x2014;" step="0.1" inputmode="decimal">
         <span class="unit">lb</span>
       </div>
+      <div class="wrow" id="sleep-row">
+        <label>&#x1F634; Sleep Quality</label>
+        <div class="sleep-dots" id="sleep-dots"></div>
+      </div>
       <div class="msumm">
         <div class="mrow">
           <div class="mbig"><div class="mn" id="ms-kcal">0</div><div class="ml">CALORIES</div><div class="ms" id="ms-kcal-s">of 1,900</div></div>
@@ -258,6 +272,33 @@ html,body{height:100%;background:var(--bg);color:var(--text);font-family:-apple-
           <div class="ditem"><div class="dv text-g bold" id="def-net">+0</div><div class="dl">Net Deficit</div></div>
         </div>
       </div>
+      <div class="sec">&#x2615; Coffee</div>
+      <div class="card"><div class="cb" style="padding:10px 14px">
+        <div class="cof-row">
+          <div class="cof-lbl">Full Caf <span class="cof-sub">regular espresso / drip</span></div>
+          <div class="cof-ctr">
+            <button class="cof-btn" data-cof="full" data-cof-d="-1">&#x2212;</button>
+            <span class="cof-val" id="cof-full">0</span>
+            <button class="cof-btn" data-cof="full" data-cof-d="1">+</button>
+          </div>
+        </div>
+        <div class="cof-row">
+          <div class="cof-lbl">Half Caf <span class="cof-sub">half regular / half decaf</span></div>
+          <div class="cof-ctr">
+            <button class="cof-btn" data-cof="half" data-cof-d="-1">&#x2212;</button>
+            <span class="cof-val" id="cof-half">0</span>
+            <button class="cof-btn" data-cof="half" data-cof-d="1">+</button>
+          </div>
+        </div>
+        <div class="cof-row">
+          <div class="cof-lbl">Decaf</div>
+          <div class="cof-ctr">
+            <button class="cof-btn" data-cof="decaf" data-cof-d="-1">&#x2212;</button>
+            <span class="cof-val" id="cof-decaf">0</span>
+            <button class="cof-btn" data-cof="decaf" data-cof-d="1">+</button>
+          </div>
+        </div>
+      </div></div>
       <div class="sec">Meals</div>
       <div class="meal-card" id="meal-card-smoothie">
         <div class="meal-hdr" data-toggle-card="smoothie">
@@ -750,7 +791,8 @@ function getOrInitToday(){
   if(!l.date || l.date !== todayStr()){
     l = {date:todayStr(),weight_lb:null,sleep_quality:null,
          meals:{smoothie:null,lunch:null,snack:null,dinner:null,extras:[]},
-         exercise:{id:'',kcal:0,gym:false,cardio:'none',mins:0},notes:''};
+         exercise:{id:'',kcal:0,gym:false,cardio:'none',mins:0},
+         coffee:{full:0,half:0,decaf:0},notes:''};
     DB.setToday(l);
   }
   return l;
@@ -1273,8 +1315,12 @@ function saveDay() {
     exercise_calories_burned:t.exKcal,net_deficit:Math.round(t.netDef),
     cumulative_deficit:Math.round(prevCum+t.netDef),
     weight_lb:l.weight_lb||null,gym_session:l.exercise.gym,
+    exercise_id:l.exercise.id||'',
     cardio_type:l.exercise.cardio||'none',cardio_minutes:l.exercise.mins||0,
     sleep_quality:l.sleep_quality,energy_level:null,cns_flags:false,
+    coffee_full:(l.coffee&&l.coffee.full)||0,
+    coffee_half:(l.coffee&&l.coffee.half)||0,
+    coffee_decaf:(l.coffee&&l.coffee.decaf)||0,
     log_completeness:logged===4?'complete':'partial',notes:l.notes||''
   };
   // Snapshot meal details so openDayDetail can show ingredient breakdown
@@ -1286,7 +1332,9 @@ function saveDay() {
     if(meal.skip) { _slotsDetail[slot] = {label:meal.preset_label||slot, skip:true}; return; }
     if(meal.fixed) {
       _slotsDetail[slot] = {label:meal.preset_label||slot, kcal:meal.fixed.kcal,
-        items:[{name:meal.preset_label||slot, kcal:meal.fixed.kcal}]};
+        pro:meal.fixed.pro||0, carbs:meal.fixed.carbs||0, fat:meal.fixed.fat||0,
+        items:[{name:meal.preset_label||slot, kcal:meal.fixed.kcal,
+                pro:meal.fixed.pro||0, carbs:meal.fixed.carbs||0, fat:meal.fixed.fat||0}]};
       return;
     }
     if(meal.ingrs && meal.ingrs.length) {
@@ -1294,9 +1342,17 @@ function saveDay() {
         const db = _allIngr[item.id];
         if(!db) return null;
         return {name:db.name||(item.id.replace(/_/g,' ')), qty:item.qty, unit:db.unit||'serving',
-                kcal:Math.round(db.kcal * item.qty)};
+                kcal:Math.round(db.kcal*item.qty),
+                pro:Math.round(db.pro*item.qty*10)/10,
+                carbs:Math.round(db.carbs*item.qty*10)/10,
+                fat:Math.round(db.fat*item.qty*10)/10};
       }).filter(Boolean);
-      _slotsDetail[slot] = {label:meal.preset_label||slot, kcal:items.reduce(function(s,i){return s+i.kcal;},0), items:items};
+      _slotsDetail[slot] = {label:meal.preset_label||slot,
+        kcal:items.reduce(function(s,i){return s+i.kcal;},0),
+        pro:Math.round(items.reduce(function(s,i){return s+(i.pro||0);},0)),
+        carbs:Math.round(items.reduce(function(s,i){return s+(i.carbs||0);},0)),
+        fat:Math.round(items.reduce(function(s,i){return s+(i.fat||0);},0)),
+        items:items};
     } else {
       _slotsDetail[slot] = null;
     }
@@ -1541,19 +1597,48 @@ function openDayDetail(date) {
   html += '</div>';
 
   // Activity block
-  html += '<div class="ib-ttl">'+(isGym?'🏋️':'🏃')+' Activity</div>';
+  html += '<div class="ib-ttl">&#x1F3CB;&#xFE0F; Activity</div>';
   html += '<div class="info-box" style="margin-bottom:12px">';
-  if(isGym) {
+  const exType = d.exercise_id ? EX_TYPES.find(function(e){return e.id===d.exercise_id;}) : null;
+  if(exType) {
+    if(exType.gymKcal > 0) {
+      // Gym session — show split
+      const week = DB.getWeek();
+      const wkDay = week.find(function(w){return w.date===date;});
+      const sessionLabel = (wkDay && wkDay.session_type) ? wkDay.session_type : exType.label;
+      html += row('💪 '+sessionLabel+' (strength)', '+'+exType.gymKcal+' kcal', 'var(--green)');
+      const cardioKcal = Math.round((exType.cardioRate||0) * (d.cardio_minutes||0));
+      if(d.cardio_minutes > 0)
+        html += row('🚶 '+d.cardio_type+' · '+d.cardio_minutes+' min', '+'+cardioKcal+' kcal', 'var(--green)');
+    } else if(exType.id !== 'rest') {
+      // Pure cardio
+      html += row(exType.icon+' '+exType.label+' · '+(d.cardio_minutes||0)+' min',
+                  '+'+(d.exercise_calories_burned||0)+' kcal', 'var(--green)');
+    } else {
+      html += row('Activity', '😴 Rest day');
+    }
+  } else if(isGym) {
+    // Historical entry without exercise_id
     const week = DB.getWeek();
     const wkDay = week.find(function(w){return w.date===date;});
-    const sessionLabel = (wkDay && wkDay.session_type) ? wkDay.session_type : 'Gym day';
-    html += row('Session', sessionLabel);
+    const sessionLabel = (wkDay && wkDay.session_type) ? wkDay.session_type : 'Gym session';
+    html += row('💪 '+sessionLabel, '+'+(d.exercise_calories_burned||0)+' kcal total', 'var(--green)');
+    if(hasCardio) html += row('🚶 '+d.cardio_type+' · '+d.cardio_minutes+' min', 'included', 'var(--text2)');
+  } else if(hasCardio) {
+    html += row('🏃 '+(d.cardio_type||'Cardio')+' · '+d.cardio_minutes+' min',
+                '+'+(d.exercise_calories_burned||0)+' kcal', 'var(--green)');
+  } else {
+    html += row('Activity', '😴 Rest day');
   }
-  if(hasCardio) html += row('Cardio', d.cardio_type+(d.cardio_minutes?' · '+d.cardio_minutes+' min':''));
-  if(!isGym && !hasCardio) html += row('Activity', 'Rest day');
-  if(d.sleep_quality) html += row('Sleep', d.sleep_quality+' / 10');
+  if(d.sleep_quality) html += row('😴 Sleep', d.sleep_quality+' / 10');
   if(d.energy_level)  html += row('Energy', d.energy_level+' / 10');
-  html += row('Log Status', d.log_completeness==='complete'?'✅ Complete':'⚠️ Partial', d.log_completeness==='complete'?'var(--green)':'var(--yellow)');
+  const cofParts = [];
+  if(d.coffee_full)  cofParts.push(d.coffee_full+'× full caf');
+  if(d.coffee_half)  cofParts.push(d.coffee_half+'× half caf');
+  if(d.coffee_decaf) cofParts.push(d.coffee_decaf+'× decaf');
+  if(cofParts.length) html += row('☕ Coffee', cofParts.join(', '));
+  html += row('Log Status', d.log_completeness==='complete'?'✅ Complete':'⚠️ Partial',
+              d.log_completeness==='complete'?'var(--green)':'var(--yellow)');
   html += '</div>';
 
   // Meals breakdown
@@ -1575,14 +1660,18 @@ function openDayDetail(date) {
         html += '<div style="display:flex;justify-content:space-between;font-size:12px;color:var(--text2);margin-bottom:6px"><span>'+label+'</span><span>Skipped</span></div>';
         return;
       }
-      html += '<div style="margin-bottom:8px">';
-      html += '<div style="display:flex;justify-content:space-between;font-size:12px;font-weight:600;color:var(--text);margin-bottom:3px">'
+      html += '<div style="margin-bottom:10px">';
+      html += '<div style="display:flex;justify-content:space-between;font-size:12px;font-weight:600;color:var(--text);margin-bottom:2px">'
             + '<span>'+label+(s.label && s.label!==_slotName[slot]?' · '+esc(s.label):'')+'</span>'
             + '<span style="color:var(--green)">'+s.kcal+' kcal</span></div>';
+      if(s.pro!=null||s.carbs!=null||s.fat!=null) {
+        html += '<div style="font-size:11px;color:var(--text2);margin-bottom:4px;padding-left:2px">'
+              + 'P: '+(s.pro||0)+'g &nbsp;·&nbsp; C: '+(s.carbs||0)+'g &nbsp;·&nbsp; F: '+(s.fat||0)+'g</div>';
+      }
       if(s.items && s.items.length) {
         s.items.forEach(function(item){
-          const qtyStr = (item.qty && item.qty !== 1) ? ' × '+item.qty+' '+item.unit : (item.unit==='serving'?'':' · 1 '+item.unit);
-          html += '<div style="display:flex;justify-content:space-between;font-size:11px;color:var(--text2);padding-left:10px;margin-bottom:1px">'
+          const qtyStr = (item.qty && item.qty !== 1) ? ' × '+item.qty+' '+item.unit : (item.unit && item.unit!=='serving' ? ' · 1 '+item.unit : '');
+          html += '<div style="display:flex;justify-content:space-between;font-size:11px;color:var(--text2);padding-left:10px;margin-bottom:2px">'
                 + '<span>'+esc(item.name)+qtyStr+'</span>'
                 + '<span>'+item.kcal+' kcal</span></div>';
         });
@@ -1670,10 +1759,32 @@ function toast(msg){
 }
 
 // ---- Render: Log tab ----
+function renderSleepDots() {
+  const l = getOrInitToday();
+  const cur = l.sleep_quality||0;
+  const wrap = document.getElementById('sleep-dots');
+  wrap.innerHTML = Array.from({length:10},function(_,i){
+    const v = i+1;
+    const col = v<=3?'var(--red)':v<=6?'var(--yellow)':'var(--green)';
+    return '<div class="sleep-dot'+(cur===v?' active':'')+'" data-sleep-val="'+v+'" '
+      +'style="'+(cur===v?'background:'+col+';border-color:'+col:'')+'">'+v+'</div>';
+  }).join('');
+}
+
+function renderCoffee() {
+  const l = getOrInitToday();
+  const c = l.coffee||{full:0,half:0,decaf:0};
+  document.getElementById('cof-full').textContent  = c.full||0;
+  document.getElementById('cof-half').textContent  = c.half||0;
+  document.getElementById('cof-decaf').textContent = c.decaf||0;
+}
+
 function renderLog() {
   renderSummary();
   renderAllMeals();
   renderExerciseGrid();
+  renderSleepDots();
+  renderCoffee();
   const l = getOrInitToday();
   document.getElementById('notes-ta').value = l.notes||'';
 }
@@ -1721,6 +1832,18 @@ document.addEventListener('click', function(e) {
   if(re){removeExtra(parseInt(re.dataset.removeExtra));return;}
   // Custom extra submit
   if(e.target.id==='add-custom-extra-btn'){addCustomExtra();return;}
+  // Coffee buttons
+  const cofb = e.target.closest('[data-cof]');
+  if(cofb){
+    const type = cofb.dataset.cof;
+    const delta = parseInt(cofb.dataset.cofD)||0;
+    const l = getOrInitToday();
+    if(!l.coffee) l.coffee = {full:0,half:0,decaf:0};
+    l.coffee[type] = Math.max(0, (l.coffee[type]||0) + delta);
+    DB.setToday(l);
+    renderCoffee();
+    return;
+  }
   // Exercise buttons
   const exb = e.target.closest('[data-ex-id]');
   if(exb){setExercise(exb.dataset.exId);return;}
@@ -1783,6 +1906,16 @@ document.getElementById('weight-inp').addEventListener('change', function(){
 });
 document.getElementById('notes-ta').addEventListener('input', function(){
   const l=getOrInitToday();l.notes=this.value;DB.setToday(l);
+});
+document.getElementById('sleep-dots').addEventListener('click', function(e){
+  const dot = e.target.closest('[data-sleep-val]');
+  if(!dot) return;
+  const v = parseInt(dot.dataset.sleepVal);
+  const l = getOrInitToday();
+  // Tap same value again to clear
+  l.sleep_quality = (l.sleep_quality===v) ? null : v;
+  DB.setToday(l);
+  renderSleepDots();
 });
 
 // ---- Init ----
