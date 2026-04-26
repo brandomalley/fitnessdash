@@ -1273,6 +1273,34 @@ function saveDay() {
     sleep_quality:l.sleep_quality,energy_level:null,cns_flags:false,
     log_completeness:logged===4?'complete':'partial',notes:l.notes||''
   };
+  // Snapshot meal details so openDayDetail can show ingredient breakdown
+  const _allIngr = getAllIngr();
+  const _slotsDetail = {};
+  ['smoothie','lunch','snack','dinner'].forEach(function(slot){
+    const meal = l.meals[slot];
+    if(!meal) { _slotsDetail[slot] = null; return; }
+    if(meal.skip) { _slotsDetail[slot] = {label:meal.preset_label||slot, skip:true}; return; }
+    if(meal.fixed) {
+      _slotsDetail[slot] = {label:meal.preset_label||slot, kcal:meal.fixed.kcal,
+        items:[{name:meal.preset_label||slot, kcal:meal.fixed.kcal}]};
+      return;
+    }
+    if(meal.ingrs && meal.ingrs.length) {
+      const items = meal.ingrs.map(function(item){
+        const db = _allIngr[item.id];
+        if(!db) return null;
+        return {name:db.name||(item.id.replace(/_/g,' ')), qty:item.qty, unit:db.unit||'serving',
+                kcal:Math.round(db.kcal * item.qty)};
+      }).filter(Boolean);
+      _slotsDetail[slot] = {label:meal.preset_label||slot, kcal:items.reduce(function(s,i){return s+i.kcal;},0), items:items};
+    } else {
+      _slotsDetail[slot] = null;
+    }
+  });
+  const _extrasDetail = (l.meals.extras||[]).map(function(e){
+    return {name:e.name||e.label||'Extra', kcal:e.kcal||0};
+  });
+  entry.meals_detail = {slots:_slotsDetail, extras:_extrasDetail};
   const idx = data.findIndex(function(d){return d.date===td;});
   if(idx>=0) data[idx]=entry; else data.push(entry);
   data.sort(function(a,b){return a.date.localeCompare(b.date);});
@@ -1511,13 +1539,65 @@ function openDayDetail(date) {
   // Activity block
   html += '<div class="ib-ttl">'+(isGym?'🏋️':'🏃')+' Activity</div>';
   html += '<div class="info-box" style="margin-bottom:12px">';
-  if(isGym) html += row('Session', 'Gym day');
+  if(isGym) {
+    const week = DB.getWeek();
+    const wkDay = week.find(function(w){return w.date===date;});
+    const sessionLabel = (wkDay && wkDay.session_type) ? wkDay.session_type : 'Gym day';
+    html += row('Session', sessionLabel);
+  }
   if(hasCardio) html += row('Cardio', d.cardio_type+(d.cardio_minutes?' · '+d.cardio_minutes+' min':''));
   if(!isGym && !hasCardio) html += row('Activity', 'Rest day');
   if(d.sleep_quality) html += row('Sleep', d.sleep_quality+' / 10');
   if(d.energy_level)  html += row('Energy', d.energy_level+' / 10');
   html += row('Log Status', d.log_completeness==='complete'?'✅ Complete':'⚠️ Partial', d.log_completeness==='complete'?'var(--green)':'var(--yellow)');
   html += '</div>';
+
+  // Meals breakdown
+  html += '<div class="ib-ttl">🍽️ Meals</div>';
+  if(d.meals_detail) {
+    html += '<div class="info-box" style="margin-bottom:12px">';
+    const _slots = d.meals_detail.slots||{};
+    const _extras = d.meals_detail.extras||[];
+    const _slotEmoji = {smoothie:'🥤',lunch:'🥗',snack:'🍎',dinner:'🍽️'};
+    const _slotName  = {smoothie:'Smoothie',lunch:'Lunch',snack:'Snack',dinner:'Dinner'};
+    ['smoothie','lunch','snack','dinner'].forEach(function(slot){
+      const s = _slots[slot];
+      const label = _slotEmoji[slot]+' '+_slotName[slot];
+      if(!s) {
+        html += '<div style="display:flex;justify-content:space-between;font-size:12px;color:var(--text2);margin-bottom:6px"><span>'+label+'</span><span>Not logged</span></div>';
+        return;
+      }
+      if(s.skip) {
+        html += '<div style="display:flex;justify-content:space-between;font-size:12px;color:var(--text2);margin-bottom:6px"><span>'+label+'</span><span>Skipped</span></div>';
+        return;
+      }
+      html += '<div style="margin-bottom:8px">';
+      html += '<div style="display:flex;justify-content:space-between;font-size:12px;font-weight:600;color:var(--text);margin-bottom:3px">'
+            + '<span>'+label+(s.label && s.label!==_slotName[slot]?' · '+esc(s.label):'')+'</span>'
+            + '<span style="color:var(--green)">'+s.kcal+' kcal</span></div>';
+      if(s.items && s.items.length) {
+        s.items.forEach(function(item){
+          const qtyStr = (item.qty && item.qty !== 1) ? ' × '+item.qty+' '+item.unit : (item.unit==='serving'?'':' · 1 '+item.unit);
+          html += '<div style="display:flex;justify-content:space-between;font-size:11px;color:var(--text2);padding-left:10px;margin-bottom:1px">'
+                + '<span>'+esc(item.name)+qtyStr+'</span>'
+                + '<span>'+item.kcal+' kcal</span></div>';
+        });
+      }
+      html += '</div>';
+    });
+    if(_extras.length) {
+      html += '<div style="margin-top:4px">';
+      html += '<div style="font-size:12px;font-weight:600;color:var(--text);margin-bottom:3px">➕ Extras</div>';
+      _extras.forEach(function(e){
+        html += '<div style="display:flex;justify-content:space-between;font-size:11px;color:var(--text2);padding-left:10px;margin-bottom:1px">'
+              + '<span>'+esc(e.name)+'</span><span>'+e.kcal+' kcal</span></div>';
+      });
+      html += '</div>';
+    }
+    html += '</div>';
+  } else {
+    html += '<div class="info-box" style="margin-bottom:12px"><span style="font-size:12px;color:var(--text2)">Meal details are captured from today onward — log a day and hit Save to see the full breakdown here.</span></div>';
+  }
 
   // Notes
   if(d.notes) {
