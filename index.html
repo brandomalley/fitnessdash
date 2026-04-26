@@ -283,6 +283,14 @@ html,body{height:100%;background:var(--bg);color:var(--text);font-family:-apple-
           </div>
         </div>
         <div class="cof-row">
+          <div class="cof-lbl">Quarter Caf <span class="cof-sub">mostly decaf, little caf</span></div>
+          <div class="cof-ctr">
+            <button class="cof-btn" data-cof="quarter" data-cof-d="-1">&#x2212;</button>
+            <span class="cof-val" id="cof-quarter">0</span>
+            <button class="cof-btn" data-cof="quarter" data-cof-d="1">+</button>
+          </div>
+        </div>
+        <div class="cof-row">
           <div class="cof-lbl">Half Caf <span class="cof-sub">half regular / half decaf</span></div>
           <div class="cof-ctr">
             <button class="cof-btn" data-cof="half" data-cof-d="-1">&#x2212;</button>
@@ -792,7 +800,7 @@ function getOrInitToday(){
     l = {date:todayStr(),weight_lb:null,sleep_quality:null,
          meals:{smoothie:null,lunch:null,snack:null,dinner:null,extras:[]},
          exercise:{id:'',kcal:0,gym:false,cardio:'none',mins:0},
-         coffee:{full:0,half:0,decaf:0},notes:''};
+         coffee:{full:0,quarter:0,half:0,decaf:0},notes:''};
     DB.setToday(l);
   }
   return l;
@@ -1319,6 +1327,7 @@ function saveDay() {
     cardio_type:l.exercise.cardio||'none',cardio_minutes:l.exercise.mins||0,
     sleep_quality:l.sleep_quality,energy_level:null,cns_flags:false,
     coffee_full:(l.coffee&&l.coffee.full)||0,
+    coffee_quarter:(l.coffee&&l.coffee.quarter)||0,
     coffee_half:(l.coffee&&l.coffee.half)||0,
     coffee_decaf:(l.coffee&&l.coffee.decaf)||0,
     log_completeness:logged===4?'complete':'partial',notes:l.notes||''
@@ -1633,9 +1642,10 @@ function openDayDetail(date) {
   if(d.sleep_quality) html += row('😴 Sleep', d.sleep_quality+' / 10');
   if(d.energy_level)  html += row('Energy', d.energy_level+' / 10');
   const cofParts = [];
-  if(d.coffee_full)  cofParts.push(d.coffee_full+'× full caf');
-  if(d.coffee_half)  cofParts.push(d.coffee_half+'× half caf');
-  if(d.coffee_decaf) cofParts.push(d.coffee_decaf+'× decaf');
+  if(d.coffee_full)    cofParts.push(d.coffee_full+'× full caf');
+  if(d.coffee_quarter) cofParts.push(d.coffee_quarter+'× quarter caf');
+  if(d.coffee_half)    cofParts.push(d.coffee_half+'× half caf');
+  if(d.coffee_decaf)   cofParts.push(d.coffee_decaf+'× decaf');
   if(cofParts.length) html += row('☕ Coffee', cofParts.join(', '));
   html += row('Log Status', d.log_completeness==='complete'?'✅ Complete':'⚠️ Partial',
               d.log_completeness==='complete'?'var(--green)':'var(--yellow)');
@@ -1774,9 +1784,10 @@ function renderSleepDots() {
 function renderCoffee() {
   const l = getOrInitToday();
   const c = l.coffee||{full:0,half:0,decaf:0};
-  document.getElementById('cof-full').textContent  = c.full||0;
-  document.getElementById('cof-half').textContent  = c.half||0;
-  document.getElementById('cof-decaf').textContent = c.decaf||0;
+  document.getElementById('cof-full').textContent    = c.full||0;
+  document.getElementById('cof-quarter').textContent = c.quarter||0;
+  document.getElementById('cof-half').textContent    = c.half||0;
+  document.getElementById('cof-decaf').textContent   = c.decaf||0;
 }
 
 function renderLog() {
