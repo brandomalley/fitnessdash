@@ -433,9 +433,14 @@ html,body{height:100%;background:var(--bg);color:var(--text);font-family:-apple-
       </div>
       <input type="search" id="ingr-lib-search" class="ingr-search" placeholder="Search foods…" style="margin-bottom:8px">
       <div id="ingr-lib-list"></div>
-      <div class="sec">Live Sync</div>
-      <button class="btn btn-p" id="sync-btn">🔗 Connect Live Sync</button>
-      <div style="text-align:center;padding:0 0 12px;font-size:12px;color:var(--text2);line-height:1.5" id="sync-note">Select your fitness-tracker.csv so it updates automatically on every save.</div>
+      <div class="sec">GitHub Sync</div>
+      <div class="card"><div class="cb" style="padding:14px">
+        <div style="font-size:12px;color:var(--text2);margin-bottom:10px;line-height:1.5">Auto-syncs your data to GitHub on every Save Day so your coach always has the latest.</div>
+        <div id="gh-sync-status" style="font-size:12px;font-weight:600;margin-bottom:10px;color:var(--text2)">⚪ Not connected</div>
+        <input type="password" id="gh-token-inp" placeholder="Paste GitHub token here…"
+          style="width:100%;box-sizing:border-box;background:var(--card2);border:1px solid var(--border);border-radius:8px;color:var(--text);font-size:13px;padding:8px 10px;outline:none;margin-bottom:8px">
+        <button class="btn btn-p" id="gh-save-btn" style="margin-bottom:0">&#x1F517; Save Token &amp; Connect</button>
+      </div></div>
       <div class="sec">Data</div>
       <button class="btn btn-p" id="export-btn">&#x1F4E4; Export Data (Copy JSON)</button>
       <button class="btn btn-s" id="import-btn">&#x1F4E5; Import Data (Paste JSON)</button>
@@ -760,6 +765,78 @@ const FileSync = {
     } else {
       this._updateUI('disconnected');
     }
+  }
+};
+
+// ---- GitHub Sync ----
+const GitHubSync = {
+  OWNER: 'brandomalley',
+  REPO:  'fitnessdash',
+  PATH:  'fitness-data.json',
+
+  getToken: function() { return localStorage.getItem('fit_gh_token')||''; },
+  setToken: function(t) { localStorage.setItem('fit_gh_token', t.trim()); },
+
+  _headers: function() {
+    return {
+      'Authorization': 'Bearer ' + this.getToken(),
+      'Accept': 'application/vnd.github+json',
+      'Content-Type': 'application/json',
+      'X-GitHub-Api-Version': '2022-11-28'
+    };
+  },
+
+  _getSHA: async function() {
+    const res = await fetch('https://api.github.com/repos/'+this.OWNER+'/'+this.REPO+'/contents/'+this.PATH,
+      {headers: this._headers()});
+    if(res.status===404) return null;
+    if(!res.ok) throw new Error('SHA fetch failed: '+res.status);
+    return (await res.json()).sha;
+  },
+
+  push: async function(data) {
+    const token = this.getToken();
+    if(!token) return;
+    this._setStatus('⏳ Syncing…', 'var(--text2)');
+    try {
+      const sha = await this._getSHA();
+      const payload = JSON.stringify({exported:new Date().toISOString(), raw_data:data}, null, 2);
+      // btoa on UTF-8 safely
+      const b64 = btoa(unescape(encodeURIComponent(payload)));
+      const body = {
+        message: 'Fitness data ' + new Date().toISOString().split('T')[0],
+        content: b64
+      };
+      if(sha) body.sha = sha;
+      const res = await fetch('https://api.github.com/repos/'+this.OWNER+'/'+this.REPO+'/contents/'+this.PATH, {
+        method: 'PUT', headers: this._headers(), body: JSON.stringify(body)
+      });
+      if(!res.ok) throw new Error('Push failed: '+res.status);
+      this._setStatus('✅ Synced '+new Date().toLocaleTimeString([], {hour:'2-digit',minute:'2-digit'}), 'var(--green)');
+    } catch(e) {
+      console.error('GitHubSync:', e);
+      this._setStatus('⚠️ Sync failed — check token', 'var(--yellow)');
+    }
+  },
+
+  _setStatus: function(msg, color) {
+    const el = document.getElementById('gh-sync-status');
+    if(el){ el.textContent = msg; el.style.color = color||'var(--text2)'; }
+  },
+
+  init: function() {
+    const token = this.getToken();
+    if(token) this._setStatus('🟢 Connected', 'var(--green)');
+    const btn = document.getElementById('gh-save-btn');
+    if(btn) btn.addEventListener('click', function(){
+      const t = document.getElementById('gh-token-inp').value.trim();
+      if(!t){ toast('Paste your token first'); return; }
+      GitHubSync.setToken(t);
+      document.getElementById('gh-token-inp').value = '';
+      GitHubSync._setStatus('🟢 Connected', 'var(--green)');
+      toast('GitHub sync connected!');
+      GitHubSync.push(DB.getData());
+    });
   }
 };
 
@@ -1375,6 +1452,7 @@ function saveDay() {
   data.sort(function(a,b){return a.date.localeCompare(b.date);});
   DB.setData(data);
   FileSync.writeCSV(data);
+  GitHubSync.push(data);
   toast('Saved! Net deficit: +'+(Math.round(t.netDef))+' kcal');
   renderStats();
 }
@@ -1938,6 +2016,7 @@ const SEED_WEEK=[{"date": "2026-04-25", "day_short": "Sat Apr 25", "session_type
 
 DB.init();
 FileSync.init();
+GitHubSync.init();
 
 // One-time patch: correct April 25 exercise calories to match new gym+cardio formula
 (function patchV1() {
