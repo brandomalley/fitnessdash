@@ -220,6 +220,8 @@ html,body{height:100%;background:var(--bg);color:var(--text);font-family:-apple-
 #toast{position:fixed;bottom:calc(var(--nav-h) + var(--safe-b) + 12px);left:50%;transform:translateX(-50%) translateY(8px);background:var(--card2);border:1px solid var(--border);border-radius:10px;padding:10px 18px;font-size:13px;font-weight:500;opacity:0;transition:all .3s;z-index:200;white-space:nowrap;pointer-events:none}
 #toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
 .text-g{color:var(--green)}.text-y{color:var(--yellow)}.text-r{color:var(--red)}.text-b{color:var(--blue)}.bold{font-weight:700}.dim{color:var(--text2)}.sm{font-size:12px}
+.wk-note-ta{width:100%;background:var(--card2);border:1px solid var(--border);border-radius:8px;color:var(--text);font-size:12px;padding:8px 10px;resize:none;outline:none;font-family:inherit;margin-top:8px;line-height:1.5}
+.wk-note-ta:focus{border-color:var(--blue)}
 </style>
 </head>
 <body>
@@ -252,7 +254,7 @@ html,body{height:100%;background:var(--bg);color:var(--text);font-family:-apple-
         </div>
         <div class="defrow">
           <div class="ditem"><div class="dv" id="def-food">+0</div><div class="dl">Food Deficit</div></div>
-          <div class="ditem"><div class="dv text-g" id="def-ex">+0</div><div class="dl">Exercise</div></div>
+          <div class="ditem"><div class="dv dim" id="def-ex">+0</div><div class="dl">🔥 Burned</div></div>
           <div class="ditem"><div class="dv text-g bold" id="def-net">+0</div><div class="dl">Net Deficit</div></div>
         </div>
       </div>
@@ -376,6 +378,15 @@ html,body{height:100%;background:var(--bg);color:var(--text);font-family:-apple-
         <button class="fb active" id="more-range-apply" style="flex:0;padding:8px 12px;border-radius:9px;background:var(--blue);color:#fff;border:none;font-size:12px;font-weight:600;cursor:pointer">Go</button>
       </div>
       <div id="history-list"></div>
+      <div class="sec" style="display:flex;align-items:center;justify-content:space-between;margin-right:2px">
+        Ingredient Library
+        <button id="add-custom-ingr-lib-btn" style="background:var(--blue);border:none;border-radius:8px;color:#fff;font-size:11px;font-weight:600;padding:4px 10px;cursor:pointer">+ Add Food</button>
+      </div>
+      <input type="search" id="ingr-lib-search" class="ingr-search" placeholder="Search foods…" style="margin-bottom:8px">
+      <div id="ingr-lib-list"></div>
+      <div class="sec">Live Sync</div>
+      <button class="btn btn-p" id="sync-btn">🔗 Connect Live Sync</button>
+      <div style="text-align:center;padding:0 0 12px;font-size:12px;color:var(--text2);line-height:1.5" id="sync-note">Select your fitness-tracker.csv so it updates automatically on every save.</div>
       <div class="sec">Data</div>
       <button class="btn btn-p" id="export-btn">&#x1F4E4; Export Data (Copy JSON)</button>
       <button class="btn btn-s" id="import-btn">&#x1F4E5; Import Data (Paste JSON)</button>
@@ -424,7 +435,7 @@ const INGR = {
   egg_white:   {name:'Egg White',     unit:'white',       step:1,    kcal:17,   pro:3.5,  carbs:0,   fat:0},
   white_rice:  {name:'White Rice',    unit:'¼ cup cooked',step:0.5,kcal:50, pro:1,   carbs:11,  fat:0},
   chicken:     {name:'Chicken Breast',unit:'g',           step:10,   kcal:1.67, pro:0.333,carbs:0,   fat:0.04},
-  tuna:        {name:'Tuna',          unit:'g',           step:25,   kcal:1.1,  pro:0.25, carbs:0,   fat:0.01},
+  tuna:        {name:'Tuna',          unit:'g',           step:5,    kcal:1.1,  pro:0.25, carbs:0,   fat:0.01},
   butternut_sq:{name:'Butternut Squash',unit:'cup',       step:0.25, kcal:63,   pro:1.4,  carbs:16,  fat:0.1},
   zucchini:    {name:'Zucchini',      unit:'cup',         step:0.25, kcal:20,   pro:1.5,  carbs:4,   fat:0.2},
   carrots:     {name:'Carrots',       unit:'cup',         step:0.25, kcal:52,   pro:1.2,  carbs:12,  fat:0.3},
@@ -537,10 +548,165 @@ const DB = {
   setChecks(c){localStorage.setItem('fit_checks',JSON.stringify(c))},
   getOpenCards(){try{return JSON.parse(localStorage.getItem('fit_open_cards')||'[]')}catch(e){return[]}},
   setOpenCards(a){localStorage.setItem('fit_open_cards',JSON.stringify(a))},
+  getCustomIngr(){try{return JSON.parse(localStorage.getItem('fit_custom_ingr')||'{}')}catch(e){return{}}},
+  setCustomIngr(c){localStorage.setItem('fit_custom_ingr',JSON.stringify(c))},
+  getWkNotes(){try{return JSON.parse(localStorage.getItem('fit_wk_notes')||'{}')}catch(e){return{}}},
+  setWkNotes(n){localStorage.setItem('fit_wk_notes',JSON.stringify(n))},
   init(){
     if(!localStorage.getItem('fit_data'))this.setData(SEED_DATA);
     if(!localStorage.getItem('fit_workout'))this.setWorkout(SEED_WORKOUT);
     if(!localStorage.getItem('fit_week'))this.setWeek(SEED_WEEK);
+  }
+};
+
+// ---- getAllIngr: built-in + custom ----
+function getAllIngr() {
+  return Object.assign({}, INGR, DB.getCustomIngr());
+}
+
+// ---- CSV Converter ----
+function dataToCsv(rows) {
+  const cols = ['date','day_of_week','calories_consumed','calorie_target','protein_g','protein_target_g',
+    'carbs_g','fat_g','tdee_estimate','food_deficit','exercise_calories_burned','net_deficit',
+    'cumulative_deficit','weight_lb','gym_session','cardio_type','cardio_minutes','sleep_quality',
+    'energy_level','cns_flags','log_completeness','notes'];
+  function esc(v) {
+    if(v===null||v===undefined) return '';
+    const s=String(v);
+    return (s.includes(',')||s.includes('"')||s.includes('\n')) ? '"'+s.replace(/"/g,'""')+'"' : s;
+  }
+  return [cols.join(',')].concat(rows.map(function(r){
+    return cols.map(function(c){return esc(r[c]);}).join(',');
+  })).join('\n');
+}
+
+// ---- File Sync (File System Access API) ----
+const FileSync = {
+  _handle: null,
+  _idb: null,
+
+  _openIDB: function() {
+    const self = this;
+    return new Promise(function(resolve) {
+      if(!window.indexedDB){resolve();return;}
+      const req = indexedDB.open('FitSyncDB',1);
+      req.onupgradeneeded = function(e){e.target.result.createObjectStore('handles',{keyPath:'id'});};
+      req.onsuccess = function(e){self._idb=e.target.result;resolve();};
+      req.onerror = function(){resolve();};
+    });
+  },
+
+  _loadHandle: function() {
+    const self = this;
+    return new Promise(function(resolve) {
+      if(!self._idb){resolve(null);return;}
+      try {
+        const tx=self._idb.transaction('handles','readonly');
+        const req=tx.objectStore('handles').get('csv');
+        req.onsuccess=function(e){resolve(e.target.result?e.target.result.handle:null);};
+        req.onerror=function(){resolve(null);};
+      } catch(e){resolve(null);}
+    });
+  },
+
+  _saveHandle: function(handle) {
+    const self = this;
+    return new Promise(function(resolve) {
+      if(!self._idb){resolve();return;}
+      try {
+        const tx=self._idb.transaction('handles','readwrite');
+        tx.objectStore('handles').put({id:'csv',handle:handle});
+        tx.oncomplete=resolve;
+        tx.onerror=resolve;
+      } catch(e){resolve();}
+    });
+  },
+
+  connect: async function() {
+    try {
+      const [handle] = await window.showOpenFilePicker({
+        types:[{description:'CSV Files',accept:{'text/csv':['.csv']}}],
+        multiple:false
+      });
+      const perm = await handle.requestPermission({mode:'readwrite'});
+      if(perm!=='granted'){toast('Write permission denied');return;}
+      this._handle = handle;
+      await this._saveHandle(handle);
+      this._updateUI('connected');
+      toast('✅ Live sync connected!');
+      FileSync.writeCSV(DB.getData());
+    } catch(e) {
+      if(e.name!=='AbortError') toast('Could not connect file');
+    }
+  },
+
+  reconnect: async function() {
+    const handle = await this._loadHandle();
+    if(!handle){this.connect();return;}
+    try {
+      const perm = await handle.requestPermission({mode:'readwrite'});
+      if(perm==='granted'){
+        this._handle=handle;
+        this._updateUI('connected');
+        toast('✅ Sync reconnected!');
+        FileSync.writeCSV(DB.getData());
+      } else {
+        toast('Permission denied — try reconnecting');
+      }
+    } catch(e){toast('Could not reconnect');}
+  },
+
+  writeCSV: async function(data) {
+    if(!this._handle) return;
+    try {
+      const perm = await this._handle.queryPermission({mode:'readwrite'});
+      if(perm!=='granted'){this._updateUI('needs-reconnect');return;}
+      const writable = await this._handle.createWritable();
+      await writable.write(dataToCsv(data));
+      await writable.close();
+    } catch(e) {
+      console.warn('FileSync write failed:',e);
+      this._updateUI('needs-reconnect');
+    }
+  },
+
+  _updateUI: function(status) {
+    const btn = document.getElementById('sync-btn');
+    const note = document.getElementById('sync-note');
+    if(!btn) return;
+    if(status==='connected'){
+      btn.textContent='🟢 Live Sync Active';
+      btn.className='btn btn-s';
+      btn.onclick=null;
+      if(note) note.textContent='CSV updates automatically every time you save a day.';
+    } else if(status==='needs-reconnect'){
+      btn.textContent='🟡 Tap to Reconnect Sync';
+      btn.className='btn btn-p';
+      btn.onclick=function(){FileSync.reconnect();};
+      if(note) note.textContent='New browser session — tap once to reconnect.';
+    } else {
+      btn.textContent='🔗 Connect Live Sync';
+      btn.className='btn btn-p';
+      btn.onclick=function(){FileSync.connect();};
+      if(note) note.textContent='Select your fitness-tracker.csv so it updates automatically on every save.';
+    }
+  },
+
+  init: async function() {
+    if(!window.showOpenFilePicker) return; // Browser not supported
+    await this._openIDB();
+    const handle = await this._loadHandle();
+    if(handle){
+      const perm = await handle.queryPermission({mode:'readwrite'});
+      if(perm==='granted'){
+        this._handle=handle;
+        this._updateUI('connected');
+      } else {
+        this._updateUI('needs-reconnect');
+      }
+    } else {
+      this._updateUI('disconnected');
+    }
   }
 };
 
@@ -623,6 +789,7 @@ function renderSummary(){
   document.getElementById('def-food').textContent = (t.foodDef>=0?'+':'')+Math.round(t.foodDef);
   document.getElementById('def-food').className = 'dv'+(t.foodDef<0?' text-r':'');
   document.getElementById('def-ex').textContent = '+'+t.exKcal;
+  document.getElementById('def-ex').className = 'dv'+(t.exKcal>0?' text-g':' dim');
   document.getElementById('def-net').textContent = (t.netDef>=0?'+':'')+Math.round(t.netDef);
   document.getElementById('def-net').className = 'dv bold'+(t.netDef<0?' text-r':' text-g');
   if(l.weight_lb) document.getElementById('weight-inp').value = l.weight_lb;
@@ -845,13 +1012,15 @@ function openAddIngrModal(slot) {
   document.getElementById('modal-title').textContent = 'Add Ingredient';
   document.getElementById('modal-sub').textContent = 'Search or scroll — tap + to add';
   const body = document.getElementById('modal-body');
-  body.innerHTML = buildIngrPickerHTML(Object.keys(INGR));
+  const allIngr = getAllIngr();
+  body.innerHTML = buildIngrPickerHTML(Object.keys(allIngr));
   document.getElementById('modal-bg').classList.add('open');
   const search = document.getElementById('ingr-search-input');
   if(search) search.addEventListener('input', function(){
     const q = this.value.toLowerCase();
-    const keys = Object.keys(INGR).filter(function(k){
-      return INGR[k].name.toLowerCase().includes(q)||k.includes(q);
+    const ai = getAllIngr();
+    const keys = Object.keys(ai).filter(function(k){
+      return ai[k].name.toLowerCase().includes(q)||k.includes(q);
     });
     document.getElementById('ingr-pick-list').innerHTML = buildIngrPickerRows(keys);
   });
@@ -868,8 +1037,10 @@ function buildIngrPickerHTML(keys) {
 }
 
 function buildIngrPickerRows(keys) {
+  const ai = getAllIngr();
   return keys.map(function(k){
-    const db = INGR[k];
+    const db = ai[k];
+    if(!db) return '';
     return '<div class="ingr-pick-row" data-add-ingr-id="'+k+'">'
       + '<div><div class="ingr-pick-name">'+esc(db.name)+'</div>'
       + '<div class="ingr-pick-meta">'+round1(db.kcal)+' kcal / '+db.unit+' &middot; '+db.pro+'g pro</div></div>'
@@ -880,8 +1051,10 @@ function buildIngrPickerRows(keys) {
 function addIngrFromDB(ingrId) {
   const slot = _addIngrSlot;
   if(!slot) return;
-  const db = INGR[ingrId];
+  const db = getAllIngr()[ingrId];
   if(!db) return;
+  // Ensure it's available for macros lookups if it's custom
+  if(!INGR[ingrId]) INGR[ingrId] = db;
   const l = getOrInitToday();
   if(!l.meals[slot]) l.meals[slot] = {preset_label:'Custom', ingrs:[]};
   if(!l.meals[slot].ingrs) l.meals[slot].ingrs = [];
@@ -915,6 +1088,68 @@ function addCustomIngr() {
   renderMealBadge(slot, l.meals[slot]);
   renderSummary();
   toast('Added: '+name);
+}
+
+// ---- Ingredient Library ----
+function renderIngredientLibrary(filter) {
+  const el = document.getElementById('ingr-lib-list');
+  if(!el) return;
+  const all = getAllIngr();
+  const keys = Object.keys(all);
+  const q = (filter||'').toLowerCase();
+  const matches = keys.filter(function(k){
+    return !q || all[k].name.toLowerCase().includes(q) || k.toLowerCase().includes(q);
+  });
+  if(!matches.length){el.innerHTML='<div class="dim sm" style="padding:8px 2px">No matches</div>';return;}
+  el.innerHTML = '<div class="info-box" style="margin-bottom:0">'+matches.map(function(k){
+    const i = all[k];
+    const isCustom = !INGR[k];
+    return '<div class="info-row" style="flex-direction:column;align-items:flex-start;gap:3px;padding:10px 0">'
+      +'<div style="display:flex;justify-content:space-between;width:100%;align-items:center">'
+      +'<span style="font-size:13px;font-weight:600">'+(isCustom?'⭐ ':'')+esc(i.name)+'</span>'
+      +'<span style="font-size:13px;color:var(--green);font-weight:700">'+round1(i.kcal)+' kcal</span>'
+      +'</div>'
+      +'<div style="display:flex;justify-content:space-between;width:100%">'
+      +'<span style="font-size:11px;color:var(--text2)">per '+esc(i.unit)+' &middot; '+i.pro+'g pro &middot; '+i.carbs+'g carb &middot; '+i.fat+'g fat</span>'
+      +(isCustom?'<span data-rm-custom-ingr="'+esc(k)+'" style="font-size:11px;color:var(--red);cursor:pointer">Remove</span>':'')
+      +'</div></div>';
+  }).join('')+'</div>';
+}
+
+function openAddCustomIngrLibModal() {
+  document.getElementById('modal-title').textContent = 'Add Custom Food';
+  document.getElementById('modal-sub').textContent = 'Saved foods appear in ingredient search and library.';
+  document.getElementById('modal-body').innerHTML =
+    '<div class="cf"><div class="cf-ttl">Food Name</div>'
+    +'<input class="cfi" id="new-ingr-name" placeholder="e.g. Greek Yogurt" type="text">'
+    +'<div class="cf-ttl" style="margin-top:8px">Serving Unit</div>'
+    +'<input class="cfi" id="new-ingr-unit" placeholder="e.g. 1 cup, 100g, 1 tbsp" type="text">'
+    +'<div class="cf-lbls" style="margin-top:8px"><span>Calories</span><span>Protein g</span><span>Carbs g</span><span>Fat g</span></div>'
+    +'<div class="cf-grid"><input id="new-ingr-kcal" placeholder="0" type="number" inputmode="decimal">'
+    +'<input id="new-ingr-pro" placeholder="0" type="number" inputmode="decimal">'
+    +'<input id="new-ingr-carbs" placeholder="0" type="number" inputmode="decimal">'
+    +'<input id="new-ingr-fat" placeholder="0" type="number" inputmode="decimal"></div></div>'
+    +'<button class="btn btn-g" id="save-custom-ingr-lib-btn">Save Food</button>';
+  document.getElementById('modal-bg').classList.add('open');
+}
+
+function saveCustomIngrLib() {
+  const name  = (document.getElementById('new-ingr-name').value||'').trim();
+  const unit  = (document.getElementById('new-ingr-unit').value||'serving').trim();
+  const kcal  = parseFloat(document.getElementById('new-ingr-kcal').value)||0;
+  const pro   = parseFloat(document.getElementById('new-ingr-pro').value)||0;
+  const carbs = parseFloat(document.getElementById('new-ingr-carbs').value)||0;
+  const fat   = parseFloat(document.getElementById('new-ingr-fat').value)||0;
+  if(!name){toast('Enter a food name');return;}
+  const custom = DB.getCustomIngr();
+  const key = 'custom_'+Date.now();
+  custom[key] = {name,unit,step:1,kcal,pro,carbs,fat};
+  DB.setCustomIngr(custom);
+  // Make immediately available for macro lookups this session
+  INGR[key] = custom[key];
+  closeModal();
+  renderIngredientLibrary(document.getElementById('ingr-lib-search')?document.getElementById('ingr-lib-search').value:'');
+  toast('✅ Food saved to library!');
 }
 
 // ---- Extras modal ----
@@ -1042,6 +1277,7 @@ function saveDay() {
   if(idx>=0) data[idx]=entry; else data.push(entry);
   data.sort(function(a,b){return a.date.localeCompare(b.date);});
   DB.setData(data);
+  FileSync.writeCSV(data);
   toast('Saved! Net deficit: +'+(Math.round(t.netDef))+' kcal');
   renderStats();
 }
@@ -1180,13 +1416,20 @@ function renderWorkout() {
     document.getElementById('wk-finisher').innerHTML = '<div class="warm-fin"><strong>Finisher:</strong> '+esc(workout.finisher)+'</div>';
     const wDate = workout.date;
     const wChecks = checks['w_'+wDate]||{};
+    const wNotes = DB.getWkNotes()['w_'+wDate]||{};
     document.getElementById('ex-checks').innerHTML = workout.exercises.map(function(e){
       const done = wChecks[e.id]||false;
-      return '<div class="ex-card">'
+      const note = wNotes[e.id]||'';
+      return '<div class="ex-card" style="flex-direction:column;gap:0">'
+        +'<div style="display:flex;align-items:flex-start;gap:10px;width:100%">'
         +'<div class="ex-id" style="background:'+(done?'var(--green)':'var(--blue)')+'">'+esc(e.id)+'</div>'
         +'<div class="ex-body"><div class="ex-name">'+esc(e.name)+'</div>'
         +'<div class="ex-det">'+esc(e.detail)+'</div></div>'
-        +'<button class="ex-chk'+(done?' done':'')+'" data-chk-date="'+wDate+'" data-chk-id="'+esc(e.id)+'">'+(done?'✓':'')+'</button></div>';
+        +'<button class="ex-chk'+(done?' done':'')+'" data-chk-date="'+wDate+'" data-chk-id="'+esc(e.id)+'">'+(done?'✓':'')+'</button>'
+        +'</div>'
+        +'<textarea class="wk-note-ta" rows="2" placeholder="Notes: actual weights, reps, how it felt…"'
+        +' data-note-date="'+wDate+'" data-note-id="'+esc(e.id)+'">'+esc(note)+'</textarea>'
+        +'</div>';
     }).join('');
   }
 }
@@ -1202,6 +1445,12 @@ function toggleCheck(date,id) {
 
 // ---- Render: More/History ----
 function renderMore() {
+  renderIngredientLibrary(document.getElementById('ingr-lib-search')?document.getElementById('ingr-lib-search').value:'');
+  const libSearch = document.getElementById('ingr-lib-search');
+  if(libSearch && !libSearch._bound) {
+    libSearch._bound = true;
+    libSearch.addEventListener('input', function(){renderIngredientLibrary(this.value);});
+  }
   const filtered = getFilteredData('more');
   const list = [...filtered].reverse();
   document.getElementById('history-list').innerHTML = list.map(function(d){
@@ -1343,9 +1592,39 @@ document.addEventListener('click', function(e) {
   if(e.target.id==='export-btn'){exportData();return;}
   if(e.target.id==='import-btn'){importData();return;}
   if(e.target.id==='clear-btn'){clearAll();return;}
+  if(e.target.id==='add-custom-ingr-lib-btn'){openAddCustomIngrLibModal();return;}
+  if(e.target.id==='save-custom-ingr-lib-btn'){saveCustomIngrLib();return;}
+  // Remove custom ingredient from library
+  const rci = e.target.closest('[data-rm-custom-ingr]');
+  if(rci){
+    const k = rci.dataset.rmCustomIngr;
+    if(confirm('Remove this food from the library?')){
+      const custom = DB.getCustomIngr();
+      delete custom[k];
+      delete INGR[k];
+      DB.setCustomIngr(custom);
+      renderIngredientLibrary(document.getElementById('ingr-lib-search')?document.getElementById('ingr-lib-search').value:'');
+      toast('Food removed');
+    }
+    return;
+  }
 });
 
 document.getElementById('ex-dur').addEventListener('change', updateExDuration);
+
+// Workout exercise notes — auto-save on input
+document.addEventListener('input', function(e) {
+  if(e.target.classList.contains('wk-note-ta')) {
+    const date = e.target.dataset.noteDate;
+    const id   = e.target.dataset.noteId;
+    if(!date||!id) return;
+    const notes = DB.getWkNotes();
+    const key = 'w_'+date;
+    if(!notes[key]) notes[key]={};
+    notes[key][id] = e.target.value;
+    DB.setWkNotes(notes);
+  }
+});
 document.getElementById('weight-inp').addEventListener('change', function(){
   const v = parseFloat(this.value);
   if(!isNaN(v)){const l=getOrInitToday();l.weight_lb=v;DB.setToday(l);}
@@ -1362,6 +1641,7 @@ const SEED_WORKOUT={"date": "2026-04-27", "day_label": "Monday, April 27", "sess
 const SEED_WEEK=[{"date": "2026-04-25", "day_short": "Sat Apr 25", "session_type": "Upper Body \u2713", "type": "gym", "note": "Done"}, {"date": "2026-04-26", "day_short": "Sun Apr 26", "session_type": "Active Rest", "type": "cardio", "note": "Pickleball or easy walk"}, {"date": "2026-04-27", "day_short": "Mon Apr 27", "session_type": "Lower Body", "type": "gym", "note": "Leg press 325-330 \u00b7 leg curl 70 \u00b7 hip thrust 130"}, {"date": "2026-04-28", "day_short": "Tue Apr 28", "session_type": "Rest Day", "type": "rest", "note": "Full rest"}, {"date": "2026-04-29", "day_short": "Wed Apr 29", "session_type": "Upper Body", "type": "gym", "note": "Flat bench 57.5s \u00b7 cable row 135 \u00b7 lat pulldown 120"}, {"date": "2026-04-30", "day_short": "Thu Apr 30", "session_type": "Light Cardio", "type": "cardio", "note": "20-min jog or pickleball"}];
 
 DB.init();
+FileSync.init();
 renderAll();
 </script>
 </body>
