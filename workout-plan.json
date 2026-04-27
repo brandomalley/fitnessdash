@@ -1,27 +1,28 @@
 {
-  "updated": "2026-04-26",
+  "updated": "2026-04-27",
   "workout": {
-    "date": "2026-04-27",
-    "day_label": "Monday, April 27",
-    "session_type": "Lower Body",
+    "date": "2026-04-29",
+    "day_label": "Wednesday, April 29",
+    "session_type": "Upper Body",
     "is_gym_day": true,
     "warmup": "Incline walk · 8-10 min · 3.3-3.5 mph · 6-8% incline",
     "finisher": "Incline walk · 10 min · 3.4 mph · 6-8% incline",
     "exercises": [
-      { "id": "A", "name": "Leg Press", "detail": "325 × 10 / 330 × 10 / 330 × 10", "rest": "90s rest", "note": "Felt strong at 320 last Friday — bumping to 325-330. Controlled tempo, no locking out at top. 1-2 RIR target." },
-      { "id": "B", "name": "Leg Curl", "detail": "70 × 10-12 · 3 sets", "rest": "75s rest", "note": "Up from 66. Tough at end last session — controlled eccentric is the key. Let it fight you on the way down." },
-      { "id": "C", "name": "Hip Thrust Machine", "detail": "130 × 12 · 3 sets", "rest": "90s rest", "note": "Up from 120 — you hit 120×12×3 clean and strong. Full extension, squeeze glutes at top. No hyperextension." },
-      { "id": "D", "name": "Goblet Squat (KB)", "detail": "40 lb KB × 12 · 3 sets", "rest": "75s rest", "note": "Hold KB at chest, feet shoulder-width. Sit into it, keep knees tracking toes. Heel elevation OK if mobility needs it." },
-      { "id": "E", "name": "Step-Up (DB)", "detail": "25 lb DBs × 10/leg · 3 sets", "rest": "60s rest", "note": "Box or flat bench. Drive through the heel, full extension at top. Controlled step down — don't just fall." },
-      { "id": "F", "name": "Core Circuit: Cable Crunch → Hanging Knee Raise → Side Plank", "detail": "Cable crunch 55 lb × 12 → Hanging knee raise × 10-12 → Side plank 25-30 sec/side · 3 rounds", "rest": "Minimal rest between movements, 60s between rounds", "note": "Cable crunch: kneeling, round into it. Hanging knee raise: controlled, no swinging. Side plank: hip stacked." }
+      { "id": "A", "name": "Flat DB Bench Press", "detail": "57.5 lb × 10 · 3 sets", "rest": "90s rest", "note": "Up from 55s. Last session hit 12 on final set — time to bump. Control the descent, full press at top." },
+      { "id": "B", "name": "Cable Row", "detail": "135 lb × 10 · 3 sets", "rest": "90s rest", "note": "Hold 135 across all 3 sets. Full retraction at the back, don't let shoulders round on the way out." },
+      { "id": "C", "name": "Lat Pulldown", "detail": "120 lb × 10-12 · 3 sets", "rest": "75s rest", "note": "Lock in 120 across all sets. Pull to upper chest, controlled return — don't let it yank you up." },
+      { "id": "D", "name": "Shoulder Press (DB)", "detail": "35 lb × 10-12 · 3 sets", "rest": "75s rest", "note": "Full extension overhead, don't shrug at the top. If 12 feels easy on all 3 sets, go to 40s next time." },
+      { "id": "E", "name": "Face Pulls", "detail": "40 lb × 15 · 3 sets", "rest": "60s rest", "note": "Elbows high, pull to forehead, external rotate at the end. Rear delt + rotator cuff work — don't rush it." },
+      { "id": "F", "name": "Arms Superset: Rope Pushdown + Hammer Curl", "detail": "Rope pushdown 77 lb × 12 + Hammer curl 25 lb × 10 · 3 rounds", "rest": "60s between rounds", "note": "No rest between pushdown and curl. Lock elbows on pushdown, neutral grip on hammer — squeeze at the top." },
+      { "id": "G", "name": "Core Circuit: Dead Bug → Pallof Press → Bicycle Crunch", "detail": "Dead bug × 10/side → Pallof press 30 lb × 12/side → Bicycle crunch × 20 · 3 rounds", "rest": "Minimal rest between movements, 60s between rounds", "note": "Dead bug: lower back stays flat, move slow. Pallof: resist rotation, don't twist. Bicycle: controlled, not rushed." }
     ]
   },
   "week": [
-    { "date": "2026-04-26", "day_short": "Sun Apr 26", "session_type": "Active Rest / Pickleball", "type": "cardio", "note": "Pickleball or easy walk · ~350 kcal burn · stay on nutrition · let upper session recover" },
-    { "date": "2026-04-27", "day_short": "Mon Apr 27", "session_type": "Lower Body", "type": "gym", "note": "Leg press 325-330 · leg curl 70 · hip thrust 130 · goblet squat 40lb KB · step-ups 25lb · core circuit" },
-    { "date": "2026-04-28", "day_short": "Tue Apr 28", "session_type": "Rest Day", "type": "rest", "note": "Full rest · stay on nutrition · post-dinner walk if energy is there" },
-    { "date": "2026-04-29", "day_short": "Wed Apr 29", "session_type": "Upper Body", "type": "gym", "note": "Flat bench 57.5s · cable row 135 · lat pulldown 120 · shoulder press 35s · arms superset · core circuit" },
+    { "date": "2026-04-27", "day_short": "Mon Apr 27", "session_type": "Lower Body ✓", "type": "gym", "note": "Done — leg press 335, leg curl 66/66/77, hip thrust 140, goblet squat 40, step-ups 2 sets" },
+    { "date": "2026-04-28", "day_short": "Tue Apr 28", "session_type": "Rest Day", "type": "rest", "note": "Full rest · stay on nutrition · post-dinner walk if energy allows" },
+    { "date": "2026-04-29", "day_short": "Wed Apr 29", "session_type": "Upper Body", "type": "gym", "note": "Flat bench 57.5s · cable row 135 · lat pulldown 120 · shoulder press 35s · face pulls · arms superset · core circuit" },
     { "date": "2026-04-30", "day_short": "Thu Apr 30", "session_type": "Rest / Light Cardio", "type": "cardio", "note": "20-min jog or pickleball · easy pace · no gym" },
-    { "date": "2026-05-01", "day_short": "Fri May 1", "session_type": "Lower Body", "type": "gym", "note": "Follow-up lower session · progressions from Monday" }
+    { "date": "2026-05-01", "day_short": "Fri May 1", "session_type": "Lower Body", "type": "gym", "note": "Leg press 345 · leg curl 77×3 · hip thrust 150 · goblet squat 45lb · step-ups 3 sets · core circuit" },
+    { "date": "2026-05-02", "day_short": "Sat May 2", "session_type": "Upper Body", "type": "gym", "note": "Follow-up upper · progressions from Wednesday" }
   ]
 }
