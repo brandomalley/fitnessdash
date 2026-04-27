@@ -1612,6 +1612,7 @@ function renderWorkout() {
       return '<div class="ex-card"><div class="ex-id">'+esc(e.id)+'</div>'
         +'<div class="ex-body"><div class="ex-name">'+esc(e.name)+'</div>'
         +'<div class="ex-det">'+esc(e.detail)+'</div>'
+        +(e.rest?'<div style="font-size:11px;color:var(--text2);margin-bottom:3px">&#x23F1; '+esc(e.rest)+'</div>':'')
         +'<div class="ex-note">'+esc(e.note)+'</div></div></div>';
     }).join('');
     document.getElementById('wk-finisher').innerHTML = '<div class="warm-fin"><strong>Finisher:</strong> '+esc(workout.finisher)+'</div>';
