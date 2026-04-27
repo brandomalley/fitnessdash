@@ -1169,13 +1169,24 @@ function openAddIngrModal(slot) {
       return ai[k].name.toLowerCase().includes(q)||k.includes(q);
     });
     document.getElementById('ingr-pick-list').innerHTML = buildIngrPickerRows(keys);
+    // Pre-fill USDA query box with whatever user typed
+    const uq = document.getElementById('usda-query');
+    if(uq && this.value) uq.value = this.value;
   });
 }
 
 function buildIngrPickerHTML(keys) {
   return '<input class="ingr-search" id="ingr-search-input" placeholder="Search ingredients…" type="text">'
     + '<div id="ingr-pick-list">'+buildIngrPickerRows(keys)+'</div>'
-    + '<div class="cf"><div class="cf-ttl">Custom (not in list)</div>'
+    + '<div style="margin:12px 0 4px">'
+    + '<div class="sec" style="margin:0 0 6px">Not in the list? Search USDA database</div>'
+    + '<div style="display:flex;gap:8px">'
+    + '<input class="ingr-search" id="usda-query" placeholder="e.g. ribeye steak cooked" type="text" style="margin-bottom:0;flex:1">'
+    + '<button id="usda-search-btn" onclick="searchUSDA()" style="background:var(--blue);border:none;border-radius:9px;color:#fff;font-size:13px;font-weight:600;padding:0 14px;cursor:pointer;white-space:nowrap">Search</button>'
+    + '</div>'
+    + '<div id="usda-results" style="margin-top:8px"></div>'
+    + '</div>'
+    + '<div class="cf"><div class="cf-ttl">Manual entry</div>'
     + '<input class="cfi" id="cf-name" placeholder="Name" type="text">'
     + '<div class="cf-lbls"><span>Calories</span><span>Protein g</span><span>Carbs g</span><span>Fat g</span></div>'
     + '<div class="cf-grid"><input id="cf-kcal" placeholder="0" type="number" inputmode="decimal"><input id="cf-pro" placeholder="0" type="number" inputmode="decimal"><input id="cf-carbs" placeholder="0" type="number" inputmode="decimal"><input id="cf-fat" placeholder="0" type="number" inputmode="decimal"></div>'
@@ -1915,6 +1926,8 @@ document.addEventListener('click', function(e) {
   if(rmi){removeIngr(rmi.dataset.rmIngrSlot, parseInt(rmi.dataset.rmIngrIdx));return;}
   // Add ingredient button
   const ai = e.target.closest('[data-add-ingr-slot]');
+  const usdaRow = e.target.closest('[data-usda-fdc]');
+  if(usdaRow){openUSDAPortionPicker(parseInt(usdaRow.dataset.usdaFdc));return;}
   if(ai){openAddIngrModal(ai.dataset.addIngrSlot);return;}
   // Add ingredient from picker
   const aiid = e.target.closest('[data-add-ingr-id]');
@@ -2136,6 +2149,134 @@ async function submitWorkoutLog() {
     toast('⚠️ Save failed — check GitHub token in More tab');
   }
 }
+
+// ---- USDA FoodData Central Search ----
+const _usdaCache = {};
+
+async function searchUSDA() {
+  const queryEl = document.getElementById('usda-query');
+  const query = queryEl ? queryEl.value.trim() : '';
+  if(!query) { toast('Type a food name first'); return; }
+  const btn = document.getElementById('usda-search-btn');
+  const resultsEl = document.getElementById('usda-results');
+  if(btn) { btn.textContent = '...'; btn.disabled = true; }
+  if(resultsEl) resultsEl.innerHTML = '<div class="dim sm" style="padding:8px 2px">Searching USDA…</div>';
+  try {
+    const url = 'https://api.nal.usda.gov/fdc/v1/foods/search?query='+encodeURIComponent(query)+'&api_key=DEMO_KEY&dataType=SR%20Legacy,Foundation,Survey%20(FNDDS)&pageSize=8';
+    const res = await fetch(url);
+    if(!res.ok) throw new Error('HTTP '+res.status);
+    const data = await res.json();
+    const foods = (data.foods||[]);
+    if(!foods.length) {
+      if(resultsEl) resultsEl.innerHTML = '<div class="dim sm" style="padding:8px 2px">No results for "'+esc(query)+'" — try different keywords</div>';
+      return;
+    }
+    foods.forEach(function(f) {
+      const n = {};
+      (f.foodNutrients||[]).forEach(function(x) {
+        const nm = (x.nutrientName||'').toLowerCase();
+        if(nm.includes('energy') && !nm.includes('alcohol')) n.kcal = n.kcal || x.value;
+        else if(nm.startsWith('protein')) n.pro = x.value;
+        else if(nm.includes('carbohydrate')) n.carbs = x.value;
+        else if(nm.includes('total lipid') || nm === 'total fat') n.fat = x.value;
+      });
+      _usdaCache[f.fdcId] = {name: f.description, kcal: Math.round(n.kcal||0), pro: Math.round(n.pro||0), carbs: Math.round(n.carbs||0), fat: Math.round(n.fat||0)};
+    });
+    if(resultsEl) resultsEl.innerHTML = foods.map(function(f) {
+      const d = _usdaCache[f.fdcId];
+      return '<div class="ingr-pick-row" data-usda-fdc="'+f.fdcId+'">'
+        +'<div><div class="ingr-pick-name">'+esc(d.name)+'</div>'
+        +'<div class="ingr-pick-meta">'+d.kcal+' kcal · '+d.pro+'g pro · per 100g</div></div>'
+        +'<div class="ingr-pick-add">+</div></div>';
+    }).join('');
+  } catch(e) {
+    if(resultsEl) resultsEl.innerHTML = '<div class="dim sm" style="padding:8px 2px">⚠️ Search failed — check connection</div>';
+  } finally {
+    if(btn) { btn.textContent = 'Search'; btn.disabled = false; }
+  }
+}
+
+function openUSDAPortionPicker(fdcId) {
+  const d = _usdaCache[fdcId];
+  if(!d) return;
+  document.getElementById('modal-title').textContent = 'How much?';
+  document.getElementById('modal-sub').textContent = d.name;
+  document.getElementById('modal-body').innerHTML =
+    '<div style="margin-bottom:12px">'
+    +'<div style="display:flex;gap:8px;align-items:center;margin-bottom:8px">'
+    +'<input class="wl-inp" id="usda-qty" type="number" inputmode="decimal" value="100" style="font-size:18px;padding:12px;flex:1">'
+    +'<select id="usda-unit" style="background:var(--card2);border:1px solid var(--border);border-radius:8px;color:var(--text);font-size:15px;padding:12px 10px;outline:none;flex:1">'
+    +'<option value="g">grams (g)</option>'
+    +'<option value="oz">ounces (oz)</option>'
+    +'<option value="lbs">pounds (lbs)</option>'
+    +'<option value="cups">cups (~240g)</option>'
+    +'<option value="tbsp">tbsp (~15g)</option>'
+    +'<option value="tsp">tsp (~5g)</option>'
+    +'</select></div>'
+    +'<div id="usda-preview" style="background:var(--card2);border-radius:10px;padding:12px;text-align:center;font-size:13px;color:var(--text2);margin-bottom:10px">'
+    +'100g → <strong style="color:var(--text)">'+d.kcal+' kcal · '+d.pro+'g pro</strong></div>'
+    +'<label style="display:flex;align-items:center;gap:8px;font-size:13px;color:var(--text2);margin-bottom:12px">'
+    +'<input type="checkbox" id="usda-save-lib" style="width:18px;height:18px"> Save to my food library (per 100g)</label>'
+    +'<button class="wl-submit" id="usda-confirm-btn">Add to Meal</button>'
+    +'</div>';
+  
+  function updatePreview() {
+    var qty = parseFloat(document.getElementById('usda-qty').value)||0;
+    var unit = document.getElementById('usda-unit').value;
+    var g = usdaToGrams(qty, unit);
+    var f = g/100;
+    var el = document.getElementById('usda-preview');
+    if(el) el.innerHTML = round1(g)+'g → <strong style="color:var(--text)">'+Math.round(d.kcal*f)+' kcal · '+Math.round(d.pro*f)+'g pro · '+Math.round(d.carbs*f)+'g carb · '+Math.round(d.fat*f)+'g fat</strong>';
+  }
+  document.getElementById('usda-qty').addEventListener('input', updatePreview);
+  document.getElementById('usda-unit').addEventListener('change', updatePreview);
+  document.getElementById('usda-confirm-btn').addEventListener('click', function(){ confirmUSDAAdd(fdcId); });
+}
+
+function usdaToGrams(qty, unit) {
+  if(unit==='oz') return qty*28.3495;
+  if(unit==='lbs') return qty*453.592;
+  if(unit==='cups') return qty*240;
+  if(unit==='tbsp') return qty*15;
+  if(unit==='tsp') return qty*5;
+  return qty; // grams
+}
+
+function confirmUSDAAdd(fdcId) {
+  const d = _usdaCache[fdcId];
+  if(!d) return;
+  const qty = parseFloat(document.getElementById('usda-qty').value)||100;
+  const unit = document.getElementById('usda-unit').value;
+  const grams = usdaToGrams(qty, unit);
+  const f = grams/100;
+  const kcal = Math.round(d.kcal*f);
+  const pro  = Math.round(d.pro*f);
+  const carbs= Math.round(d.carbs*f);
+  const fat  = Math.round(d.fat*f);
+  const saveLib = document.getElementById('usda-save-lib').checked;
+  const slot = _addIngrSlot;
+  const label = d.name+' ('+round1(qty)+unit+')';
+  const tempId = 'usda_'+fdcId+'_'+Date.now();
+  INGR[tempId] = {name:label, unit:round1(grams)+'g', step:1, kcal:kcal, pro:pro, carbs:carbs, fat:fat};
+  if(saveLib) {
+    const libId = 'usda_'+fdcId;
+    const custom = DB.getCustomIngr();
+    custom[libId] = {name:d.name, unit:'100g', step:50, kcal:d.kcal, pro:d.pro, carbs:d.carbs, fat:d.fat};
+    DB.setCustomIngr(custom);
+    toast('Saved to library: '+d.name);
+  }
+  const l = getOrInitToday();
+  if(!l.meals[slot]) l.meals[slot] = {preset_label:'Custom', ingrs:[]};
+  if(!l.meals[slot].ingrs) l.meals[slot].ingrs = [];
+  l.meals[slot].ingrs.push({id:tempId, qty:1});
+  DB.setToday(l);
+  closeModal();
+  renderMealBody(slot);
+  renderMealBadge(slot, l.meals[slot]);
+  renderSummary();
+  toast('Added: '+d.name);
+}
+
 
 // ---- Init ----
 function renderAll(){renderHeader();renderLog();}
