@@ -1634,7 +1634,9 @@ function renderWorkout() {
         +'<div style="display:flex;align-items:flex-start;gap:10px;width:100%">'
         +'<div class="ex-id" style="background:'+(done?'var(--green)':'var(--blue)')+'">'+esc(e.id)+'</div>'
         +'<div class="ex-body"><div class="ex-name">'+esc(e.name)+'</div>'
-        +'<div class="ex-det">'+esc(e.detail)+'</div></div>'
+        +'<div class="ex-det">'+esc(e.detail)+'</div>'
+        +(e.rest?'<div style="font-size:11px;color:var(--text2);margin-bottom:3px">&#x23F1; '+esc(e.rest)+'</div>':'')
+        +'</div>'
         +'<button class="ex-chk'+(done?' done':'')+'" data-chk-date="'+wDate+'" data-chk-id="'+esc(e.id)+'">'+(done?'✓':'')+'</button>'
         +'</div>'
         +'<textarea class="wk-note-ta" rows="2" placeholder="Notes: actual weights, reps, how it felt…"'
