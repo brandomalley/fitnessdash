@@ -232,6 +232,20 @@ html,body{height:100%;background:var(--bg);color:var(--text);font-family:-apple-
 .text-g{color:var(--green)}.text-y{color:var(--yellow)}.text-r{color:var(--red)}.text-b{color:var(--blue)}.bold{font-weight:700}.dim{color:var(--text2)}.sm{font-size:12px}
 .wk-note-ta{width:100%;background:var(--card2);border:1px solid var(--border);border-radius:8px;color:var(--text);font-size:12px;padding:8px 10px;resize:none;outline:none;font-family:inherit;margin-top:8px;line-height:1.5}
 .wk-note-ta:focus{border-color:var(--blue)}
+.wk-log-btn{display:block;width:100%;background:var(--green);color:#000;border:none;border-radius:13px;padding:15px;font-size:15px;font-weight:700;cursor:pointer;margin-top:14px;letter-spacing:.2px}
+.wk-log-btn:active{opacity:.8}
+.wl-ex-row{background:var(--card2);border-radius:10px;padding:11px 13px;margin-bottom:8px}
+.wl-ex-name{font-size:13px;font-weight:600;margin-bottom:2px}
+.wl-ex-planned{font-size:11px;color:var(--text2);margin-bottom:7px}
+.wl-grid{display:grid;grid-template-columns:1fr 1fr;gap:6px;margin-bottom:6px}
+.wl-inp{background:var(--card);border:1px solid var(--border);border-radius:8px;color:var(--text);font-size:13px;padding:8px 10px;width:100%;outline:none;box-sizing:border-box}
+.wl-inp:focus{border-color:var(--blue)}
+.wl-lbl{font-size:10px;color:var(--text2);margin-bottom:3px}
+.wl-note{width:100%;background:var(--card);border:1px solid var(--border);border-radius:8px;color:var(--text);font-size:12px;padding:8px 10px;resize:none;outline:none;font-family:inherit;box-sizing:border-box}
+.wl-note:focus{border-color:var(--blue)}
+.wl-submit{display:block;width:100%;background:var(--blue);color:#fff;border:none;border-radius:12px;padding:14px;font-size:15px;font-weight:700;cursor:pointer;margin-top:6px}
+.wl-submit:active{opacity:.8}
+.wl-submit:disabled{opacity:.5;cursor:default}
 </style>
 </head>
 <body>
@@ -402,6 +416,7 @@ html,body{height:100%;background:var(--bg);color:var(--text);font-family:-apple-
       <div id="wk-finisher"></div>
       <div class="sec">Mark Complete</div>
       <div id="ex-checks"></div>
+      <button class="wk-log-btn" id="log-workout-btn" onclick="openWorkoutLog()">💪 Log Completed Workout</button>
     </div>
     <!-- MORE TAB -->
     <div class="tab" id="tab-more">
@@ -2006,6 +2021,121 @@ document.getElementById('sleep-dots').addEventListener('click', function(e){
   DB.setToday(l);
   renderSleepDots();
 });
+
+// ---- Workout Log (GitHub push) ----
+const WorkoutLogSync = {
+  OWNER: 'brandomalley',
+  REPO:  'fitnessdash',
+  PATH:  'workout-log.json',
+
+  _headers: function() {
+    const token = GitHubSync.getToken();
+    return {
+      'Authorization': 'Bearer ' + token,
+      'Accept': 'application/vnd.github+json',
+      'Content-Type': 'application/json',
+      'X-GitHub-Api-Version': '2022-11-28'
+    };
+  },
+
+  push: async function(session) {
+    const token = GitHubSync.getToken();
+    if(!token) { toast('⚠️ No GitHub token — connect in More tab'); return false; }
+    try {
+      // Try to get existing file + SHA
+      let sha = null, existing = [];
+      const getRes = await fetch('https://api.github.com/repos/'+this.OWNER+'/'+this.REPO+'/contents/'+this.PATH, {headers: this._headers()});
+      if(getRes.ok) {
+        const meta = await getRes.json();
+        sha = meta.sha;
+        try { existing = JSON.parse(atob(meta.content.replace(/\n/g,''))); } catch(e) { existing = []; }
+        if(!Array.isArray(existing)) existing = [];
+      }
+      // Append new session
+      existing.push(session);
+      const payload = JSON.stringify(existing, null, 2);
+      const b64 = btoa(unescape(encodeURIComponent(payload)));
+      const body = {message: 'Workout log ' + session.date, content: b64};
+      if(sha) body.sha = sha;
+      const putRes = await fetch('https://api.github.com/repos/'+this.OWNER+'/'+this.REPO+'/contents/'+this.PATH, {
+        method: 'PUT', headers: this._headers(), body: JSON.stringify(body)
+      });
+      if(!putRes.ok) throw new Error('Push failed: '+putRes.status);
+      return true;
+    } catch(e) {
+      console.error('WorkoutLogSync:', e);
+      return false;
+    }
+  }
+};
+
+function openWorkoutLog() {
+  const workout = DB.getWorkout();
+  if(!workout) { toast('No workout loaded'); return; }
+  const wNotes = DB.getWkNotes()['w_'+workout.date]||{};
+
+  document.getElementById('modal-title').textContent = '💪 Log Workout';
+  document.getElementById('modal-sub').textContent = workout.day_label + ' · ' + workout.session_type;
+
+  let body = '<div style="margin-bottom:10px">';
+  body += '<div class="wl-lbl">Session notes (optional)</div>';
+  body += '<textarea class="wl-note" id="wl-session-note" rows="2" placeholder="How did it go overall?"></textarea>';
+  body += '</div>';
+
+  workout.exercises.forEach(function(e) {
+    const savedNote = wNotes[e.id]||'';
+    body += '<div class="wl-ex-row">';
+    body += '<div class="wl-ex-name">'+esc(e.id)+' · '+esc(e.name)+'</div>';
+    body += '<div class="wl-ex-planned">Planned: '+esc(e.detail)+'</div>';
+    body += '<div class="wl-grid">';
+    body += '<div><div class="wl-lbl">Weight (lb)</div><input class="wl-inp" id="wl-w-'+e.id+'" type="text" inputmode="decimal" placeholder="e.g. 57.5"></div>';
+    body += '<div><div class="wl-lbl">Sets × Reps</div><input class="wl-inp" id="wl-r-'+e.id+'" type="text" placeholder="e.g. 3×10"></div>';
+    body += '</div>';
+    body += '<textarea class="wl-note" id="wl-n-'+e.id+'" rows="1" placeholder="Notes…">'+esc(savedNote)+'</textarea>';
+    body += '</div>';
+  });
+
+  body += '<button class="wl-submit" id="wl-submit-btn" onclick="submitWorkoutLog()">✅ Save to GitHub</button>';
+  document.getElementById('modal-body').innerHTML = body;
+  document.getElementById('modal-bg').classList.add('open');
+}
+
+async function submitWorkoutLog() {
+  const workout = DB.getWorkout();
+  if(!workout) return;
+  const btn = document.getElementById('wl-submit-btn');
+  btn.disabled = true;
+  btn.textContent = '⏳ Saving…';
+
+  const sessionNote = (document.getElementById('wl-session-note')||{value:''}).value.trim();
+  const exercises = workout.exercises.map(function(e) {
+    return {
+      id: e.id,
+      name: e.name,
+      planned: e.detail,
+      weight: (document.getElementById('wl-w-'+e.id)||{value:''}).value.trim(),
+      sets_reps: (document.getElementById('wl-r-'+e.id)||{value:''}).value.trim(),
+      note: (document.getElementById('wl-n-'+e.id)||{value:''}).value.trim()
+    };
+  });
+
+  const session = {
+    date: workout.date,
+    day_label: workout.day_label,
+    session_type: workout.session_type,
+    submitted_at: new Date().toISOString(),
+    notes: sessionNote,
+    exercises: exercises
+  };
+
+  const ok = await WorkoutLogSync.push(session);
+  document.getElementById('modal-bg').classList.remove('open');
+  if(ok) {
+    toast('✅ Workout logged to GitHub!');
+  } else {
+    toast('⚠️ Save failed — check GitHub token in More tab');
+  }
+}
 
 // ---- Init ----
 function renderAll(){renderHeader();renderLog();}
