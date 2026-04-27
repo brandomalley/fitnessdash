@@ -1234,11 +1234,19 @@ function addCustomIngr() {
   const fatPer  = parseFloat(document.getElementById('cf-fat').value)||0;
   const l = getOrInitToday();
   if(!l.meals[slot]) l.meals[slot] = {preset_label:'Custom', ingrs:[]};
-  if(!l.meals[slot].ingrs) l.meals[slot].ingrs = [];
-  // Store as a temporary inline ingredient (not in INGR DB)
-  const tempId = 'custom_'+Date.now();
-  INGR[tempId] = {name:name,unit:'serving',step:1,kcal:kcalPer,pro:proPer,carbs:carbsPer,fat:fatPer};
-  l.meals[slot].ingrs.push({id:tempId, qty:1});
+  // If this is a preset meal (has .fixed), add macros directly to fixed so mealMacros() picks them up
+  if(l.meals[slot].fixed) {
+    l.meals[slot].fixed.kcal  = (l.meals[slot].fixed.kcal||0)  + kcalPer;
+    l.meals[slot].fixed.pro   = (l.meals[slot].fixed.pro||0)   + proPer;
+    l.meals[slot].fixed.carbs = (l.meals[slot].fixed.carbs||0) + carbsPer;
+    l.meals[slot].fixed.fat   = (l.meals[slot].fixed.fat||0)   + fatPer;
+  } else {
+    if(!l.meals[slot].ingrs) l.meals[slot].ingrs = [];
+    // Store as a temporary inline ingredient (not in INGR DB)
+    const tempId = 'custom_'+Date.now();
+    INGR[tempId] = {name:name,unit:'serving',step:1,kcal:kcalPer,pro:proPer,carbs:carbsPer,fat:fatPer};
+    l.meals[slot].ingrs.push({id:tempId, qty:1});
+  }
   DB.setToday(l);
   closeModal();
   renderMealBody(slot);
@@ -2145,6 +2153,17 @@ async function submitWorkoutLog() {
   const ok = await WorkoutLogSync.push(session);
   document.getElementById('modal-bg').classList.remove('open');
   if(ok) {
+    // Mark today's exercise so the BURNED display updates immediately
+    const todayLog = DB.getToday();
+    if(todayLog) {
+      if(!todayLog.exercise) todayLog.exercise = {id:'',kcal:0,gym:false,cardio:'none',mins:0};
+      todayLog.exercise.gym   = true;
+      todayLog.exercise.kcal  = 380;
+      todayLog.exercise.cardio= 'incline walk';
+      todayLog.exercise.mins  = 20;
+      DB.setToday(todayLog);
+      renderSummary();
+    }
     toast('✅ Workout logged to GitHub!');
   } else {
     toast('⚠️ Save failed — check GitHub token in More tab');
@@ -2268,8 +2287,16 @@ function confirmUSDAAdd(fdcId) {
   }
   const l = getOrInitToday();
   if(!l.meals[slot]) l.meals[slot] = {preset_label:'Custom', ingrs:[]};
-  if(!l.meals[slot].ingrs) l.meals[slot].ingrs = [];
-  l.meals[slot].ingrs.push({id:tempId, qty:1});
+  // If this is a preset meal (has .fixed), add macros directly to fixed so mealMacros() picks them up
+  if(l.meals[slot].fixed) {
+    l.meals[slot].fixed.kcal  = (l.meals[slot].fixed.kcal||0)  + kcal;
+    l.meals[slot].fixed.pro   = (l.meals[slot].fixed.pro||0)   + pro;
+    l.meals[slot].fixed.carbs = (l.meals[slot].fixed.carbs||0) + carbs;
+    l.meals[slot].fixed.fat   = (l.meals[slot].fixed.fat||0)   + fat;
+  } else {
+    if(!l.meals[slot].ingrs) l.meals[slot].ingrs = [];
+    l.meals[slot].ingrs.push({id:tempId, qty:1});
+  }
   DB.setToday(l);
   closeModal();
   renderMealBody(slot);
