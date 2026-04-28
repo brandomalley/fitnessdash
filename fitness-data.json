@@ -1,5 +1,5 @@
 {
-  "exported": "2026-04-28T01:51:51.761Z",
+  "exported": "2026-04-28T03:01:46.079Z",
   "raw_data": [
     {
       "date": "2026-04-12",
@@ -364,22 +364,22 @@
     {
       "date": "2026-04-27",
       "day_of_week": "Monday",
-      "calories_consumed": 1929,
+      "calories_consumed": 1640,
       "calorie_target": 1900,
-      "protein_g": 166,
+      "protein_g": 142,
       "protein_target_g": 140,
       "carbs_g": 137,
-      "fat_g": 71,
+      "fat_g": 49,
       "tdee_estimate": 2500,
-      "food_deficit": 571,
-      "exercise_calories_burned": 0,
-      "net_deficit": 571,
-      "cumulative_deficit": 13623,
+      "food_deficit": 860,
+      "exercise_calories_burned": 390,
+      "net_deficit": 1250,
+      "cumulative_deficit": 14302,
       "weight_lb": null,
-      "gym_session": false,
-      "exercise_id": "",
-      "cardio_type": "none",
-      "cardio_minutes": 0,
+      "gym_session": true,
+      "exercise_id": "lower",
+      "cardio_type": "incline walk",
+      "cardio_minutes": 20,
       "sleep_quality": 7,
       "energy_level": null,
       "cns_flags": false,
@@ -465,10 +465,10 @@
           },
           "lunch": {
             "label": "Standard",
-            "kcal": 599,
-            "pro": 32,
+            "kcal": 310,
+            "pro": 8,
             "carbs": 40,
-            "fat": 35,
+            "fat": 13,
             "items": [
               {
                 "name": "Lettuce",
@@ -505,15 +505,6 @@
                 "pro": 2.5,
                 "carbs": 2.5,
                 "fat": 6.3
-              },
-              {
-                "name": "Beef, steak, ribeye, lean and fat eaten (100g)",
-                "qty": 1,
-                "unit": "100g",
-                "kcal": 289,
-                "pro": 24,
-                "carbs": 0,
-                "fat": 22
               }
             ]
           },
