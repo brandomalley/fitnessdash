@@ -1,5 +1,5 @@
 {
-  "exported": "2026-04-29T03:50:55.452Z",
+  "exported": "2026-04-29T20:30:00.000Z",
   "raw_data": [
     {
       "date": "2026-04-12",
@@ -410,7 +410,7 @@
               {
                 "name": "Blueberries",
                 "qty": 1,
-                "unit": "¼ cup",
+                "unit": "\u00bc cup",
                 "kcal": 21,
                 "pro": 0.3,
                 "carbs": 5,
@@ -419,7 +419,7 @@
               {
                 "name": "Pineapple",
                 "qty": 1,
-                "unit": "¼ cup",
+                "unit": "\u00bc cup",
                 "kcal": 19,
                 "pro": 0.2,
                 "carbs": 5,
@@ -428,7 +428,7 @@
               {
                 "name": "Strawberries",
                 "qty": 1,
-                "unit": "¼ cup",
+                "unit": "\u00bc cup",
                 "kcal": 13,
                 "pro": 0.3,
                 "carbs": 3,
@@ -437,7 +437,7 @@
               {
                 "name": "Mango (smoothie)",
                 "qty": 2,
-                "unit": "¼ cup",
+                "unit": "\u00bc cup",
                 "kcal": 50,
                 "pro": 0.8,
                 "carbs": 12,
@@ -491,7 +491,7 @@
               {
                 "name": "Avocado",
                 "qty": 1,
-                "unit": "¼ avocado",
+                "unit": "\u00bc avocado",
                 "kcal": 65,
                 "pro": 1,
                 "carbs": 3.5,
@@ -536,7 +536,7 @@
               {
                 "name": "White Rice",
                 "qty": 2,
-                "unit": "¼ cup cooked",
+                "unit": "\u00bc cup cooked",
                 "kcal": 100,
                 "pro": 2,
                 "carbs": 22,
@@ -572,7 +572,7 @@
               {
                 "name": "Avocado",
                 "qty": 1,
-                "unit": "¼ avocado",
+                "unit": "\u00bc avocado",
                 "kcal": 65,
                 "pro": 1,
                 "carbs": 3.5,
@@ -638,7 +638,7 @@
               {
                 "name": "Blueberries",
                 "qty": 1,
-                "unit": "¼ cup",
+                "unit": "\u00bc cup",
                 "kcal": 21,
                 "pro": 0.3,
                 "carbs": 5,
@@ -647,7 +647,7 @@
               {
                 "name": "Pineapple",
                 "qty": 1,
-                "unit": "¼ cup",
+                "unit": "\u00bc cup",
                 "kcal": 19,
                 "pro": 0.2,
                 "carbs": 5,
@@ -656,7 +656,7 @@
               {
                 "name": "Strawberries",
                 "qty": 1,
-                "unit": "¼ cup",
+                "unit": "\u00bc cup",
                 "kcal": 13,
                 "pro": 0.3,
                 "carbs": 3,
@@ -665,7 +665,7 @@
               {
                 "name": "Mango (smoothie)",
                 "qty": 2,
-                "unit": "¼ cup",
+                "unit": "\u00bc cup",
                 "kcal": 50,
                 "pro": 0.8,
                 "carbs": 12,
@@ -719,7 +719,7 @@
               {
                 "name": "Avocado",
                 "qty": 1,
-                "unit": "¼ avocado",
+                "unit": "\u00bc avocado",
                 "kcal": 65,
                 "pro": 1,
                 "carbs": 3.5,
@@ -800,7 +800,7 @@
               {
                 "name": "White Rice",
                 "qty": 3,
-                "unit": "¼ cup cooked",
+                "unit": "\u00bc cup cooked",
                 "kcal": 150,
                 "pro": 3,
                 "carbs": 33,
@@ -809,7 +809,7 @@
               {
                 "name": "Avocado",
                 "qty": 1,
-                "unit": "¼ avocado",
+                "unit": "\u00bc avocado",
                 "kcal": 65,
                 "pro": 1,
                 "carbs": 3.5,
@@ -834,6 +834,30 @@
           }
         ]
       }
+    },
+    {
+      "date": "2026-04-29",
+      "day_of_week": "Wednesday",
+      "calories_consumed": 0,
+      "calorie_target": 1900,
+      "protein_g": 0,
+      "protein_target_g": 140,
+      "carbs_g": 0,
+      "fat_g": 0,
+      "tdee_estimate": 2500,
+      "food_deficit": 0,
+      "exercise_calories_burned": 0,
+      "net_deficit": 0,
+      "cumulative_deficit": 15005,
+      "weight_lb": 177.5,
+      "gym_session": false,
+      "cardio_type": "none",
+      "cardio_minutes": 0,
+      "sleep_quality": null,
+      "energy_level": null,
+      "cns_flags": false,
+      "log_completeness": "partial",
+      "notes": "Weight logged: 177.5 lb. Day in progress."
     }
   ]
 }
