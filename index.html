@@ -635,6 +635,8 @@ const DB = {
   setWkNotes(n){localStorage.setItem('fit_wk_notes',JSON.stringify(n))},
   init(){
     if(!localStorage.getItem('fit_data'))this.setData(SEED_DATA);
+    // Merge persisted custom ingredients into INGR so all lookups work after reload
+    Object.assign(INGR, this.getCustomIngr());
     if(!localStorage.getItem('fit_workout'))this.setWorkout(SEED_WORKOUT);
     if(!localStorage.getItem('fit_week'))this.setWeek(SEED_WEEK);
   }
@@ -875,7 +877,17 @@ function round1(n){return Math.round(n*10)/10}
 function mealMacros(meal) {
   if(!meal) return {kcal:0,pro:0,carbs:0,fat:0};
   if(meal.skip) return {kcal:0,pro:0,carbs:0,fat:0,skipped:true};
-  if(meal.fixed) return {kcal:meal.fixed.kcal,pro:meal.fixed.pro,carbs:meal.fixed.carbs,fat:meal.fixed.fat};
+  if(meal.fixed) {
+    // Start with preset base, then add any extra ingredients on top
+    let kcal=meal.fixed.kcal,pro=meal.fixed.pro,carbs=meal.fixed.carbs,fat=meal.fixed.fat;
+    if(meal.ingrs && meal.ingrs.length) {
+      meal.ingrs.forEach(function(item) {
+        const db = INGR[item.id];
+        if(db) { kcal+=db.kcal*item.qty; pro+=db.pro*item.qty; carbs+=db.carbs*item.qty; fat+=db.fat*item.qty; }
+      });
+    }
+    return {kcal:Math.round(kcal),pro:Math.round(pro),carbs:Math.round(carbs),fat:Math.round(fat)};
+  }
   if(meal.ingrs && meal.ingrs.length) {
     let kcal=0,pro=0,carbs=0,fat=0;
     meal.ingrs.forEach(function(item) {
@@ -993,7 +1005,29 @@ function renderMealBody(slot) {
   } else if(meal.skip) {
     html += '<div class="skipped-ingr">Marked as skipped</div>';
   } else if(meal.fixed) {
-    html += '<div class="fixed-ingr">'+esc(meal.preset_label)+' &mdash; '+meal.fixed.kcal+' kcal / '+meal.fixed.pro+'g protein (manually logged)</div>';
+    html += '<div class="fixed-ingr">'+esc(meal.preset_label)+' &mdash; base: '+meal.fixed.kcal+' kcal / '+meal.fixed.pro+'g pro</div>';
+    // Show any extra ingredients added on top of the preset
+    if(meal.ingrs && meal.ingrs.length) {
+      html += '<div class="ingr-list" id="ingr-list-'+slot+'">';
+      meal.ingrs.forEach(function(item, idx) {
+        const db = INGR[item.id];
+        if(!db) return;
+        const itemKcal = Math.round(db.kcal * item.qty);
+        const qtyDisplay = (item.qty % 1 === 0) ? item.qty.toString() : round1(item.qty).toString();
+        html += '<div class="ingr-row">';
+        html += '<button class="ingr-rm" data-rm-ingr-slot="'+slot+'" data-rm-ingr-idx="'+idx+'">&#xD7;</button>';
+        html += '<div class="ingr-name">'+esc(db.name)+'</div>';
+        html += '<div class="qty-ctrl">';
+        html += '<button class="qty-btn" data-adj-slot="'+slot+'" data-adj-idx="'+idx+'" data-adj-delta="-1">&#x2212;</button>';
+        html += '<span class="qty-val" data-edit-qty-slot="'+slot+'" data-edit-qty-idx="'+idx+'">'+qtyDisplay+'</span>';
+        html += '<button class="qty-btn" data-adj-slot="'+slot+'" data-adj-idx="'+idx+'" data-adj-delta="1">+</button>';
+        html += '</div>';
+        html += '<div class="ingr-unit">'+esc(db.unit)+'</div>';
+        html += '<div class="ingr-kcal">'+itemKcal+'</div>';
+        html += '</div>';
+      });
+      html += '</div>';
+    }
   } else if(meal.ingrs && meal.ingrs.length) {
     html += '<div class="ingr-list" id="ingr-list-'+slot+'">';
     meal.ingrs.forEach(function(item, idx) {
@@ -1015,8 +1049,8 @@ function renderMealBody(slot) {
     });
     html += '</div>';
   }
-  // Add ingredient button (shown when meal is logged and not skip/fixed)
-  if(meal && !meal.skip && !meal.fixed) {
+  // Add ingredient button — shown for all logged meals (including presets)
+  if(meal && !meal.skip) {
     html += '<button class="add-ingr-btn" data-add-ingr-slot="'+slot+'">+ Add Ingredient</button>';
   } else if(!meal) {
     html += '<button class="add-ingr-btn" data-add-ingr-slot="'+slot+'">+ Add Custom Ingredient</button>';
