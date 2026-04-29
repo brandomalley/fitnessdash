@@ -1,0 +1,67 @@
+[
+  {
+    "date": "2026-04-29",
+    "day_label": "Wednesday, April 29",
+    "session_type": "Upper Body",
+    "submitted_at": "2026-04-29T13:34:19.084Z",
+    "notes": "",
+    "exercises": [
+      {
+        "id": "A",
+        "name": "Flat DB Bench Press",
+        "planned": "57.5 lb × 10 · 3 sets",
+        "weight": "",
+        "sets_reps": "",
+        "note": "Did 60 lbs 3 xs 10\nFelt very strong. Last reps tough but probably could have done 1 more."
+      },
+      {
+        "id": "B",
+        "name": "Cable Row",
+        "planned": "135 lb × 10 · 3 sets",
+        "weight": "",
+        "sets_reps": "",
+        "note": "Got all 3 sets. Last reps tough"
+      },
+      {
+        "id": "C",
+        "name": "Lat Pulldown",
+        "planned": "120 lb × 10-12 · 3 sets",
+        "weight": "",
+        "sets_reps": "",
+        "note": "Got all the sets. Last reps tough. Did 3 xs 10 for all"
+      },
+      {
+        "id": "D",
+        "name": "Shoulder Press (DB)",
+        "planned": "35 lb × 10-12 · 3 sets",
+        "weight": "",
+        "sets_reps": "",
+        "note": "Got 3 xs 12. Last rep was very tough."
+      },
+      {
+        "id": "E",
+        "name": "Face Pulls",
+        "planned": "40 lb × 15 · 3 sets",
+        "weight": "",
+        "sets_reps": "",
+        "note": "Got all the sets and reps here"
+      },
+      {
+        "id": "F",
+        "name": "Arms Superset: Rope Pushdown + Hammer Curl",
+        "planned": "Rope pushdown 77 lb × 12 + Hammer curl 25 lb × 10 · 3 rounds",
+        "weight": "",
+        "sets_reps": "",
+        "note": "The cable machine that I used for the tricep pushdown today actually just went by tens so I either had a 70 or an 80. I started with 12 reps of 70 then I moved to 80. There's a bunch of cable machines in my gym so sometimes I can't use the same one. Went to 80 and got 12 then 10 reps.\n\nCurls did 25lbs xs 10 xs 3. Last rep tough!"
+      },
+      {
+        "id": "G",
+        "name": "Core Circuit: Dead Bug → Pallof Press → Bicycle Crunch",
+        "planned": "Dead bug × 10/side → Pallof press 30 lb × 12/side → Bicycle crunch × 20 · 3 rounds",
+        "weight": "",
+        "sets_reps": "",
+        "note": "First set felt easy. Got all the reps on the core circuit and finished with 30 bicycle kicks. I could have probably got 40, but I just didn't want to burn out at that point. I also did not do incline walk at the end because I was already at an hour and five minutes, and it's a Wednesday. I'm OK to go over an hour on the weekends, but during the week I'd like to keep my workouts to about an hour and five minutes tops."
+      }
+    ]
+  }
+]
