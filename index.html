@@ -2385,29 +2385,33 @@ GitHubSync.init();
   localStorage.setItem('_patch_v1','1');
 })();
 
-// Patch v3: fix Apr 25 exercise_calories_burned (250->380, upper body) + downstream cumulative
+// Patch v4: fix Apr 25 exercise_calories_burned (380->530, upper body + 50-min walk) + downstream cumulative
 (function patchV2() {
-  if(localStorage.getItem('_patch_v3')) return;
+  if(localStorage.getItem('_patch_v4')) return;
   const data = DB.getData();
   // Correct Apr 25
   const apr25 = data.find(function(d){return d.date==='2026-04-25';});
   if(apr25) {
     apr25.calories_consumed = 2026; apr25.protein_g = 100; apr25.carbs_g = 190; apr25.fat_g = 85;
-    apr25.food_deficit = 474; apr25.exercise_calories_burned = 380; apr25.net_deficit = 854;
-    apr25.cumulative_deficit = 12610; apr25.log_completeness = 'complete'; apr25.gym_session = true;
+    apr25.food_deficit = 474; apr25.exercise_calories_burned = 530; apr25.net_deficit = 1004;
+    apr25.cumulative_deficit = 12760; apr25.log_completeness = 'complete'; apr25.gym_session = true;
     apr25.notes = "Upper body gym session (incline bench 60s, KB row 40lb, lat pulldown 120, shoulder press 35s). Cheeseburger double patty + fries.";
   }
   // Add Apr 26 if missing or fix if wrong
   const apr26idx = data.findIndex(function(d){return d.date==='2026-04-26';});
-  const apr26 = {"date":"2026-04-26","day_of_week":"Sunday","calories_consumed":1928,"calorie_target":1900,"protein_g":158,"protein_target_g":140,"carbs_g":165,"fat_g":68,"tdee_estimate":2500,"food_deficit":572,"exercise_calories_burned":0,"net_deficit":572,"cumulative_deficit":13182,"weight_lb":null,"gym_session":false,"cardio_type":"none","cardio_minutes":0,"sleep_quality":6,"energy_level":null,"cns_flags":false,"log_completeness":"complete","notes":"Gardening ~1hr. Dinner: 175g ribeye cooked + 100g baked fries light oil + 118g green beans + tofu dressing 1tbsp. Broth: 1.5 cups homemade chicken breast broth (~40 kcal/8g pro). Corrected from app zero-macro dinner entries."};
+  const apr26 = {"date":"2026-04-26","day_of_week":"Sunday","calories_consumed":1928,"calorie_target":1900,"protein_g":158,"protein_target_g":140,"carbs_g":165,"fat_g":68,"tdee_estimate":2500,"food_deficit":572,"exercise_calories_burned":0,"net_deficit":572,"cumulative_deficit":13332,"weight_lb":null,"gym_session":false,"cardio_type":"none","cardio_minutes":0,"sleep_quality":6,"energy_level":null,"cns_flags":false,"log_completeness":"complete","notes":"Gardening ~1hr. Dinner: 175g ribeye cooked + 100g baked fries light oil + 118g green beans + tofu dressing 1tbsp. Broth: 1.5 cups homemade chicken breast broth (~40 kcal/8g pro). Corrected from app zero-macro dinner entries."};
   if(apr26idx === -1) {
     data.push(apr26);
   } else {
     data[apr26idx] = apr26;
   }
+  // Propagate +150 delta to all days after 2026-04-26
+  data.forEach(function(d){
+    if(d.date > '2026-04-26') { d.cumulative_deficit = (d.cumulative_deficit||0) + 150; }
+  });
   data.sort(function(a,b){return a.date < b.date ? -1 : 1;});
   DB.setData(data);
-  localStorage.setItem('_patch_v3','1');
+  localStorage.setItem('_patch_v4','1');
 })();
 renderAll();
 </script>
