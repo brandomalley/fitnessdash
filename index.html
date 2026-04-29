@@ -1,3 +1,6 @@
+HTTP 200 
+Content-Type: text/plain; charset=utf-8
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -416,6 +419,7 @@ html,body{height:100%;background:var(--bg);color:var(--text);font-family:-apple-
       <div id="wk-finisher"></div>
       <div class="sec">Mark Complete</div>
       <div id="ex-checks"></div>
+      <div id="wk-session-notes"></div>
       <button class="wk-log-btn" id="log-workout-btn" onclick="openWorkoutLog()">💪 Log Completed Workout</button>
     </div>
     <!-- MORE TAB -->
@@ -1242,9 +1246,13 @@ function addCustomIngr() {
     l.meals[slot].fixed.fat   = (l.meals[slot].fixed.fat||0)   + fatPer;
   } else {
     if(!l.meals[slot].ingrs) l.meals[slot].ingrs = [];
-    // Store as a temporary inline ingredient (not in INGR DB)
+    // Persist to custom ingredient DB so it survives navigation/reload
     const tempId = 'custom_'+Date.now();
-    INGR[tempId] = {name:name,unit:'serving',step:1,kcal:kcalPer,pro:proPer,carbs:carbsPer,fat:fatPer};
+    const ingrData = {name:name,unit:'serving',step:1,kcal:kcalPer,pro:proPer,carbs:carbsPer,fat:fatPer};
+    const customLib = DB.getCustomIngr();
+    customLib[tempId] = ingrData;
+    DB.setCustomIngr(customLib);
+    INGR[tempId] = ingrData;
     l.meals[slot].ingrs.push({id:tempId, qty:1});
   }
   DB.setToday(l);
@@ -1643,6 +1651,33 @@ function renderWorkout() {
         +' data-note-date="'+wDate+'" data-note-id="'+esc(e.id)+'">'+esc(note)+'</textarea>'
         +'</div>';
     }).join('');
+    // Overall session notes (Fix 4)
+    const sessionNote = wNotes['session']||'';
+    const sessionNotesEl = document.getElementById('wk-session-notes');
+    if(sessionNotesEl) {
+      sessionNotesEl.innerHTML = '<div class="sec" style="margin-top:16px">Overall Session Notes</div>'
+        +'<textarea class="wk-note-ta" rows="3" placeholder="How did the session feel overall? Time, energy, anything notable…"'
+        +' style="width:100%;box-sizing:border-box;padding:10px;border-radius:8px;border:1px solid var(--border);background:var(--card);color:var(--text);font-size:13px;resize:vertical"'
+        +' data-note-date="'+wDate+'" data-note-id="session">'+esc(sessionNote)+'</textarea>';
+    }
+    // Show logged state (Fix 3)
+    const logBtn = document.getElementById('log-workout-btn');
+    const isLogged = !!localStorage.getItem('fit_workout_logged_'+wDate);
+    if(logBtn) {
+      if(isLogged) {
+        logBtn.textContent = '\u2705 Workout Logged';
+        logBtn.disabled = true;
+        logBtn.style.background = 'var(--green)';
+        logBtn.style.opacity = '0.8';
+        logBtn.onclick = null;
+      } else {
+        logBtn.textContent = '\ud83d\udcaa Log Completed Workout';
+        logBtn.disabled = false;
+        logBtn.style.background = '';
+        logBtn.style.opacity = '';
+        logBtn.onclick = openWorkoutLog;
+      }
+    }
   }
 }
 
@@ -2103,7 +2138,7 @@ function openWorkoutLog() {
 
   let body = '<div style="margin-bottom:10px">';
   body += '<div class="wl-lbl">Session notes (optional)</div>';
-  body += '<textarea class="wl-note" id="wl-session-note" rows="2" placeholder="How did it go overall?"></textarea>';
+  body += '<textarea class="wl-note" id="wl-session-note" rows="2" placeholder="How did it go overall?">'+esc(wNotes['session']||'')+'</textarea>';
   body += '</div>';
 
   workout.exercises.forEach(function(e) {
@@ -2159,13 +2194,17 @@ async function submitWorkoutLog() {
     const todayLog = DB.getToday();
     if(todayLog) {
       if(!todayLog.exercise) todayLog.exercise = {id:'',kcal:0,gym:false,cardio:'none',mins:0};
-      todayLog.exercise.gym   = true;
-      todayLog.exercise.kcal  = 380;
-      todayLog.exercise.cardio= 'incline walk';
-      todayLog.exercise.mins  = 20;
+      const exTypeName = (workout.session_type||'').toLowerCase();
+      const exType = EX_TYPES.find(function(t){return exTypeName.includes(t.id)||exTypeName.includes(t.label.toLowerCase().split(' ')[0]);}) || EX_TYPES[0];
+      todayLog.exercise.gym   = exType.gym;
+      todayLog.exercise.kcal  = calcExKcal(exType, exType.baseMins);
+      todayLog.exercise.cardio= exType.cardio;
+      todayLog.exercise.mins  = exType.baseMins;
       DB.setToday(todayLog);
       renderSummary();
     }
+    localStorage.setItem('fit_workout_logged_'+workout.date, '1');
+    renderWorkout();
     toast('✅ Workout logged to GitHub!');
   } else {
     toast('⚠️ Save failed — check GitHub token in More tab');
@@ -2346,21 +2385,21 @@ GitHubSync.init();
   localStorage.setItem('_patch_v1','1');
 })();
 
-// Patch v2: correct Apr 25 data and add corrected Apr 26 entry
+// Patch v3: fix Apr 25 exercise_calories_burned (250->380, upper body) + downstream cumulative
 (function patchV2() {
-  if(localStorage.getItem('_patch_v2')) return;
+  if(localStorage.getItem('_patch_v3')) return;
   const data = DB.getData();
   // Correct Apr 25
   const apr25 = data.find(function(d){return d.date==='2026-04-25';});
   if(apr25) {
     apr25.calories_consumed = 2026; apr25.protein_g = 100; apr25.carbs_g = 190; apr25.fat_g = 85;
-    apr25.food_deficit = 474; apr25.exercise_calories_burned = 250; apr25.net_deficit = 724;
-    apr25.cumulative_deficit = 12480; apr25.log_completeness = 'complete';
+    apr25.food_deficit = 474; apr25.exercise_calories_burned = 380; apr25.net_deficit = 854;
+    apr25.cumulative_deficit = 12610; apr25.log_completeness = 'complete'; apr25.gym_session = true;
     apr25.notes = "Upper body gym session (incline bench 60s, KB row 40lb, lat pulldown 120, shoulder press 35s). Cheeseburger double patty + fries.";
   }
   // Add Apr 26 if missing or fix if wrong
   const apr26idx = data.findIndex(function(d){return d.date==='2026-04-26';});
-  const apr26 = {"date":"2026-04-26","day_of_week":"Sunday","calories_consumed":1928,"calorie_target":1900,"protein_g":158,"protein_target_g":140,"carbs_g":165,"fat_g":68,"tdee_estimate":2500,"food_deficit":572,"exercise_calories_burned":0,"net_deficit":572,"cumulative_deficit":13052,"weight_lb":null,"gym_session":false,"cardio_type":"none","cardio_minutes":0,"sleep_quality":6,"energy_level":null,"cns_flags":false,"log_completeness":"complete","notes":"Gardening ~1hr. Dinner: 175g ribeye cooked + 100g baked fries light oil + 118g green beans + tofu dressing 1tbsp. Broth: 1.5 cups homemade chicken breast broth (~40 kcal/8g pro). Corrected from app zero-macro dinner entries."};
+  const apr26 = {"date":"2026-04-26","day_of_week":"Sunday","calories_consumed":1928,"calorie_target":1900,"protein_g":158,"protein_target_g":140,"carbs_g":165,"fat_g":68,"tdee_estimate":2500,"food_deficit":572,"exercise_calories_burned":0,"net_deficit":572,"cumulative_deficit":13182,"weight_lb":null,"gym_session":false,"cardio_type":"none","cardio_minutes":0,"sleep_quality":6,"energy_level":null,"cns_flags":false,"log_completeness":"complete","notes":"Gardening ~1hr. Dinner: 175g ribeye cooked + 100g baked fries light oil + 118g green beans + tofu dressing 1tbsp. Broth: 1.5 cups homemade chicken breast broth (~40 kcal/8g pro). Corrected from app zero-macro dinner entries."};
   if(apr26idx === -1) {
     data.push(apr26);
   } else {
@@ -2368,7 +2407,7 @@ GitHubSync.init();
   }
   data.sort(function(a,b){return a.date < b.date ? -1 : 1;});
   DB.setData(data);
-  localStorage.setItem('_patch_v2','1');
+  localStorage.setItem('_patch_v3','1');
 })();
 renderAll();
 </script>
