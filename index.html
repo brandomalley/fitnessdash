@@ -420,6 +420,8 @@ html,body{height:100%;background:var(--bg);color:var(--text);font-family:-apple-
       <div class="sec">Mark Complete</div>
       <div id="ex-checks"></div>
       <div id="wk-session-notes"></div>
+      <div class="sec" style="margin-top:16px">Finisher</div>
+      <div id="wk-finisher-check"></div>
       <button class="wk-log-btn" id="log-workout-btn" onclick="openWorkoutLog()">💪 Log Completed Workout</button>
     </div>
     <!-- MORE TAB -->
@@ -590,16 +592,18 @@ const EXTRAS = [
 ];
 
 const EX_TYPES = [
-  {id:'upper',label:'Upper Body',icon:'💪',gymKcal:280,cardioRate:5,gym:true,cardio:'incline walk',baseMins:20},
-  {id:'lower',label:'Lower Body',icon:'🦵',gymKcal:290,cardioRate:5,gym:true,cardio:'incline walk',baseMins:22},
-  {id:'pickleball',label:'Pickleball',icon:'🏓',gymKcal:0,cardioRate:7,gym:false,cardio:'pickleball',baseMins:50},
-  {id:'jog',label:'Light Jog',icon:'🏃',gymKcal:0,cardioRate:10,gym:false,cardio:'light jog',baseMins:20},
-  {id:'walk',label:'Walk',icon:'🚶',gymKcal:0,cardioRate:5,gym:false,cardio:'walk',baseMins:45},
-  {id:'rest',label:'Rest Day',icon:'😴',gymKcal:0,cardioRate:0,gym:false,cardio:'none',baseMins:0}
+  {id:'upper',label:'Upper Body',icon:'💪',gymKcal:320,warmupKcal:50,cardioRate:5,gym:true,cardio:'incline walk',baseMins:10},
+  {id:'lower',label:'Lower Body',icon:'🦵',gymKcal:350,warmupKcal:50,cardioRate:5,gym:true,cardio:'incline walk',baseMins:10},
+  {id:'pickleball',label:'Pickleball',icon:'🏓',gymKcal:0,warmupKcal:0,cardioRate:7,gym:false,cardio:'pickleball',baseMins:50},
+  {id:'jog',label:'Light Jog',icon:'🏃',gymKcal:0,warmupKcal:0,cardioRate:10,gym:false,cardio:'light jog',baseMins:20},
+  {id:'walk',label:'Walk',icon:'🚶',gymKcal:0,warmupKcal:0,cardioRate:5,gym:false,cardio:'walk',baseMins:45},
+  {id:'rest',label:'Rest Day',icon:'😴',gymKcal:0,warmupKcal:0,cardioRate:0,gym:false,cardio:'none',baseMins:0}
 ];
-function calcExKcal(p, mins) {
+function calcExKcal(p, mins, finisherDone) {
   if(!p || p.id==='rest') return 0;
-  return (p.gymKcal||0) + Math.round((p.cardioRate||0) * (mins||0));
+  const warmup = (p.warmupKcal||0);
+  const finisher = finisherDone !== false ? Math.round((p.cardioRate||0) * (mins||0)) : 0;
+  return warmup + (p.gymKcal||0) + finisher;
 }
 const BURN_RATE = {pickleball:7,jog:10,walk:5,rest:0,upper:0,lower:0};
 const TARGETS = {kcal:1900,protein:140,tdee:2500};
@@ -1660,6 +1664,24 @@ function renderWorkout() {
         +' style="width:100%;box-sizing:border-box;padding:10px;border-radius:8px;border:1px solid var(--border);background:var(--card);color:var(--text);font-size:13px;resize:vertical"'
         +' data-note-date="'+wDate+'" data-note-id="session">'+esc(sessionNote)+'</textarea>';
     }
+    // Finisher walk checkbox
+    const finisherEl = document.getElementById('wk-finisher-check');
+    const finisherDone = !!localStorage.getItem('fit_finisher_'+wDate);
+    if(finisherEl) {
+      finisherEl.innerHTML = '<div class="ex-card" style="flex-direction:row;align-items:center;gap:12px;padding:12px 14px">'
+        +'<button class="ex-chk'+(finisherDone?' done':'')+'" id="finisher-chk-btn" style="flex-shrink:0">'+(finisherDone?'✓':'')+'</button>'
+        +'<div><div class="ex-name" style="font-size:13px">Finisher: Incline Walk · 10 min</div>'
+        +'<div style="font-size:11px;color:var(--text2);margin-top:2px">'+(finisherDone?'+50 kcal counted':'Tap to mark complete · +50 kcal')+'</div>'
+        +'</div></div>';
+      document.getElementById('finisher-chk-btn') && document.getElementById('finisher-chk-btn').addEventListener('click', function(){
+        if(localStorage.getItem('fit_finisher_'+wDate)) {
+          localStorage.removeItem('fit_finisher_'+wDate);
+        } else {
+          localStorage.setItem('fit_finisher_'+wDate,'1');
+        }
+        renderWorkout();
+      });
+    }
     // Show logged state (Fix 3)
     const logBtn = document.getElementById('log-workout-btn');
     const isLogged = !!localStorage.getItem('fit_workout_logged_'+wDate);
@@ -2196,10 +2218,11 @@ async function submitWorkoutLog() {
       if(!todayLog.exercise) todayLog.exercise = {id:'',kcal:0,gym:false,cardio:'none',mins:0};
       const exTypeName = (workout.session_type||'').toLowerCase();
       const exType = EX_TYPES.find(function(t){return exTypeName.includes(t.id)||exTypeName.includes(t.label.toLowerCase().split(' ')[0]);}) || EX_TYPES[0];
+      const finisherDone = !!localStorage.getItem('fit_finisher_'+workout.date);
       todayLog.exercise.gym   = exType.gym;
-      todayLog.exercise.kcal  = calcExKcal(exType, exType.baseMins);
+      todayLog.exercise.kcal  = calcExKcal(exType, exType.baseMins, finisherDone);
       todayLog.exercise.cardio= exType.cardio;
-      todayLog.exercise.mins  = exType.baseMins;
+      todayLog.exercise.mins  = finisherDone ? exType.baseMins : 0;
       DB.setToday(todayLog);
       renderSummary();
     }
