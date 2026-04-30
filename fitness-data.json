@@ -1,5 +1,5 @@
 {
-  "exported": "2026-04-29T20:30:00.000Z",
+  "exported": "2026-04-30T03:58:24.790Z",
   "raw_data": [
     {
       "date": "2026-04-12",
@@ -324,11 +324,11 @@
       "fat_g": 85,
       "tdee_estimate": 2500,
       "food_deficit": 474,
-      "exercise_calories_burned": 250,
-      "net_deficit": 724,
-      "cumulative_deficit": 12480,
+      "exercise_calories_burned": 530,
+      "net_deficit": 1004,
+      "cumulative_deficit": 12760,
       "weight_lb": null,
-      "gym_session": false,
+      "gym_session": true,
       "cardio_type": "walk",
       "cardio_minutes": 50,
       "sleep_quality": null,
@@ -350,7 +350,7 @@
       "food_deficit": 572,
       "exercise_calories_burned": 0,
       "net_deficit": 572,
-      "cumulative_deficit": 13052,
+      "cumulative_deficit": 13332,
       "weight_lb": null,
       "gym_session": false,
       "cardio_type": "none",
@@ -374,7 +374,7 @@
       "food_deficit": 860,
       "exercise_calories_burned": 390,
       "net_deficit": 1250,
-      "cumulative_deficit": 14302,
+      "cumulative_deficit": 14452,
       "weight_lb": null,
       "gym_session": true,
       "exercise_id": "lower",
@@ -410,7 +410,7 @@
               {
                 "name": "Blueberries",
                 "qty": 1,
-                "unit": "\u00bc cup",
+                "unit": "¼ cup",
                 "kcal": 21,
                 "pro": 0.3,
                 "carbs": 5,
@@ -419,7 +419,7 @@
               {
                 "name": "Pineapple",
                 "qty": 1,
-                "unit": "\u00bc cup",
+                "unit": "¼ cup",
                 "kcal": 19,
                 "pro": 0.2,
                 "carbs": 5,
@@ -428,7 +428,7 @@
               {
                 "name": "Strawberries",
                 "qty": 1,
-                "unit": "\u00bc cup",
+                "unit": "¼ cup",
                 "kcal": 13,
                 "pro": 0.3,
                 "carbs": 3,
@@ -437,7 +437,7 @@
               {
                 "name": "Mango (smoothie)",
                 "qty": 2,
-                "unit": "\u00bc cup",
+                "unit": "¼ cup",
                 "kcal": 50,
                 "pro": 0.8,
                 "carbs": 12,
@@ -491,7 +491,7 @@
               {
                 "name": "Avocado",
                 "qty": 1,
-                "unit": "\u00bc avocado",
+                "unit": "¼ avocado",
                 "kcal": 65,
                 "pro": 1,
                 "carbs": 3.5,
@@ -536,7 +536,7 @@
               {
                 "name": "White Rice",
                 "qty": 2,
-                "unit": "\u00bc cup cooked",
+                "unit": "¼ cup cooked",
                 "kcal": 100,
                 "pro": 2,
                 "carbs": 22,
@@ -572,7 +572,7 @@
               {
                 "name": "Avocado",
                 "qty": 1,
-                "unit": "\u00bc avocado",
+                "unit": "¼ avocado",
                 "kcal": 65,
                 "pro": 1,
                 "carbs": 3.5,
@@ -602,7 +602,7 @@
       "food_deficit": 703,
       "exercise_calories_burned": 0,
       "net_deficit": 703,
-      "cumulative_deficit": 15005,
+      "cumulative_deficit": 15155,
       "weight_lb": 178,
       "gym_session": false,
       "exercise_id": "",
@@ -638,7 +638,7 @@
               {
                 "name": "Blueberries",
                 "qty": 1,
-                "unit": "\u00bc cup",
+                "unit": "¼ cup",
                 "kcal": 21,
                 "pro": 0.3,
                 "carbs": 5,
@@ -647,7 +647,7 @@
               {
                 "name": "Pineapple",
                 "qty": 1,
-                "unit": "\u00bc cup",
+                "unit": "¼ cup",
                 "kcal": 19,
                 "pro": 0.2,
                 "carbs": 5,
@@ -656,7 +656,7 @@
               {
                 "name": "Strawberries",
                 "qty": 1,
-                "unit": "\u00bc cup",
+                "unit": "¼ cup",
                 "kcal": 13,
                 "pro": 0.3,
                 "carbs": 3,
@@ -665,7 +665,7 @@
               {
                 "name": "Mango (smoothie)",
                 "qty": 2,
-                "unit": "\u00bc cup",
+                "unit": "¼ cup",
                 "kcal": 50,
                 "pro": 0.8,
                 "carbs": 12,
@@ -719,7 +719,7 @@
               {
                 "name": "Avocado",
                 "qty": 1,
-                "unit": "\u00bc avocado",
+                "unit": "¼ avocado",
                 "kcal": 65,
                 "pro": 1,
                 "carbs": 3.5,
@@ -800,7 +800,7 @@
               {
                 "name": "White Rice",
                 "qty": 3,
-                "unit": "\u00bc cup cooked",
+                "unit": "¼ cup cooked",
                 "kcal": 150,
                 "pro": 3,
                 "carbs": 33,
@@ -809,7 +809,7 @@
               {
                 "name": "Avocado",
                 "qty": 1,
-                "unit": "\u00bc avocado",
+                "unit": "¼ avocado",
                 "kcal": 65,
                 "pro": 1,
                 "carbs": 3.5,
@@ -838,26 +838,229 @@
     {
       "date": "2026-04-29",
       "day_of_week": "Wednesday",
-      "calories_consumed": 0,
+      "calories_consumed": 2658,
       "calorie_target": 1900,
-      "protein_g": 0,
+      "protein_g": 164,
       "protein_target_g": 140,
-      "carbs_g": 0,
-      "fat_g": 0,
+      "carbs_g": 223,
+      "fat_g": 74,
       "tdee_estimate": 2500,
-      "food_deficit": 0,
+      "food_deficit": -158,
       "exercise_calories_burned": 0,
-      "net_deficit": 0,
-      "cumulative_deficit": 15005,
+      "net_deficit": -158,
+      "cumulative_deficit": 14997,
       "weight_lb": 177.5,
       "gym_session": false,
+      "exercise_id": "",
       "cardio_type": "none",
       "cardio_minutes": 0,
-      "sleep_quality": null,
+      "sleep_quality": 5,
       "energy_level": null,
       "cns_flags": false,
-      "log_completeness": "partial",
-      "notes": "Weight logged: 177.5 lb. Day in progress."
+      "coffee_full": 1,
+      "coffee_quarter": 1,
+      "coffee_half": 0,
+      "coffee_decaf": 0,
+      "log_completeness": "complete",
+      "notes": "",
+      "meals_detail": {
+        "slots": {
+          "smoothie": {
+            "label": "Standard",
+            "kcal": 314,
+            "pro": 27,
+            "carbs": 51,
+            "fat": 2,
+            "items": [
+              {
+                "name": "Banana",
+                "qty": 1,
+                "unit": "whole",
+                "kcal": 105,
+                "pro": 1.3,
+                "carbs": 27,
+                "fat": 0.4
+              },
+              {
+                "name": "Blueberries",
+                "qty": 1.5,
+                "unit": "¼ cup",
+                "kcal": 32,
+                "pro": 0.5,
+                "carbs": 7.5,
+                "fat": 0.2
+              },
+              {
+                "name": "Pineapple",
+                "qty": 0.5,
+                "unit": "¼ cup",
+                "kcal": 10,
+                "pro": 0.1,
+                "carbs": 2.5,
+                "fat": 0.1
+              },
+              {
+                "name": "Strawberries",
+                "qty": 2,
+                "unit": "¼ cup",
+                "kcal": 26,
+                "pro": 0.6,
+                "carbs": 6,
+                "fat": 0.2
+              },
+              {
+                "name": "Orange Juice",
+                "qty": 3,
+                "unit": "tbsp",
+                "kcal": 21,
+                "pro": 0.3,
+                "carbs": 5.1,
+                "fat": 0
+              },
+              {
+                "name": "Protein Powder",
+                "qty": 1,
+                "unit": "scoop (30g)",
+                "kcal": 120,
+                "pro": 24,
+                "carbs": 3,
+                "fat": 1
+              }
+            ]
+          },
+          "lunch": {
+            "label": "Standard",
+            "kcal": 628,
+            "pro": 39,
+            "carbs": 56,
+            "fat": 26,
+            "items": [
+              {
+                "name": "Lettuce",
+                "qty": 2,
+                "unit": "cup",
+                "kcal": 20,
+                "pro": 1,
+                "carbs": 4,
+                "fat": 0.2
+              },
+              {
+                "name": "Sweet Potato",
+                "qty": 0.5,
+                "unit": "cup cooked",
+                "kcal": 65,
+                "pro": 1.5,
+                "carbs": 15,
+                "fat": 0.1
+              },
+              {
+                "name": "Avocado",
+                "qty": 1,
+                "unit": "¼ avocado",
+                "kcal": 65,
+                "pro": 1,
+                "carbs": 3.5,
+                "fat": 6
+              },
+              {
+                "name": "Tofu Dressing",
+                "qty": 2,
+                "unit": "tbsp",
+                "kcal": 76,
+                "pro": 2,
+                "carbs": 2,
+                "fat": 5
+              },
+              {
+                "name": "Whole Egg",
+                "qty": 2,
+                "unit": "egg",
+                "kcal": 156,
+                "pro": 12,
+                "carbs": 1.2,
+                "fat": 10.6
+              },
+              {
+                "name": "Egg White",
+                "qty": 3,
+                "unit": "white",
+                "kcal": 51,
+                "pro": 10.5,
+                "carbs": 0,
+                "fat": 0
+              },
+              {
+                "name": "White Rice",
+                "qty": 2,
+                "unit": "¼ cup cooked",
+                "kcal": 100,
+                "pro": 2,
+                "carbs": 22,
+                "fat": 0
+              },
+              {
+                "name": "Mukimame soy beans - 1/2 cup",
+                "qty": 1,
+                "unit": "serving",
+                "kcal": 95,
+                "pro": 8.5,
+                "carbs": 8,
+                "fat": 4
+              }
+            ]
+          },
+          "snack": {
+            "label": "Chicken 120g",
+            "kcal": 167,
+            "pro": 33,
+            "carbs": 0,
+            "fat": 4,
+            "items": [
+              {
+                "name": "Chicken Breast",
+                "qty": 100,
+                "unit": "g",
+                "kcal": 167,
+                "pro": 33.3,
+                "carbs": 0,
+                "fat": 4
+              }
+            ]
+          },
+          "dinner": {
+            "label": "Custom",
+            "kcal": 1200,
+            "pro": 65,
+            "carbs": 116,
+            "fat": 42,
+            "items": [
+              {
+                "name": "Zula Chicken Shwarma ",
+                "qty": 1,
+                "unit": "serving",
+                "kcal": 1200,
+                "pro": 65,
+                "carbs": 116,
+                "fat": 42
+              }
+            ]
+          }
+        },
+        "extras": [
+          {
+            "name": "Vodka Soda 1.5 shots",
+            "kcal": 100
+          },
+          {
+            "name": "Vodka soda 1.5 shots",
+            "kcal": 100
+          },
+          {
+            "name": "Imperial",
+            "kcal": 150
+          }
+        ]
+      }
     }
   ]
 }
