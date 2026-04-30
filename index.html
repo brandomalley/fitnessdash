@@ -419,6 +419,7 @@ html,body{height:100%;background:var(--bg);color:var(--text);font-family:-apple-
       <div id="wk-session-notes"></div>
       <div class="sec" style="margin-top:16px">Finisher</div>
       <div id="wk-finisher-check"></div>
+      <div id="wk-calories-burned" style="display:none;text-align:center;font-size:15px;font-weight:600;color:var(--green);padding:10px 0 4px 0"></div>
       <button class="wk-log-btn" id="log-workout-btn" onclick="openWorkoutLog()">ðª Log Completed Workout</button>
     </div>
     <!-- MORE TAB -->
@@ -1647,6 +1648,18 @@ function renderBar(id,items,target,on,off) {
 }
 
 // ---- Render: Workout ----
+function calcCheckedKcal(workout, checks, finisherDone) {
+  if (!workout || !workout.exercises) return 0;
+  const exTypeName = (workout.session_type||'').toLowerCase();
+  const exType = EX_TYPES.find(function(t){return exTypeName.includes(t.id)||exTypeName.includes(t.label.toLowerCase().split(' ')[0]);}) || EX_TYPES[0];
+  const wChecks = checks['w_'+workout.date]||{};
+  const total = workout.exercises.length;
+  const done = workout.exercises.filter(function(e){return wChecks[e.id];}).length;
+  const perEx = total > 0 ? Math.round((exType.gymKcal||0) / total) : 0;
+  const finKcal = finisherDone ? Math.round((exType.cardioRate||0) * (exType.baseMins||0)) : 0;
+  return (exType.warmupKcal||0) + (perEx * done) + finKcal;
+}
+
 function renderWorkout() {
   const week = DB.getWeek();
   const today = todayStr();
@@ -1712,6 +1725,21 @@ function renderWorkout() {
         }
         renderWorkout();
       });
+    }
+    // Update live calories burned counter
+    const calBurnedEl = document.getElementById('wk-calories-burned');
+    if (calBurnedEl) {
+      const wChecksNow = checks['w_'+wDate]||{};
+      const doneNow = workout.exercises.filter(function(e){return wChecksNow[e.id];}).length;
+      const totalNow = workout.exercises.length;
+      const finNow = !!localStorage.getItem('fit_finisher_'+wDate);
+      const kcalNow = calcCheckedKcal(workout, checks, finNow);
+      if (doneNow > 0 || finNow) {
+        calBurnedEl.style.display = 'block';
+        calBurnedEl.textContent = '🔥 ' + kcalNow + ' kcal burned (' + doneNow + '/' + totalNow + ' exercises' + (finNow ? ' + finisher' : '') + ')';
+      } else {
+        calBurnedEl.style.display = 'none';
+      }
     }
     // Show logged state (Fix 3)
     const logBtn = document.getElementById('log-workout-btn');
@@ -2252,7 +2280,7 @@ async function submitWorkoutLog() {
       const finisherDone = !!localStorage.getItem('fit_finisher_'+workout.date);
       todayLog.exercise.id    = exType.id;
       todayLog.exercise.gym   = exType.gym;
-      todayLog.exercise.kcal  = calcExKcal(exType, exType.baseMins, finisherDone);
+      todayLog.exercise.kcal  = calcCheckedKcal(workout, DB.getChecks(), finisherDone);
       todayLog.exercise.cardio= exType.cardio;
       todayLog.exercise.mins  = finisherDone ? exType.baseMins : 0;
       DB.setToday(todayLog);
