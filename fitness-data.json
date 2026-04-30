@@ -410,7 +410,7 @@
               {
                 "name": "Blueberries",
                 "qty": 1,
-                "unit": "¼ cup",
+                "unit": "Â¼ cup",
                 "kcal": 21,
                 "pro": 0.3,
                 "carbs": 5,
@@ -419,7 +419,7 @@
               {
                 "name": "Pineapple",
                 "qty": 1,
-                "unit": "¼ cup",
+                "unit": "Â¼ cup",
                 "kcal": 19,
                 "pro": 0.2,
                 "carbs": 5,
@@ -428,7 +428,7 @@
               {
                 "name": "Strawberries",
                 "qty": 1,
-                "unit": "¼ cup",
+                "unit": "Â¼ cup",
                 "kcal": 13,
                 "pro": 0.3,
                 "carbs": 3,
@@ -437,7 +437,7 @@
               {
                 "name": "Mango (smoothie)",
                 "qty": 2,
-                "unit": "¼ cup",
+                "unit": "Â¼ cup",
                 "kcal": 50,
                 "pro": 0.8,
                 "carbs": 12,
@@ -491,7 +491,7 @@
               {
                 "name": "Avocado",
                 "qty": 1,
-                "unit": "¼ avocado",
+                "unit": "Â¼ avocado",
                 "kcal": 65,
                 "pro": 1,
                 "carbs": 3.5,
@@ -536,7 +536,7 @@
               {
                 "name": "White Rice",
                 "qty": 2,
-                "unit": "¼ cup cooked",
+                "unit": "Â¼ cup cooked",
                 "kcal": 100,
                 "pro": 2,
                 "carbs": 22,
@@ -572,7 +572,7 @@
               {
                 "name": "Avocado",
                 "qty": 1,
-                "unit": "¼ avocado",
+                "unit": "Â¼ avocado",
                 "kcal": 65,
                 "pro": 1,
                 "carbs": 3.5,
@@ -638,7 +638,7 @@
               {
                 "name": "Blueberries",
                 "qty": 1,
-                "unit": "¼ cup",
+                "unit": "Â¼ cup",
                 "kcal": 21,
                 "pro": 0.3,
                 "carbs": 5,
@@ -647,7 +647,7 @@
               {
                 "name": "Pineapple",
                 "qty": 1,
-                "unit": "¼ cup",
+                "unit": "Â¼ cup",
                 "kcal": 19,
                 "pro": 0.2,
                 "carbs": 5,
@@ -656,7 +656,7 @@
               {
                 "name": "Strawberries",
                 "qty": 1,
-                "unit": "¼ cup",
+                "unit": "Â¼ cup",
                 "kcal": 13,
                 "pro": 0.3,
                 "carbs": 3,
@@ -665,7 +665,7 @@
               {
                 "name": "Mango (smoothie)",
                 "qty": 2,
-                "unit": "¼ cup",
+                "unit": "Â¼ cup",
                 "kcal": 50,
                 "pro": 0.8,
                 "carbs": 12,
@@ -719,7 +719,7 @@
               {
                 "name": "Avocado",
                 "qty": 1,
-                "unit": "¼ avocado",
+                "unit": "Â¼ avocado",
                 "kcal": 65,
                 "pro": 1,
                 "carbs": 3.5,
@@ -800,7 +800,7 @@
               {
                 "name": "White Rice",
                 "qty": 3,
-                "unit": "¼ cup cooked",
+                "unit": "Â¼ cup cooked",
                 "kcal": 150,
                 "pro": 3,
                 "carbs": 33,
@@ -809,7 +809,7 @@
               {
                 "name": "Avocado",
                 "qty": 1,
-                "unit": "¼ avocado",
+                "unit": "Â¼ avocado",
                 "kcal": 65,
                 "pro": 1,
                 "carbs": 3.5,
@@ -846,12 +846,12 @@
       "fat_g": 74,
       "tdee_estimate": 2500,
       "food_deficit": -158,
-      "exercise_calories_burned": 0,
-      "net_deficit": -158,
-      "cumulative_deficit": 14997,
+      "exercise_calories_burned": 350,
+      "net_deficit": 192,
+      "cumulative_deficit": 15347,
       "weight_lb": 177.5,
-      "gym_session": false,
-      "exercise_id": "",
+      "gym_session": true,
+      "exercise_id": "upper",
       "cardio_type": "none",
       "cardio_minutes": 0,
       "sleep_quality": 5,
@@ -884,7 +884,7 @@
               {
                 "name": "Blueberries",
                 "qty": 1.5,
-                "unit": "¼ cup",
+                "unit": "Â¼ cup",
                 "kcal": 32,
                 "pro": 0.5,
                 "carbs": 7.5,
@@ -893,7 +893,7 @@
               {
                 "name": "Pineapple",
                 "qty": 0.5,
-                "unit": "¼ cup",
+                "unit": "Â¼ cup",
                 "kcal": 10,
                 "pro": 0.1,
                 "carbs": 2.5,
@@ -902,7 +902,7 @@
               {
                 "name": "Strawberries",
                 "qty": 2,
-                "unit": "¼ cup",
+                "unit": "Â¼ cup",
                 "kcal": 26,
                 "pro": 0.6,
                 "carbs": 6,
@@ -956,7 +956,7 @@
               {
                 "name": "Avocado",
                 "qty": 1,
-                "unit": "¼ avocado",
+                "unit": "Â¼ avocado",
                 "kcal": 65,
                 "pro": 1,
                 "carbs": 3.5,
@@ -992,7 +992,7 @@
               {
                 "name": "White Rice",
                 "qty": 2,
-                "unit": "¼ cup cooked",
+                "unit": "Â¼ cup cooked",
                 "kcal": 100,
                 "pro": 2,
                 "carbs": 22,
