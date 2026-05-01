@@ -1,28 +1,28 @@
 {
-  "updated": "2026-04-27",
-  "workout": {
-    "date": "2026-04-29",
-    "day_label": "Wednesday, April 29",
-    "session_type": "Upper Body",
-    "is_gym_day": true,
-    "warmup": "Incline walk · 8-10 min · 3.3-3.5 mph · 6-8% incline",
-    "finisher": "Incline walk · 10 min · 3.4 mph · 6-8% incline",
-    "exercises": [
-      { "id": "A", "name": "Flat DB Bench Press", "detail": "57.5 lb × 10 · 3 sets", "rest": "90s rest", "note": "Up from 55s. Last session hit 12 on final set — time to bump. Control the descent, full press at top." },
-      { "id": "B", "name": "Cable Row", "detail": "135 lb × 10 · 3 sets", "rest": "90s rest", "note": "Hold 135 across all 3 sets. Full retraction at the back, don't let shoulders round on the way out." },
-      { "id": "C", "name": "Lat Pulldown", "detail": "120 lb × 10-12 · 3 sets", "rest": "75s rest", "note": "Lock in 120 across all sets. Pull to upper chest, controlled return — don't let it yank you up." },
-      { "id": "D", "name": "Shoulder Press (DB)", "detail": "35 lb × 10-12 · 3 sets", "rest": "75s rest", "note": "Full extension overhead, don't shrug at the top. If 12 feels easy on all 3 sets, go to 40s next time." },
-      { "id": "E", "name": "Face Pulls", "detail": "40 lb × 15 · 3 sets", "rest": "60s rest", "note": "Elbows high, pull to forehead, external rotate at the end. Rear delt + rotator cuff work — don't rush it." },
-      { "id": "F", "name": "Arms Superset: Rope Pushdown + Hammer Curl", "detail": "Rope pushdown 77 lb × 12 + Hammer curl 25 lb × 10 · 3 rounds", "rest": "60s between rounds", "note": "No rest between pushdown and curl. Lock elbows on pushdown, neutral grip on hammer — squeeze at the top." },
-      { "id": "G", "name": "Core Circuit: Dead Bug → Pallof Press → Bicycle Crunch", "detail": "Dead bug × 10/side → Pallof press 30 lb × 12/side → Bicycle crunch × 20 · 3 rounds", "rest": "Minimal rest between movements, 60s between rounds", "note": "Dead bug: lower back stays flat, move slow. Pallof: resist rotation, don't twist. Bicycle: controlled, not rushed." }
+    "updated": "2026-05-01",
+    "workout": {
+          "date": "2026-05-02",
+          "day_label": "Saturday, May 2",
+          "session_type": "Elevated HR Lower Body",
+          "is_gym_day": true,
+          "warmup": "Incline walk · 10 min · 3.5 mph · 8% incline — push the pace a bit to get HR climbing early",
+          "finisher": "Spin bike · 12 min · moderate-high resistance OR incline walk · 10 min · 3.5 mph · 8%",
+          "exercises": [
+                  {"id": "A", "name": "Leg Press", "detail": "345 lb × 10 · 3 sets", "rest": "90s rest", "note": "Clean at 335 last Monday — bumping 10 lb. Controlled tempo, no lockout at top. 1-2 RIR."},
+                  {"id": "B", "name": "Hip Thrust Machine", "detail": "140 lb × 12 · 3 sets", "rest": "60s rest", "note": "Hold at 140 — push for 14 on the last set. Squeeze glutes at top, no hyperextension. Short rest keeps HR up."},
+                  {"id": "C", "name": "Walking Lunge (DB)", "detail": "25 lb DBs × 10/leg · 3 sets", "rest": "60s rest", "note": "Step long, knee tracks over toe. Torso upright. Glute emphasis. These will get your heart rate moving."},
+                  {"id": "D", "name": "Leg Curl", "detail": "77 lb × 10-12 · 3 sets", "rest": "75s rest", "note": "You hit 77 on your final set last time — make it the standard today across all 3 sets. Controlled eccentric, full range."},
+                  {"id": "E", "name": "KB Swing (Two-Hand)", "detail": "30 lb × 15 · 3 sets", "rest": "45s rest", "note": "Drive from hips, not arms. Hinge back, explode forward. This is your HR spike — 45s rest is intentional. Keep form tight."},
+                  {"id": "F", "name": "Goblet Squat (KB)", "detail": "45 lb × 12 · 2 sets", "rest": "60s rest", "note": "Up from 40 lb. Heels elevated if mobility needs it. Can superset with KB Swings if energy is there."},
+                  {"id": "G", "name": "Core Circuit B", "detail": "Pallof Press 20 lb × 10/side + Ab Wheel × 8-10 + Bird Dog × 8/side · 2 rounds", "rest": "45s between exercises", "note": "Anti-rotation into rollout into stability. Go slow on ab wheel — only extend as far as lower back stays neutral."}
+          ]
+    },
+    "week": [
+          {"date": "2026-05-01", "day_short": "Fri May 1", "session_type": "Rest Day", "type": "rest", "note": "Recovery — light movement only"},
+          {"date": "2026-05-02", "day_short": "Sat May 2", "session_type": "Elevated HR Lower Body", "type": "gym", "note": "Leg press, hip thrust, lunges, KB swings — ~70 min"},
+          {"date": "2026-05-03", "day_short": "Sun May 3", "session_type": "Rest Day", "type": "rest", "note": "Full rest or light walk"},
+          {"date": "2026-05-04", "day_short": "Mon May 4", "session_type": "Upper Body", "type": "gym", "note": "Flat bench / pull focus — back to push/pull split"},
+          {"date": "2026-05-05", "day_short": "Tue May 5", "session_type": "Rest Day", "type": "rest", "note": "Rest or pickleball"},
+          {"date": "2026-05-06", "day_short": "Wed May 6", "session_type": "Lower Body", "type": "gym", "note": "Squat focus + progression"}
     ]
-  },
-  "week": [
-    { "date": "2026-04-27", "day_short": "Mon Apr 27", "session_type": "Lower Body ✓", "type": "gym", "note": "Done — leg press 335, leg curl 66/66/77, hip thrust 140, goblet squat 40, step-ups 2 sets" },
-    { "date": "2026-04-28", "day_short": "Tue Apr 28", "session_type": "Rest Day", "type": "rest", "note": "Full rest · stay on nutrition · post-dinner walk if energy allows" },
-    { "date": "2026-04-29", "day_short": "Wed Apr 29", "session_type": "Upper Body", "type": "gym", "note": "Flat bench 57.5s · cable row 135 · lat pulldown 120 · shoulder press 35s · face pulls · arms superset · core circuit" },
-    { "date": "2026-04-30", "day_short": "Thu Apr 30", "session_type": "Rest / Light Cardio", "type": "cardio", "note": "20-min jog or pickleball · easy pace · no gym" },
-    { "date": "2026-05-01", "day_short": "Fri May 1", "session_type": "Lower Body", "type": "gym", "note": "Leg press 345 · leg curl 77×3 · hip thrust 150 · goblet squat 45lb · step-ups 3 sets · core circuit" },
-    { "date": "2026-05-02", "day_short": "Sat May 2", "session_type": "Upper Body", "type": "gym", "note": "Follow-up upper · progressions from Wednesday" }
-  ]
 }
