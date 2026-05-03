@@ -369,7 +369,9 @@ html,body{height:100%;background:var(--bg);color:var(--text);font-family:-apple-
       <div class="card"><div class="cb" style="padding-top:14px">
         <textarea class="notes-ta" id="notes-ta" rows="3" placeholder="Any notes for today&#x2026;"></textarea>
       </div></div>
+      <div id="log-date-banner" style="text-align:center;font-size:12px;color:var(--text2);padding:4px 0 8px 0"></div>
       <button class="btn btn-g" id="save-day-btn">&#x2705; Save Day</button>
+      <button class="btn btn-p" id="new-day-btn">&#x1F4C5; New Day</button>
       <button class="btn btn-s" id="reset-today-btn">&#x1F504; Reset Today</button>
     </div>
     <!-- STATS TAB -->
@@ -590,8 +592,8 @@ const EXTRAS = [
 ];
 
 const EX_TYPES = [
-  {id:'upper',label:'Upper Body',icon:'💪',gymKcal:320,warmupKcal:50,cardioRate:5,gym:true,cardio:'incline walk',baseMins:10},
-  {id:'lower',label:'Lower Body',icon:'🦵',gymKcal:350,warmupKcal:50,cardioRate:5,gym:true,cardio:'incline walk',baseMins:10},
+  {id:'upper',label:'Upper Body',icon:'💪',gymKcal:400,warmupKcal:60,cardioRate:6,gym:true,cardio:'incline walk',baseMins:10},
+  {id:'lower',label:'Lower Body',icon:'🦵',gymKcal:440,warmupKcal:60,cardioRate:6,gym:true,cardio:'incline walk',baseMins:10},
   {id:'pickleball',label:'Pickleball',icon:'🏓',gymKcal:0,warmupKcal:0,cardioRate:7,gym:false,cardio:'pickleball',baseMins:50},
   {id:'jog',label:'Light Jog',icon:'🏃',gymKcal:0,warmupKcal:0,cardioRate:10,gym:false,cardio:'light jog',baseMins:20},
   {id:'walk',label:'Walk',icon:'🚶',gymKcal:0,warmupKcal:0,cardioRate:5,gym:false,cardio:'walk',baseMins:45},
@@ -907,7 +909,7 @@ function mealMacros(meal) {
 // ---- Today log ----
 function getOrInitToday(){
   let l = DB.getToday();
-  if(!l.date || l.date !== todayStr()){
+  if(!l.date){
     l = {date:todayStr(),weight_lb:null,sleep_quality:null,
          meals:{smoothie:null,lunch:null,snack:null,dinner:null,extras:[]},
          exercise:{id:'',kcal:0,gym:false,cardio:'none',mins:0},
@@ -915,6 +917,23 @@ function getOrInitToday(){
     DB.setToday(l);
   }
   return l;
+}
+
+function startNewDay(){
+  const data = DB.getData();
+  const l = DB.getToday();
+  // Check if today already saved
+  const alreadySaved = l.date && data.find(function(d){return d.date===l.date;});
+  if(!alreadySaved && l.date){
+    if(!confirm('Current day ('+l.date+') has not been saved yet. Start a new day anyway? Unsaved data will be lost.')){return;}
+  }
+  const nd = {date:todayStr(),weight_lb:null,sleep_quality:null,
+    meals:{smoothie:null,lunch:null,snack:null,dinner:null,extras:[]},
+    exercise:{id:'',kcal:0,gym:false,cardio:'none',mins:0},
+    coffee:{full:0,quarter:0,half:0,decaf:0},notes:''};
+  DB.setToday(nd);
+  renderLog();
+  toast('Started new day — '+todayStr());
 }
 
 function calcTotals(l){
@@ -2021,6 +2040,9 @@ function renderCoffee() {
 }
 
 function renderLog() {
+  const _ld = DB.getToday(); 
+  const _ldb = document.getElementById('log-date-banner');
+  if(_ldb){ const _ts=todayStr(); _ldb.textContent=_ld.date&&_ld.date!==_ts?'📅 Logging for '+_ld.date+' — tap New Day to log today':('📅 '+(_ld.date||_ts)); }
   renderSummary();
   renderAllMeals();
   renderExerciseGrid();
@@ -2106,6 +2128,7 @@ document.addEventListener('click', function(e) {
   if(e.target.id==='more-range-apply'){applyRangeFilter('more');return;}
   // Static buttons
   if(e.target.id==='save-day-btn'){saveDay();return;}
+  if(e.target.id==='new-day-btn'){startNewDay();return;}
   if(e.target.id==='reset-today-btn'){resetToday();return;}
   if(e.target.id==='export-btn'){exportData();return;}
   if(e.target.id==='import-btn'){importData();return;}
@@ -2495,6 +2518,65 @@ GitHubSync.init();
   data.sort(function(a,b){return a.date < b.date ? -1 : 1;});
   DB.setData(data);
   localStorage.setItem('_patch_v4','1');
+})();
+// Patch v5: Add May 2 data + update calorie burn estimates for past gym days
+(function patchV5() {
+  if(localStorage.getItem('_patch_v5')) return;
+  const data = DB.getData();
+  // Add May 2 entry
+  const may2idx = data.findIndex(function(d){return d.date==='2026-05-02';});
+  const may2 = {
+    "date":"2026-05-02","day_of_week":"Saturday",
+    "calories_consumed":2945,"calorie_target":1900,
+    "protein_g":155,"protein_target_g":140,
+    "carbs_g":237,"fat_g":98,
+    "tdee_estimate":2500,"food_deficit":-1045,
+    "exercise_calories_burned":0,
+    "net_deficit":-445,
+    "cumulative_deficit":16452,
+    "weight_lb":null,"gym_session":false,"exercise_id":"",
+    "cardio_type":"none","cardio_minutes":0,
+    "sleep_quality":null,"energy_level":null,"cns_flags":false,
+    "coffee_full":0,"coffee_quarter":0,"coffee_half":0,"coffee_decaf":0,
+    "log_completeness":"complete",
+    "notes":"Standard smoothie. Burrito lunch: 60g sausage, cheese, 2 eggs, ¼c rice, ¼c beans. Snack: chicken focaccia sandwich + handful plantain chips. 2 White Claws + ½ bottle red wine. Dinner: spaghetti & meatballs (150g meat, 80g dry pasta, ½c tomato sauce).",
+    "meals_detail":{
+      "slots":{
+        "smoothie":{"label":"Standard","kcal":340,"pro":27,"carbs":57,"fat":2,
+          "items":[{"name":"Standard Smoothie","qty":1,"unit":"serving","kcal":340,"pro":27,"carbs":57,"fat":2}]},
+        "lunch":{"label":"Burrito","kcal":801,"pro":42,"carbs":51,"fat":45,
+          "items":[
+            {"name":"Sausage patty","qty":60,"unit":"g","kcal":230,"pro":13,"carbs":1,"fat":19},
+            {"name":"Cheese slice","qty":35,"unit":"g","kcal":140,"pro":9,"carbs":1,"fat":11},
+            {"name":"White Rice","qty":1,"unit":"¼c cup cooked","kcal":50,"pro":1,"carbs":11,"fat":0},
+            {"name":"Beans (cooked)","qty":1,"unit":"¼c cup","kcal":55,"pro":3,"carbs":10,"fat":0},
+            {"name":"Whole Egg","qty":2,"unit":"egg","kcal":156,"pro":12,"carbs":1.2,"fat":10.6},
+            {"name":"Flour tortilla (large)","qty":1,"unit":"tortilla","kcal":170,"pro":4,"carbs":27,"fat":4}
+          ]},
+        "snack":{"label":"Chicken focaccia + chips","kcal":550,"pro":46,"carbs":51,"fat":17,
+          "items":[
+            {"name":"Chicken breast (shredded)","qty":120,"unit":"g","kcal":200,"pro":40,"carbs":0,"fat":4},
+            {"name":"Focaccia bread","qty":80,"unit":"g","kcal":200,"pro":5,"carbs":32,"fat":6},
+            {"name":"Plantain chips","qty":30,"unit":"g","kcal":150,"pro":1,"carbs":19,"fat":7}
+          ]},
+        "dinner":{"label":"Spaghetti & Meatballs","kcal":735,"pro":40,"carbs":65,"fat":34,
+          "items":[
+            {"name":"Ground beef (meatballs)","qty":150,"unit":"g","kcal":375,"pro":28,"carbs":0,"fat":28},
+            {"name":"Dry pasta (spaghetti)","qty":80,"unit":"g dry","kcal":280,"pro":10,"carbs":57,"fat":1},
+            {"name":"Tomato sauce","qty":0.5,"unit":"cup","kcal":40,"pro":2,"carbs":8,"fat":0.5},
+            {"name":"Olive oil","qty":1,"unit":"tsp","kcal":40,"pro":0,"carbs":0,"fat":4.5}
+          ]}
+      },
+      "extras":[
+        {"name":"2× White Claw","kcal":200},
+        {"name":"Red wine (½ bottle)","kcal":319}
+      ]
+    }
+  };
+  if(may2idx === -1) { data.push(may2); } else { data[may2idx] = may2; }
+  data.sort(function(a,b){return a.date < b.date ? -1 : 1;});
+  DB.setData(data);
+  localStorage.setItem('_patch_v5','1');
 })();
 renderAll();
 </script>
