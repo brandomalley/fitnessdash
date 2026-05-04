@@ -282,7 +282,7 @@ html,body{height:100%;background:var(--bg);color:var(--text);font-family:-apple-
         </div>
         <div class="defrow">
           <div class="ditem"><div class="dv" id="def-food">+0</div><div class="dl">Food Deficit</div></div>
-          <div class="ditem"><div class="dv dim" id="def-ex">+0</div><div class="dl">ð¥ Burned</div></div>
+          <div class="ditem"><div class="dv dim" id="def-ex">+0</div><div class="dl">🔥 Burned</div></div>
           <div class="ditem"><div class="dv text-g bold" id="def-net">+0</div><div class="dl">Net Deficit</div></div>
         </div>
       </div>
@@ -422,7 +422,7 @@ html,body{height:100%;background:var(--bg);color:var(--text);font-family:-apple-
       <div class="sec" style="margin-top:16px">Finisher</div>
       <div id="wk-calories-burned" style="display:none;text-align:center;font-size:15px;font-weight:600;color:var(--green);padding:10px 0 4px 0"></div>
       <div id="wk-finisher-check"></div>
-      <button class="wk-log-btn" id="log-workout-btn" onclick="openWorkoutLog()">ðª Log Completed Workout</button>
+      <button class="wk-log-btn" id="log-workout-btn" onclick="openWorkoutLog()">💪 Log Completed Workout</button>
     </div>
     <!-- MORE TAB -->
     <div class="tab" id="tab-more">
@@ -452,13 +452,13 @@ html,body{height:100%;background:var(--bg);color:var(--text);font-family:-apple-
         Ingredient Library
         <button id="add-custom-ingr-lib-btn" style="background:var(--blue);border:none;border-radius:8px;color:#fff;font-size:11px;font-weight:600;padding:4px 10px;cursor:pointer">+ Add Food</button>
       </div>
-      <input type="search" id="ingr-lib-search" class="ingr-search" placeholder="Search foodsâ¦" style="margin-bottom:8px">
+      <input type="search" id="ingr-lib-search" class="ingr-search" placeholder="Search foods…" style="margin-bottom:8px">
       <div id="ingr-lib-list"></div>
       <div class="sec">GitHub Sync</div>
       <div class="card"><div class="cb" style="padding:14px">
         <div style="font-size:12px;color:var(--text2);margin-bottom:10px;line-height:1.5">Auto-syncs your data to GitHub on every Save Day so your coach always has the latest.</div>
-        <div id="gh-sync-status" style="font-size:12px;font-weight:600;margin-bottom:10px;color:var(--text2)">âª Not connected</div>
-        <input type="password" id="gh-token-inp" placeholder="Paste GitHub token hereâ¦"
+        <div id="gh-sync-status" style="font-size:12px;font-weight:600;margin-bottom:10px;color:var(--text2)">⚪ Not connected</div>
+        <input type="password" id="gh-token-inp" placeholder="Paste GitHub token here…"
           style="width:100%;box-sizing:border-box;background:var(--card2);border:1px solid var(--border);border-radius:8px;color:var(--text);font-size:13px;padding:8px 10px;outline:none;margin-bottom:8px">
         <button class="btn btn-p" id="gh-save-btn" style="margin-bottom:0">&#x1F517; Save Token &amp; Connect</button>
       </div></div>
@@ -495,27 +495,27 @@ html,body{height:100%;background:var(--bg);color:var(--text);font-family:-apple-
 // ---- Data constants ----
 const INGR = {
   banana:      {name:'Banana',        unit:'whole',       step:0.5,  kcal:105,  pro:1.3,  carbs:27,  fat:0.4},
-  blueberries: {name:'Blueberries',   unit:'Â¼ cup',  step:0.5,  kcal:21,   pro:0.3,  carbs:5,   fat:0.1},
-  pineapple:   {name:'Pineapple',     unit:'Â¼ cup',  step:0.5,  kcal:19,   pro:0.2,  carbs:5,   fat:0.1},
-  strawberries:{name:'Strawberries',  unit:'Â¼ cup',  step:0.5,  kcal:13,   pro:0.3,  carbs:3,   fat:0.1},
-  papaya:      {name:'Papaya',        unit:'Â¼ cup',  step:0.5,  kcal:14,   pro:0.2,  carbs:4,   fat:0.1},
-  mango_s:     {name:'Mango (smoothie)',unit:'Â¼ cup', step:0.5,  kcal:25,   pro:0.4,  carbs:6,   fat:0.1},
+  blueberries: {name:'Blueberries',   unit:'¼ cup',  step:0.5,  kcal:21,   pro:0.3,  carbs:5,   fat:0.1},
+  pineapple:   {name:'Pineapple',     unit:'¼ cup',  step:0.5,  kcal:19,   pro:0.2,  carbs:5,   fat:0.1},
+  strawberries:{name:'Strawberries',  unit:'¼ cup',  step:0.5,  kcal:13,   pro:0.3,  carbs:3,   fat:0.1},
+  papaya:      {name:'Papaya',        unit:'¼ cup',  step:0.5,  kcal:14,   pro:0.2,  carbs:4,   fat:0.1},
+  mango_s:     {name:'Mango (smoothie)',unit:'¼ cup', step:0.5,  kcal:25,   pro:0.4,  carbs:6,   fat:0.1},
   oj:          {name:'Orange Juice',  unit:'tbsp',        step:1,    kcal:7,    pro:0.1,  carbs:1.7, fat:0},
   protein_pwd: {name:'Protein Powder',unit:'scoop (30g)', step:0.5,  kcal:120,  pro:24,   carbs:3,   fat:1},
   lettuce:     {name:'Lettuce',       unit:'cup',         step:0.5,  kcal:10,   pro:0.5,  carbs:2,   fat:0.1},
   sweet_potato:{name:'Sweet Potato',  unit:'cup cooked',  step:0.25, kcal:130,  pro:3,    carbs:30,  fat:0.1},
-  avocado:     {name:'Avocado',       unit:'Â¼ avocado',step:1,  kcal:65,   pro:1,    carbs:3.5, fat:6},
+  avocado:     {name:'Avocado',       unit:'¼ avocado',step:1,  kcal:65,   pro:1,    carbs:3.5, fat:6},
   tofu_dress:  {name:'Tofu Dressing', unit:'tbsp',        step:0.5,  kcal:38,   pro:1,    carbs:1,   fat:2.5},
   egg_whole:   {name:'Whole Egg',     unit:'egg',         step:1,    kcal:78,   pro:6,    carbs:0.6, fat:5.3},
   egg_white:   {name:'Egg White',     unit:'white',       step:1,    kcal:17,   pro:3.5,  carbs:0,   fat:0},
-  white_rice:  {name:'White Rice',    unit:'Â¼ cup cooked',step:0.5,kcal:50, pro:1,   carbs:11,  fat:0},
+  white_rice:  {name:'White Rice',    unit:'¼ cup cooked',step:0.5,kcal:50, pro:1,   carbs:11,  fat:0},
   chicken:     {name:'Chicken Breast',unit:'g',           step:10,   kcal:1.67, pro:0.333,carbs:0,   fat:0.04},
   tuna:        {name:'Tuna',          unit:'g',           step:5,    kcal:1.1,  pro:0.25, carbs:0,   fat:0.01},
   butternut_sq:{name:'Butternut Squash',unit:'cup',       step:0.25, kcal:63,   pro:1.4,  carbs:16,  fat:0.1},
   zucchini:    {name:'Zucchini',      unit:'cup',         step:0.25, kcal:20,   pro:1.5,  carbs:4,   fat:0.2},
   carrots:     {name:'Carrots',       unit:'cup',         step:0.25, kcal:52,   pro:1.2,  carbs:12,  fat:0.3},
   cucumber:    {name:'Cucumber',      unit:'cup',         step:0.25, kcal:16,   pro:0.7,  carbs:4,   fat:0.1},
-  mango_d:     {name:'Mango (dinner)',unit:'Â¼ cup',  step:0.5,  kcal:25,   pro:0.4,  carbs:6,   fat:0.1},
+  mango_d:     {name:'Mango (dinner)',unit:'¼ cup',  step:0.5,  kcal:25,   pro:0.4,  carbs:6,   fat:0.1},
   cauli_rice:  {name:'Cauliflower Rice',unit:'cup',       step:0.25, kcal:25,   pro:2,    carbs:5,   fat:0.3},
   bell_pepper: {name:'Bell Pepper',   unit:'cup',         step:0.25, kcal:31,   pro:1,    carbs:7,   fat:0.3},
   soy_sauce:   {name:'Soy Sauce',     unit:'tbsp',        step:0.5,  kcal:9,    pro:1.3,  carbs:1,   fat:0},
@@ -592,12 +592,12 @@ const EXTRAS = [
 ];
 
 const EX_TYPES = [
-  {id:'upper',label:'Upper Body',icon:'ðª',gymKcal:400,warmupKcal:60,cardioRate:6,gym:true,cardio:'incline walk',baseMins:10},
-  {id:'lower',label:'Lower Body',icon:'ð¦µ',gymKcal:440,warmupKcal:60,cardioRate:6,gym:true,cardio:'incline walk',baseMins:10},
-  {id:'pickleball',label:'Pickleball',icon:'ð',gymKcal:0,warmupKcal:0,cardioRate:7,gym:false,cardio:'pickleball',baseMins:50},
-  {id:'jog',label:'Light Jog',icon:'ð',gymKcal:0,warmupKcal:0,cardioRate:10,gym:false,cardio:'light jog',baseMins:20},
-  {id:'walk',label:'Walk',icon:'ð¶',gymKcal:0,warmupKcal:0,cardioRate:5,gym:false,cardio:'walk',baseMins:45},
-  {id:'rest',label:'Rest Day',icon:'ð´',gymKcal:0,warmupKcal:0,cardioRate:0,gym:false,cardio:'none',baseMins:0}
+  {id:'upper',label:'Upper Body',icon:'💪',gymKcal:400,warmupKcal:60,cardioRate:6,gym:true,cardio:'incline walk',baseMins:10},
+  {id:'lower',label:'Lower Body',icon:'🦵',gymKcal:440,warmupKcal:60,cardioRate:6,gym:true,cardio:'incline walk',baseMins:10},
+  {id:'pickleball',label:'Pickleball',icon:'🏓',gymKcal:0,warmupKcal:0,cardioRate:7,gym:false,cardio:'pickleball',baseMins:50},
+  {id:'jog',label:'Light Jog',icon:'🏃',gymKcal:0,warmupKcal:0,cardioRate:10,gym:false,cardio:'light jog',baseMins:20},
+  {id:'walk',label:'Walk',icon:'🚶',gymKcal:0,warmupKcal:0,cardioRate:5,gym:false,cardio:'walk',baseMins:45},
+  {id:'rest',label:'Rest Day',icon:'😴',gymKcal:0,warmupKcal:0,cardioRate:0,gym:false,cardio:'none',baseMins:0}
 ];
 function calcExKcal(p, mins, finisherDone) {
   if(!p || p.id==='rest') return 0;
@@ -717,7 +717,7 @@ const FileSync = {
       this._handle = handle;
       await this._saveHandle(handle);
       this._updateUI('connected');
-      toast('â Live sync connected!');
+      toast('✅ Live sync connected!');
       FileSync.writeCSV(DB.getData());
     } catch(e) {
       if(e.name!=='AbortError') toast('Could not connect file');
@@ -732,10 +732,10 @@ const FileSync = {
       if(perm==='granted'){
         this._handle=handle;
         this._updateUI('connected');
-        toast('â Sync reconnected!');
+        toast('✅ Sync reconnected!');
         FileSync.writeCSV(DB.getData());
       } else {
-        toast('Permission denied â try reconnecting');
+        toast('Permission denied — try reconnecting');
       }
     } catch(e){toast('Could not reconnect');}
   },
@@ -759,17 +759,17 @@ const FileSync = {
     const note = document.getElementById('sync-note');
     if(!btn) return;
     if(status==='connected'){
-      btn.textContent='ð¢ Live Sync Active';
+      btn.textContent='🟢 Live Sync Active';
       btn.className='btn btn-s';
       btn.onclick=null;
       if(note) note.textContent='CSV updates automatically every time you save a day.';
     } else if(status==='needs-reconnect'){
-      btn.textContent='ð¡ Tap to Reconnect Sync';
+      btn.textContent='🟡 Tap to Reconnect Sync';
       btn.className='btn btn-p';
       btn.onclick=function(){FileSync.reconnect();};
-      if(note) note.textContent='New browser session â tap once to reconnect.';
+      if(note) note.textContent='New browser session — tap once to reconnect.';
     } else {
-      btn.textContent='ð Connect Live Sync';
+      btn.textContent='🔗 Connect Live Sync';
       btn.className='btn btn-p';
       btn.onclick=function(){FileSync.connect();};
       if(note) note.textContent='Select your fitness-tracker.csv so it updates automatically on every save.';
@@ -823,7 +823,7 @@ const GitHubSync = {
   push: async function(data) {
     const token = this.getToken();
     if(!token) return;
-    this._setStatus('â³ Syncingâ¦', 'var(--text2)');
+    this._setStatus('⏳ Syncing…', 'var(--text2)');
     try {
       const sha = await this._getSHA();
       const payload = JSON.stringify({exported:new Date().toISOString(), raw_data:data}, null, 2);
@@ -838,10 +838,10 @@ const GitHubSync = {
         method: 'PUT', headers: this._headers(), body: JSON.stringify(body)
       });
       if(!res.ok) throw new Error('Push failed: '+res.status);
-      this._setStatus('â Synced '+new Date().toLocaleTimeString([], {hour:'2-digit',minute:'2-digit'}), 'var(--green)');
+      this._setStatus('✅ Synced '+new Date().toLocaleTimeString([], {hour:'2-digit',minute:'2-digit'}), 'var(--green)');
     } catch(e) {
       console.error('GitHubSync:', e);
-      this._setStatus('â ï¸ Sync failed â check token', 'var(--yellow)');
+      this._setStatus('⚠️ Sync failed — check token', 'var(--yellow)');
     }
   },
 
@@ -852,14 +852,14 @@ const GitHubSync = {
 
   init: function() {
     const token = this.getToken();
-    if(token) this._setStatus('ð¢ Connected', 'var(--green)');
+    if(token) this._setStatus('🟢 Connected', 'var(--green)');
     const btn = document.getElementById('gh-save-btn');
     if(btn) btn.addEventListener('click', function(){
       const t = document.getElementById('gh-token-inp').value.trim();
       if(!t){ toast('Paste your token first'); return; }
       GitHubSync.setToken(t);
       document.getElementById('gh-token-inp').value = '';
-      GitHubSync._setStatus('ð¢ Connected', 'var(--green)');
+      GitHubSync._setStatus('🟢 Connected', 'var(--green)');
       toast('GitHub sync connected!');
       GitHubSync.push(DB.getData());
     });
@@ -922,6 +922,22 @@ function getOrInitToday(){
 function startNewDay(){
   const data = DB.getData();
   const l = DB.getToday();
+  const alreadySaved = l.date && data.find(function(d){return d.date===l.date;});
+  if(!alreadySaved && l.date){
+    if(!confirm('Current day ('+l.date+') has not been saved. Start a new day anyway?')){return;}
+  }
+  const nd = {date:todayStr(),weight_lb:null,sleep_quality:null,
+    meals:{smoothie:null,lunch:null,snack:null,dinner:null,extras:[]},
+    exercise:{id:'',kcal:0,gym:false,cardio:'none',mins:0},
+    coffee:{full:0,quarter:0,half:0,decaf:0},notes:''};
+  DB.setToday(nd);
+  renderLog();
+  toast('Started new day — '+todayStr());
+}
+
+function startNewDay(){
+  const data = DB.getData();
+  const l = DB.getToday();
   // Check if today already saved
   const alreadySaved = l.date && data.find(function(d){return d.date===l.date;});
   if(!alreadySaved && l.date){
@@ -933,7 +949,7 @@ function startNewDay(){
     coffee:{full:0,quarter:0,half:0,decaf:0},notes:''};
   DB.setToday(nd);
   renderLog();
-  toast('Started new day â '+todayStr());
+  toast('Started new day — '+todayStr());
 }
 
 function calcTotals(l){
@@ -984,7 +1000,7 @@ function renderMealBadge(slot, meal) {
   const badge = document.getElementById('meal-badge-'+slot);
   const body = document.getElementById('meal-body-'+slot);
   const isOpen = body && body.classList.contains('open');
-  const arrow = isOpen ? 'â´' : 'â¾';
+  const arrow = isOpen ? '▴' : '▾';
   if(!meal) {
     badge.textContent = 'Not logged '+arrow;
     badge.className = 'meal-badge dim';
@@ -1067,7 +1083,7 @@ function renderMealBody(slot) {
     });
     html += '</div>';
   }
-  // Add ingredient button â shown for all logged meals (including presets)
+  // Add ingredient button — shown for all logged meals (including presets)
   if(meal && !meal.skip) {
     html += '<button class="add-ingr-btn" data-add-ingr-slot="'+slot+'">+ Add Ingredient</button>';
   } else if(!meal) {
@@ -1082,7 +1098,7 @@ function renderExtrasBody() {
   const body = document.getElementById('meal-body-extras');
   const badge = document.getElementById('meal-badge-extras');
   const isOpen = body.classList.contains('open');
-  const arrow = isOpen ? 'â´' : 'â¾';
+  const arrow = isOpen ? '▴' : '▾';
   if(extras.length>0) {
     badge.textContent = extras.length+' item'+(extras.length>1?'s':'')+' '+arrow;
     badge.className = 'meal-badge';
@@ -1216,7 +1232,7 @@ let _addIngrSlot = '';
 function openAddIngrModal(slot) {
   _addIngrSlot = slot;
   document.getElementById('modal-title').textContent = 'Add Ingredient';
-  document.getElementById('modal-sub').textContent = 'Search or scroll â tap + to add';
+  document.getElementById('modal-sub').textContent = 'Search or scroll — tap + to add';
   const body = document.getElementById('modal-body');
   const allIngr = getAllIngr();
   body.innerHTML = buildIngrPickerHTML(Object.keys(allIngr));
@@ -1236,7 +1252,7 @@ function openAddIngrModal(slot) {
 }
 
 function buildIngrPickerHTML(keys) {
-  return '<input class="ingr-search" id="ingr-search-input" placeholder="Search ingredientsâ¦" type="text">'
+  return '<input class="ingr-search" id="ingr-search-input" placeholder="Search ingredients…" type="text">'
     + '<div id="ingr-pick-list">'+buildIngrPickerRows(keys)+'</div>'
     + '<div style="margin:12px 0 4px">'
     + '<div class="sec" style="margin:0 0 6px">Not in the list? Search USDA database</div>'
@@ -1335,7 +1351,7 @@ function renderIngredientLibrary(filter) {
     const isCustom = !INGR[k];
     return '<div class="info-row" style="flex-direction:column;align-items:flex-start;gap:3px;padding:10px 0">'
       +'<div style="display:flex;justify-content:space-between;width:100%;align-items:center">'
-      +'<span style="font-size:13px;font-weight:600">'+(isCustom?'â­ ':'')+esc(i.name)+'</span>'
+      +'<span style="font-size:13px;font-weight:600">'+(isCustom?'⭐ ':'')+esc(i.name)+'</span>'
       +'<span style="font-size:13px;color:var(--green);font-weight:700">'+round1(i.kcal)+' kcal</span>'
       +'</div>'
       +'<div style="display:flex;justify-content:space-between;width:100%">'
@@ -1378,13 +1394,13 @@ function saveCustomIngrLib() {
   INGR[key] = custom[key];
   closeModal();
   renderIngredientLibrary(document.getElementById('ingr-lib-search')?document.getElementById('ingr-lib-search').value:'');
-  toast('â Food saved to library!');
+  toast('✅ Food saved to library!');
 }
 
 // ---- Extras modal ----
 function openExtrasModal() {
-  document.getElementById('modal-title').textContent = 'Extras & Drinks â';
-  document.getElementById('modal-sub').textContent = 'Tap to add â can add multiples';
+  document.getElementById('modal-title').textContent = 'Extras & Drinks ➕';
+  document.getElementById('modal-sub').textContent = 'Tap to add — can add multiples';
   const body = document.getElementById('modal-body');
   body.innerHTML = EXTRAS.map(function(e,i){
     return '<button class="mp" data-extra-idx="'+i+'">'
@@ -1443,12 +1459,12 @@ function renderExerciseGrid() {
     const showDur = !['upper','lower'].includes(ex.id);
     document.getElementById('ex-dur-lbl').textContent = showDur?'Duration':'Cardio incl. (min)';
     document.getElementById('ex-dur').value = ex.mins||0;
-    document.getElementById('ex-burn').textContent = 'ð¥ +'+ex.kcal+' kcal burned';
+    document.getElementById('ex-burn').textContent = '🔥 +'+ex.kcal+' kcal burned';
   } else if(ex.id==='rest') {
     det.style.display='block';
     document.getElementById('ex-dur-lbl').textContent='Rest day';
     document.getElementById('ex-dur').value=0;
-    document.getElementById('ex-burn').textContent='ð´ Recovery â focus on nutrition';
+    document.getElementById('ex-burn').textContent='😴 Recovery — focus on nutrition';
   } else {
     det.style.display='none';
   }
@@ -1713,9 +1729,9 @@ function renderWorkout() {
         +'<div class="ex-det">'+esc(e.detail)+'</div>'
         +(e.rest?'<div style="font-size:11px;color:var(--text2);margin-bottom:3px">&#x23F1; '+esc(e.rest)+'</div>':'')
         +'</div>'
-        +'<button class="ex-chk'+(done?' done':'')+'" data-chk-date="'+wDate+'" data-chk-id="'+esc(e.id)+'">'+(done?'â':'')+'</button>'
+        +'<button class="ex-chk'+(done?' done':'')+'" data-chk-date="'+wDate+'" data-chk-id="'+esc(e.id)+'">'+(done?'✓':'')+'</button>'
         +'</div>'
-        +'<textarea class="wk-note-ta" rows="2" placeholder="Notes: actual weights, reps, how it feltâ¦"'
+        +'<textarea class="wk-note-ta" rows="2" placeholder="Notes: actual weights, reps, how it felt…"'
         +' data-note-date="'+wDate+'" data-note-id="'+esc(e.id)+'">'+esc(note)+'</textarea>'
         +'</div>';
     }).join('');
@@ -1724,7 +1740,7 @@ function renderWorkout() {
     const sessionNotesEl = document.getElementById('wk-session-notes');
     if(sessionNotesEl) {
       sessionNotesEl.innerHTML = '<div class="sec" style="margin-top:16px">Overall Session Notes</div>'
-        +'<textarea class="wk-note-ta" rows="3" placeholder="How did the session feel overall? Time, energy, anything notableâ¦"'
+        +'<textarea class="wk-note-ta" rows="3" placeholder="How did the session feel overall? Time, energy, anything notable…"'
         +' style="width:100%;box-sizing:border-box;padding:10px;border-radius:8px;border:1px solid var(--border);background:var(--card);color:var(--text);font-size:13px;resize:vertical"'
         +' data-note-date="'+wDate+'" data-note-id="session">'+esc(sessionNote)+'</textarea>';
     }
@@ -1733,9 +1749,9 @@ function renderWorkout() {
     const finisherDone = !!localStorage.getItem('fit_finisher_'+wDate);
     if(finisherEl) {
       finisherEl.innerHTML = '<div class="ex-card" style="flex-direction:row;align-items:center;gap:12px;padding:12px 14px">'
-        +'<button class="ex-chk'+(finisherDone?' done':'')+'" id="finisher-chk-btn" style="flex-shrink:0">'+(finisherDone?'â':'')+'</button>'
-        +'<div><div class="ex-name" style="font-size:13px">Finisher: Incline Walk Â· 10 min</div>'
-        +'<div style="font-size:11px;color:var(--text2);margin-top:2px">'+(finisherDone?'+50 kcal counted':'Tap to mark complete Â· +50 kcal')+'</div>'
+        +'<button class="ex-chk'+(finisherDone?' done':'')+'" id="finisher-chk-btn" style="flex-shrink:0">'+(finisherDone?'✓':'')+'</button>'
+        +'<div><div class="ex-name" style="font-size:13px">Finisher: Incline Walk · 10 min</div>'
+        +'<div style="font-size:11px;color:var(--text2);margin-top:2px">'+(finisherDone?'+50 kcal counted':'Tap to mark complete · +50 kcal')+'</div>'
         +'</div></div>';
       document.getElementById('finisher-chk-btn') && document.getElementById('finisher-chk-btn').addEventListener('click', function(){
         if(localStorage.getItem('fit_finisher_'+wDate)) {
@@ -1756,7 +1772,7 @@ function renderWorkout() {
       const kcalNow=calcCheckedKcal(workout,checks,finNow);
       if(doneNow>0||finNow){
         calBurnedEl.style.display="block";
-        calBurnedEl.textContent="ð¥ "+kcalNow+" kcal burned ("+doneNow+"/"+totalNow+" exercises"+(finNow?" + finisher":"")+")";
+        calBurnedEl.textContent="🔥 "+kcalNow+" kcal burned ("+doneNow+"/"+totalNow+" exercises"+(finNow?" + finisher":"")+")";
       }else{calBurnedEl.style.display="none";}
     }
     // Show logged state (Fix 3)
@@ -1808,9 +1824,9 @@ function renderMore() {
       +'<div class="hdot" style="background:'+dotColor+'"></div>'
       +'<div class="hdate"><div class="hd">'+fmtDate(d.date)+'</div><div class="hday">'+fmtDay(d.date)+'</div></div>'
       +'<div class="hmac"><div class="hk">'+d.calories_consumed+' kcal</div>'
-      +'<div class="hp">'+d.protein_g+'g pro'+(isGym?' ðï¸':d.cardio_type&&d.cardio_type!=='none'?' ð':'')+'</div></div>'
+      +'<div class="hp">'+d.protein_g+'g pro'+(isGym?' 🏋️':d.cardio_type&&d.cardio_type!=='none'?' 🏃':'')+'</div></div>'
       +'<div class="hdef"><div class="hd2 '+defColor+'">'+(nd>=0?'+':'')+nd+'</div><div class="hl">net deficit</div></div>'
-      +'<div style="font-size:16px;color:var(--text2);padding-left:4px">âº</div>'
+      +'<div style="font-size:16px;color:var(--text2);padding-left:4px">›</div>'
       +'</div>';
   }).join('');
 }
@@ -1835,7 +1851,7 @@ function openDayDetail(date) {
   let html = '';
 
   // Nutrition block
-  html += '<div class="ib-ttl">ð¥ Nutrition</div>';
+  html += '<div class="ib-ttl">🥗 Nutrition</div>';
   html += '<div class="info-box" style="margin-bottom:12px">';
   html += row('Calories', d.calories_consumed+' / '+d.calorie_target+' kcal', calOver?'var(--red)':'var(--green)');
   html += row('Protein',  d.protein_g+'g / '+d.protein_target_g+'g target', d.protein_g>=d.protein_target_g?'var(--green)':'var(--orange)');
@@ -1845,10 +1861,10 @@ function openDayDetail(date) {
   html += '</div>';
 
   // Deficit block
-  html += '<div class="ib-ttl">ð Deficit</div>';
+  html += '<div class="ib-ttl">📊 Deficit</div>';
   html += '<div class="info-box" style="margin-bottom:12px">';
   html += row('Food Deficit',  '+'+(d.food_deficit||0)+' kcal');
-  html += row('ð¥ Burned',     '+'+(d.exercise_calories_burned||0)+' kcal', d.exercise_calories_burned>0?'var(--green)':'var(--text2)');
+  html += row('🔥 Burned',     '+'+(d.exercise_calories_burned||0)+' kcal', d.exercise_calories_burned>0?'var(--green)':'var(--text2)');
   html += row('Net Deficit',   (nd>=0?'+':'')+nd+' kcal', defColor);
   html += row('Running Total', (d.cumulative_deficit||0).toLocaleString()+' kcal cumulative');
   html += row('Est. Fat Lost', ((d.cumulative_deficit||0)/3500).toFixed(2)+' lb total');
@@ -1860,53 +1876,53 @@ function openDayDetail(date) {
   const exType = d.exercise_id ? EX_TYPES.find(function(e){return e.id===d.exercise_id;}) : null;
   if(exType) {
     if(exType.gymKcal > 0) {
-      // Gym session â show split
+      // Gym session — show split
       const week = DB.getWeek();
       const wkDay = week.find(function(w){return w.date===date;});
       const sessionLabel = (wkDay && wkDay.session_type) ? wkDay.session_type : exType.label;
-      html += row('ðª '+sessionLabel+' (strength)', '+'+exType.gymKcal+' kcal', 'var(--green)');
+      html += row('💪 '+sessionLabel+' (strength)', '+'+exType.gymKcal+' kcal', 'var(--green)');
       const cardioKcal = Math.round((exType.cardioRate||0) * (d.cardio_minutes||0));
       if(d.cardio_minutes > 0)
-        html += row('ð¶ '+d.cardio_type+' Â· '+d.cardio_minutes+' min', '+'+cardioKcal+' kcal', 'var(--green)');
+        html += row('🚶 '+d.cardio_type+' · '+d.cardio_minutes+' min', '+'+cardioKcal+' kcal', 'var(--green)');
     } else if(exType.id !== 'rest') {
       // Pure cardio
-      html += row(exType.icon+' '+exType.label+' Â· '+(d.cardio_minutes||0)+' min',
+      html += row(exType.icon+' '+exType.label+' · '+(d.cardio_minutes||0)+' min',
                   '+'+(d.exercise_calories_burned||0)+' kcal', 'var(--green)');
     } else {
-      html += row('Activity', 'ð´ Rest day');
+      html += row('Activity', '😴 Rest day');
     }
   } else if(isGym) {
     // Historical entry without exercise_id
     const week = DB.getWeek();
     const wkDay = week.find(function(w){return w.date===date;});
     const sessionLabel = (wkDay && wkDay.session_type) ? wkDay.session_type : 'Gym session';
-    html += row('ðª '+sessionLabel, '+'+(d.exercise_calories_burned||0)+' kcal total', 'var(--green)');
-    if(hasCardio) html += row('ð¶ '+d.cardio_type+' Â· '+d.cardio_minutes+' min', 'included', 'var(--text2)');
+    html += row('💪 '+sessionLabel, '+'+(d.exercise_calories_burned||0)+' kcal total', 'var(--green)');
+    if(hasCardio) html += row('🚶 '+d.cardio_type+' · '+d.cardio_minutes+' min', 'included', 'var(--text2)');
   } else if(hasCardio) {
-    html += row('ð '+(d.cardio_type||'Cardio')+' Â· '+d.cardio_minutes+' min',
+    html += row('🏃 '+(d.cardio_type||'Cardio')+' · '+d.cardio_minutes+' min',
                 '+'+(d.exercise_calories_burned||0)+' kcal', 'var(--green)');
   } else {
-    html += row('Activity', 'ð´ Rest day');
+    html += row('Activity', '😴 Rest day');
   }
-  if(d.sleep_quality) html += row('ð´ Sleep', d.sleep_quality+' / 10');
+  if(d.sleep_quality) html += row('😴 Sleep', d.sleep_quality+' / 10');
   if(d.energy_level)  html += row('Energy', d.energy_level+' / 10');
   const cofParts = [];
-  if(d.coffee_full)    cofParts.push(d.coffee_full+'Ã full caf');
-  if(d.coffee_quarter) cofParts.push(d.coffee_quarter+'Ã quarter caf');
-  if(d.coffee_half)    cofParts.push(d.coffee_half+'Ã half caf');
-  if(d.coffee_decaf)   cofParts.push(d.coffee_decaf+'Ã decaf');
-  if(cofParts.length) html += row('â Coffee', cofParts.join(', '));
-  html += row('Log Status', d.log_completeness==='complete'?'â Complete':'â ï¸ Partial',
+  if(d.coffee_full)    cofParts.push(d.coffee_full+'× full caf');
+  if(d.coffee_quarter) cofParts.push(d.coffee_quarter+'× quarter caf');
+  if(d.coffee_half)    cofParts.push(d.coffee_half+'× half caf');
+  if(d.coffee_decaf)   cofParts.push(d.coffee_decaf+'× decaf');
+  if(cofParts.length) html += row('☕ Coffee', cofParts.join(', '));
+  html += row('Log Status', d.log_completeness==='complete'?'✅ Complete':'⚠️ Partial',
               d.log_completeness==='complete'?'var(--green)':'var(--yellow)');
   html += '</div>';
 
   // Meals breakdown
-  html += '<div class="ib-ttl">ð½ï¸ Meals</div>';
+  html += '<div class="ib-ttl">🍽️ Meals</div>';
   if(d.meals_detail) {
     html += '<div class="info-box" style="margin-bottom:12px">';
     const _slots = d.meals_detail.slots||{};
     const _extras = d.meals_detail.extras||[];
-    const _slotEmoji = {smoothie:'ð¥¤',lunch:'ð¥',snack:'ð',dinner:'ð½ï¸'};
+    const _slotEmoji = {smoothie:'🥤',lunch:'🥗',snack:'🍎',dinner:'🍽️'};
     const _slotName  = {smoothie:'Smoothie',lunch:'Lunch',snack:'Snack',dinner:'Dinner'};
     ['smoothie','lunch','snack','dinner'].forEach(function(slot){
       const s = _slots[slot];
@@ -1921,15 +1937,15 @@ function openDayDetail(date) {
       }
       html += '<div style="margin-bottom:10px">';
       html += '<div style="display:flex;justify-content:space-between;font-size:12px;font-weight:600;color:var(--text);margin-bottom:2px">'
-            + '<span>'+label+(s.label && s.label!==_slotName[slot]?' Â· '+esc(s.label):'')+'</span>'
+            + '<span>'+label+(s.label && s.label!==_slotName[slot]?' · '+esc(s.label):'')+'</span>'
             + '<span style="color:var(--green)">'+s.kcal+' kcal</span></div>';
       if(s.pro!=null||s.carbs!=null||s.fat!=null) {
         html += '<div style="font-size:11px;color:var(--text2);margin-bottom:4px;padding-left:2px">'
-              + 'P: '+(s.pro||0)+'g &nbsp;Â·&nbsp; C: '+(s.carbs||0)+'g &nbsp;Â·&nbsp; F: '+(s.fat||0)+'g</div>';
+              + 'P: '+(s.pro||0)+'g &nbsp;·&nbsp; C: '+(s.carbs||0)+'g &nbsp;·&nbsp; F: '+(s.fat||0)+'g</div>';
       }
       if(s.items && s.items.length) {
         s.items.forEach(function(item){
-          const qtyStr = (item.qty && item.qty !== 1) ? ' Ã '+item.qty+' '+item.unit : (item.unit && item.unit!=='serving' ? ' Â· 1 '+item.unit : '');
+          const qtyStr = (item.qty && item.qty !== 1) ? ' × '+item.qty+' '+item.unit : (item.unit && item.unit!=='serving' ? ' · 1 '+item.unit : '');
           html += '<div style="display:flex;justify-content:space-between;font-size:11px;color:var(--text2);padding-left:10px;margin-bottom:2px">'
                 + '<span>'+esc(item.name)+qtyStr+'</span>'
                 + '<span>'+item.kcal+' kcal</span></div>';
@@ -1939,7 +1955,7 @@ function openDayDetail(date) {
     });
     if(_extras.length) {
       html += '<div style="margin-top:4px">';
-      html += '<div style="font-size:12px;font-weight:600;color:var(--text);margin-bottom:3px">â Extras</div>';
+      html += '<div style="font-size:12px;font-weight:600;color:var(--text);margin-bottom:3px">➕ Extras</div>';
       _extras.forEach(function(e){
         html += '<div style="display:flex;justify-content:space-between;font-size:11px;color:var(--text2);padding-left:10px;margin-bottom:1px">'
               + '<span>'+esc(e.name)+'</span><span>'+e.kcal+' kcal</span></div>';
@@ -1948,12 +1964,12 @@ function openDayDetail(date) {
     }
     html += '</div>';
   } else {
-    html += '<div class="info-box" style="margin-bottom:12px"><span style="font-size:12px;color:var(--text2)">Meal details are captured from today onward â log a day and hit Save to see the full breakdown here.</span></div>';
+    html += '<div class="info-box" style="margin-bottom:12px"><span style="font-size:12px;color:var(--text2)">Meal details are captured from today onward — log a day and hit Save to see the full breakdown here.</span></div>';
   }
 
   // Notes
   if(d.notes) {
-    html += '<div class="ib-ttl">ð Notes</div>';
+    html += '<div class="ib-ttl">📝 Notes</div>';
     html += '<div class="info-box" style="margin-bottom:4px"><span style="font-size:13px;line-height:1.6;color:var(--text)">'+esc(d.notes)+'</span></div>';
   }
 
@@ -1992,7 +2008,7 @@ function renderHeader() {
   let streak=0;
   const sorted = [...data].sort(function(a,b){return b.date.localeCompare(a.date);});
   for(const d of sorted){if(d.gym_session)streak++;else if(streak>0)break;}
-  document.getElementById('hdr-streak').textContent = streak>1?'ð¥ '+streak+' gym days':'';
+  document.getElementById('hdr-streak').textContent = streak>1?'🔥 '+streak+' gym days':'';
 }
 
 // ---- Tabs ----
@@ -2042,7 +2058,7 @@ function renderCoffee() {
 function renderLog() {
   const _ld = DB.getToday(); 
   const _ldb = document.getElementById('log-date-banner');
-  if(_ldb){ const _ts=todayStr(); _ldb.textContent=_ld.date&&_ld.date!==_ts?'ð Logging for '+_ld.date+' â tap New Day to log today':('ð '+(_ld.date||_ts)); }
+  if(_ldb){ const _ts=todayStr(); _ldb.textContent=_ld.date&&_ld.date!==_ts?'📅 Logging for '+_ld.date+' — tap New Day to log today':('📅 '+(_ld.date||_ts)); }
   renderSummary();
   renderAllMeals();
   renderExerciseGrid();
@@ -2129,6 +2145,7 @@ document.addEventListener('click', function(e) {
   // Static buttons
   if(e.target.id==='save-day-btn'){saveDay();return;}
   if(e.target.id==='new-day-btn'){startNewDay();return;}
+  if(e.target.id==='new-day-btn'){startNewDay();return;}
   if(e.target.id==='reset-today-btn'){resetToday();return;}
   if(e.target.id==='export-btn'){exportData();return;}
   if(e.target.id==='import-btn'){importData();return;}
@@ -2153,7 +2170,7 @@ document.addEventListener('click', function(e) {
 
 document.getElementById('ex-dur').addEventListener('change', updateExDuration);
 
-// Workout exercise notes â auto-save on input
+// Workout exercise notes — auto-save on input
 document.addEventListener('input', function(e) {
   if(e.target.classList.contains('wk-note-ta')) {
     const date = e.target.dataset.noteDate;
@@ -2202,7 +2219,7 @@ const WorkoutLogSync = {
 
   push: async function(session) {
     const token = GitHubSync.getToken();
-    if(!token) { toast('â ï¸ No GitHub token â connect in More tab'); return false; }
+    if(!token) { toast('⚠️ No GitHub token — connect in More tab'); return false; }
     try {
       // Try to get existing file + SHA
       let sha = null, existing = [];
@@ -2236,8 +2253,8 @@ function openWorkoutLog() {
   if(!workout) { toast('No workout loaded'); return; }
   const wNotes = DB.getWkNotes()['w_'+workout.date]||{};
 
-  document.getElementById('modal-title').textContent = 'ðª Log Workout';
-  document.getElementById('modal-sub').textContent = workout.day_label + ' Â· ' + workout.session_type;
+  document.getElementById('modal-title').textContent = '💪 Log Workout';
+  document.getElementById('modal-sub').textContent = workout.day_label + ' · ' + workout.session_type;
 
   let body = '<div style="margin-bottom:10px">';
   body += '<div class="wl-lbl">Session notes (optional)</div>';
@@ -2247,17 +2264,17 @@ function openWorkoutLog() {
   workout.exercises.forEach(function(e) {
     const savedNote = wNotes[e.id]||'';
     body += '<div class="wl-ex-row">';
-    body += '<div class="wl-ex-name">'+esc(e.id)+' Â· '+esc(e.name)+'</div>';
+    body += '<div class="wl-ex-name">'+esc(e.id)+' · '+esc(e.name)+'</div>';
     body += '<div class="wl-ex-planned">Planned: '+esc(e.detail)+'</div>';
     body += '<div class="wl-grid">';
     body += '<div><div class="wl-lbl">Weight (lb)</div><input class="wl-inp" id="wl-w-'+e.id+'" type="text" inputmode="decimal" placeholder="e.g. 57.5"></div>';
-    body += '<div><div class="wl-lbl">Sets Ã Reps</div><input class="wl-inp" id="wl-r-'+e.id+'" type="text" placeholder="e.g. 3Ã10"></div>';
+    body += '<div><div class="wl-lbl">Sets × Reps</div><input class="wl-inp" id="wl-r-'+e.id+'" type="text" placeholder="e.g. 3×10"></div>';
     body += '</div>';
-    body += '<textarea class="wl-note" id="wl-n-'+e.id+'" rows="1" placeholder="Notesâ¦">'+esc(savedNote)+'</textarea>';
+    body += '<textarea class="wl-note" id="wl-n-'+e.id+'" rows="1" placeholder="Notes…">'+esc(savedNote)+'</textarea>';
     body += '</div>';
   });
 
-  body += '<button class="wl-submit" id="wl-submit-btn" onclick="submitWorkoutLog()">â Save to GitHub</button>';
+  body += '<button class="wl-submit" id="wl-submit-btn" onclick="submitWorkoutLog()">✅ Save to GitHub</button>';
   document.getElementById('modal-body').innerHTML = body;
   document.getElementById('modal-bg').classList.add('open');
 }
@@ -2267,7 +2284,7 @@ async function submitWorkoutLog() {
   if(!workout) return;
   const btn = document.getElementById('wl-submit-btn');
   btn.disabled = true;
-  btn.textContent = 'â³ Savingâ¦';
+  btn.textContent = '⏳ Saving…';
 
   const sessionNote = (document.getElementById('wl-session-note')||{value:''}).value.trim();
   const exercises = workout.exercises.map(function(e) {
@@ -2311,9 +2328,9 @@ async function submitWorkoutLog() {
     }
     localStorage.setItem('fit_workout_logged_'+workout.date, '1');
     renderWorkout();
-    toast('â Workout logged to GitHub!');
+    toast('✅ Workout logged to GitHub!');
   } else {
-    toast('â ï¸ Save failed â check GitHub token in More tab');
+    toast('⚠️ Save failed — check GitHub token in More tab');
   }
 }
 
@@ -2327,7 +2344,7 @@ async function searchUSDA() {
   const btn = document.getElementById('usda-search-btn');
   const resultsEl = document.getElementById('usda-results');
   if(btn) { btn.textContent = '...'; btn.disabled = true; }
-  if(resultsEl) resultsEl.innerHTML = '<div class="dim sm" style="padding:8px 2px">Searching USDAâ¦</div>';
+  if(resultsEl) resultsEl.innerHTML = '<div class="dim sm" style="padding:8px 2px">Searching USDA…</div>';
   try {
     const url = 'https://api.nal.usda.gov/fdc/v1/foods/search?query='+encodeURIComponent(query)+'&api_key=DEMO_KEY&dataType=SR%20Legacy,Foundation,Survey%20(FNDDS)&pageSize=8';
     const res = await fetch(url);
@@ -2335,7 +2352,7 @@ async function searchUSDA() {
     const data = await res.json();
     const foods = (data.foods||[]);
     if(!foods.length) {
-      if(resultsEl) resultsEl.innerHTML = '<div class="dim sm" style="padding:8px 2px">No results for "'+esc(query)+'" â try different keywords</div>';
+      if(resultsEl) resultsEl.innerHTML = '<div class="dim sm" style="padding:8px 2px">No results for "'+esc(query)+'" — try different keywords</div>';
       return;
     }
     foods.forEach(function(f) {
@@ -2353,11 +2370,11 @@ async function searchUSDA() {
       const d = _usdaCache[f.fdcId];
       return '<div class="ingr-pick-row" data-usda-fdc="'+f.fdcId+'">'
         +'<div><div class="ingr-pick-name">'+esc(d.name)+'</div>'
-        +'<div class="ingr-pick-meta">'+d.kcal+' kcal Â· '+d.pro+'g pro Â· per 100g</div></div>'
+        +'<div class="ingr-pick-meta">'+d.kcal+' kcal · '+d.pro+'g pro · per 100g</div></div>'
         +'<div class="ingr-pick-add">+</div></div>';
     }).join('');
   } catch(e) {
-    if(resultsEl) resultsEl.innerHTML = '<div class="dim sm" style="padding:8px 2px">â ï¸ Search failed â check connection</div>';
+    if(resultsEl) resultsEl.innerHTML = '<div class="dim sm" style="padding:8px 2px">⚠️ Search failed — check connection</div>';
   } finally {
     if(btn) { btn.textContent = 'Search'; btn.disabled = false; }
   }
@@ -2381,7 +2398,7 @@ function openUSDAPortionPicker(fdcId) {
     +'<option value="tsp">tsp (~5g)</option>'
     +'</select></div>'
     +'<div id="usda-preview" style="background:var(--card2);border-radius:10px;padding:12px;text-align:center;font-size:13px;color:var(--text2);margin-bottom:10px">'
-    +'100g â <strong style="color:var(--text)">'+d.kcal+' kcal Â· '+d.pro+'g pro</strong></div>'
+    +'100g → <strong style="color:var(--text)">'+d.kcal+' kcal · '+d.pro+'g pro</strong></div>'
     +'<label style="display:flex;align-items:center;gap:8px;font-size:13px;color:var(--text2);margin-bottom:12px">'
     +'<input type="checkbox" id="usda-save-lib" style="width:18px;height:18px"> Save to my food library (per 100g)</label>'
     +'<button class="wl-submit" id="usda-confirm-btn">Add to Meal</button>'
@@ -2393,7 +2410,7 @@ function openUSDAPortionPicker(fdcId) {
     var g = usdaToGrams(qty, unit);
     var f = g/100;
     var el = document.getElementById('usda-preview');
-    if(el) el.innerHTML = round1(g)+'g â <strong style="color:var(--text)">'+Math.round(d.kcal*f)+' kcal Â· '+Math.round(d.pro*f)+'g pro Â· '+Math.round(d.carbs*f)+'g carb Â· '+Math.round(d.fat*f)+'g fat</strong>';
+    if(el) el.innerHTML = round1(g)+'g → <strong style="color:var(--text)">'+Math.round(d.kcal*f)+' kcal · '+Math.round(d.pro*f)+'g pro · '+Math.round(d.carbs*f)+'g carb · '+Math.round(d.fat*f)+'g fat</strong>';
   }
   document.getElementById('usda-qty').addEventListener('input', updatePreview);
   document.getElementById('usda-unit').addEventListener('change', updatePreview);
@@ -2457,8 +2474,8 @@ function confirmUSDAAdd(fdcId) {
 function renderAll(){renderHeader();renderLog();}
 
 const SEED_DATA=[{"date": "2026-04-12", "day_of_week": "Sunday", "calories_consumed": 1700, "calorie_target": 1900, "protein_g": 138, "protein_target_g": 140, "carbs_g": 175, "fat_g": 55, "tdee_estimate": 2500, "food_deficit": 800, "exercise_calories_burned": 0, "net_deficit": 800, "cumulative_deficit": 800, "weight_lb": 181.6, "gym_session": false, "cardio_type": "none", "cardio_minutes": 0, "sleep_quality": null, "energy_level": null, "cns_flags": false, "log_completeness": "complete", "notes": "Day 1 of 13-day reset."}, {"date": "2026-04-13", "day_of_week": "Monday", "calories_consumed": 1700, "calorie_target": 1900, "protein_g": 138, "protein_target_g": 140, "carbs_g": 175, "fat_g": 55, "tdee_estimate": 2500, "food_deficit": 800, "exercise_calories_burned": 350, "net_deficit": 1150, "cumulative_deficit": 1950, "weight_lb": null, "gym_session": true, "cardio_type": "incline walk", "cardio_minutes": 22, "sleep_quality": null, "energy_level": null, "cns_flags": false, "log_completeness": "complete", "notes": "Upper body session."}, {"date": "2026-04-14", "day_of_week": "Tuesday", "calories_consumed": 1700, "calorie_target": 1900, "protein_g": 138, "protein_target_g": 140, "carbs_g": 175, "fat_g": 55, "tdee_estimate": 2500, "food_deficit": 800, "exercise_calories_burned": 190, "net_deficit": 990, "cumulative_deficit": 2940, "weight_lb": null, "gym_session": false, "cardio_type": "light jog", "cardio_minutes": 20, "sleep_quality": null, "energy_level": null, "cns_flags": false, "log_completeness": "complete", "notes": "Light jog 20 min."}, {"date": "2026-04-15", "day_of_week": "Wednesday", "calories_consumed": 1700, "calorie_target": 1900, "protein_g": 138, "protein_target_g": 140, "carbs_g": 175, "fat_g": 55, "tdee_estimate": 2500, "food_deficit": 800, "exercise_calories_burned": 400, "net_deficit": 1200, "cumulative_deficit": 4140, "weight_lb": null, "gym_session": true, "cardio_type": "incline walk", "cardio_minutes": 20, "sleep_quality": null, "energy_level": null, "cns_flags": false, "log_completeness": "complete", "notes": "Upper + lower session."}, {"date": "2026-04-16", "day_of_week": "Thursday", "calories_consumed": 1700, "calorie_target": 1900, "protein_g": 138, "protein_target_g": 140, "carbs_g": 175, "fat_g": 55, "tdee_estimate": 2500, "food_deficit": 800, "exercise_calories_burned": 190, "net_deficit": 990, "cumulative_deficit": 5130, "weight_lb": null, "gym_session": false, "cardio_type": "light jog", "cardio_minutes": 20, "sleep_quality": null, "energy_level": null, "cns_flags": false, "log_completeness": "complete", "notes": "Light jog 20 min."}, {"date": "2026-04-17", "day_of_week": "Friday", "calories_consumed": 1870, "calorie_target": 1900, "protein_g": 155, "protein_target_g": 140, "carbs_g": 196, "fat_g": 56, "tdee_estimate": 2500, "food_deficit": 630, "exercise_calories_burned": 0, "net_deficit": 630, "cumulative_deficit": 5760, "weight_lb": 182, "gym_session": false, "cardio_type": "none", "cardio_minutes": 0, "sleep_quality": null, "energy_level": 7, "cns_flags": false, "log_completeness": "complete", "notes": "Day 6 calorie adjustment."}, {"date": "2026-04-18", "day_of_week": "Saturday", "calories_consumed": 1820, "calorie_target": 1900, "protein_g": 146, "protein_target_g": 140, "carbs_g": 194, "fat_g": 56, "tdee_estimate": 2500, "food_deficit": 680, "exercise_calories_burned": 400, "net_deficit": 1080, "cumulative_deficit": 6840, "weight_lb": null, "gym_session": true, "cardio_type": "incline walk", "cardio_minutes": 21, "sleep_quality": null, "energy_level": null, "cns_flags": false, "log_completeness": "complete", "notes": "Complete gym day."}, {"date": "2026-04-19", "day_of_week": "Sunday", "calories_consumed": 1745, "calorie_target": 1900, "protein_g": 146, "protein_target_g": 140, "carbs_g": 187, "fat_g": 46, "tdee_estimate": 2500, "food_deficit": 755, "exercise_calories_burned": 350, "net_deficit": 1105, "cumulative_deficit": 7945, "weight_lb": null, "gym_session": false, "cardio_type": "pickleball", "cardio_minutes": 50, "sleep_quality": null, "energy_level": null, "cns_flags": false, "log_completeness": "complete", "notes": "Pickleball 50 min."}, {"date": "2026-04-20", "day_of_week": "Monday", "calories_consumed": 1935, "calorie_target": 1900, "protein_g": 153, "protein_target_g": 140, "carbs_g": 238, "fat_g": 41, "tdee_estimate": 2500, "food_deficit": 565, "exercise_calories_burned": 380, "net_deficit": 945, "cumulative_deficit": 8890, "weight_lb": 181.6, "gym_session": true, "cardio_type": "incline walk", "cardio_minutes": 22, "sleep_quality": null, "energy_level": null, "cns_flags": false, "log_completeness": "complete", "notes": "Meals confirmed."}, {"date": "2026-04-21", "day_of_week": "Tuesday", "calories_consumed": 1886, "calorie_target": 1900, "protein_g": 148, "protein_target_g": 140, "carbs_g": 241, "fat_g": 36, "tdee_estimate": 2500, "food_deficit": 614, "exercise_calories_burned": 0, "net_deficit": 614, "cumulative_deficit": 9504, "weight_lb": null, "gym_session": false, "cardio_type": "none", "cardio_minutes": 0, "sleep_quality": null, "energy_level": null, "cns_flags": false, "log_completeness": "complete", "notes": "All 4 meals confirmed."}, {"date": "2026-04-22", "day_of_week": "Wednesday", "calories_consumed": 1779, "calorie_target": 1900, "protein_g": 153, "protein_target_g": 140, "carbs_g": 211, "fat_g": 34, "tdee_estimate": 2500, "food_deficit": 721, "exercise_calories_burned": 380, "net_deficit": 1101, "cumulative_deficit": 10605, "weight_lb": null, "gym_session": true, "cardio_type": "spin bike", "cardio_minutes": 12, "sleep_quality": null, "energy_level": null, "cns_flags": false, "log_completeness": "complete", "notes": "Upper body gym."}, {"date": "2026-04-23", "day_of_week": "Thursday", "calories_consumed": 2058, "calorie_target": 1900, "protein_g": 142, "protein_target_g": 140, "carbs_g": 225, "fat_g": 55, "tdee_estimate": 2500, "food_deficit": 442, "exercise_calories_burned": 0, "net_deficit": 442, "cumulative_deficit": 11047, "weight_lb": null, "gym_session": false, "cardio_type": "none", "cardio_minutes": 0, "sleep_quality": null, "energy_level": null, "cns_flags": false, "log_completeness": "complete", "notes": "4 gin drinks. 2058 kcal."}, {"date": "2026-04-24", "day_of_week": "Friday", "calories_consumed": 2191, "calorie_target": 1900, "protein_g": 116, "protein_target_g": 140, "carbs_g": 219, "fat_g": 37, "tdee_estimate": 2500, "food_deficit": 309, "exercise_calories_burned": 400, "net_deficit": 709, "cumulative_deficit": 11756, "weight_lb": 180.6, "gym_session": true, "cardio_type": "incline walk", "cardio_minutes": 22, "sleep_quality": null, "energy_level": null, "cns_flags": false, "log_completeness": "complete", "notes": "Lower body. New low 180.6 lb. 4 gin & soda. Protein low at 116g."}, {"date": "2026-04-25", "day_of_week": "Saturday", "calories_consumed": 2300, "calorie_target": 1900, "protein_g": 125, "protein_target_g": 140, "carbs_g": 225, "fat_g": 55, "tdee_estimate": 2500, "food_deficit": 200, "exercise_calories_burned": 330, "net_deficit": 530, "cumulative_deficit": 12286, "weight_lb": null, "gym_session": true, "cardio_type": "incline walk", "cardio_minutes": 10, "sleep_quality": 3, "energy_level": null, "cns_flags": true, "log_completeness": "partial", "notes": "Upper body mix. Hungover. Cheeseburger + fries planned."}];
-const SEED_WORKOUT={"date":"2026-04-29","day_label":"Wednesday, April 29","session_type":"Upper Body","is_gym_day":true,"warmup":"Incline walk Â· 8-10 min Â· 3.3-3.5 mph Â· 6-8% incline","finisher":"Incline walk Â· 10 min Â· 3.4 mph Â· 6-8% incline","exercises":[{"id":"A","name":"Flat DB Bench Press","detail":"57.5 lb Ã 10 Â· 3 sets","rest":"90s rest","note":"Up from 55s. Last session hit 12 on final set â time to bump. Control the descent, full press at top."},{"id":"B","name":"Cable Row","detail":"135 lb Ã 10 Â· 3 sets","rest":"90s rest","note":"Hold 135 across all 3 sets. Full retraction at the back, donât let shoulders round on the way out."},{"id":"C","name":"Lat Pulldown","detail":"120 lb Ã 10-12 Â· 3 sets","rest":"75s rest","note":"Lock in 120 across all sets. Pull to upper chest, controlled return â donât let it yank you up."},{"id":"D","name":"Shoulder Press (DB)","detail":"35 lb Ã 10-12 Â· 3 sets","rest":"75s rest","note":"Full extension overhead, donât shrug at the top. If 12 feels easy on all 3 sets, go to 40s next time."},{"id":"E","name":"Face Pulls","detail":"40 lb Ã 15 Â· 3 sets","rest":"60s rest","note":"Elbows high, pull to forehead, external rotate at the end. Rear delt + rotator cuff work â donât rush it."},{"id":"F","name":"Arms Superset: Rope Pushdown + Hammer Curl","detail":"Rope pushdown 77 lb Ã 12 + Hammer curl 25 lb Ã 10 Â· 3 rounds","rest":"60s between rounds","note":"No rest between pushdown and curl. Lock elbows on pushdown, neutral grip on hammer â squeeze at the top."},{"id":"G","name":"Core Circuit: Dead Bug â Pallof Press â Bicycle Crunch","detail":"Dead bug Ã 10/side â Pallof press 30 lb Ã 12/side â Bicycle crunch Ã 20 Â· 3 rounds","rest":"Minimal rest between movements, 60s between rounds","note":"Dead bug: lower back stays flat, move slow. Pallof: resist rotation, donât twist. Bicycle: controlled, not rushed."}]};
-const SEED_WEEK=[{"date":"2026-04-27","day_short":"Mon Apr 27","session_type":"Lower Body â","type":"gym","note":"Done â leg press 335, leg curl 66/66/77, hip thrust 140, goblet squat 40, step-ups 2 sets"},{"date":"2026-04-28","day_short":"Tue Apr 28","session_type":"Rest Day","type":"rest","note":"Full rest Â· stay on nutrition Â· post-dinner walk if energy allows"},{"date":"2026-04-29","day_short":"Wed Apr 29","session_type":"Upper Body","type":"gym","note":"Flat bench 57.5s Â· cable row 135 Â· lat pulldown 120 Â· shoulder press 35s Â· face pulls Â· arms superset Â· core circuit"},{"date":"2026-04-30","day_short":"Thu Apr 30","session_type":"Rest / Light Cardio","type":"cardio","note":"20-min jog or pickleball Â· easy pace Â· no gym"},{"date":"2026-05-01","day_short":"Fri May 1","session_type":"Lower Body","type":"gym","note":"Leg press 345 Â· leg curl 77Ã3 Â· hip thrust 150 Â· goblet squat 45lb Â· step-ups 3 sets Â· core circuit"},{"date":"2026-05-02","day_short":"Sat May 2","session_type":"Upper Body","type":"gym","note":"Follow-up upper Â· progressions from Wednesday"}];
+const SEED_WORKOUT={"date":"2026-04-29","day_label":"Wednesday, April 29","session_type":"Upper Body","is_gym_day":true,"warmup":"Incline walk · 8-10 min · 3.3-3.5 mph · 6-8% incline","finisher":"Incline walk · 10 min · 3.4 mph · 6-8% incline","exercises":[{"id":"A","name":"Flat DB Bench Press","detail":"57.5 lb × 10 · 3 sets","rest":"90s rest","note":"Up from 55s. Last session hit 12 on final set — time to bump. Control the descent, full press at top."},{"id":"B","name":"Cable Row","detail":"135 lb × 10 · 3 sets","rest":"90s rest","note":"Hold 135 across all 3 sets. Full retraction at the back, don’t let shoulders round on the way out."},{"id":"C","name":"Lat Pulldown","detail":"120 lb × 10-12 · 3 sets","rest":"75s rest","note":"Lock in 120 across all sets. Pull to upper chest, controlled return — don’t let it yank you up."},{"id":"D","name":"Shoulder Press (DB)","detail":"35 lb × 10-12 · 3 sets","rest":"75s rest","note":"Full extension overhead, don’t shrug at the top. If 12 feels easy on all 3 sets, go to 40s next time."},{"id":"E","name":"Face Pulls","detail":"40 lb × 15 · 3 sets","rest":"60s rest","note":"Elbows high, pull to forehead, external rotate at the end. Rear delt + rotator cuff work — don’t rush it."},{"id":"F","name":"Arms Superset: Rope Pushdown + Hammer Curl","detail":"Rope pushdown 77 lb × 12 + Hammer curl 25 lb × 10 · 3 rounds","rest":"60s between rounds","note":"No rest between pushdown and curl. Lock elbows on pushdown, neutral grip on hammer — squeeze at the top."},{"id":"G","name":"Core Circuit: Dead Bug → Pallof Press → Bicycle Crunch","detail":"Dead bug × 10/side → Pallof press 30 lb × 12/side → Bicycle crunch × 20 · 3 rounds","rest":"Minimal rest between movements, 60s between rounds","note":"Dead bug: lower back stays flat, move slow. Pallof: resist rotation, don’t twist. Bicycle: controlled, not rushed."}]};
+const SEED_WEEK=[{"date":"2026-04-27","day_short":"Mon Apr 27","session_type":"Lower Body ✓","type":"gym","note":"Done — leg press 335, leg curl 66/66/77, hip thrust 140, goblet squat 40, step-ups 2 sets"},{"date":"2026-04-28","day_short":"Tue Apr 28","session_type":"Rest Day","type":"rest","note":"Full rest · stay on nutrition · post-dinner walk if energy allows"},{"date":"2026-04-29","day_short":"Wed Apr 29","session_type":"Upper Body","type":"gym","note":"Flat bench 57.5s · cable row 135 · lat pulldown 120 · shoulder press 35s · face pulls · arms superset · core circuit"},{"date":"2026-04-30","day_short":"Thu Apr 30","session_type":"Rest / Light Cardio","type":"cardio","note":"20-min jog or pickleball · easy pace · no gym"},{"date":"2026-05-01","day_short":"Fri May 1","session_type":"Lower Body","type":"gym","note":"Leg press 345 · leg curl 77×3 · hip thrust 150 · goblet squat 45lb · step-ups 3 sets · core circuit"},{"date":"2026-05-02","day_short":"Sat May 2","session_type":"Upper Body","type":"gym","note":"Follow-up upper · progressions from Wednesday"}];
 
 DB.init();
 FileSync.init();
@@ -2474,7 +2491,7 @@ GitHubSync.init();
       if (plan.week) DB.setWeek(plan.week);
       renderAll();
     }
-  } catch(e) { /* offline or network error â falls back to localStorage */ }
+  } catch(e) { /* offline or network error — falls back to localStorage */ }
 })();
 
 // One-time patch: correct April 25 exercise calories to match new gym+cardio formula
@@ -2539,7 +2556,7 @@ GitHubSync.init();
     "sleep_quality":null,"energy_level":null,"cns_flags":false,
     "coffee_full":0,"coffee_quarter":0,"coffee_half":0,"coffee_decaf":0,
     "log_completeness":"complete",
-    "notes":"Standard smoothie. Burrito lunch: 60g sausage, cheese, 2 eggs, Â¼c rice, Â¼c beans. Snack: chicken focaccia sandwich + handful plantain chips. 2 White Claws + Â½ bottle red wine. Dinner: spaghetti & meatballs (150g meat, 80g dry pasta, Â½c tomato sauce).",
+    "notes":"Standard smoothie. Burrito lunch: 60g sausage, cheese, 2 eggs, ¼c rice, ¼c beans. Snack: chicken focaccia sandwich + handful plantain chips. 2 White Claws + ½ bottle red wine. Dinner: spaghetti & meatballs (150g meat, 80g dry pasta, ½c tomato sauce).",
     "meals_detail":{
       "slots":{
         "smoothie":{"label":"Standard","kcal":340,"pro":27,"carbs":57,"fat":2,
@@ -2548,8 +2565,8 @@ GitHubSync.init();
           "items":[
             {"name":"Sausage patty","qty":60,"unit":"g","kcal":230,"pro":13,"carbs":1,"fat":19},
             {"name":"Cheese slice","qty":35,"unit":"g","kcal":140,"pro":9,"carbs":1,"fat":11},
-            {"name":"White Rice","qty":1,"unit":"Â¼c cup cooked","kcal":50,"pro":1,"carbs":11,"fat":0},
-            {"name":"Beans (cooked)","qty":1,"unit":"Â¼c cup","kcal":55,"pro":3,"carbs":10,"fat":0},
+            {"name":"White Rice","qty":1,"unit":"¼c cup cooked","kcal":50,"pro":1,"carbs":11,"fat":0},
+            {"name":"Beans (cooked)","qty":1,"unit":"¼c cup","kcal":55,"pro":3,"carbs":10,"fat":0},
             {"name":"Whole Egg","qty":2,"unit":"egg","kcal":156,"pro":12,"carbs":1.2,"fat":10.6},
             {"name":"Flour tortilla (large)","qty":1,"unit":"tortilla","kcal":170,"pro":4,"carbs":27,"fat":4}
           ]},
@@ -2568,8 +2585,8 @@ GitHubSync.init();
           ]}
       },
       "extras":[
-        {"name":"2Ã White Claw","kcal":200},
-        {"name":"Red wine (Â½ bottle)","kcal":319}
+        {"name":"2× White Claw","kcal":200},
+        {"name":"Red wine (½ bottle)","kcal":319}
       ]
     }
   };
@@ -2587,6 +2604,28 @@ GitHubSync.init();
     apr29.protein_g = 164;
     apr29.carbs_g = 236;
     apr29.fat_g = 74;
+    DB.setData(data);
+  }
+  localStorage.setItem('_patch_v6','1');
+})();
+// Patch v5: Add May 2 data
+(function patchV5() {
+  if(localStorage.getItem('_patch_v5')) return;
+  const data = DB.getData();
+  const may2idx = data.findIndex(function(d){return d.date==='2026-05-02';});
+  const may2 = {"date":"2026-05-02","day_of_week":"Saturday","calories_consumed":2945,"calorie_target":1900,"protein_g":155,"protein_target_g":140,"carbs_g":237,"fat_g":98,"tdee_estimate":2500,"food_deficit":-1045,"exercise_calories_burned":0,"net_deficit":-445,"cumulative_deficit":16452,"weight_lb":null,"gym_session":false,"exercise_id":"","cardio_type":"none","cardio_minutes":0,"sleep_quality":null,"energy_level":null,"cns_flags":false,"coffee_full":0,"coffee_quarter":0,"coffee_half":0,"coffee_decaf":0,"log_completeness":"complete","notes":"Standard smoothie. Burrito lunch: 60g sausage, cheese, 2 eggs, 1/4c rice, 1/4c beans. Snack: chicken focaccia sandwich + plantain chips. 2 White Claws + 1/2 bottle red wine. Dinner: spaghetti & meatballs (150g meat, 80g dry pasta, 1/2c tomato sauce)."};
+  if(may2idx === -1) { data.push(may2); } else { data[may2idx] = may2; }
+  data.sort(function(a,b){return a.date < b.date ? -1 : 1;});
+  DB.setData(data);
+  localStorage.setItem('_patch_v5','1');
+})();
+// Patch v6: fix April 29 protein/carbs/fat = 0
+(function patchV6() {
+  if(localStorage.getItem('_patch_v6')) return;
+  const data = DB.getData();
+  const apr29 = data.find(function(d){return d.date==='2026-04-29';});
+  if(apr29 && apr29.protein_g === 0) {
+    apr29.protein_g = 164; apr29.carbs_g = 236; apr29.fat_g = 74;
     DB.setData(data);
   }
   localStorage.setItem('_patch_v6','1');
