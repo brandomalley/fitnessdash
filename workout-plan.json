@@ -5,57 +5,57 @@
     "day_label": "Tuesday, May 5",
     "session_type": "Upper Body",
     "is_gym_day": true,
-    "warmup": "Incline walk · 10 min · 3.5 mph · 7% incline",
-    "finisher": "Incline walk · 10 min · 3.4 mph · 7% incline",
+    "warmup": "Incline walk \u00b7 10 min \u00b7 3.5 mph \u00b7 7% incline",
+    "finisher": "Incline walk \u00b7 10 min \u00b7 3.4 mph \u00b7 7% incline",
     "exercises": [
       {
         "id": "A",
         "name": "Flat DB Bench Press",
-        "detail": "60 lb × 10 · 3 sets",
+        "detail": "60 lb \u00d7 10 \u00b7 3 sets",
         "rest": "90s rest",
-        "note": "You were targeting 57.5–60s last session — 60s is the standard now. Controlled lower, drive up. 1-2 RIR on last set."
+        "note": "60s is the standard now. Controlled lower, drive up. 1-2 RIR on last set."
       },
       {
         "id": "B",
         "name": "Cable Row",
-        "detail": "140 lb × 10 · 3 sets",
+        "detail": "140 lb \u00d7 10 \u00b7 3 sets",
         "rest": "90s rest",
         "note": "Up 5 lb from 135. Pull elbows back, chest stays up, brief pause at the top. Don't let the weight yank you forward."
       },
       {
         "id": "C",
         "name": "Incline DB Bench",
-        "detail": "60 lb × 10-12 · 3 sets",
+        "detail": "60 lb \u00d7 10-12 \u00b7 3 sets",
         "rest": "90s rest",
-        "note": "Hold at 60s — push for 12 clean reps on the last set. Elbows at 45°, full range. If you get 12x3 cleanly you go to 62.5 next session."
+        "note": "Push for 12 clean reps on the last set. Elbows at 45 degrees, full range. Hit 12x3 cleanly and you go to 65 lb next session."
       },
       {
         "id": "D",
         "name": "Lat Pulldown",
-        "detail": "125 lb × 10 · 3 sets",
+        "detail": "125 lb \u00d7 10 \u00b7 3 sets",
         "rest": "90s rest",
         "note": "Up 5 lb from 120. Pull bar to upper chest, lean back slightly, squeeze lats at bottom. Don't swing."
       },
       {
         "id": "E",
         "name": "DB Lateral Raise",
-        "detail": "17.5 lb × 15 · 3 sets",
+        "detail": "15 lb \u00d7 15-20 \u00b7 3 sets",
         "rest": "60s rest",
-        "note": "Up from 15s. Lead with elbows, thumbs slightly down, stop at shoulder height. No momentum — if you're swinging, drop to 15s."
+        "note": "Hold at 15s and push for 20 reps \u2014 earn the jump to 20 lb with volume, not just weight. Lead with elbows, stop at shoulder height, no momentum."
       },
       {
         "id": "F",
-        "name": "Arms Superset — Hammer Curl + Rope Pushdown",
-        "detail": "Hammer Curl 27.5 lb × 10 + Rope Pushdown 77 lb × 12 · 3 rounds",
+        "name": "Arms Superset \u2014 Hammer Curl + Rope Pushdown",
+        "detail": "Hammer Curl 25 lb \u00d7 12 + Rope Pushdown 77 lb \u00d7 12 \u00b7 3 rounds",
         "rest": "60s between rounds",
-        "note": "No rest between curl and pushdown. Hammer curl: neutral grip, full extension at bottom. Pushdown: split rope at bottom, lock elbows in."
+        "note": "Push for 12 on the curls at 25 lb \u2014 when 12 feels easy across all 3 rounds, jump to 30 next session. No rest between curl and pushdown. Split rope at bottom, lock elbows in."
       },
       {
         "id": "G",
         "name": "Core Circuit",
-        "detail": "Dead Bugs × 10/side + Side Plank 30s/side + Pallof Press 20 lb × 10/side · 2 rounds",
+        "detail": "Dead Bugs x 10/side + Side Plank 30s/side + Pallof Press 20 lb x 10/side \u00b7 2 rounds",
         "rest": "30s between exercises",
-        "note": "Controlled and deliberate. Dead bugs: low back stays flat on floor. Side plank: hips don't sag. Pallof: resist rotation, don't let the cable pull you."
+        "note": "Controlled and deliberate. Low back flat on dead bugs. Hips don't sag on side plank. Resist rotation on Pallof."
       }
     ]
   },
@@ -65,7 +65,7 @@
       "day_short": "Mon May 4",
       "session_type": "Rest Day",
       "type": "rest",
-      "note": "Extra recovery — yard work yesterday"
+      "note": "Extra recovery \u2014 yard work yesterday"
     },
     {
       "date": "2026-05-05",
@@ -79,7 +79,7 @@
       "day_short": "Wed May 6",
       "session_type": "Rest / Light Cardio",
       "type": "cardio",
-      "note": "Walk or pickleball — active recovery"
+      "note": "Walk or pickleball \u2014 active recovery"
     },
     {
       "date": "2026-05-07",
@@ -100,7 +100,7 @@
       "day_short": "Sat May 9",
       "session_type": "Upper Body",
       "type": "gym",
-      "note": "Push/pull — incline bench focus"
+      "note": "Push/pull \u2014 incline bench focus"
     }
   ]
 }
