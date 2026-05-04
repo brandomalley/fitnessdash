@@ -1973,11 +1973,71 @@ function openDayDetail(date) {
     html += '<div class="info-box" style="margin-bottom:4px"><span style="font-size:13px;line-height:1.6;color:var(--text)">'+esc(d.notes)+'</span></div>';
   }
 
+  html += '<button class="btn btn-p" style="margin-top:8px" onclick="openDayEdit(\'' + date + '\')">✏️ Edit This Day</button>';
   const fullDate = new Date(date+'T12:00:00').toLocaleDateString('en-US',{weekday:'long',month:'long',day:'numeric'});
   document.getElementById('modal-title').textContent = fullDate;
   document.getElementById('modal-sub').textContent = fmtDay(date)+' summary';
   document.getElementById('modal-body').innerHTML = html;
   document.getElementById('modal-bg').classList.add('open');
+}
+
+function openDayEdit(date) {
+  const data = DB.getData();
+  const d = data.find(function(r){return r.date===date;});
+  if(!d) return;
+  const fullDate = new Date(date+'T12:00:00').toLocaleDateString('en-US',{weekday:'long',month:'long',day:'numeric'});
+  document.getElementById('modal-title').textContent = '✏️ Edit: '+fullDate;
+  document.getElementById('modal-sub').textContent = 'Correct values below — saves recalculate all cumulative deficits';
+  const ni = function(id,val,ph,step){
+    return '<input id="edit-'+id+'" type="number" inputmode="decimal" placeholder="'+ph+'" value="'+(val!=null&&val!==''?val:'')+'" step="'+(step||1)+'" style="width:100%;background:var(--bg);border:1.5px solid var(--border);border-radius:10px;padding:10px 12px;font-size:15px;color:var(--text);box-sizing:border-box">';
+  };
+  const lbl = function(label,input){
+    return '<div style="margin-bottom:10px"><div style="font-size:11px;font-weight:600;color:var(--text2);text-transform:uppercase;letter-spacing:.5px;margin-bottom:5px">'+label+'</div>'+input+'</div>';
+  };
+  let body = '<div style="display:grid;grid-template-columns:1fr 1fr;gap:10px">';
+  body += lbl('Calories (kcal)', ni('kcal', d.calories_consumed, '1900'));
+  body += lbl('Protein (g)', ni('pro', d.protein_g, '140'));
+  body += lbl('Carbs (g)', ni('carbs', d.carbs_g, '200'));
+  body += lbl('Fat (g)', ni('fat', d.fat_g, '50'));
+  body += lbl('Exercise Burned (kcal)', ni('exkcal', d.exercise_calories_burned, '0'));
+  body += lbl('Weight (lb)', ni('weight', d.weight_lb, '', '0.1'));
+  body += lbl('Sleep Quality (1–10)', ni('sleep', d.sleep_quality, ''));
+  body += lbl('Energy Level (1–10)', ni('energy', d.energy_level, ''));
+  body += '</div>';
+  body += lbl('Notes', '<textarea id="edit-notes" rows="3" style="width:100%;background:var(--bg);border:1.5px solid var(--border);border-radius:10px;padding:10px 12px;font-size:13px;color:var(--text);box-sizing:border-box;resize:vertical">'+esc(d.notes||'')+'</textarea>');
+  body += '<button class="btn btn-g" onclick="saveDayEdit(\'' + date + '\')">✅ Save Changes</button>';
+  body += '<button class="btn btn-s" style="margin-top:6px" onclick="openDayDetail(\'' + date + '\')">↩ Cancel</button>';
+  document.getElementById('modal-body').innerHTML = body;
+}
+
+function saveDayEdit(date) {
+  const data = DB.getData();
+  const idx = data.findIndex(function(r){return r.date===date;});
+  if(idx === -1) { toast('Day not found'); return; }
+  const d = data[idx];
+  const gv = function(id){ const el=document.getElementById('edit-'+id); return el?el.value:null; };
+  const toInt = function(id){ const v=parseInt(gv(id)); return isNaN(v)?null:v; };
+  const toFlt = function(id){ const v=parseFloat(gv(id)); return isNaN(v)?null:v; };
+  if(toInt('kcal')!==null) d.calories_consumed = toInt('kcal');
+  if(toInt('pro')!==null)  d.protein_g = toInt('pro');
+  if(toInt('carbs')!==null) d.carbs_g = toInt('carbs');
+  if(toInt('fat')!==null)  d.fat_g = toInt('fat');
+  if(toInt('exkcal')!==null) d.exercise_calories_burned = toInt('exkcal');
+  d.weight_lb = toFlt('weight');
+  d.sleep_quality = toInt('sleep');
+  d.energy_level = toInt('energy');
+  const notesEl = document.getElementById('edit-notes');
+  if(notesEl) d.notes = notesEl.value;
+  d.food_deficit = Math.round(TARGETS.tdee - d.calories_consumed);
+  d.net_deficit = Math.round(d.food_deficit + (d.exercise_calories_burned||0));
+  // Cascade cumulative deficit through all days in order
+  const sorted = data.slice().sort(function(a,b){return a.date<b.date?-1:1;});
+  let cum = 0;
+  sorted.forEach(function(entry){ cum += (entry.net_deficit||0); entry.cumulative_deficit = Math.round(cum); });
+  DB.setData(sorted);
+  GitHubSync.push(sorted);
+  toast('✅ ' + date + ' updated!');
+  openDayDetail(date);
 }
 
 // ---- Export / Import ----
