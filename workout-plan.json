@@ -1,28 +1,106 @@
 {
-    "updated": "2026-05-01",
-    "workout": {
-          "date": "2026-05-02",
-          "day_label": "Saturday, May 2",
-          "session_type": "Elevated HR Lower Body",
-          "is_gym_day": true,
-          "warmup": "Incline walk · 10 min · 3.5 mph · 8% incline — push the pace a bit to get HR climbing early",
-          "finisher": "Spin bike · 12 min · moderate-high resistance OR incline walk · 10 min · 3.5 mph · 8%",
-          "exercises": [
-                  {"id": "A", "name": "Leg Press", "detail": "345 lb × 10 · 3 sets", "rest": "90s rest", "note": "Clean at 335 last Monday — bumping 10 lb. Controlled tempo, no lockout at top. 1-2 RIR."},
-                  {"id": "B", "name": "Hip Thrust Machine", "detail": "140 lb × 12 · 3 sets", "rest": "60s rest", "note": "Hold at 140 — push for 14 on the last set. Squeeze glutes at top, no hyperextension. Short rest keeps HR up."},
-                  {"id": "C", "name": "Walking Lunge (DB)", "detail": "25 lb DBs × 10/leg · 3 sets", "rest": "60s rest", "note": "Step long, knee tracks over toe. Torso upright. Glute emphasis. These will get your heart rate moving."},
-                  {"id": "D", "name": "Leg Curl", "detail": "77 lb × 10-12 · 3 sets", "rest": "75s rest", "note": "You hit 77 on your final set last time — make it the standard today across all 3 sets. Controlled eccentric, full range."},
-                  {"id": "E", "name": "KB Swing (Two-Hand)", "detail": "30 lb × 15 · 3 sets", "rest": "45s rest", "note": "Drive from hips, not arms. Hinge back, explode forward. This is your HR spike — 45s rest is intentional. Keep form tight."},
-                  {"id": "F", "name": "Goblet Squat (KB)", "detail": "45 lb × 12 · 2 sets", "rest": "60s rest", "note": "Up from 40 lb. Heels elevated if mobility needs it. Can superset with KB Swings if energy is there."},
-                  {"id": "G", "name": "Core Circuit B", "detail": "Pallof Press 20 lb × 10/side + Ab Wheel × 8-10 + Bird Dog × 8/side · 2 rounds", "rest": "45s between exercises", "note": "Anti-rotation into rollout into stability. Go slow on ab wheel — only extend as far as lower back stays neutral."}
-          ]
-    },
-    "week": [
-          {"date": "2026-05-01", "day_short": "Fri May 1", "session_type": "Rest Day", "type": "rest", "note": "Recovery — light movement only"},
-          {"date": "2026-05-02", "day_short": "Sat May 2", "session_type": "Elevated HR Lower Body", "type": "gym", "note": "Leg press, hip thrust, lunges, KB swings — ~70 min"},
-          {"date": "2026-05-03", "day_short": "Sun May 3", "session_type": "Rest Day", "type": "rest", "note": "Full rest or light walk"},
-          {"date": "2026-05-04", "day_short": "Mon May 4", "session_type": "Upper Body", "type": "gym", "note": "Flat bench / pull focus — back to push/pull split"},
-          {"date": "2026-05-05", "day_short": "Tue May 5", "session_type": "Rest Day", "type": "rest", "note": "Rest or pickleball"},
-          {"date": "2026-05-06", "day_short": "Wed May 6", "session_type": "Lower Body", "type": "gym", "note": "Squat focus + progression"}
+  "updated": "2026-05-04",
+  "workout": {
+    "date": "2026-05-05",
+    "day_label": "Tuesday, May 5",
+    "session_type": "Upper Body",
+    "is_gym_day": true,
+    "warmup": "Incline walk · 10 min · 3.5 mph · 7% incline",
+    "finisher": "Incline walk · 10 min · 3.4 mph · 7% incline",
+    "exercises": [
+      {
+        "id": "A",
+        "name": "Flat DB Bench Press",
+        "detail": "60 lb × 10 · 3 sets",
+        "rest": "90s rest",
+        "note": "You were targeting 57.5–60s last session — 60s is the standard now. Controlled lower, drive up. 1-2 RIR on last set."
+      },
+      {
+        "id": "B",
+        "name": "Cable Row",
+        "detail": "140 lb × 10 · 3 sets",
+        "rest": "90s rest",
+        "note": "Up 5 lb from 135. Pull elbows back, chest stays up, brief pause at the top. Don't let the weight yank you forward."
+      },
+      {
+        "id": "C",
+        "name": "Incline DB Bench",
+        "detail": "60 lb × 10-12 · 3 sets",
+        "rest": "90s rest",
+        "note": "Hold at 60s — push for 12 clean reps on the last set. Elbows at 45°, full range. If you get 12x3 cleanly you go to 62.5 next session."
+      },
+      {
+        "id": "D",
+        "name": "Lat Pulldown",
+        "detail": "125 lb × 10 · 3 sets",
+        "rest": "90s rest",
+        "note": "Up 5 lb from 120. Pull bar to upper chest, lean back slightly, squeeze lats at bottom. Don't swing."
+      },
+      {
+        "id": "E",
+        "name": "DB Lateral Raise",
+        "detail": "17.5 lb × 15 · 3 sets",
+        "rest": "60s rest",
+        "note": "Up from 15s. Lead with elbows, thumbs slightly down, stop at shoulder height. No momentum — if you're swinging, drop to 15s."
+      },
+      {
+        "id": "F",
+        "name": "Arms Superset — Hammer Curl + Rope Pushdown",
+        "detail": "Hammer Curl 27.5 lb × 10 + Rope Pushdown 77 lb × 12 · 3 rounds",
+        "rest": "60s between rounds",
+        "note": "No rest between curl and pushdown. Hammer curl: neutral grip, full extension at bottom. Pushdown: split rope at bottom, lock elbows in."
+      },
+      {
+        "id": "G",
+        "name": "Core Circuit",
+        "detail": "Dead Bugs × 10/side + Side Plank 30s/side + Pallof Press 20 lb × 10/side · 2 rounds",
+        "rest": "30s between exercises",
+        "note": "Controlled and deliberate. Dead bugs: low back stays flat on floor. Side plank: hips don't sag. Pallof: resist rotation, don't let the cable pull you."
+      }
     ]
+  },
+  "week": [
+    {
+      "date": "2026-05-04",
+      "day_short": "Mon May 4",
+      "session_type": "Rest Day",
+      "type": "rest",
+      "note": "Extra recovery — yard work yesterday"
+    },
+    {
+      "date": "2026-05-05",
+      "day_short": "Tue May 5",
+      "session_type": "Upper Body",
+      "type": "gym",
+      "note": "Flat bench / cable row / lat pulldown focus"
+    },
+    {
+      "date": "2026-05-06",
+      "day_short": "Wed May 6",
+      "session_type": "Rest / Light Cardio",
+      "type": "cardio",
+      "note": "Walk or pickleball — active recovery"
+    },
+    {
+      "date": "2026-05-07",
+      "day_short": "Thu May 7",
+      "session_type": "Lower Body",
+      "type": "gym",
+      "note": "Leg press / hip thrust / KB swings"
+    },
+    {
+      "date": "2026-05-08",
+      "day_short": "Fri May 8",
+      "session_type": "Rest Day",
+      "type": "rest",
+      "note": "Full rest"
+    },
+    {
+      "date": "2026-05-09",
+      "day_short": "Sat May 9",
+      "session_type": "Upper Body",
+      "type": "gym",
+      "note": "Push/pull — incline bench focus"
+    }
+  ]
 }
