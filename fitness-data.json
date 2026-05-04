@@ -1,5 +1,5 @@
 {
-  "exported": "2026-05-02T01:30:20.367Z",
+  "exported": "2026-05-04T00:55:44.371Z",
   "raw_data": [
     {
       "date": "2026-04-12",
@@ -840,10 +840,10 @@
       "day_of_week": "Wednesday",
       "calories_consumed": 2658,
       "calorie_target": 1900,
-      "protein_g": 0,
+      "protein_g": 164,
       "protein_target_g": 140,
-      "carbs_g": 0,
-      "fat_g": 0,
+      "carbs_g": 236,
+      "fat_g": 74,
       "tdee_estimate": 2500,
       "food_deficit": -158,
       "exercise_calories_burned": 350,
@@ -1553,6 +1553,406 @@
           {
             "name": "Adan & eva",
             "kcal": 80
+          }
+        ]
+      }
+    },
+    {
+      "date": "2026-05-02",
+      "day_of_week": "Saturday",
+      "calories_consumed": 2945,
+      "calorie_target": 1900,
+      "protein_g": 155,
+      "protein_target_g": 140,
+      "carbs_g": 237,
+      "fat_g": 98,
+      "tdee_estimate": 2500,
+      "food_deficit": -1045,
+      "exercise_calories_burned": 0,
+      "net_deficit": -445,
+      "cumulative_deficit": 16452,
+      "weight_lb": null,
+      "gym_session": false,
+      "exercise_id": "",
+      "cardio_type": "none",
+      "cardio_minutes": 0,
+      "sleep_quality": null,
+      "energy_level": null,
+      "cns_flags": false,
+      "coffee_full": 0,
+      "coffee_quarter": 0,
+      "coffee_half": 0,
+      "coffee_decaf": 0,
+      "log_completeness": "complete",
+      "notes": "Standard smoothie. Burrito lunch: 60g sausage, cheese, 2 eggs, Â¼c rice, Â¼c beans. Snack: chicken focaccia sandwich + handful plantain chips. 2 White Claws + Â½ bottle red wine. Dinner: spaghetti & meatballs (150g meat, 80g dry pasta, Â½c tomato sauce).",
+      "meals_detail": {
+        "slots": {
+          "smoothie": {
+            "label": "Standard",
+            "kcal": 340,
+            "pro": 27,
+            "carbs": 57,
+            "fat": 2,
+            "items": [
+              {
+                "name": "Standard Smoothie",
+                "qty": 1,
+                "unit": "serving",
+                "kcal": 340,
+                "pro": 27,
+                "carbs": 57,
+                "fat": 2
+              }
+            ]
+          },
+          "lunch": {
+            "label": "Burrito",
+            "kcal": 801,
+            "pro": 42,
+            "carbs": 51,
+            "fat": 45,
+            "items": [
+              {
+                "name": "Sausage patty",
+                "qty": 60,
+                "unit": "g",
+                "kcal": 230,
+                "pro": 13,
+                "carbs": 1,
+                "fat": 19
+              },
+              {
+                "name": "Cheese slice",
+                "qty": 35,
+                "unit": "g",
+                "kcal": 140,
+                "pro": 9,
+                "carbs": 1,
+                "fat": 11
+              },
+              {
+                "name": "White Rice",
+                "qty": 1,
+                "unit": "Â¼c cup cooked",
+                "kcal": 50,
+                "pro": 1,
+                "carbs": 11,
+                "fat": 0
+              },
+              {
+                "name": "Beans (cooked)",
+                "qty": 1,
+                "unit": "Â¼c cup",
+                "kcal": 55,
+                "pro": 3,
+                "carbs": 10,
+                "fat": 0
+              },
+              {
+                "name": "Whole Egg",
+                "qty": 2,
+                "unit": "egg",
+                "kcal": 156,
+                "pro": 12,
+                "carbs": 1.2,
+                "fat": 10.6
+              },
+              {
+                "name": "Flour tortilla (large)",
+                "qty": 1,
+                "unit": "tortilla",
+                "kcal": 170,
+                "pro": 4,
+                "carbs": 27,
+                "fat": 4
+              }
+            ]
+          },
+          "snack": {
+            "label": "Chicken focaccia + chips",
+            "kcal": 550,
+            "pro": 46,
+            "carbs": 51,
+            "fat": 17,
+            "items": [
+              {
+                "name": "Chicken breast (shredded)",
+                "qty": 120,
+                "unit": "g",
+                "kcal": 200,
+                "pro": 40,
+                "carbs": 0,
+                "fat": 4
+              },
+              {
+                "name": "Focaccia bread",
+                "qty": 80,
+                "unit": "g",
+                "kcal": 200,
+                "pro": 5,
+                "carbs": 32,
+                "fat": 6
+              },
+              {
+                "name": "Plantain chips",
+                "qty": 30,
+                "unit": "g",
+                "kcal": 150,
+                "pro": 1,
+                "carbs": 19,
+                "fat": 7
+              }
+            ]
+          },
+          "dinner": {
+            "label": "Spaghetti & Meatballs",
+            "kcal": 735,
+            "pro": 40,
+            "carbs": 65,
+            "fat": 34,
+            "items": [
+              {
+                "name": "Ground beef (meatballs)",
+                "qty": 150,
+                "unit": "g",
+                "kcal": 375,
+                "pro": 28,
+                "carbs": 0,
+                "fat": 28
+              },
+              {
+                "name": "Dry pasta (spaghetti)",
+                "qty": 80,
+                "unit": "g dry",
+                "kcal": 280,
+                "pro": 10,
+                "carbs": 57,
+                "fat": 1
+              },
+              {
+                "name": "Tomato sauce",
+                "qty": 0.5,
+                "unit": "cup",
+                "kcal": 40,
+                "pro": 2,
+                "carbs": 8,
+                "fat": 0.5
+              },
+              {
+                "name": "Olive oil",
+                "qty": 1,
+                "unit": "tsp",
+                "kcal": 40,
+                "pro": 0,
+                "carbs": 0,
+                "fat": 4.5
+              }
+            ]
+          }
+        },
+        "extras": [
+          {
+            "name": "2Ã White Claw",
+            "kcal": 200
+          },
+          {
+            "name": "Red wine (Â½ bottle)",
+            "kcal": 319
+          }
+        ]
+      }
+    },
+    {
+      "date": "2026-05-03",
+      "day_of_week": "Sunday",
+      "calories_consumed": 1992,
+      "calorie_target": 1900,
+      "protein_g": 98,
+      "protein_target_g": 140,
+      "carbs_g": 170,
+      "fat_g": 66,
+      "tdee_estimate": 2500,
+      "food_deficit": 508,
+      "exercise_calories_burned": 0,
+      "net_deficit": 508,
+      "cumulative_deficit": 16960,
+      "weight_lb": null,
+      "gym_session": false,
+      "exercise_id": "",
+      "cardio_type": "none",
+      "cardio_minutes": 0,
+      "sleep_quality": 6,
+      "energy_level": null,
+      "cns_flags": false,
+      "coffee_full": 1,
+      "coffee_quarter": 0,
+      "coffee_half": 0,
+      "coffee_decaf": 0,
+      "log_completeness": "complete",
+      "notes": "",
+      "meals_detail": {
+        "slots": {
+          "smoothie": {
+            "label": "Standard",
+            "kcal": 320,
+            "pro": 27,
+            "carbs": 53,
+            "fat": 2,
+            "items": [
+              {
+                "name": "Banana",
+                "qty": 1,
+                "unit": "whole",
+                "kcal": 105,
+                "pro": 1.3,
+                "carbs": 27,
+                "fat": 0.4
+              },
+              {
+                "name": "Blueberries",
+                "qty": 1,
+                "unit": "¼ cup",
+                "kcal": 21,
+                "pro": 0.3,
+                "carbs": 5,
+                "fat": 0.1
+              },
+              {
+                "name": "Strawberries",
+                "qty": 3,
+                "unit": "¼ cup",
+                "kcal": 39,
+                "pro": 0.9,
+                "carbs": 9,
+                "fat": 0.3
+              },
+              {
+                "name": "Papaya",
+                "qty": 1,
+                "unit": "¼ cup",
+                "kcal": 14,
+                "pro": 0.2,
+                "carbs": 4,
+                "fat": 0.1
+              },
+              {
+                "name": "Orange Juice",
+                "qty": 3,
+                "unit": "tbsp",
+                "kcal": 21,
+                "pro": 0.3,
+                "carbs": 5.1,
+                "fat": 0
+              },
+              {
+                "name": "Protein Powder",
+                "qty": 1,
+                "unit": "scoop (30g)",
+                "kcal": 120,
+                "pro": 24,
+                "carbs": 3,
+                "fat": 1
+              }
+            ]
+          },
+          "lunch": {
+            "label": "Standard",
+            "kcal": 575,
+            "pro": 31,
+            "carbs": 39,
+            "fat": 30,
+            "items": [
+              {
+                "name": "Lettuce",
+                "qty": 2,
+                "unit": "cup",
+                "kcal": 20,
+                "pro": 1,
+                "carbs": 4,
+                "fat": 0.2
+              },
+              {
+                "name": "Sweet Potato",
+                "qty": 0.8,
+                "unit": "cup cooked",
+                "kcal": 104,
+                "pro": 2.4,
+                "carbs": 24,
+                "fat": 0.1
+              },
+              {
+                "name": "Avocado",
+                "qty": 2,
+                "unit": "¼ avocado",
+                "kcal": 130,
+                "pro": 2,
+                "carbs": 7,
+                "fat": 12
+              },
+              {
+                "name": "Tofu Dressing",
+                "qty": 3,
+                "unit": "tbsp",
+                "kcal": 114,
+                "pro": 3,
+                "carbs": 3,
+                "fat": 7.5
+              },
+              {
+                "name": "Whole Egg",
+                "qty": 2,
+                "unit": "egg",
+                "kcal": 156,
+                "pro": 12,
+                "carbs": 1.2,
+                "fat": 10.6
+              },
+              {
+                "name": "Egg White",
+                "qty": 3,
+                "unit": "white",
+                "kcal": 51,
+                "pro": 10.5,
+                "carbs": 0,
+                "fat": 0
+              }
+            ]
+          },
+          "snack": {
+            "label": "Skipped",
+            "skip": true
+          },
+          "dinner": {
+            "label": "Custom",
+            "kcal": 735,
+            "pro": 40,
+            "carbs": 65,
+            "fat": 34,
+            "items": [
+              {
+                "name": "Spaghetti and meatballs",
+                "qty": 1,
+                "unit": "serving",
+                "kcal": 735,
+                "pro": 40,
+                "carbs": 65,
+                "fat": 34
+              }
+            ]
+          }
+        },
+        "extras": [
+          {
+            "name": "Gin & Soda (half tsp agave)",
+            "kcal": 112
+          },
+          {
+            "name": "Gin & Soda (1 tsp agave)",
+            "kcal": 125
+          },
+          {
+            "name": "Gin & Soda (1 tsp agave)",
+            "kcal": 125
           }
         ]
       }
