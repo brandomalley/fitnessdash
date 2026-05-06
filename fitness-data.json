@@ -1,5 +1,5 @@
 {
-  "exported": "2026-05-06T14:43:34.248Z",
+  "exported": "2026-05-06T00:00:00.000Z",
   "raw_data": [
     {
       "date": "2026-04-12",
@@ -410,7 +410,7 @@
               {
                 "name": "Blueberries",
                 "qty": 1,
-                "unit": "¼ cup",
+                "unit": "\u00bc cup",
                 "kcal": 21,
                 "pro": 0.3,
                 "carbs": 5,
@@ -419,7 +419,7 @@
               {
                 "name": "Pineapple",
                 "qty": 1,
-                "unit": "¼ cup",
+                "unit": "\u00bc cup",
                 "kcal": 19,
                 "pro": 0.2,
                 "carbs": 5,
@@ -428,7 +428,7 @@
               {
                 "name": "Strawberries",
                 "qty": 1,
-                "unit": "¼ cup",
+                "unit": "\u00bc cup",
                 "kcal": 13,
                 "pro": 0.3,
                 "carbs": 3,
@@ -437,7 +437,7 @@
               {
                 "name": "Mango (smoothie)",
                 "qty": 2,
-                "unit": "¼ cup",
+                "unit": "\u00bc cup",
                 "kcal": 50,
                 "pro": 0.8,
                 "carbs": 12,
@@ -491,7 +491,7 @@
               {
                 "name": "Avocado",
                 "qty": 1,
-                "unit": "¼ avocado",
+                "unit": "\u00bc avocado",
                 "kcal": 65,
                 "pro": 1,
                 "carbs": 3.5,
@@ -536,7 +536,7 @@
               {
                 "name": "White Rice",
                 "qty": 2,
-                "unit": "¼ cup cooked",
+                "unit": "\u00bc cup cooked",
                 "kcal": 100,
                 "pro": 2,
                 "carbs": 22,
@@ -572,7 +572,7 @@
               {
                 "name": "Avocado",
                 "qty": 1,
-                "unit": "¼ avocado",
+                "unit": "\u00bc avocado",
                 "kcal": 65,
                 "pro": 1,
                 "carbs": 3.5,
@@ -638,7 +638,7 @@
               {
                 "name": "Blueberries",
                 "qty": 1,
-                "unit": "¼ cup",
+                "unit": "\u00bc cup",
                 "kcal": 21,
                 "pro": 0.3,
                 "carbs": 5,
@@ -647,7 +647,7 @@
               {
                 "name": "Pineapple",
                 "qty": 1,
-                "unit": "¼ cup",
+                "unit": "\u00bc cup",
                 "kcal": 19,
                 "pro": 0.2,
                 "carbs": 5,
@@ -656,7 +656,7 @@
               {
                 "name": "Strawberries",
                 "qty": 1,
-                "unit": "¼ cup",
+                "unit": "\u00bc cup",
                 "kcal": 13,
                 "pro": 0.3,
                 "carbs": 3,
@@ -665,7 +665,7 @@
               {
                 "name": "Mango (smoothie)",
                 "qty": 2,
-                "unit": "¼ cup",
+                "unit": "\u00bc cup",
                 "kcal": 50,
                 "pro": 0.8,
                 "carbs": 12,
@@ -719,7 +719,7 @@
               {
                 "name": "Avocado",
                 "qty": 1,
-                "unit": "¼ avocado",
+                "unit": "\u00bc avocado",
                 "kcal": 65,
                 "pro": 1,
                 "carbs": 3.5,
@@ -800,7 +800,7 @@
               {
                 "name": "White Rice",
                 "qty": 3,
-                "unit": "¼ cup cooked",
+                "unit": "\u00bc cup cooked",
                 "kcal": 150,
                 "pro": 3,
                 "carbs": 33,
@@ -809,7 +809,7 @@
               {
                 "name": "Avocado",
                 "qty": 1,
-                "unit": "¼ avocado",
+                "unit": "\u00bc avocado",
                 "kcal": 65,
                 "pro": 1,
                 "carbs": 3.5,
@@ -884,7 +884,7 @@
               {
                 "name": "Blueberries",
                 "qty": 1.5,
-                "unit": "¼ cup",
+                "unit": "\u00bc cup",
                 "kcal": 32,
                 "pro": 0.5,
                 "carbs": 7.5,
@@ -893,7 +893,7 @@
               {
                 "name": "Pineapple",
                 "qty": 0.5,
-                "unit": "¼ cup",
+                "unit": "\u00bc cup",
                 "kcal": 10,
                 "pro": 0.1,
                 "carbs": 2.5,
@@ -902,7 +902,7 @@
               {
                 "name": "Strawberries",
                 "qty": 2,
-                "unit": "¼ cup",
+                "unit": "\u00bc cup",
                 "kcal": 26,
                 "pro": 0.6,
                 "carbs": 6,
@@ -956,7 +956,7 @@
               {
                 "name": "Avocado",
                 "qty": 1,
-                "unit": "¼ avocado",
+                "unit": "\u00bc avocado",
                 "kcal": 65,
                 "pro": 1,
                 "carbs": 3.5,
@@ -992,7 +992,7 @@
               {
                 "name": "White Rice",
                 "qty": 2,
-                "unit": "¼ cup cooked",
+                "unit": "\u00bc cup cooked",
                 "kcal": 100,
                 "pro": 2,
                 "carbs": 22,
@@ -1111,7 +1111,7 @@
               {
                 "name": "Blueberries",
                 "qty": 1,
-                "unit": "¼ cup",
+                "unit": "\u00bc cup",
                 "kcal": 21,
                 "pro": 0.3,
                 "carbs": 5,
@@ -1120,7 +1120,7 @@
               {
                 "name": "Strawberries",
                 "qty": 3,
-                "unit": "¼ cup",
+                "unit": "\u00bc cup",
                 "kcal": 39,
                 "pro": 0.9,
                 "carbs": 9,
@@ -1174,7 +1174,7 @@
               {
                 "name": "Avocado",
                 "qty": 1,
-                "unit": "¼ avocado",
+                "unit": "\u00bc avocado",
                 "kcal": 65,
                 "pro": 1,
                 "carbs": 3.5,
@@ -1255,7 +1255,7 @@
               {
                 "name": "Avocado",
                 "qty": 1,
-                "unit": "¼ avocado",
+                "unit": "\u00bc avocado",
                 "kcal": 65,
                 "pro": 1,
                 "carbs": 3.5,
@@ -1282,7 +1282,7 @@
               {
                 "name": "White Rice",
                 "qty": 3,
-                "unit": "¼ cup cooked",
+                "unit": "\u00bc cup cooked",
                 "kcal": 150,
                 "pro": 3,
                 "carbs": 33,
@@ -1352,7 +1352,7 @@
               {
                 "name": "Blueberries",
                 "qty": 1,
-                "unit": "¼ cup",
+                "unit": "\u00bc cup",
                 "kcal": 21,
                 "pro": 0.3,
                 "carbs": 5,
@@ -1361,7 +1361,7 @@
               {
                 "name": "Strawberries",
                 "qty": 4,
-                "unit": "¼ cup",
+                "unit": "\u00bc cup",
                 "kcal": 52,
                 "pro": 1.2,
                 "carbs": 12,
@@ -1406,7 +1406,7 @@
               {
                 "name": "Avocado",
                 "qty": 1,
-                "unit": "¼ avocado",
+                "unit": "\u00bc avocado",
                 "kcal": 65,
                 "pro": 1,
                 "carbs": 3.5,
@@ -1460,7 +1460,7 @@
               {
                 "name": "White Rice",
                 "qty": 2,
-                "unit": "¼ cup cooked",
+                "unit": "\u00bc cup cooked",
                 "kcal": 100,
                 "pro": 2,
                 "carbs": 22,
@@ -1505,7 +1505,7 @@
               {
                 "name": "Avocado",
                 "qty": 1,
-                "unit": "¼ avocado",
+                "unit": "\u00bc avocado",
                 "kcal": 65,
                 "pro": 1,
                 "carbs": 3.5,
@@ -1532,7 +1532,7 @@
               {
                 "name": "White Rice",
                 "qty": 3,
-                "unit": "¼ cup cooked",
+                "unit": "\u00bc cup cooked",
                 "kcal": 150,
                 "pro": 3,
                 "carbs": 33,
@@ -1584,7 +1584,7 @@
       "coffee_half": 0,
       "coffee_decaf": 0,
       "log_completeness": "complete",
-      "notes": "Standard smoothie. Burrito lunch: 60g sausage, cheese, 2 eggs, Â¼c rice, Â¼c beans. Snack: chicken focaccia sandwich + handful plantain chips. 2 White Claws + Â½ bottle red wine. Dinner: spaghetti & meatballs (150g meat, 80g dry pasta, Â½c tomato sauce).",
+      "notes": "Standard smoothie. Burrito lunch: 60g sausage, cheese, 2 eggs, \u00c2\u00bcc rice, \u00c2\u00bcc beans. Snack: chicken focaccia sandwich + handful plantain chips. 2 White Claws + \u00c2\u00bd bottle red wine. Dinner: spaghetti & meatballs (150g meat, 80g dry pasta, \u00c2\u00bdc tomato sauce).",
       "meals_detail": {
         "slots": {
           "smoothie": {
@@ -1633,7 +1633,7 @@
               {
                 "name": "White Rice",
                 "qty": 1,
-                "unit": "Â¼c cup cooked",
+                "unit": "\u00c2\u00bcc cup cooked",
                 "kcal": 50,
                 "pro": 1,
                 "carbs": 11,
@@ -1642,7 +1642,7 @@
               {
                 "name": "Beans (cooked)",
                 "qty": 1,
-                "unit": "Â¼c cup",
+                "unit": "\u00c2\u00bcc cup",
                 "kcal": 55,
                 "pro": 3,
                 "carbs": 10,
@@ -1752,11 +1752,11 @@
         },
         "extras": [
           {
-            "name": "2Ã White Claw",
+            "name": "2\u00c3\u0097 White Claw",
             "kcal": 200
           },
           {
-            "name": "Red wine (Â½ bottle)",
+            "name": "Red wine (\u00c2\u00bd bottle)",
             "kcal": 319
           }
         ]
@@ -1811,7 +1811,7 @@
               {
                 "name": "Blueberries",
                 "qty": 1,
-                "unit": "¼ cup",
+                "unit": "\u00bc cup",
                 "kcal": 21,
                 "pro": 0.3,
                 "carbs": 5,
@@ -1820,7 +1820,7 @@
               {
                 "name": "Strawberries",
                 "qty": 3,
-                "unit": "¼ cup",
+                "unit": "\u00bc cup",
                 "kcal": 39,
                 "pro": 0.9,
                 "carbs": 9,
@@ -1847,7 +1847,7 @@
               {
                 "name": "Papaya",
                 "qty": 1,
-                "unit": "¼ cup",
+                "unit": "\u00bc cup",
                 "kcal": 14,
                 "pro": 0.2,
                 "carbs": 4,
@@ -1883,7 +1883,7 @@
               {
                 "name": "Avocado",
                 "qty": 2,
-                "unit": "¼ avocado",
+                "unit": "\u00bc avocado",
                 "kcal": 130,
                 "pro": 2,
                 "carbs": 7,
@@ -1901,7 +1901,7 @@
               {
                 "name": "White Rice",
                 "qty": 2,
-                "unit": "¼ cup cooked",
+                "unit": "\u00bc cup cooked",
                 "kcal": 100,
                 "pro": 2,
                 "carbs": 22,
@@ -1963,6 +1963,121 @@
       }
     },
     {
+      "date": "2026-05-04",
+      "day_of_week": "Monday",
+      "calories_consumed": 1930,
+      "calorie_target": 1900,
+      "protein_g": 110,
+      "protein_target_g": 140,
+      "carbs_g": 196,
+      "fat_g": 41,
+      "tdee_estimate": 2500,
+      "food_deficit": 570,
+      "exercise_calories_burned": 0,
+      "net_deficit": 570,
+      "cumulative_deficit": 18152,
+      "weight_lb": null,
+      "gym_session": false,
+      "exercise_id": "",
+      "cardio_type": "none",
+      "cardio_minutes": 0,
+      "sleep_quality": null,
+      "energy_level": null,
+      "cns_flags": false,
+      "coffee_full": 0,
+      "coffee_quarter": 0,
+      "coffee_half": 0,
+      "coffee_decaf": 0,
+      "log_completeness": "complete",
+      "notes": "Rest day. Standard smoothie + lunch. 120g chicken snack. Dinner out: 1 sushi roll (panko shrimp, split 2 with Lauren) + 2 gin sodas + 1 gin tonic.",
+      "meals_detail": {
+        "slots": {
+          "smoothie": {
+            "label": "Standard",
+            "kcal": 340,
+            "pro": 27,
+            "carbs": 57,
+            "fat": 2,
+            "items": [
+              {
+                "name": "Standard Smoothie",
+                "qty": 1,
+                "unit": "serving",
+                "kcal": 340,
+                "pro": 27,
+                "carbs": 57,
+                "fat": 2
+              }
+            ]
+          },
+          "lunch": {
+            "label": "Standard",
+            "kcal": 720,
+            "pro": 33,
+            "carbs": 79,
+            "fat": 30,
+            "items": [
+              {
+                "name": "Standard Lunch",
+                "qty": 1,
+                "unit": "serving",
+                "kcal": 720,
+                "pro": 33,
+                "carbs": 79,
+                "fat": 30
+              }
+            ]
+          },
+          "snack": {
+            "label": "Chicken 120g",
+            "kcal": 200,
+            "pro": 40,
+            "carbs": 0,
+            "fat": 4,
+            "items": [
+              {
+                "name": "Chicken Breast",
+                "qty": 120,
+                "unit": "g",
+                "kcal": 200,
+                "pro": 40,
+                "carbs": 0,
+                "fat": 4
+              }
+            ]
+          },
+          "dinner": {
+            "label": "Sushi dinner",
+            "kcal": 340,
+            "pro": 10,
+            "carbs": 45,
+            "fat": 5,
+            "items": [
+              {
+                "name": "Sushi roll - panko shrimp (half of 2 shared w/ Lauren)",
+                "qty": 1,
+                "unit": "roll",
+                "kcal": 340,
+                "pro": 10,
+                "carbs": 45,
+                "fat": 5
+              }
+            ]
+          }
+        },
+        "extras": [
+          {
+            "name": "2x Gin & Soda",
+            "kcal": 194
+          },
+          {
+            "name": "Gin & Tonic",
+            "kcal": 137
+          }
+        ]
+      }
+    },
+    {
       "date": "2026-05-05",
       "day_of_week": "Tuesday",
       "calories_consumed": 1739,
@@ -1975,7 +2090,7 @@
       "food_deficit": 761,
       "exercise_calories_burned": 459,
       "net_deficit": 1220,
-      "cumulative_deficit": 18802,
+      "cumulative_deficit": 19372,
       "weight_lb": null,
       "gym_session": true,
       "exercise_id": "upper",
@@ -2002,7 +2117,7 @@
               {
                 "name": "Blueberries",
                 "qty": 1,
-                "unit": "¼ cup",
+                "unit": "\u00bc cup",
                 "kcal": 21,
                 "pro": 0.3,
                 "carbs": 5,
@@ -2011,7 +2126,7 @@
               {
                 "name": "Pineapple",
                 "qty": 1,
-                "unit": "¼ cup",
+                "unit": "\u00bc cup",
                 "kcal": 19,
                 "pro": 0.2,
                 "carbs": 5,
@@ -2020,7 +2135,7 @@
               {
                 "name": "Strawberries",
                 "qty": 2,
-                "unit": "¼ cup",
+                "unit": "\u00bc cup",
                 "kcal": 26,
                 "pro": 0.6,
                 "carbs": 6,
@@ -2029,7 +2144,7 @@
               {
                 "name": "Papaya",
                 "qty": 1,
-                "unit": "¼ cup",
+                "unit": "\u00bc cup",
                 "kcal": 14,
                 "pro": 0.2,
                 "carbs": 4,
@@ -2056,7 +2171,7 @@
               {
                 "name": "Pineapple",
                 "qty": 1,
-                "unit": "¼ cup",
+                "unit": "\u00bc cup",
                 "kcal": 19,
                 "pro": 0.2,
                 "carbs": 5,
@@ -2092,7 +2207,7 @@
               {
                 "name": "Avocado",
                 "qty": 1,
-                "unit": "¼ avocado",
+                "unit": "\u00bc avocado",
                 "kcal": 65,
                 "pro": 1,
                 "carbs": 3.5,
@@ -2128,7 +2243,7 @@
               {
                 "name": "White Rice",
                 "qty": 3,
-                "unit": "¼ cup cooked",
+                "unit": "\u00bc cup cooked",
                 "kcal": 150,
                 "pro": 3,
                 "carbs": 33,
