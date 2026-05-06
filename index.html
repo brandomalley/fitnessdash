@@ -1,3 +1,6 @@
+HTTP 200 
+Content-Type: text/plain; charset=utf-8
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -2689,6 +2692,49 @@ GitHubSync.init();
     DB.setData(data);
   }
   localStorage.setItem('_patch_v6','1');
+})();
+
+// Patch v7: Add May 4 entry (sushi dinner, rest day) and recascade all cumulative deficits
+(function patchV7() {
+  if(localStorage.getItem('_patch_v7')) return;
+  var data = DB.getData();
+  var may4 = {
+    "date":"2026-05-04","day_of_week":"Monday",
+    "calories_consumed":1930,"calorie_target":1900,
+    "protein_g":110,"protein_target_g":140,
+    "carbs_g":196,"fat_g":41,
+    "tdee_estimate":2500,"food_deficit":570,
+    "exercise_calories_burned":0,"net_deficit":570,
+    "weight_lb":null,"gym_session":false,"exercise_id":"",
+    "cardio_type":"none","cardio_minutes":0,
+    "sleep_quality":null,"energy_level":null,"cns_flags":false,
+    "coffee_full":0,"coffee_quarter":0,"coffee_half":0,"coffee_decaf":0,
+    "log_completeness":"complete",
+    "notes":"Rest day. Standard smoothie + standard lunch + 120g chicken snack. Dinner out: 1 sushi roll panko shrimp (split 2 with Lauren) + 2 gin sodas + 1 gin tonic.",
+    "meals_detail":{
+      "slots":{
+        "smoothie":{"label":"Standard","kcal":340,"pro":27,"carbs":57,"fat":2,
+          "items":[{"name":"Standard Smoothie","qty":1,"unit":"serving","kcal":340,"pro":27,"carbs":57,"fat":2}]},
+        "lunch":{"label":"Standard","kcal":720,"pro":33,"carbs":79,"fat":30,
+          "items":[{"name":"Standard Lunch","qty":1,"unit":"serving","kcal":720,"pro":33,"carbs":79,"fat":30}]},
+        "snack":{"label":"Chicken 120g","kcal":200,"pro":40,"carbs":0,"fat":4,
+          "items":[{"name":"Chicken Breast","qty":120,"unit":"g","kcal":200,"pro":40,"carbs":0,"fat":4}]},
+        "dinner":{"label":"Sushi dinner","kcal":340,"pro":10,"carbs":45,"fat":5,
+          "items":[{"name":"Sushi roll - panko shrimp (half of 2 shared w/ Lauren)","qty":1,"unit":"roll","kcal":340,"pro":10,"carbs":45,"fat":5}]}
+      },
+      "extras":[
+        {"name":"2x Gin & Soda","kcal":194},
+        {"name":"Gin & Tonic","kcal":137}
+      ]
+    }
+  };
+  var may4idx = data.findIndex(function(d){return d.date==='2026-05-04';});
+  if(may4idx === -1) { data.push(may4); } else { data[may4idx] = may4; }
+  data.sort(function(a,b){return a.date < b.date ? -1 : 1;});
+  var cum = 0;
+  data.forEach(function(entry){ cum += (entry.net_deficit||0); entry.cumulative_deficit = Math.round(cum); });
+  DB.setData(data);
+  localStorage.setItem('_patch_v7','1');
 })();
 renderAll();
 </script>
