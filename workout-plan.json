@@ -1,78 +1,64 @@
 {
-  "updated": "2026-05-04",
+  "updated": "2026-05-06",
   "workout": {
-    "date": "2026-05-05",
-    "day_label": "Tuesday, May 5",
-    "session_type": "Upper Body",
+    "date": "2026-05-07",
+    "day_label": "Thursday, May 7",
+    "session_type": "Lower Body \u2014 Recovery Load",
     "is_gym_day": true,
     "warmup": "Incline walk \u00b7 10 min \u00b7 3.5 mph \u00b7 7% incline",
     "finisher": "Incline walk \u00b7 10 min \u00b7 3.4 mph \u00b7 7% incline",
     "exercises": [
       {
         "id": "A",
-        "name": "Flat DB Bench Press",
-        "detail": "60 lb \u00d7 10 \u00b7 3 sets",
+        "name": "Leg Press",
+        "detail": "305 lb \u00d7 10 \u00b7 3 sets",
         "rest": "90s rest",
-        "note": "60s is the standard now. Controlled lower, drive up. 1-2 RIR on last set."
+        "note": "Down from 335 \u2014 legs are carrying fatigue from May 2 + yard work. 2-second controlled lower on every rep, drive through heels. This is intentionally lighter to rebuild without digging a deeper hole."
       },
       {
         "id": "B",
-        "name": "Cable Row",
-        "detail": "140 lb \u00d7 10 \u00b7 3 sets",
+        "name": "Hip Thrust Machine",
+        "detail": "145 lb \u00d7 12 \u00b7 3 sets",
         "rest": "90s rest",
-        "note": "Up 5 lb from 135. Pull elbows back, chest stays up, brief pause at the top. Don't let the weight yank you forward."
+        "note": "Up 5 lb from 140. Glute-dominant so it won't spike leg soreness. Drive hips fully up, squeeze at the top for 1 second, lower slow. No hyperextension at the top \u2014 neutral spine."
       },
       {
         "id": "C",
-        "name": "Incline DB Bench",
-        "detail": "60 lb \u00d7 10-12 \u00b7 3 sets",
+        "name": "Leg Curl",
+        "detail": "66 lb \u00d7 12 \u00b7 3 sets",
         "rest": "90s rest",
-        "note": "Push for 12 clean reps on the last set. Elbows at 45 degrees, full range. Hit 12x3 cleanly and you go to 65 lb next session."
+        "note": "Stay at the lighter end today. Add a 2-second pause at peak contraction (heels pulled all the way in) before lowering slow. Quality over load."
       },
       {
         "id": "D",
-        "name": "Lat Pulldown",
-        "detail": "125 lb \u00d7 10 \u00b7 3 sets",
+        "name": "DB Romanian Deadlift",
+        "detail": "35 lb \u00d7 12 \u00b7 3 sets",
         "rest": "90s rest",
-        "note": "Up 5 lb from 120. Pull bar to upper chest, lean back slightly, squeeze lats at bottom. Don't swing."
+        "note": "Light and slow \u2014 3-second eccentric on the way down, feel the hamstring stretch at the bottom, drive hips through to stand. This is a feel-the-movement day, not a max-load day. Keep a soft knee bend, back flat."
       },
       {
         "id": "E",
-        "name": "DB Lateral Raise",
-        "detail": "15 lb \u00d7 15-20 \u00b7 3 sets",
+        "name": "Bodyweight Step-Ups",
+        "detail": "Bodyweight \u00d7 12/side \u00b7 2 sets",
         "rest": "60s rest",
-        "note": "Hold at 15s and push for 20 reps \u2014 earn the jump to 20 lb with volume, not just weight. Lead with elbows, stop at shoulder height, no momentum."
+        "note": "No added weight \u2014 just hip drive and balance. Step up, drive the knee, stand fully at the top before stepping down. If your legs feel fine halfway through, that's the point \u2014 you're building without accumulating more damage."
       },
       {
         "id": "F",
-        "name": "Arms Superset \u2014 Hammer Curl + Rope Pushdown",
-        "detail": "Hammer Curl 25 lb \u00d7 12 + Rope Pushdown 77 lb \u00d7 12 \u00b7 3 rounds",
-        "rest": "60s between rounds",
-        "note": "Push for 12 on the curls at 25 lb \u2014 when 12 feels easy across all 3 rounds, jump to 30 next session. No rest between curl and pushdown. Split rope at bottom, lock elbows in."
-      },
-      {
-        "id": "G",
         "name": "Core Circuit",
-        "detail": "Dead Bugs x 10/side + Side Plank 30s/side + Pallof Press 20 lb x 10/side \u00b7 2 rounds",
+        "detail": "Dead Bugs \u00d7 10/side + Side Plank 30s/side + Pallof Press 20 lb \u00d7 10/side \u00b7 2 rounds",
         "rest": "30s between exercises",
-        "note": "Controlled and deliberate. Low back flat on dead bugs. Hips don't sag on side plank. Resist rotation on Pallof."
+        "note": "Controlled and deliberate. Low back flat on dead bugs. Hips don't sag on side plank. Resist rotation on Pallof. Finish strong here."
       }
     ]
   },
   "week": [
     {
-      "date": "2026-05-04",
-      "day_short": "Mon May 4",
-      "session_type": "Rest Day",
-      "type": "rest",
-      "note": "Extra recovery \u2014 yard work yesterday"
-    },
-    {
       "date": "2026-05-05",
       "day_short": "Tue May 5",
       "session_type": "Upper Body",
       "type": "gym",
-      "note": "Flat bench / cable row / lat pulldown focus"
+      "note": "Flat bench / cable row / lat pulldown \u2014 done"
     },
     {
       "date": "2026-05-06",
@@ -86,7 +72,7 @@
       "day_short": "Thu May 7",
       "session_type": "Lower Body",
       "type": "gym",
-      "note": "Leg press / hip thrust / KB swings"
+      "note": "Recovery load \u2014 lighter leg press, hip thrust, RDL focus"
     },
     {
       "date": "2026-05-08",
@@ -100,7 +86,14 @@
       "day_short": "Sat May 9",
       "session_type": "Upper Body",
       "type": "gym",
-      "note": "Push/pull \u2014 incline bench focus"
+      "note": "Push/pull \u2014 incline bench + cable row focus"
+    },
+    {
+      "date": "2026-05-10",
+      "day_short": "Sun May 10",
+      "session_type": "Rest Day",
+      "type": "rest",
+      "note": "Full rest or light walk"
     }
   ]
 }
