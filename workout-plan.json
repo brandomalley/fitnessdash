@@ -1,8 +1,8 @@
 {
   "updated": "2026-05-08",
   "workout": {
-    "date": "2026-05-07",
-    "day_label": "Thursday, May 7",
+    "date": "2026-05-09",
+    "day_label": "Saturday, May 9",
     "session_type": "HIT Functional Training Class",
     "is_gym_day": true,
     "warmup": "",
@@ -19,25 +19,11 @@
   },
   "week": [
     {
-      "date": "2026-05-05",
-      "day_short": "Tue May 5",
-      "session_type": "Upper Body",
-      "type": "gym",
-      "note": "Flat bench / cable row / lat pulldown \u2014 done"
-    },
-    {
-      "date": "2026-05-06",
-      "day_short": "Wed May 6",
-      "session_type": "Rest / Light Cardio",
-      "type": "cardio",
-      "note": "Walk or pickleball \u2014 active recovery"
-    },
-    {
       "date": "2026-05-07",
       "day_short": "Thu May 7",
-      "session_type": "HIT Class",
-      "type": "gym",
-      "note": "Functional training with trainer \u2014 get workout summary after"
+      "session_type": "Rest Day",
+      "type": "rest",
+      "note": "Full rest \u2014 legs still recovering"
     },
     {
       "date": "2026-05-08",
@@ -49,9 +35,9 @@
     {
       "date": "2026-05-09",
       "day_short": "Sat May 9",
-      "session_type": "Upper Body",
+      "session_type": "HIT Class",
       "type": "gym",
-      "note": "Push/pull \u2014 incline bench + cable row focus"
+      "note": "Functional training with trainer \u2014 get workout summary after"
     },
     {
       "date": "2026-05-10",
@@ -59,6 +45,20 @@
       "session_type": "Rest Day",
       "type": "rest",
       "note": "Full rest or light walk"
+    },
+    {
+      "date": "2026-05-11",
+      "day_short": "Mon May 11",
+      "session_type": "Lower Body",
+      "type": "gym",
+      "note": "Back to lower body \u2014 leg press / hip thrust / RDL"
+    },
+    {
+      "date": "2026-05-12",
+      "day_short": "Tue May 12",
+      "session_type": "Rest Day",
+      "type": "rest",
+      "note": "Full rest"
     }
   ]
 }
