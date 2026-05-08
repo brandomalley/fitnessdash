@@ -2742,6 +2742,17 @@ GitHubSync.init();
   DB.setData(data);
   localStorage.setItem('_patch_v7','1');
 })();
+
+// Patch v8: set May 8 weigh-in (176.8 lb)
+(function patchV8() {
+  if(localStorage.getItem('_patch_v8')) return;
+  var l = DB.getToday();
+  if(l.date === '2026-05-08' && (l.weight_lb === null || l.weight_lb === undefined)) {
+    l.weight_lb = 176.8;
+    DB.setToday(l);
+  }
+  localStorage.setItem('_patch_v8','1');
+})();
 renderAll();
 </script>
 </body>
