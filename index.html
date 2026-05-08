@@ -2743,14 +2743,27 @@ GitHubSync.init();
   localStorage.setItem('_patch_v7','1');
 })();
 
-// Patch v8: set May 8 weigh-in (176.8 lb)
+// Patch v8: set May 8 weigh-in (176.8 lb) in both today and history
 (function patchV8() {
   if(localStorage.getItem('_patch_v8')) return;
+  // Update today's entry
   var l = DB.getToday();
-  if(l.date === '2026-05-08' && (l.weight_lb === null || l.weight_lb === undefined)) {
+  if(l.date === '2026-05-08') {
     l.weight_lb = 176.8;
     DB.setToday(l);
   }
+  // Also upsert into historical data so stats tab reflects it immediately
+  var data = DB.getData();
+  var idx = data.findIndex(function(d){return d.date==='2026-05-08';});
+  if(idx === -1) {
+    data.push({date:'2026-05-08',weight_lb:176.8,calories_consumed:0,protein_g:0,carbs_g:0,fat_g:0,
+      food_deficit:0,exercise_calories_burned:0,net_deficit:0,cumulative_deficit:0,
+      gym_session:false,log_completeness:'partial'});
+  } else {
+    data[idx].weight_lb = 176.8;
+  }
+  data.sort(function(a,b){return a.date<b.date?-1:1;});
+  DB.setData(data);
   localStorage.setItem('_patch_v8','1');
 })();
 renderAll();
