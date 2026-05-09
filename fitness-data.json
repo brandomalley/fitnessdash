@@ -1,5 +1,5 @@
 {
-  "exported": "2026-05-08T02:29:37.983Z",
+  "exported": "2026-05-09T02:30:20.005Z",
   "raw_data": [
     {
       "date": "2026-04-12",
@@ -2517,23 +2517,23 @@
     {
       "date": "2026-05-07",
       "day_of_week": "Thursday",
-      "calories_consumed": 1729,
+      "calories_consumed": 1967,
       "calorie_target": 1900,
-      "protein_g": 151,
+      "protein_g": 136,
       "protein_target_g": 140,
-      "carbs_g": 191,
-      "fat_g": 38,
+      "carbs_g": 221,
+      "fat_g": 34,
       "tdee_estimate": 2500,
-      "food_deficit": 771,
-      "exercise_calories_burned": 425,
-      "net_deficit": 1196,
-      "cumulative_deficit": 21361,
-      "weight_lb": null,
-      "gym_session": true,
-      "exercise_id": "lower",
-      "cardio_type": "incline walk",
+      "food_deficit": 533,
+      "exercise_calories_burned": 0,
+      "net_deficit": 533,
+      "cumulative_deficit": 20698,
+      "weight_lb": 176.8,
+      "gym_session": false,
+      "exercise_id": "",
+      "cardio_type": "none",
       "cardio_minutes": 0,
-      "sleep_quality": 6,
+      "sleep_quality": 4,
       "energy_level": null,
       "cns_flags": false,
       "coffee_full": 1,
@@ -2546,9 +2546,9 @@
         "slots": {
           "smoothie": {
             "label": "Standard",
-            "kcal": 300,
+            "kcal": 286,
             "pro": 26,
-            "carbs": 49,
+            "carbs": 45,
             "fat": 2,
             "items": [
               {
@@ -2579,15 +2579,6 @@
                 "fat": 0.1
               },
               {
-                "name": "Papaya",
-                "qty": 1,
-                "unit": "¼ cup",
-                "kcal": 14,
-                "pro": 0.2,
-                "carbs": 4,
-                "fat": 0.1
-              },
-              {
                 "name": "Orange Juice",
                 "qty": 3,
                 "unit": "tbsp",
@@ -2609,10 +2600,10 @@
           },
           "lunch": {
             "label": "Standard + Rice",
-            "kcal": 658,
+            "kcal": 677,
             "pro": 36,
-            "carbs": 68,
-            "fat": 23,
+            "carbs": 69,
+            "fat": 24,
             "items": [
               {
                 "name": "Lettuce",
@@ -2633,13 +2624,22 @@
                 "fat": 0.1
               },
               {
+                "name": "Avocado",
+                "qty": 1,
+                "unit": "¼ avocado",
+                "kcal": 65,
+                "pro": 1,
+                "carbs": 3.5,
+                "fat": 6
+              },
+              {
                 "name": "Tofu Dressing",
-                "qty": 2.5,
+                "qty": 3,
                 "unit": "tbsp",
-                "kcal": 95,
-                "pro": 2.5,
-                "carbs": 2.5,
-                "fat": 6.3
+                "kcal": 114,
+                "pro": 3,
+                "carbs": 3,
+                "fat": 7.5
               },
               {
                 "name": "Whole Egg",
@@ -2667,60 +2667,60 @@
                 "pro": 3,
                 "carbs": 33,
                 "fat": 0
-              },
-              {
-                "name": "Avocado",
-                "qty": 1,
-                "unit": "¼ avocado",
-                "kcal": 65,
-                "pro": 1,
-                "carbs": 3.5,
-                "fat": 6
               }
             ]
           },
           "snack": {
             "label": "Chicken 120g",
-            "kcal": 219,
+            "kcal": 257,
             "pro": 41,
-            "carbs": 1,
-            "fat": 6,
+            "carbs": 17,
+            "fat": 3,
             "items": [
               {
                 "name": "Chicken Breast",
-                "qty": 120,
+                "qty": 50,
                 "unit": "g",
-                "kcal": 200,
-                "pro": 40,
+                "kcal": 84,
+                "pro": 16.7,
                 "carbs": 0,
-                "fat": 4.8
+                "fat": 2
               },
               {
-                "name": "Tofu Dressing",
+                "name": "Banana",
                 "qty": 0.5,
-                "unit": "tbsp",
-                "kcal": 19,
-                "pro": 0.5,
-                "carbs": 0.5,
-                "fat": 1.3
+                "unit": "whole",
+                "kcal": 53,
+                "pro": 0.7,
+                "carbs": 13.5,
+                "fat": 0.2
+              },
+              {
+                "name": "Protein Powder",
+                "qty": 1,
+                "unit": "scoop (30g)",
+                "kcal": 120,
+                "pro": 24,
+                "carbs": 3,
+                "fat": 1
               }
             ]
           },
           "dinner": {
             "label": "GF Pasta / Tofu Squash / Chicken",
-            "kcal": 531,
-            "pro": 49,
-            "carbs": 68,
-            "fat": 7,
+            "kcal": 524,
+            "pro": 33,
+            "carbs": 84,
+            "fat": 5,
             "items": [
               {
                 "name": "GF Pasta (cooked)",
-                "qty": 3,
+                "qty": 4,
                 "unit": "50g",
-                "kcal": 218,
-                "pro": 3.8,
-                "carbs": 43.5,
-                "fat": 1.2
+                "kcal": 290,
+                "pro": 5,
+                "carbs": 58,
+                "fat": 1.6
               },
               {
                 "name": "Tofu Squash Sauce",
@@ -2733,38 +2733,42 @@
               },
               {
                 "name": "Chicken Breast",
-                "qty": 120,
+                "qty": 70,
                 "unit": "g",
-                "kcal": 200,
-                "pro": 40,
+                "kcal": 117,
+                "pro": 23.3,
                 "carbs": 0,
-                "fat": 4.8
+                "fat": 2.8
               },
               {
                 "name": "Carrots",
-                "qty": 0.3,
+                "qty": 0.5,
                 "unit": "cup",
-                "kcal": 16,
-                "pro": 0.4,
-                "carbs": 3.6,
-                "fat": 0.1
+                "kcal": 26,
+                "pro": 0.6,
+                "carbs": 6,
+                "fat": 0.2
               },
               {
                 "name": "Zucchini",
-                "qty": 0.8,
+                "qty": 0.5,
                 "unit": "cup",
-                "kcal": 16,
-                "pro": 1.2,
-                "carbs": 3.2,
-                "fat": 0.2
+                "kcal": 10,
+                "pro": 0.8,
+                "carbs": 2,
+                "fat": 0.1
               }
             ]
           }
         },
         "extras": [
           {
-            "name": "Agave in water (1 tsp)",
-            "kcal": 21
+            "name": "Gin & Soda (half tsp agave)",
+            "kcal": 112
+          },
+          {
+            "name": "Gin & Soda (half tsp agave)",
+            "kcal": 112
           }
         ]
       }
