@@ -1,64 +1,99 @@
 {
-  "updated": "2026-05-08",
+  "updated": "2026-05-11",
   "workout": {
-    "date": "2026-05-09",
-    "day_label": "Saturday, May 9",
-    "session_type": "HIT Functional Training Class",
+    "date": "2026-05-11",
+    "day_label": "Monday, May 11",
+    "session_type": "Upper Body — Chest / Shoulders / Triceps",
     "is_gym_day": true,
-    "warmup": "",
-    "finisher": "",
+    "warmup": "Incline walk · 8-10 min · 3.3-3.5 mph · 6-8% incline",
+    "finisher": "Incline walk · 10 min · 3.4 mph · 6-8% incline",
     "exercises": [
       {
-        "id": "",
-        "name": "HIT Functional Training Class",
-        "detail": "Full class with trainer",
-        "rest": "",
-        "note": "Get the workout summary from your trainer afterward \u2014 exercises, duration, and any calorie estimate. Share it so we can log the burn accurately and plan your next session around what you actually did today."
+        "id": "A",
+        "name": "Incline DB Bench Press",
+        "detail": "60 lb × 10 · 3 sets — push 12 on last set",
+        "rest": "90s rest",
+        "note": "Controlled eccentric (2 sec down). Slight incline. If last set hits 12 clean, go to 62.5s next session."
+      },
+      {
+        "id": "B",
+        "name": "DB Shoulder Press",
+        "detail": "35 lb × 10 · 3 sets",
+        "rest": "90s rest",
+        "note": "Seated or standing. Full press overhead, slight forward lean. You have been at 35s — these should feel solid today."
+      },
+      {
+        "id": "C",
+        "name": "T-Bar Row",
+        "detail": "50 lb × 10 · 3 sets",
+        "rest": "90s rest",
+        "note": "Up from 45 lb. Chest on pad, elbows drive back, full retraction at top. One pull movement to keep the session balanced."
+      },
+      {
+        "id": "D",
+        "name": "Lateral Raise",
+        "detail": "15 lb × 15 · 3 sets",
+        "rest": "60s rest",
+        "note": "Lead with elbows, stop at shoulder height. Do not shrug. Hits the medial delt — exactly what you want after doing mostly front delt at HIIT."
+      },
+      {
+        "id": "E",
+        "name": "Rope Pushdown + Face Pull (superset)",
+        "detail": "Rope Pushdown: 77 lb × 12 · 3 rounds / Face Pull: 40 lb × 15 · 3 rounds",
+        "rest": "75s between rounds",
+        "note": "Superset back-to-back. Pushdown: elbows pinned, flare rope out at bottom. Face Pull: elbows high and wide, pull to forehead level. Rear delts and rotator cuff — do not skip it."
+      },
+      {
+        "id": "F",
+        "name": "Core Circuit — Bird Dog + Pallof Press + Side Plank",
+        "detail": "Bird Dog: 8/side · 2 rounds / Pallof Press: 20 lb × 10/side · 2 rounds / Side Plank: 25 sec/side · 2 rounds",
+        "rest": "30s between exercises, 60s between rounds",
+        "note": "Lower abs are still sore from Saturday — skipping anything that loads them. Anti-rotation focused. Bird Dog: pause 1 sec at full extension. Pallof: brace hard before you press."
       }
     ]
   },
   "week": [
     {
-      "date": "2026-05-07",
-      "day_short": "Thu May 7",
-      "session_type": "Rest Day",
-      "type": "rest",
-      "note": "Full rest \u2014 legs still recovering"
-    },
-    {
-      "date": "2026-05-08",
-      "day_short": "Fri May 8",
-      "session_type": "Rest Day",
-      "type": "rest",
-      "note": "Full rest"
-    },
-    {
-      "date": "2026-05-09",
-      "day_short": "Sat May 9",
-      "session_type": "HIT Class",
-      "type": "gym",
-      "note": "Functional training with trainer \u2014 get workout summary after"
-    },
-    {
-      "date": "2026-05-10",
-      "day_short": "Sun May 10",
-      "session_type": "Rest Day",
-      "type": "rest",
-      "note": "Full rest or light walk"
-    },
-    {
       "date": "2026-05-11",
       "day_short": "Mon May 11",
-      "session_type": "Lower Body",
+      "session_type": "Upper Body",
       "type": "gym",
-      "note": "Back to lower body \u2014 leg press / hip thrust / RDL"
+      "note": "Chest / shoulders / triceps focus"
     },
     {
       "date": "2026-05-12",
       "day_short": "Tue May 12",
+      "session_type": "Rest / Light Cardio",
+      "type": "rest",
+      "note": "Active recovery — walk or pickleball if you feel good"
+    },
+    {
+      "date": "2026-05-13",
+      "day_short": "Wed May 13",
+      "session_type": "Lower Body",
+      "type": "gym",
+      "note": "Hips and hamstrings should be recovered by now"
+    },
+    {
+      "date": "2026-05-14",
+      "day_short": "Thu May 14",
       "session_type": "Rest Day",
       "type": "rest",
-      "note": "Full rest"
+      "note": "Full rest or pickleball"
+    },
+    {
+      "date": "2026-05-15",
+      "day_short": "Fri May 15",
+      "session_type": "Upper Body",
+      "type": "gym",
+      "note": "Pull focus — rows, pulldown, arms"
+    },
+    {
+      "date": "2026-05-16",
+      "day_short": "Sat May 16",
+      "session_type": "Rest / Active Recovery",
+      "type": "rest",
+      "note": "Pickleball or full rest"
     }
   ]
 }
