@@ -1,5 +1,5 @@
 {
-  "exported": "2026-05-10T14:33:00.344Z",
+  "exported": "2026-05-11T11:58:46.936Z",
   "raw_data": [
     {
       "date": "2026-04-12",
@@ -2899,6 +2899,136 @@
           {
             "name": "Gin & Soda (half tsp agave)",
             "kcal": 112
+          }
+        ]
+      }
+    },
+    {
+      "date": "2026-05-10",
+      "day_of_week": "Sunday",
+      "calories_consumed": 1719,
+      "calorie_target": 1900,
+      "protein_g": 77,
+      "protein_target_g": 140,
+      "carbs_g": 213,
+      "fat_g": 46,
+      "tdee_estimate": 2500,
+      "food_deficit": 781,
+      "exercise_calories_burned": 0,
+      "net_deficit": 781,
+      "cumulative_deficit": 20940,
+      "weight_lb": null,
+      "gym_session": false,
+      "exercise_id": "",
+      "cardio_type": "none",
+      "cardio_minutes": 0,
+      "sleep_quality": 5,
+      "energy_level": null,
+      "cns_flags": false,
+      "coffee_full": 1,
+      "coffee_quarter": 1,
+      "coffee_half": 0,
+      "coffee_decaf": 0,
+      "log_completeness": "partial",
+      "notes": "",
+      "meals_detail": {
+        "slots": {
+          "smoothie": null,
+          "lunch": {
+            "label": "Custom",
+            "kcal": 602,
+            "pro": 25,
+            "carbs": 31,
+            "fat": 39,
+            "items": [
+              {
+                "name": "Dinner at Juan and Agustinas leftovers",
+                "qty": 1,
+                "unit": "serving",
+                "kcal": 602,
+                "pro": 25,
+                "carbs": 31,
+                "fat": 39
+              }
+            ]
+          },
+          "snack": null,
+          "dinner": {
+            "label": "GF Pasta / Tofu Squash / Chicken",
+            "kcal": 869,
+            "pro": 52,
+            "carbs": 146,
+            "fat": 7,
+            "items": [
+              {
+                "name": "GF Pasta (cooked)",
+                "qty": 4,
+                "unit": "50g",
+                "kcal": 290,
+                "pro": 5,
+                "carbs": 58,
+                "fat": 1.6
+              },
+              {
+                "name": "Tofu Squash Sauce",
+                "qty": 3,
+                "unit": "60g",
+                "kcal": 81,
+                "pro": 3.6,
+                "carbs": 18,
+                "fat": 0.5
+              },
+              {
+                "name": "Chicken Breast",
+                "qty": 110,
+                "unit": "g",
+                "kcal": 184,
+                "pro": 36.6,
+                "carbs": 0,
+                "fat": 4.4
+              },
+              {
+                "name": "Zucchini",
+                "qty": 0.5,
+                "unit": "cup",
+                "kcal": 10,
+                "pro": 0.8,
+                "carbs": 2,
+                "fat": 0.1
+              },
+              {
+                "name": "White Rice",
+                "qty": 4,
+                "unit": "¼ cup cooked",
+                "kcal": 200,
+                "pro": 4,
+                "carbs": 44,
+                "fat": 0
+              },
+              {
+                "name": "Sweet Potato",
+                "qty": 0.8,
+                "unit": "cup cooked",
+                "kcal": 104,
+                "pro": 2.4,
+                "carbs": 24,
+                "fat": 0.1
+              }
+            ]
+          }
+        },
+        "extras": [
+          {
+            "name": "8 Oz cold pressed apple juice",
+            "kcal": 115
+          },
+          {
+            "name": "Gin & Soda (half tsp agave)",
+            "kcal": 112
+          },
+          {
+            "name": "Agave in water (1 tsp)",
+            "kcal": 21
           }
         ]
       }
