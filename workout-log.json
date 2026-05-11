@@ -9,7 +9,7 @@
       {
         "id": "A",
         "name": "Flat DB Bench Press",
-        "planned": "57.5 lb ÃÂÃÂ 10 ÃÂÃÂ· 3 sets",
+        "planned": "57.5 lb ÃÂÃÂÃÂÃÂ 10 ÃÂÃÂÃÂÃÂ· 3 sets",
         "weight": "",
         "sets_reps": "",
         "note": "Did 60 lbs 3 xs 10\nFelt very strong. Last reps tough but probably could have done 1 more."
@@ -17,7 +17,7 @@
       {
         "id": "B",
         "name": "Cable Row",
-        "planned": "135 lb ÃÂÃÂ 10 ÃÂÃÂ· 3 sets",
+        "planned": "135 lb ÃÂÃÂÃÂÃÂ 10 ÃÂÃÂÃÂÃÂ· 3 sets",
         "weight": "",
         "sets_reps": "",
         "note": "Got all 3 sets. Last reps tough"
@@ -25,7 +25,7 @@
       {
         "id": "C",
         "name": "Lat Pulldown",
-        "planned": "120 lb ÃÂÃÂ 10-12 ÃÂÃÂ· 3 sets",
+        "planned": "120 lb ÃÂÃÂÃÂÃÂ 10-12 ÃÂÃÂÃÂÃÂ· 3 sets",
         "weight": "",
         "sets_reps": "",
         "note": "Got all the sets. Last reps tough. Did 3 xs 10 for all"
@@ -33,7 +33,7 @@
       {
         "id": "D",
         "name": "Shoulder Press (DB)",
-        "planned": "35 lb ÃÂÃÂ 10-12 ÃÂÃÂ· 3 sets",
+        "planned": "35 lb ÃÂÃÂÃÂÃÂ 10-12 ÃÂÃÂÃÂÃÂ· 3 sets",
         "weight": "",
         "sets_reps": "",
         "note": "Got 3 xs 12. Last rep was very tough."
@@ -41,7 +41,7 @@
       {
         "id": "E",
         "name": "Face Pulls",
-        "planned": "40 lb ÃÂÃÂ 15 ÃÂÃÂ· 3 sets",
+        "planned": "40 lb ÃÂÃÂÃÂÃÂ 15 ÃÂÃÂÃÂÃÂ· 3 sets",
         "weight": "",
         "sets_reps": "",
         "note": "Got all the sets and reps here"
@@ -49,15 +49,15 @@
       {
         "id": "F",
         "name": "Arms Superset: Rope Pushdown + Hammer Curl",
-        "planned": "Rope pushdown 77 lb ÃÂÃÂ 12 + Hammer curl 25 lb ÃÂÃÂ 10 ÃÂÃÂ· 3 rounds",
+        "planned": "Rope pushdown 77 lb ÃÂÃÂÃÂÃÂ 12 + Hammer curl 25 lb ÃÂÃÂÃÂÃÂ 10 ÃÂÃÂÃÂÃÂ· 3 rounds",
         "weight": "",
         "sets_reps": "",
         "note": "The cable machine that I used for the tricep pushdown today actually just went by tens so I either had a 70 or an 80. I started with 12 reps of 70 then I moved to 80. There's a bunch of cable machines in my gym so sometimes I can't use the same one. Went to 80 and got 12 then 10 reps.\n\nCurls did 25lbs xs 10 xs 3. Last rep tough!"
       },
       {
         "id": "G",
-        "name": "Core Circuit: Dead Bug ÃÂ¢ÃÂÃÂ Pallof Press ÃÂ¢ÃÂÃÂ Bicycle Crunch",
-        "planned": "Dead bug ÃÂÃÂ 10/side ÃÂ¢ÃÂÃÂ Pallof press 30 lb ÃÂÃÂ 12/side ÃÂ¢ÃÂÃÂ Bicycle crunch ÃÂÃÂ 20 ÃÂÃÂ· 3 rounds",
+        "name": "Core Circuit: Dead Bug ÃÂÃÂ¢ÃÂÃÂÃÂÃÂ Pallof Press ÃÂÃÂ¢ÃÂÃÂÃÂÃÂ Bicycle Crunch",
+        "planned": "Dead bug ÃÂÃÂÃÂÃÂ 10/side ÃÂÃÂ¢ÃÂÃÂÃÂÃÂ Pallof press 30 lb ÃÂÃÂÃÂÃÂ 12/side ÃÂÃÂ¢ÃÂÃÂÃÂÃÂ Bicycle crunch ÃÂÃÂÃÂÃÂ 20 ÃÂÃÂÃÂÃÂ· 3 rounds",
         "weight": "",
         "sets_reps": "",
         "note": "First set felt easy. Got all the reps on the core circuit and finished with 30 bicycle kicks. I could have probably got 40, but I just didn't want to burn out at that point. I also did not do incline walk at the end because I was already at an hour and five minutes, and it's a Wednesday. I'm OK to go over an hour on the weekends, but during the week I'd like to keep my workouts to about an hour and five minutes tops."
@@ -74,7 +74,7 @@
       {
         "id": "A",
         "name": "Leg Press",
-        "planned": "345 lb ÃÂ 10 ÃÂ· 3 sets",
+        "planned": "345 lb ÃÂÃÂ 10 ÃÂÃÂ· 3 sets",
         "weight": "",
         "sets_reps": "",
         "note": "Got all three sets pretty good, pretty strong, feeling good."
@@ -82,7 +82,7 @@
       {
         "id": "B",
         "name": "Hip Thrust Machine",
-        "planned": "140 lb ÃÂ 12 ÃÂ· 3 sets",
+        "planned": "140 lb ÃÂÃÂ 12 ÃÂÃÂ· 3 sets",
         "weight": "",
         "sets_reps": "",
         "note": "Did 140 pounds times 12 for the first two and then got 14 on the last set. It was tough but probably could have done a couple more honestly."
@@ -90,7 +90,7 @@
       {
         "id": "C",
         "name": "Walking Lunge (DB)",
-        "planned": "25 lb DBs ÃÂ 10/leg ÃÂ· 3 sets",
+        "planned": "25 lb DBs ÃÂÃÂ 10/leg ÃÂÃÂ· 3 sets",
         "weight": "",
         "sets_reps": "",
         "note": "Got all these reps. Tough. Legs getting a little tired here."
@@ -98,7 +98,7 @@
       {
         "id": "D",
         "name": "Leg Curl",
-        "planned": "77 lb ÃÂ 10-12 ÃÂ· 3 sets",
+        "planned": "77 lb ÃÂÃÂ 10-12 ÃÂÃÂ· 3 sets",
         "weight": "",
         "sets_reps": "",
         "note": "Got 12 then 10 then 8 I only got eight on the last set because my hamstrings were feeling super tight. I pulled one of my hamstrings like 12 years ago and I still get a little nervous when it gets too tight and I don't want it to pop."
@@ -106,7 +106,7 @@
       {
         "id": "E",
         "name": "KB Swing (Two-Hand)",
-        "planned": "30 lb ÃÂ 15 ÃÂ· 3 sets",
+        "planned": "30 lb ÃÂÃÂ 15 ÃÂÃÂ· 3 sets",
         "weight": "",
         "sets_reps": "",
         "note": "My heart rate is definitely up here but the weight did feel a little light. Honestly I felt it in my lower abs and my hips and I think probably a decent weight for this type of exercise but you tell me."
@@ -114,7 +114,7 @@
       {
         "id": "F",
         "name": "Goblet Squat (KB)",
-        "planned": "45 lb ÃÂ 12 ÃÂ· 2 sets",
+        "planned": "45 lb ÃÂÃÂ 12 ÃÂÃÂ· 2 sets",
         "weight": "",
         "sets_reps": "",
         "note": "I couldn't find a 45 lb kettlebell so I did a 50 lb kettlebell and felt quite fine doing both reps or both sets of twelve."
@@ -122,7 +122,7 @@
       {
         "id": "G",
         "name": "Core Circuit B",
-        "planned": "Pallof Press 20 lb ÃÂ 10/side + Ab Wheel ÃÂ 8-10 + Bird Dog ÃÂ 8/side ÃÂ· 2 rounds",
+        "planned": "Pallof Press 20 lb ÃÂÃÂ 10/side + Ab Wheel ÃÂÃÂ 8-10 + Bird Dog ÃÂÃÂ 8/side ÃÂÃÂ· 2 rounds",
         "weight": "",
         "sets_reps": "",
         "note": "The 20 lb on the pull-off press felt too light so on the second set I bumped it to 30. Still felt very manageable at 30."
@@ -139,7 +139,7 @@
       {
         "id": "A",
         "name": "Flat DB Bench Press",
-        "planned": "60 lb Ã 10 Â· 3 sets",
+        "planned": "60 lb ÃÂ 10 ÃÂ· 3 sets",
         "weight": "",
         "sets_reps": "",
         "note": "Got all these reps good"
@@ -147,7 +147,7 @@
       {
         "id": "B",
         "name": "Cable Row",
-        "planned": "140 lb Ã 10 Â· 3 sets",
+        "planned": "140 lb ÃÂ 10 ÃÂ· 3 sets",
         "weight": "",
         "sets_reps": "",
         "note": "The cable row machine at my gym goes 120, 135 then 150. I did 135 xs 10 xs 3. Last reps very tough."
@@ -155,7 +155,7 @@
       {
         "id": "C",
         "name": "Incline DB Bench",
-        "planned": "60 lb Ã 10-12 Â· 3 sets",
+        "planned": "60 lb ÃÂ 10-12 ÃÂ· 3 sets",
         "weight": "",
         "sets_reps": "",
         "note": "I put the bench at about 45 degrees. I can only get 8 reps with the 60 lb dumbbells on set one and 6 reps on set two so I dropped the dumbbells to 50 lb for the last set. My left shoulder also started to feel quite tired just right away on the first set. I got 10 on the last set but barely."
@@ -163,7 +163,7 @@
       {
         "id": "D",
         "name": "Lat Pulldown",
-        "planned": "125 lb Ã 10 Â· 3 sets",
+        "planned": "125 lb ÃÂ 10 ÃÂ· 3 sets",
         "weight": "",
         "sets_reps": "",
         "note": "The lat pull down at the gym was taken so I switched to dumbbell rows with a 45 lb dumbbell. First set I did 12 reps. Got 12 on set 2 and 3rd set also."
@@ -171,15 +171,15 @@
       {
         "id": "E",
         "name": "DB Lateral Raise",
-        "planned": "15 lb Ã 15-20 Â· 3 sets",
+        "planned": "15 lb ÃÂ 15-20 ÃÂ· 3 sets",
         "weight": "",
         "sets_reps": "",
         "note": "I did 10 lb dumbbells instead of 15. My shoulder's feeling quite weak. I did get 20 reps on the first set though. It's pinching a bit but I think I can push through it here. 15 reps on set 2. Got 18 reps on the last set. The shoulder didn't feel any more pain than it felt on the first set so I kept going and felt pretty good."
       },
       {
         "id": "F",
-        "name": "Arms Superset â Hammer Curl + Rope Pushdown",
-        "planned": "Hammer Curl 25 lb Ã 12 + Rope Pushdown 77 lb Ã 12 Â· 3 rounds",
+        "name": "Arms Superset Ã¢ÂÂ Hammer Curl + Rope Pushdown",
+        "planned": "Hammer Curl 25 lb ÃÂ 12 + Rope Pushdown 77 lb ÃÂ 12 ÃÂ· 3 rounds",
         "weight": "",
         "sets_reps": "",
         "note": "For the curls I got 12 reps on set one and 10 reps on set two. I think my biceps are a little tired from the switch-up to the dumbbell rows. The machine that I was using for the rope pushdown goes by tens so it was either 70 or 80 so I chose 80. I got 12 reps on the first set and 10 reps on the second. Got 10 reps on curls for last set and 12 reps on pushdown."
@@ -187,7 +187,7 @@
       {
         "id": "G",
         "name": "Core Circuit",
-        "planned": "Dead Bugs x 10/side + Side Plank 30s/side + Pallof Press 20 lb x 10/side Â· 2 rounds",
+        "planned": "Dead Bugs x 10/side + Side Plank 30s/side + Pallof Press 20 lb x 10/side ÃÂ· 2 rounds",
         "weight": "",
         "sets_reps": "",
         "note": "I did 30kb pallof press. Core Circuit felt easy"
@@ -197,14 +197,14 @@
   {
     "date": "2026-05-07",
     "day_label": "Thursday, May 7",
-    "session_type": "Lower Body — Recovery Load",
+    "session_type": "Lower Body â Recovery Load",
     "submitted_at": "2026-05-07T13:08:39.608Z",
     "notes": "Session felt good. It didn't feel like it was a break but I don't feel burnt out.",
     "exercises": [
       {
         "id": "A",
         "name": "Leg Press",
-        "planned": "305 lb × 10 · 3 sets",
+        "planned": "305 lb Ã 10 Â· 3 sets",
         "weight": "",
         "sets_reps": "",
         "note": ""
@@ -212,7 +212,7 @@
       {
         "id": "B",
         "name": "Hip Thrust Machine",
-        "planned": "145 lb × 12 · 3 sets",
+        "planned": "145 lb Ã 12 Â· 3 sets",
         "weight": "",
         "sets_reps": "",
         "note": ""
@@ -220,7 +220,7 @@
       {
         "id": "C",
         "name": "Leg Curl",
-        "planned": "66 lb × 12 · 3 sets",
+        "planned": "66 lb Ã 12 Â· 3 sets",
         "weight": "",
         "sets_reps": "",
         "note": ""
@@ -228,7 +228,7 @@
       {
         "id": "D",
         "name": "DB Romanian Deadlift",
-        "planned": "35 lb × 12 · 3 sets",
+        "planned": "35 lb Ã 12 Â· 3 sets",
         "weight": "",
         "sets_reps": "",
         "note": ""
@@ -236,7 +236,7 @@
       {
         "id": "E",
         "name": "Bodyweight Step-Ups",
-        "planned": "Bodyweight × 12/side · 2 sets",
+        "planned": "Bodyweight Ã 12/side Â· 2 sets",
         "weight": "",
         "sets_reps": "",
         "note": "I did one leg at a time here and when I lifted my leg that I wasn't using, I drove it all the way up and crunched a little bit at the top for a little extra."
@@ -244,10 +244,67 @@
       {
         "id": "F",
         "name": "Core Circuit",
-        "planned": "Dead Bugs × 10/side + Side Plank 30s/side + Pallof Press 20 lb × 10/side · 2 rounds",
+        "planned": "Dead Bugs Ã 10/side + Side Plank 30s/side + Pallof Press 20 lb Ã 10/side Â· 2 rounds",
         "weight": "",
         "sets_reps": "",
         "note": "I bumped up to 40 lb on the pull-up bar because I felt like 20 and 30 lb is too light. I think 40 lb is a good weight for me with that exercise right now."
+      }
+    ]
+  },
+  {
+    "date": "2026-05-11",
+    "day_label": "Monday, May 11",
+    "session_type": "Upper Body — Chest / Shoulders / Triceps",
+    "submitted_at": "2026-05-11T13:02:34.095Z",
+    "notes": "I felt pretty strong today. I think that it was a combination of just having a fairly restful weekend and maybe lots of calories on Saturday night. Not really sure but felt strong and my nervous system feels pretty decent right now after the workout.",
+    "exercises": [
+      {
+        "id": "A",
+        "name": "Incline DB Bench Press",
+        "planned": "60 lb × 10 · 3 sets — push 12 on last set",
+        "weight": "",
+        "sets_reps": "",
+        "note": "I got all these reps and also got twelve on the third set, which would probably be the last one I could do but I got it."
+      },
+      {
+        "id": "B",
+        "name": "DB Shoulder Press",
+        "planned": "35 lb × 10 · 3 sets",
+        "weight": "",
+        "sets_reps": "",
+        "note": "I got all of these reps. Shoulders felt strong but a little tired because I did hit them a bit in the HIIT workout, I guess. Left shoulder is still tired but I'm not getting pinches. I think the 35 is a good place for me on the shoulder press right now until the shoulder gets a little bit stronger."
+      },
+      {
+        "id": "C",
+        "name": "T-Bar Row",
+        "planned": "50 lb × 10 · 3 sets",
+        "weight": "",
+        "sets_reps": "",
+        "note": "I got all the reps here who felt like this was the right move. On the last rep I did get a little lightheaded but just for making notes."
+      },
+      {
+        "id": "D",
+        "name": "Lateral Raise",
+        "planned": "15 lb × 15 · 3 sets",
+        "weight": "",
+        "sets_reps": "",
+        "note": "I got all of these but the last couple reps were very tough. In the beginning I was nervous that my left shoulder was going to be pinching but it never pinched. It's definitely tired but it never pinched so it's getting stronger. I've been doing some band work, lateral raises, at home occasionally so something to note."
+      },
+      {
+        "id": "E",
+        "name": "Rope Pushdown + Face Pull (superset)",
+        "planned": "Rope Pushdown: 77 lb × 12 · 3 rounds / Face Pull: 40 lb × 15 · 3 rounds",
+        "weight": "",
+        "sets_reps": "",
+        "note": "Got all these reps"
+      },
+      {
+        "id": "F",
+        "name": "Core Circuit — Bird Dog + Pallof Press + Side Plank",
+        "planned": "Bird Dog: 8/side · 2 rounds / Pallof Press: 20 lb × 10/side · 2 rounds / Side Plank: 25 sec/side · 2 rounds",
+        "weight": "",
+        "sets_reps": "",
+        "note": "The core circuit felt good. I did feel like a little tightness in my lower back on the left side, where I usually get a little tight and have pulled things before, but in general this was good. I did 30 lb on the pull-up bar. The 20 just doesn't feel like it's doing anything honestly."
       }
     ]
   }
