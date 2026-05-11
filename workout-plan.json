@@ -53,47 +53,11 @@
     ]
   },
   "week": [
-    {
-      "date": "2026-05-11",
-      "day_short": "Mon May 11",
-      "session_type": "Upper Body",
-      "type": "gym",
-      "note": "Chest / shoulders / triceps focus"
-    },
-    {
-      "date": "2026-05-12",
-      "day_short": "Tue May 12",
-      "session_type": "Rest / Light Cardio",
-      "type": "rest",
-      "note": "Active recovery — walk or pickleball if you feel good"
-    },
-    {
-      "date": "2026-05-13",
-      "day_short": "Wed May 13",
-      "session_type": "Lower Body",
-      "type": "gym",
-      "note": "Hips and hamstrings should be recovered by now"
-    },
-    {
-      "date": "2026-05-14",
-      "day_short": "Thu May 14",
-      "session_type": "Rest Day",
-      "type": "rest",
-      "note": "Full rest or pickleball"
-    },
-    {
-      "date": "2026-05-15",
-      "day_short": "Fri May 15",
-      "session_type": "Upper Body",
-      "type": "gym",
-      "note": "Pull focus — rows, pulldown, arms"
-    },
-    {
-      "date": "2026-05-16",
-      "day_short": "Sat May 16",
-      "session_type": "Rest / Active Recovery",
-      "type": "rest",
-      "note": "Pickleball or full rest"
-    }
+    {"date": "2026-05-11", "day_short": "Mon May 11", "session_type": "Upper Body", "type": "gym", "note": "Chest / shoulders / triceps focus"},
+    {"date": "2026-05-12", "day_short": "Tue May 12", "session_type": "Rest / Light Cardio", "type": "rest", "note": "Active recovery — walk or pickleball if you feel good"},
+    {"date": "2026-05-13", "day_short": "Wed May 13", "session_type": "Lower Body", "type": "gym", "note": "Hips and hamstrings should be recovered by now"},
+    {"date": "2026-05-14", "day_short": "Thu May 14", "session_type": "Rest Day", "type": "rest", "note": "Full rest or pickleball"},
+    {"date": "2026-05-15", "day_short": "Fri May 15", "session_type": "Upper Body", "type": "gym", "note": "Pull focus — rows, pulldown, arms"},
+    {"date": "2026-05-16", "day_short": "Sat May 16", "session_type": "Rest / Active Recovery", "type": "rest", "note": "Pickleball or full rest"}
   ]
 }
