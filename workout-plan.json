@@ -1,63 +1,99 @@
 {
-  "updated": "2026-05-11",
-  "workout": {
-    "date": "2026-05-11",
-    "day_label": "Monday, May 11",
-    "session_type": "Upper Body — Chest / Shoulders / Triceps",
-    "is_gym_day": true,
-    "warmup": "Incline walk · 8-10 min · 3.3-3.5 mph · 6-8% incline",
-    "finisher": "Incline walk · 10 min · 3.4 mph · 6-8% incline",
-    "exercises": [
-      {
-        "id": "A",
-        "name": "Incline DB Bench Press",
-        "detail": "60 lb × 10 · 3 sets — push 12 on last set",
-        "rest": "90s rest",
-        "note": "Controlled eccentric (2 sec down). Slight incline. If last set hits 12 clean, go to 62.5s next session."
-      },
-      {
-        "id": "B",
-        "name": "DB Shoulder Press",
-        "detail": "35 lb × 10 · 3 sets",
-        "rest": "90s rest",
-        "note": "Seated or standing. Full press overhead, slight forward lean. You have been at 35s — these should feel solid today."
-      },
-      {
-        "id": "C",
-        "name": "T-Bar Row",
-        "detail": "50 lb × 10 · 3 sets",
-        "rest": "90s rest",
-        "note": "Up from 45 lb. Chest on pad, elbows drive back, full retraction at top. One pull movement to keep the session balanced."
-      },
-      {
-        "id": "D",
-        "name": "Lateral Raise",
-        "detail": "15 lb × 15 · 3 sets",
-        "rest": "60s rest",
-        "note": "Lead with elbows, stop at shoulder height. Do not shrug. Hits the medial delt — exactly what you want after doing mostly front delt at HIIT."
-      },
-      {
-        "id": "E",
-        "name": "Rope Pushdown + Face Pull (superset)",
-        "detail": "Rope Pushdown: 77 lb × 12 · 3 rounds / Face Pull: 40 lb × 15 · 3 rounds",
-        "rest": "75s between rounds",
-        "note": "Superset back-to-back. Pushdown: elbows pinned, flare rope out at bottom. Face Pull: elbows high and wide, pull to forehead level. Rear delts and rotator cuff — do not skip it."
-      },
-      {
-        "id": "F",
-        "name": "Core Circuit — Bird Dog + Pallof Press + Side Plank",
-        "detail": "Bird Dog: 8/side · 2 rounds / Pallof Press: 20 lb × 10/side · 2 rounds / Side Plank: 25 sec/side · 2 rounds",
-        "rest": "30s between exercises, 60s between rounds",
-        "note": "Lower abs are still sore from Saturday — skipping anything that loads them. Anti-rotation focused. Bird Dog: pause 1 sec at full extension. Pallof: brace hard before you press."
-      }
-    ]
-  },
-  "week": [
-    {"date": "2026-05-11", "day_short": "Mon May 11", "session_type": "Upper Body", "type": "gym", "note": "Chest / shoulders / triceps focus"},
-    {"date": "2026-05-12", "day_short": "Tue May 12", "session_type": "Rest / Light Cardio", "type": "rest", "note": "Active recovery — walk or pickleball if you feel good"},
-    {"date": "2026-05-13", "day_short": "Wed May 13", "session_type": "Lower Body", "type": "gym", "note": "Hips and hamstrings should be recovered by now"},
-    {"date": "2026-05-14", "day_short": "Thu May 14", "session_type": "Rest Day", "type": "rest", "note": "Full rest or pickleball"},
-    {"date": "2026-05-15", "day_short": "Fri May 15", "session_type": "Upper Body", "type": "gym", "note": "Pull focus — rows, pulldown, arms"},
-    {"date": "2026-05-16", "day_short": "Sat May 16", "session_type": "Rest / Active Recovery", "type": "rest", "note": "Pickleball or full rest"}
-  ]
+    "workout":  {
+                    "finisher":  "Incline walk · 10 min · 3.4 mph · 6-8% incline",
+                    "exercises":  [
+                                      {
+                                          "detail":  "350 lb × 10 reps · 3 sets",
+                                          "rest":  "90s rest",
+                                          "name":  "Leg Press",
+                                          "id":  "A",
+                                          "note":  "Controlled tempo down, drive through heels. No locking at the top."
+                                      },
+                                      {
+                                          "detail":  "77 lb × 10-12 reps · 3 sets",
+                                          "rest":  "75s rest",
+                                          "name":  "Leg Curl",
+                                          "id":  "B",
+                                          "note":  "Slow the eccentric. Cap at 10 on the last set if hamstrings feel tight."
+                                      },
+                                      {
+                                          "detail":  "150 lb × 12 reps · 3 sets",
+                                          "rest":  "90s rest",
+                                          "name":  "Hip Thrust Machine",
+                                          "id":  "C",
+                                          "note":  "Up 5 from last session. Full hip extension, hard squeeze at top. No hyperextension."
+                                      },
+                                      {
+                                          "detail":  "50 lb KB × 12 reps · 3 sets",
+                                          "rest":  "75s rest",
+                                          "name":  "KB Goblet Squat",
+                                          "id":  "D",
+                                          "note":  "Your baseline. Chest tall, knees track over toes. Heel elevation if needed."
+                                      },
+                                      {
+                                          "detail":  "25 lb DBs × 10 reps/leg · 3 sets",
+                                          "rest":  "60s rest",
+                                          "name":  "Step-Ups (DB)",
+                                          "id":  "E",
+                                          "note":  "Drive through the heel of the working leg. Add knee drive at the top."
+                                      },
+                                      {
+                                          "detail":  "Pallof Press 40 lb × 10/side · Ab Wheel × 8-10 · Bird Dog × 8/side · 2 rounds",
+                                          "rest":  "60s between rounds",
+                                          "name":  "Core Circuit — B",
+                                          "id":  "F",
+                                          "note":  "Pallof: brace hard, no rotation. Ab Wheel: lumbar stays neutral. Bird Dog: pause 1 sec at extension."
+                                      }
+                                  ],
+                    "warmup":  "Incline walk · 8-10 min · 3.3-3.5 mph · 6-8% incline",
+                    "date":  "2026-05-13",
+                    "is_gym_day":  true,
+                    "session_type":  "Lower Body",
+                    "day_label":  "Wednesday, May 13"
+                },
+    "week":  [
+                 {
+                     "date":  "2026-05-12",
+                     "type":  "rest",
+                     "day_short":  "Tue May 12",
+                     "session_type":  "Rest Day",
+                     "note":  "Recovery"
+                 },
+                 {
+                     "date":  "2026-05-13",
+                     "type":  "gym",
+                     "day_short":  "Wed May 13",
+                     "session_type":  "Lower Body",
+                     "note":  "Leg press · leg curl · hip thrust · goblet squat · step-ups"
+                 },
+                 {
+                     "date":  "2026-05-14",
+                     "type":  "gym",
+                     "day_short":  "Thu May 14",
+                     "session_type":  "Upper Body",
+                     "note":  "Push / pull / shoulders / arms"
+                 },
+                 {
+                     "date":  "2026-05-15",
+                     "type":  "rest",
+                     "day_short":  "Fri May 15",
+                     "session_type":  "Rest Day",
+                     "note":  "Rest before HIIT Saturday"
+                 },
+                 {
+                     "date":  "2026-05-16",
+                     "type":  "cardio",
+                     "day_short":  "Sat May 16",
+                     "session_type":  "HIIT Functional Training",
+                     "note":  "Functional HIIT class"
+                 },
+                 {
+                     "date":  "2026-05-17",
+                     "type":  "rest",
+                     "day_short":  "Sun May 17",
+                     "session_type":  "Rest Day",
+                     "note":  "Full recovery"
+                 }
+             ],
+    "updated":  "2026-05-12"
 }
