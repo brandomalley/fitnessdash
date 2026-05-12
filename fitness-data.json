@@ -1,5 +1,5 @@
 {
-  "exported": "2026-05-12T11:33:14.117Z",
+  "exported": "2026-05-12T23:06:57.836Z",
   "raw_data": [
     {
       "date": "2026-04-12",
@@ -3036,17 +3036,17 @@
     {
       "date": "2026-05-11",
       "day_of_week": "Monday",
-      "calories_consumed": 1826,
+      "calories_consumed": 1971,
       "calorie_target": 1900,
       "protein_g": 153,
       "protein_target_g": 140,
-      "carbs_g": 210,
+      "carbs_g": 236,
       "fat_g": 42,
       "tdee_estimate": 2500,
-      "food_deficit": 674,
+      "food_deficit": 529,
       "exercise_calories_burned": 462,
-      "net_deficit": 1136,
-      "cumulative_deficit": 22076,
+      "net_deficit": 991,
+      "cumulative_deficit": 21931,
       "weight_lb": null,
       "gym_session": true,
       "exercise_id": "upper",
@@ -3060,7 +3060,7 @@
       "coffee_half": 0,
       "coffee_decaf": 0,
       "log_completeness": "complete",
-      "notes": "",
+      "notes": "Edited this day to add calories and carbs for an apple juice I forgot to record. ",
       "meals_detail": {
         "slots": {
           "smoothie": {
