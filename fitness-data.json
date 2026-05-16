@@ -1,5 +1,5 @@
 {
-  "exported": "2026-05-15T01:39:37.262Z",
+  "exported": "2026-05-16T13:09:13.205Z",
   "raw_data": [
     {
       "date": "2026-04-12",
@@ -3796,27 +3796,27 @@
     {
       "date": "2026-05-14",
       "day_of_week": "Thursday",
-      "calories_consumed": 2132,
+      "calories_consumed": 2536,
       "calorie_target": 1900,
-      "protein_g": 160,
+      "protein_g": 119,
       "protein_target_g": 140,
-      "carbs_g": 199,
-      "fat_g": 45,
+      "carbs_g": 167,
+      "fat_g": 60,
       "tdee_estimate": 2500,
-      "food_deficit": 368,
-      "exercise_calories_burned": 520,
-      "net_deficit": 888,
-      "cumulative_deficit": 24600,
+      "food_deficit": -36,
+      "exercise_calories_burned": 0,
+      "net_deficit": -36,
+      "cumulative_deficit": 23676,
       "weight_lb": null,
-      "gym_session": true,
-      "exercise_id": "upper",
-      "cardio_type": "incline walk",
-      "cardio_minutes": 10,
-      "sleep_quality": 6,
+      "gym_session": false,
+      "exercise_id": "",
+      "cardio_type": "none",
+      "cardio_minutes": 0,
+      "sleep_quality": 7,
       "energy_level": null,
       "cns_flags": false,
       "coffee_full": 1,
-      "coffee_quarter": 0,
+      "coffee_quarter": 1,
       "coffee_half": 0,
       "coffee_decaf": 0,
       "log_completeness": "complete",
@@ -3825,19 +3825,19 @@
         "slots": {
           "smoothie": {
             "label": "Standard",
-            "kcal": 339,
-            "pro": 27,
-            "carbs": 59,
+            "kcal": 286,
+            "pro": 26,
+            "carbs": 45,
             "fat": 2,
             "items": [
               {
                 "name": "Banana",
-                "qty": 1.5,
+                "qty": 1,
                 "unit": "whole",
-                "kcal": 158,
-                "pro": 2,
-                "carbs": 40.5,
-                "fat": 0.6
+                "kcal": 105,
+                "pro": 1.3,
+                "carbs": 27,
+                "fat": 0.4
               },
               {
                 "name": "Blueberries",
@@ -3879,20 +3879,11 @@
           },
           "lunch": {
             "label": "Standard + Rice",
-            "kcal": 716,
-            "pro": 37,
-            "carbs": 68,
-            "fat": 29,
+            "kcal": 650,
+            "pro": 33,
+            "carbs": 67,
+            "fat": 24,
             "items": [
-              {
-                "name": "Lettuce",
-                "qty": 1.5,
-                "unit": "cup",
-                "kcal": 15,
-                "pro": 0.8,
-                "carbs": 3,
-                "fat": 0.2
-              },
               {
                 "name": "Sweet Potato",
                 "qty": 0.8,
@@ -3913,12 +3904,12 @@
               },
               {
                 "name": "Tofu Dressing",
-                "qty": 3.5,
+                "qty": 3,
                 "unit": "tbsp",
-                "kcal": 133,
-                "pro": 3.5,
-                "carbs": 3.5,
-                "fat": 8.8
+                "kcal": 114,
+                "pro": 3,
+                "carbs": 3,
+                "fat": 7.5
               },
               {
                 "name": "Whole Egg",
@@ -3931,140 +3922,72 @@
               },
               {
                 "name": "Egg White",
-                "qty": 4,
+                "qty": 3,
                 "unit": "white",
-                "kcal": 68,
-                "pro": 14,
+                "kcal": 51,
+                "pro": 10.5,
                 "carbs": 0,
                 "fat": 0
               },
               {
                 "name": "White Rice",
-                "qty": 2,
+                "qty": 3,
                 "unit": "¼ cup cooked",
-                "kcal": 100,
-                "pro": 2,
-                "carbs": 22,
+                "kcal": 150,
+                "pro": 3,
+                "carbs": 33,
                 "fat": 0
               },
               {
-                "name": "Coconut rice ",
-                "qty": 1,
-                "unit": "serving",
-                "kcal": 75,
-                "pro": 1,
-                "carbs": 10.5,
-                "fat": 3.5
+                "name": "Zucchini",
+                "qty": 0.5,
+                "unit": "cup",
+                "kcal": 10,
+                "pro": 0.8,
+                "carbs": 2,
+                "fat": 0.1
               }
             ]
           },
           "snack": {
-            "label": "Chicken 120g",
-            "kcal": 356,
-            "pro": 51,
-            "carbs": 27,
-            "fat": 6,
-            "items": [
-              {
-                "name": "Chicken Breast",
-                "qty": 150,
-                "unit": "g",
-                "kcal": 251,
-                "pro": 50,
-                "carbs": 0,
-                "fat": 6
-              },
-              {
-                "name": "Banana",
-                "qty": 1,
-                "unit": "whole",
-                "kcal": 105,
-                "pro": 1.3,
-                "carbs": 27,
-                "fat": 0.4
-              }
-            ]
+            "label": "Skipped",
+            "skip": true
           },
           "dinner": {
-            "label": "Tuna / Squash / No Mango",
-            "kcal": 358,
-            "pro": 45,
-            "carbs": 30,
-            "fat": 8,
+            "label": "Custom",
+            "kcal": 780,
+            "pro": 60,
+            "carbs": 55,
+            "fat": 34,
             "items": [
               {
-                "name": "Tuna",
-                "qty": 160,
-                "unit": "g",
-                "kcal": 176,
-                "pro": 40,
-                "carbs": 0,
-                "fat": 1.6
-              },
-              {
-                "name": "Butternut Squash",
-                "qty": 0.8,
-                "unit": "cup",
-                "kcal": 50,
-                "pro": 1.1,
-                "carbs": 12.8,
-                "fat": 0.1
-              },
-              {
-                "name": "Avocado",
+                "name": "Dinner at que mae",
                 "qty": 1,
-                "unit": "¼ avocado",
-                "kcal": 65,
-                "pro": 1,
-                "carbs": 3.5,
-                "fat": 6
-              },
-              {
-                "name": "Soy Sauce",
-                "qty": 1,
-                "unit": "tbsp",
-                "kcal": 9,
-                "pro": 1.3,
-                "carbs": 1,
-                "fat": 0
-              },
-              {
-                "name": "Cucumber",
-                "qty": 0.5,
-                "unit": "cup",
-                "kcal": 8,
-                "pro": 0.4,
-                "carbs": 2,
-                "fat": 0.1
-              },
-              {
-                "name": "White Rice",
-                "qty": 1,
-                "unit": "¼ cup cooked",
-                "kcal": 50,
-                "pro": 1,
-                "carbs": 11,
-                "fat": 0
+                "unit": "serving",
+                "kcal": 780,
+                "pro": 60,
+                "carbs": 55,
+                "fat": 34
               }
             ]
           }
         },
         "extras": [
           {
-            "name": "Agave in water (1 tsp)",
-            "kcal": 21
+            "name": "Ipa 16 ounce",
+            "kcal": 220
           },
           {
-            "name": "Patacone chips",
-            "kcal": 300
+            "name": "Ipa 16 oz",
+            "kcal": 220
           },
           {
-            "name": "Agave in water (1 tsp)",
-            "kcal": 21
+            "name": "Ipa 16 oz",
+            "kcal": 220
           },
           {
-            "name": "Agave in water (1 tsp)",
-            "kcal": 21
+            "name": "Mezcal cocktail",
+            "kcal": 160
           }
         ]
       }
