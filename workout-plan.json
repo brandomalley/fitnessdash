@@ -3,11 +3,11 @@
                     "finisher":  "Incline walk · 10 min · 3.4 mph · 6-8% incline (skip if at 65 min)",
                     "exercises":  [
                                       {
-                                          "detail":  "60 lb × 10 reps · 3 sets",
+                                          "detail":  "62.5 lb × 10 reps · 3 sets (use 65 lb if gym doesn\u0027t have 62.5s)",
                                           "rest":  "90s rest",
                                           "name":  "Incline DB Bench Press",
                                           "id":  "A",
-                                          "note":  "Hit 12 on last set May 11. Goal today: 12 on sets 2 and 3. When consistently hitting 3x12, move to 65s."
+                                          "note":  "Bump from 60 — two sessions in a row hitting 12 on the last set earns the jump. If 65s feel too heavy on set 1, drop back to 60 and push for 3x12."
                                       },
                                       {
                                           "detail":  "35 lb × 10 reps · 3 sets",
@@ -21,7 +21,7 @@
                                           "rest":  "90s rest",
                                           "name":  "T-Bar Row",
                                           "id":  "C",
-                                          "note":  "Elbows tucked, full retraction at the top. Last did these May 11."
+                                          "note":  "Elbows tucked, full retraction at the top."
                                       },
                                       {
                                           "detail":  "45 lb KB × 12 reps/side · 3 sets",
@@ -35,14 +35,14 @@
                                           "rest":  "60s rest",
                                           "name":  "Lateral Raise",
                                           "id":  "E",
-                                          "note":  "Shoulder has had 3 full days rest. If pinching or weak, drop to 12.5 lb — no ego."
+                                          "note":  "Shoulder has had 3 full days rest. If pinching or weak, drop to 12.5 lb."
                                       },
                                       {
                                           "detail":  "Hammer curl 25 lb × 12 + Skull crusher 40 lb × 10 · 3 rounds",
                                           "rest":  "75s between rounds",
                                           "name":  "Arms Superset: Hammer Curl + Skull Crusher",
                                           "id":  "F",
-                                          "note":  "Skull crushers are new — keep at 40 lb, slow and controlled, elbows stay pointed at the ceiling."
+                                          "note":  "Skull crushers are new — slow and controlled, elbows stay pointed at the ceiling."
                                       },
                                       {
                                           "detail":  "Cable crunch 50 lb × 12 + Hanging knee raise × 10-12 + Side plank 25s/side · 2 rounds",
