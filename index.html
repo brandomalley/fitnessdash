@@ -2764,6 +2764,39 @@ GitHubSync.init();
   localStorage.setItem('_patch_v8','1');
 })();
 renderAll();
+
+// Patch v9: Add May 10-17 entries missing from localStorage
+(function patchV9() {
+  if(localStorage.getItem('_patch_v9')) return;
+  var data = JSON.parse(localStorage.getItem('fit_data')||'[]');
+  var existing = {};
+  data.forEach(function(d){ existing[d.date] = true; });
+
+  var newEntries = [
+    {"date":"2026-05-10","day_of_week":"Sunday","calories_consumed":1719,"calorie_target":1900,"protein_g":77,"protein_target_g":140,"carbs_g":213,"fat_g":46,"tdee_estimate":2500,"food_deficit":781,"exercise_calories_burned":0,"net_deficit":781,"cumulative_deficit":20940,"weight_lb":null,"gym_session":false,"exercise_id":"","cardio_type":"none","cardio_minutes":0,"sleep_quality":5,"log_completeness":"partial","notes":""},
+    {"date":"2026-05-11","day_of_week":"Monday","calories_consumed":1971,"calorie_target":1900,"protein_g":153,"protein_target_g":140,"carbs_g":236,"fat_g":42,"tdee_estimate":2500,"food_deficit":529,"exercise_calories_burned":462,"net_deficit":991,"cumulative_deficit":21931,"weight_lb":null,"gym_session":true,"exercise_id":"upper","cardio_type":"incline walk","cardio_minutes":0,"sleep_quality":null,"log_completeness":"complete","notes":"Upper body session."},
+    {"date":"2026-05-12","day_of_week":"Tuesday","calories_consumed":1843,"calorie_target":1900,"protein_g":143,"protein_target_g":140,"carbs_g":174,"fat_g":61,"tdee_estimate":2500,"food_deficit":657,"exercise_calories_burned":0,"net_deficit":657,"cumulative_deficit":22588,"weight_lb":null,"gym_session":false,"exercise_id":"","cardio_type":"none","cardio_minutes":0,"sleep_quality":7,"log_completeness":"complete","notes":""},
+    {"date":"2026-05-13","day_of_week":"Wednesday","calories_consumed":1874,"calorie_target":1900,"protein_g":156,"protein_target_g":140,"carbs_g":201,"fat_g":50,"tdee_estimate":2500,"food_deficit":626,"exercise_calories_burned":498,"net_deficit":1124,"cumulative_deficit":23712,"weight_lb":null,"gym_session":true,"exercise_id":"lower","cardio_type":"incline walk","cardio_minutes":0,"sleep_quality":6,"log_completeness":"complete","notes":""},
+    {"date":"2026-05-14","day_of_week":"Thursday","calories_consumed":1980,"calorie_target":1900,"protein_g":152,"protein_target_g":140,"carbs_g":152,"fat_g":57,"tdee_estimate":2500,"food_deficit":520,"exercise_calories_burned":520,"net_deficit":1040,"cumulative_deficit":23931,"weight_lb":null,"gym_session":true,"exercise_id":"upper","cardio_type":"walk","cardio_minutes":20,"sleep_quality":null,"log_completeness":"complete","notes":"Upper body. Incline bench 60lbx10x3 (12 on set 3). DB shoulder press 35lbx10x3. T-bar row 50lbx10x3. Face pulls 40lbx15x3. Lateral raise 15lbx15x3. Rope pushdown 80lbx12x3. Hammer curl 25lbx12x3. Core: Pallof press 40lbx10/side. Incline walk warmup + finisher."},
+    {"date":"2026-05-15","day_of_week":"Friday","calories_consumed":2536,"calorie_target":1900,"protein_g":119,"protein_target_g":140,"carbs_g":167,"fat_g":60,"tdee_estimate":2500,"food_deficit":-36,"exercise_calories_burned":0,"net_deficit":-36,"cumulative_deficit":24936,"weight_lb":null,"gym_session":false,"exercise_id":"","cardio_type":"none","cardio_minutes":0,"sleep_quality":7,"log_completeness":"complete","notes":""},
+    {"date":"2026-05-16","day_of_week":"Saturday","calories_consumed":2083,"calorie_target":1900,"protein_g":101,"protein_target_g":140,"carbs_g":180,"fat_g":82,"tdee_estimate":2500,"food_deficit":417,"exercise_calories_burned":560,"net_deficit":977,"cumulative_deficit":25913,"weight_lb":null,"gym_session":false,"exercise_id":"hiit","cardio_type":"hiit","cardio_minutes":50,"sleep_quality":null,"log_completeness":"complete","notes":"HIIT functional training 50 min. Smoothie + 4 eggs + 70g sausage + half pepperoni pizza + 2x120cal beverages + agave water."},
+    {"date":"2026-05-17","day_of_week":"Sunday","calories_consumed":1607,"calorie_target":1900,"protein_g":121,"protein_target_g":140,"carbs_g":157,"fat_g":50,"tdee_estimate":2500,"food_deficit":893,"exercise_calories_burned":0,"net_deficit":893,"cumulative_deficit":26806,"weight_lb":null,"gym_session":false,"exercise_id":"","cardio_type":"none","cardio_minutes":0,"sleep_quality":null,"log_completeness":"complete","notes":"Rest day. Gallo pinto bowl + shredded beef + 2 eggs + fried plantain. Protein drink + banana. Agave water. Dinner: tuna + lean beef + rice + butternut squash + avocado + tofu dressing."}
+  ];
+
+  var added = 0;
+  newEntries.forEach(function(e) {
+    if(!existing[e.date]) { data.push(e); added++; }
+  });
+
+  if(added > 0) {
+    data.sort(function(a,b){ return a.date < b.date ? -1 : 1; });
+    localStorage.setItem('fit_data', JSON.stringify(data));
+    console.log('Patch v9: added ' + added + ' entries (May 10-17)');
+  }
+  localStorage.setItem('_patch_v9','1');
+})();
+
+renderAll();
 </script>
 </body>
 </html>
