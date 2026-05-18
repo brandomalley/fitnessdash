@@ -1,65 +1,67 @@
-{
-    "submitted_at":  "2026-05-14T15:47:13.278Z",
-    "exercises":  [
-                      {
-                          "id":  "A",
-                          "name":  "Flat DB Bench Press",
-                          "sets_reps":  "10/10/12",
-                          "note":  "Hit 12 on last set again — second session in a row. Ready to bump to 62.5 next time.",
-                          "weight":  "60",
-                          "planned":  "60 lb x 10 x 3"
-                      },
-                      {
-                          "id":  "B",
-                          "name":  "DB Shoulder Press",
-                          "sets_reps":  "10/10/10",
-                          "note":  "Last rep was absolute limit — couldn\u0027t have done one more. Right weight for now until shoulder is healthier.",
-                          "weight":  "35",
-                          "planned":  "35 lb x 10 x 3"
-                      },
-                      {
-                          "id":  "C",
-                          "name":  "Cable Row",
-                          "sets_reps":  "10/10/10",
-                          "note":  "Tough last reps but manageable. Hold at 135 and push for cleaner reps.",
-                          "weight":  "135",
-                          "planned":  "135 lb x 10 x 3"
-                      },
-                      {
-                          "id":  "D",
-                          "name":  "Lat Pulldown",
-                          "sets_reps":  "10/10/10",
-                          "note":  "Machine goes 120 to 135. Stayed at 120 — last rep tough. Stay here until it feels cleaner before jumping to 135.",
-                          "weight":  "120",
-                          "planned":  "120-125 lb x 10 x 3"
-                      },
-                      {
-                          "id":  "E",
-                          "name":  "Lateral Raise",
-                          "sets_reps":  "15/15/15",
-                          "note":  "Dropped to 12.5 lb — left shoulder was tired. Got all 15 reps each set. Shoulder felt OK, just fatigued.",
-                          "weight":  "12.5",
-                          "planned":  "15 lb x 15 x 3"
-                      },
-                      {
-                          "id":  "F",
-                          "name":  "Arms Circuit: Incline DB Curl + Rope Pushdown + Face Pull",
-                          "sets_reps":  "10-12 x 3",
-                          "note":  "Incline curl: 10, 12, 12 — bump to 22.5 next session. Rope pushdown 80 lb x 12 x 3, solid. Face pulls 40 lb x 15 x 3, clean.",
-                          "weight":  "20/80/40",
-                          "planned":  "Incline curl 20 lb / Rope pushdown 80 lb / Face pull 40 lb"
-                      },
-                      {
-                          "id":  "G",
-                          "name":  "Core Circuit: Pallof Press + Dead Bugs + Side Plank",
-                          "sets_reps":  "2 rounds",
-                          "note":  "Pallof at 40 lb confirmed again for 12 reps each side. Dead bugs 12/side. Side plank 30s.",
-                          "weight":  "40",
-                          "planned":  "Pallof 40 lb x 12/side + Dead bugs x 12/side + Side plank 30s x 2 rounds"
-                      }
-                  ],
-    "notes":  "Strong session overall. Left shoulder still a little tired on lateral raises — dropped to 12.5 lb. Flat bench got 12 on last set again. Arm circuit felt good.",
-    "date":  "2026-05-14",
-    "session_type":  "Upper Body",
-    "day_label":  "Thursday, May 14"
-}
+[
+  {
+    "date": "2026-05-18",
+    "day_label": "Monday, May 18",
+    "session_type": "Upper Body",
+    "submitted_at": "2026-05-18T13:57:43.760Z",
+    "notes": "Overall the session felt pretty good. I do think that my shoulders and biceps were still a little tired from Saturday. We did get a little extra shoulder and bicep work in during the HIIT class but I was able to push through and get most of the reps here today.",
+    "exercises": [
+      {
+        "id": "A",
+        "name": "Incline DB Bench Press",
+        "planned": "62.5 lb × 10 reps · 3 sets (use 65 lb if gym doesn't have 62.5s)",
+        "weight": "",
+        "sets_reps": "",
+        "note": "Got 9 on set 3"
+      },
+      {
+        "id": "B",
+        "name": "DB Shoulder Press",
+        "planned": "35 lb × 10 reps · 3 sets",
+        "weight": "",
+        "sets_reps": "",
+        "note": "Got 3 xs 10 here. Last rep tough. Shoulders still tired from hit class sat."
+      },
+      {
+        "id": "C",
+        "name": "T-Bar Row",
+        "planned": "50 lb × 10 reps · 3 sets",
+        "weight": "",
+        "sets_reps": "",
+        "note": "Got all these"
+      },
+      {
+        "id": "D",
+        "name": "KB Single-Arm Row",
+        "planned": "45 lb KB × 12 reps/side · 3 sets",
+        "weight": "",
+        "sets_reps": "",
+        "note": "Got all these"
+      },
+      {
+        "id": "E",
+        "name": "Lateral Raise",
+        "planned": "15 lb × 15 reps · 3 sets",
+        "weight": "",
+        "sets_reps": "",
+        "note": "Got all these.  Last reps were tough"
+      },
+      {
+        "id": "F",
+        "name": "Arms Superset: Hammer Curl + Skull Crusher",
+        "planned": "Hammer curl 25 lb × 12 + Skull crusher 40 lb × 10 · 3 rounds",
+        "weight": "",
+        "sets_reps": "",
+        "note": "Got all these"
+      },
+      {
+        "id": "G",
+        "name": "Core Circuit C",
+        "planned": "Cable crunch 50 lb × 12 + Hanging knee raise × 10-12 + Side plank 25s/side · 2 rounds",
+        "weight": "",
+        "sets_reps": "",
+        "note": "Got 12 reps on both sets of the hanging knee raise. I probably could have gotten another set in easily."
+      }
+    ]
+  }
+]
