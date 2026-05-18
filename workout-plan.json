@@ -1,99 +1,113 @@
 {
     "workout":  {
-                    "finisher":  "Incline walk · 10 min · 3.4 mph · 6-8% incline",
+                    "finisher":  "Incline walk · 10 min · 3.4 mph · 6-8% incline (skip if at 65 min)",
                     "exercises":  [
                                       {
-                                          "detail":  "350 lb × 10 reps · 3 sets",
+                                          "detail":  "60 lb × 10 reps · 3 sets",
                                           "rest":  "90s rest",
-                                          "name":  "Leg Press",
+                                          "name":  "Incline DB Bench Press",
                                           "id":  "A",
-                                          "note":  "Controlled tempo down, drive through heels. No locking at the top."
+                                          "note":  "Hit 12 on last set May 11. Goal today: 12 on sets 2 and 3. When consistently hitting 3x12, move to 65s."
                                       },
                                       {
-                                          "detail":  "77 lb × 10-12 reps · 3 sets",
+                                          "detail":  "35 lb × 10 reps · 3 sets",
                                           "rest":  "75s rest",
-                                          "name":  "Leg Curl",
+                                          "name":  "DB Shoulder Press",
                                           "id":  "B",
-                                          "note":  "Slow the eccentric. Cap at 10 on the last set if hamstrings feel tight."
+                                          "note":  "Hold here. Left shoulder needs more time before bumping."
                                       },
                                       {
-                                          "detail":  "150 lb × 12 reps · 3 sets",
+                                          "detail":  "50 lb × 10 reps · 3 sets",
                                           "rest":  "90s rest",
-                                          "name":  "Hip Thrust Machine",
+                                          "name":  "T-Bar Row",
                                           "id":  "C",
-                                          "note":  "Up 5 from last session. Full hip extension, hard squeeze at top. No hyperextension."
+                                          "note":  "Elbows tucked, full retraction at the top. Last did these May 11."
                                       },
                                       {
-                                          "detail":  "50 lb KB × 12 reps · 3 sets",
+                                          "detail":  "45 lb KB × 12 reps/side · 3 sets",
                                           "rest":  "75s rest",
-                                          "name":  "KB Goblet Squat",
+                                          "name":  "KB Single-Arm Row",
                                           "id":  "D",
-                                          "note":  "Your baseline. Chest tall, knees track over toes. Heel elevation if needed."
+                                          "note":  "Brace hard on the bench, drive the elbow back, pause at the top."
                                       },
                                       {
-                                          "detail":  "25 lb DBs × 10 reps/leg · 3 sets",
+                                          "detail":  "15 lb × 15 reps · 3 sets",
                                           "rest":  "60s rest",
-                                          "name":  "Step-Ups (DB)",
+                                          "name":  "Lateral Raise",
                                           "id":  "E",
-                                          "note":  "Drive through the heel of the working leg. Add knee drive at the top."
+                                          "note":  "Shoulder has had 3 full days rest. If pinching or weak, drop to 12.5 lb — no ego."
                                       },
                                       {
-                                          "detail":  "Pallof Press 40 lb × 10/side · Ab Wheel × 8-10 · Bird Dog × 8/side · 2 rounds",
-                                          "rest":  "60s between rounds",
-                                          "name":  "Core Circuit — B",
+                                          "detail":  "Hammer curl 25 lb × 12 + Skull crusher 40 lb × 10 · 3 rounds",
+                                          "rest":  "75s between rounds",
+                                          "name":  "Arms Superset: Hammer Curl + Skull Crusher",
                                           "id":  "F",
-                                          "note":  "Pallof: brace hard, no rotation. Ab Wheel: lumbar stays neutral. Bird Dog: pause 1 sec at extension."
+                                          "note":  "Skull crushers are new — keep at 40 lb, slow and controlled, elbows stay pointed at the ceiling."
+                                      },
+                                      {
+                                          "detail":  "Cable crunch 50 lb × 12 + Hanging knee raise × 10-12 + Side plank 25s/side · 2 rounds",
+                                          "rest":  "60s between rounds",
+                                          "name":  "Core Circuit C",
+                                          "id":  "G",
+                                          "note":  "Kneeling on cable crunch — round into it. Knee raise: controlled, no swinging."
                                       }
                                   ],
                     "warmup":  "Incline walk · 8-10 min · 3.3-3.5 mph · 6-8% incline",
-                    "date":  "2026-05-13",
+                    "date":  "2026-05-18",
                     "is_gym_day":  true,
-                    "session_type":  "Lower Body",
-                    "day_label":  "Wednesday, May 13"
+                    "session_type":  "Upper Body",
+                    "day_label":  "Monday, May 18"
                 },
     "week":  [
-                 {
-                     "date":  "2026-05-12",
-                     "type":  "rest",
-                     "day_short":  "Tue May 12",
-                     "session_type":  "Rest Day",
-                     "note":  "Recovery"
-                 },
-                 {
-                     "date":  "2026-05-13",
-                     "type":  "gym",
-                     "day_short":  "Wed May 13",
-                     "session_type":  "Lower Body",
-                     "note":  "Leg press · leg curl · hip thrust · goblet squat · step-ups"
-                 },
-                 {
-                     "date":  "2026-05-14",
-                     "type":  "gym",
-                     "day_short":  "Thu May 14",
-                     "session_type":  "Upper Body",
-                     "note":  "Push / pull / shoulders / arms"
-                 },
-                 {
-                     "date":  "2026-05-15",
-                     "type":  "rest",
-                     "day_short":  "Fri May 15",
-                     "session_type":  "Rest Day",
-                     "note":  "Rest before HIIT Saturday"
-                 },
-                 {
-                     "date":  "2026-05-16",
-                     "type":  "cardio",
-                     "day_short":  "Sat May 16",
-                     "session_type":  "HIIT Functional Training",
-                     "note":  "Functional HIIT class"
-                 },
                  {
                      "date":  "2026-05-17",
                      "type":  "rest",
                      "day_short":  "Sun May 17",
                      "session_type":  "Rest Day",
                      "note":  "Full recovery"
+                 },
+                 {
+                     "date":  "2026-05-18",
+                     "type":  "gym",
+                     "day_short":  "Mon May 18",
+                     "session_type":  "Upper Body",
+                     "note":  "Incline bench · T-bar row · KB row · lateral raise · arms · core"
+                 },
+                 {
+                     "date":  "2026-05-19",
+                     "type":  "rest",
+                     "day_short":  "Tue May 19",
+                     "session_type":  "Rest Day",
+                     "note":  "Recovery"
+                 },
+                 {
+                     "date":  "2026-05-20",
+                     "type":  "gym",
+                     "day_short":  "Wed May 20",
+                     "session_type":  "Lower Body",
+                     "note":  "Leg press · hip thrust · leg curl · goblet squat"
+                 },
+                 {
+                     "date":  "2026-05-21",
+                     "type":  "gym",
+                     "day_short":  "Thu May 21",
+                     "session_type":  "Upper Body",
+                     "note":  "Push / pull / shoulders / arms"
+                 },
+                 {
+                     "date":  "2026-05-22",
+                     "type":  "rest",
+                     "day_short":  "Fri May 22",
+                     "session_type":  "Rest Day",
+                     "note":  "Rest before HIIT Saturday"
+                 },
+                 {
+                     "date":  "2026-05-23",
+                     "type":  "cardio",
+                     "day_short":  "Sat May 23",
+                     "session_type":  "HIIT Functional Training",
+                     "note":  "Functional HIIT class"
                  }
              ],
-    "updated":  "2026-05-12"
+    "updated":  "2026-05-17"
 }
