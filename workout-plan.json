@@ -1,113 +1,26 @@
 {
-    "workout":  {
-                    "finisher":  "Incline walk · 10 min · 3.4 mph · 6-8% incline (skip if at 65 min)",
-                    "exercises":  [
-                                      {
-                                          "detail":  "62.5 lb × 10 reps · 3 sets (use 65 lb if gym doesn\u0027t have 62.5s)",
-                                          "rest":  "90s rest",
-                                          "name":  "Incline DB Bench Press",
-                                          "id":  "A",
-                                          "note":  "Bump from 60 — two sessions in a row hitting 12 on the last set earns the jump. If 65s feel too heavy on set 1, drop back to 60 and push for 3x12."
-                                      },
-                                      {
-                                          "detail":  "35 lb × 10 reps · 3 sets",
-                                          "rest":  "75s rest",
-                                          "name":  "DB Shoulder Press",
-                                          "id":  "B",
-                                          "note":  "Hold here. Left shoulder needs more time before bumping."
-                                      },
-                                      {
-                                          "detail":  "50 lb × 10 reps · 3 sets",
-                                          "rest":  "90s rest",
-                                          "name":  "T-Bar Row",
-                                          "id":  "C",
-                                          "note":  "Elbows tucked, full retraction at the top."
-                                      },
-                                      {
-                                          "detail":  "45 lb KB × 12 reps/side · 3 sets",
-                                          "rest":  "75s rest",
-                                          "name":  "KB Single-Arm Row",
-                                          "id":  "D",
-                                          "note":  "Brace hard on the bench, drive the elbow back, pause at the top."
-                                      },
-                                      {
-                                          "detail":  "15 lb × 15 reps · 3 sets",
-                                          "rest":  "60s rest",
-                                          "name":  "Lateral Raise",
-                                          "id":  "E",
-                                          "note":  "Shoulder has had 3 full days rest. If pinching or weak, drop to 12.5 lb."
-                                      },
-                                      {
-                                          "detail":  "Hammer curl 25 lb × 12 + Skull crusher 40 lb × 10 · 3 rounds",
-                                          "rest":  "75s between rounds",
-                                          "name":  "Arms Superset: Hammer Curl + Skull Crusher",
-                                          "id":  "F",
-                                          "note":  "Skull crushers are new — slow and controlled, elbows stay pointed at the ceiling."
-                                      },
-                                      {
-                                          "detail":  "Cable crunch 50 lb × 12 + Hanging knee raise × 10-12 + Side plank 25s/side · 2 rounds",
-                                          "rest":  "60s between rounds",
-                                          "name":  "Core Circuit C",
-                                          "id":  "G",
-                                          "note":  "Kneeling on cable crunch — round into it. Knee raise: controlled, no swinging."
-                                      }
-                                  ],
-                    "warmup":  "Incline walk · 8-10 min · 3.3-3.5 mph · 6-8% incline",
-                    "date":  "2026-05-18",
-                    "is_gym_day":  true,
-                    "session_type":  "Upper Body",
-                    "day_label":  "Monday, May 18"
-                },
-    "week":  [
-                 {
-                     "date":  "2026-05-17",
-                     "type":  "rest",
-                     "day_short":  "Sun May 17",
-                     "session_type":  "Rest Day",
-                     "note":  "Full recovery"
-                 },
-                 {
-                     "date":  "2026-05-18",
-                     "type":  "gym",
-                     "day_short":  "Mon May 18",
-                     "session_type":  "Upper Body",
-                     "note":  "Incline bench · T-bar row · KB row · lateral raise · arms · core"
-                 },
-                 {
-                     "date":  "2026-05-19",
-                     "type":  "rest",
-                     "day_short":  "Tue May 19",
-                     "session_type":  "Rest Day",
-                     "note":  "Recovery"
-                 },
-                 {
-                     "date":  "2026-05-20",
-                     "type":  "gym",
-                     "day_short":  "Wed May 20",
-                     "session_type":  "Lower Body",
-                     "note":  "Leg press · hip thrust · leg curl · goblet squat"
-                 },
-                 {
-                     "date":  "2026-05-21",
-                     "type":  "gym",
-                     "day_short":  "Thu May 21",
-                     "session_type":  "Upper Body",
-                     "note":  "Push / pull / shoulders / arms"
-                 },
-                 {
-                     "date":  "2026-05-22",
-                     "type":  "rest",
-                     "day_short":  "Fri May 22",
-                     "session_type":  "Rest Day",
-                     "note":  "Rest before HIIT Saturday"
-                 },
-                 {
-                     "date":  "2026-05-23",
-                     "type":  "cardio",
-                     "day_short":  "Sat May 23",
-                     "session_type":  "HIIT Functional Training",
-                     "note":  "Functional HIIT class"
-                 }
-             ],
-    "updated":  "2026-05-17"
+  "updated": "2026-05-18",
+  "workout": {
+    "date": "2026-05-19",
+    "day_label": "Tuesday, May 19",
+    "session_type": "Lower Body",
+    "is_gym_day": true,
+    "warmup": "Incline walk · 8-10 min · 3.3-3.5 mph · 6-8% incline",
+    "finisher": "Incline walk · 10 min · 3.4 mph · 6-8% incline (skip if session hits 65 min)",
+    "exercises": [
+      {"id": "A","name": "Leg Press","detail": "350 lb x 10 reps - 3 sets","rest": "90s rest","note": "Up from 345. Controlled tempo, don't lock out at top."},
+      {"id": "B","name": "Hip Thrust Machine","detail": "150 lb x 12 reps - 3 sets","rest": "90s rest","note": "Up from 145. Full hip extension, hard squeeze at top. No hyperextension."},
+      {"id": "C","name": "DB Romanian Deadlift","detail": "40 lb x 12 reps - 3 sets","rest": "90s rest","note": "Up from 35 lb. Hinge from hips, soft knee bend. If anything feels off, drop back to 35."},
+      {"id": "D","name": "Leg Curl","detail": "77 lb x 10 reps - 3 sets","rest": "75s rest","note": "Cap at 10 reps on last set if hamstrings are tight."},
+      {"id": "E","name": "Goblet Squat (KB)","detail": "50 lb KB x 12 reps - 3 sets","rest": "75s rest","note": "Drive through heels, elbows inside knees at the bottom."},
+      {"id": "F","name": "Core Circuit D","detail": "Plank shoulder tap x 10/side + Dead bugs x 8/side + Pallof press 40 lb x 10/side - 2 rounds","rest": "60s between rounds","note": "Anti-rotation focus. Keep hips square on taps. Lower back flat on dead bugs."}
+    ]
+  },
+  "week": [
+    {"date": "2026-05-18", "day_short": "Mon May 18", "session_type": "Upper Body", "type": "gym", "note": "Completed"},
+    {"date": "2026-05-19", "day_short": "Tue May 19", "session_type": "Lower Body", "type": "gym", "note": "Leg press 350, hip thrust 150, RDL 40"},
+    {"date": "2026-05-20", "day_short": "Wed May 20", "session_type": "Rest", "type": "rest", "note": "Full rest"},
+    {"date": "2026-05-21", "day_short": "Thu May 21", "session_type": "Upper Body", "type": "gym", "note": ""},
+    {"date": "2026-05-22", "day_short": "Fri May 22", "session_type": "Lower Body", "type": "gym", "note": ""}
+  ]
 }
