@@ -1,26 +1,99 @@
 {
-  "updated": "2026-05-18",
+  "updated": "2026-05-19",
   "workout": {
-    "date": "2026-05-19",
-    "day_label": "Tuesday, May 19",
-    "session_type": "Lower Body",
+    "date": "2026-05-20",
+    "day_label": "Wednesday, May 20",
+    "session_type": "Upper Body",
     "is_gym_day": true,
     "warmup": "Incline walk · 8-10 min · 3.3-3.5 mph · 6-8% incline",
     "finisher": "Incline walk · 10 min · 3.4 mph · 6-8% incline (skip if session hits 65 min)",
     "exercises": [
-      {"id": "A","name": "Leg Press","detail": "350 lb x 10 reps - 3 sets","rest": "90s rest","note": "Up from 345. Controlled tempo, don't lock out at top."},
-      {"id": "B","name": "Hip Thrust Machine","detail": "150 lb x 12 reps - 3 sets","rest": "90s rest","note": "Up from 145. Full hip extension, hard squeeze at top. No hyperextension."},
-      {"id": "C","name": "DB Romanian Deadlift","detail": "40 lb x 12 reps - 3 sets","rest": "90s rest","note": "Up from 35 lb. Hinge from hips, soft knee bend. If anything feels off, drop back to 35."},
-      {"id": "D","name": "Leg Curl","detail": "77 lb x 10 reps - 3 sets","rest": "75s rest","note": "Cap at 10 reps on last set if hamstrings are tight."},
-      {"id": "E","name": "Goblet Squat (KB)","detail": "50 lb KB x 12 reps - 3 sets","rest": "75s rest","note": "Drive through heels, elbows inside knees at the bottom."},
-      {"id": "F","name": "Core Circuit D","detail": "Plank shoulder tap x 10/side + Dead bugs x 8/side + Pallof press 40 lb x 10/side - 2 rounds","rest": "60s between rounds","note": "Anti-rotation focus. Keep hips square on taps. Lower back flat on dead bugs."}
+      {
+        "id": "A",
+        "name": "Flat DB Bench Press",
+        "detail": "60 lb × 10 reps · 3 sets",
+        "rest": "90s rest",
+        "note": "Rotating from incline for variety and to give the shoulder a different angle. Last done May 5 at 60 × 10 × 3 — should feel fresh. Controlled 2-sec eccentric, full range."
+      },
+      {
+        "id": "B",
+        "name": "DB Shoulder Press",
+        "detail": "35 lb × 10 reps · 3 sets",
+        "rest": "90s rest",
+        "note": "Flat bench today means no stacking concern with the shoulder. 4 days since HIIT — should feel fresher than Monday. Hold at 35 until left shoulder is fully clear."
+      },
+      {
+        "id": "C",
+        "name": "Cable Row",
+        "detail": "135 lb × 10 reps · 3 sets",
+        "rest": "90s rest",
+        "note": "Rotating from T-bar row. Drive elbows straight back, full stretch at the catch. If all 3 sets are clean, flag it — next session bumps to 140 (machine goes 120→135→150)."
+      },
+      {
+        "id": "D",
+        "name": "Face Pulls",
+        "detail": "40 lb × 15 reps · 3 sets",
+        "rest": "60s rest",
+        "note": "Shoulder health staple — don't skip. Elbows high and wide, pull to forehead level, squeeze rear delts at the end. Last done May 11."
+      },
+      {
+        "id": "E",
+        "name": "Rear Delt Fly (cable or DB)",
+        "detail": "10 lb × 15 reps · 3 sets",
+        "rest": "60s rest",
+        "note": "Swapping lateral raises today for rear delt variety. Lead with elbows back and wide, squeeze at the top, avoid shrugging."
+      },
+      {
+        "id": "F",
+        "name": "Arms Superset: Rope Pushdown + Incline DB Curl",
+        "detail": "Rope pushdown 80 lb × 12 + Incline DB curl 20 lb × 10 · 3 rounds",
+        "rest": "75s between rounds",
+        "note": "Incline curls hit the full stretch on the bicep — arms hang behind the body at the bottom. Keep the weight at 20 lb and focus on the range of motion, not the load. Elbows pinned on the pushdown, full extension at the bottom."
+      },
+      {
+        "id": "G",
+        "name": "Core Circuit B",
+        "detail": "Pallof Press 40 lb × 10/side + Ab Wheel × 8-10 + Bird Dog × 8/side · 2 rounds",
+        "rest": "60s between rounds",
+        "note": "Rotating from Monday's Circuit C. Pallof press: stay tall, resist rotation. Ab wheel: only extend as far as your lower back stays flat. Bird dog: pause 1 sec at the top of each rep."
+      }
     ]
   },
   "week": [
-    {"date": "2026-05-18", "day_short": "Mon May 18", "session_type": "Upper Body", "type": "gym", "note": "Completed"},
-    {"date": "2026-05-19", "day_short": "Tue May 19", "session_type": "Lower Body", "type": "gym", "note": "Leg press 350, hip thrust 150, RDL 40"},
-    {"date": "2026-05-20", "day_short": "Wed May 20", "session_type": "Rest", "type": "rest", "note": "Full rest"},
-    {"date": "2026-05-21", "day_short": "Thu May 21", "session_type": "Upper Body", "type": "gym", "note": ""},
-    {"date": "2026-05-22", "day_short": "Fri May 22", "session_type": "Lower Body", "type": "gym", "note": ""}
+    {
+      "date": "2026-05-19",
+      "day_short": "Tue May 19",
+      "session_type": "Lower Body",
+      "type": "gym",
+      "note": "Done today — 498 kcal"
+    },
+    {
+      "date": "2026-05-20",
+      "day_short": "Wed May 20",
+      "session_type": "Upper Body",
+      "type": "gym",
+      "note": "Flat bench + cable row focus"
+    },
+    {
+      "date": "2026-05-21",
+      "day_short": "Thu May 21",
+      "session_type": "Rest / Cardio",
+      "type": "rest",
+      "note": "Active recovery or pickleball"
+    },
+    {
+      "date": "2026-05-22",
+      "day_short": "Fri May 22",
+      "session_type": "Lower Body",
+      "type": "gym",
+      "note": "Leg press + RDL focus"
+    },
+    {
+      "date": "2026-05-23",
+      "day_short": "Sat May 23",
+      "session_type": "HIIT / Rest",
+      "type": "gym",
+      "note": "HIIT class or active rest"
+    }
   ]
 }
