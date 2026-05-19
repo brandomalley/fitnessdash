@@ -9,7 +9,7 @@
       {
         "id": "A",
         "name": "Incline DB Bench Press",
-        "planned": "62.5 lb × 10 reps · 3 sets (use 65 lb if gym doesn't have 62.5s)",
+        "planned": "62.5 lb Ã 10 reps Â· 3 sets (use 65 lb if gym doesn't have 62.5s)",
         "weight": "",
         "sets_reps": "",
         "note": "Got 9 on set 3"
@@ -17,7 +17,7 @@
       {
         "id": "B",
         "name": "DB Shoulder Press",
-        "planned": "35 lb × 10 reps · 3 sets",
+        "planned": "35 lb Ã 10 reps Â· 3 sets",
         "weight": "",
         "sets_reps": "",
         "note": "Got 3 xs 10 here. Last rep tough. Shoulders still tired from hit class sat."
@@ -25,7 +25,7 @@
       {
         "id": "C",
         "name": "T-Bar Row",
-        "planned": "50 lb × 10 reps · 3 sets",
+        "planned": "50 lb Ã 10 reps Â· 3 sets",
         "weight": "",
         "sets_reps": "",
         "note": "Got all these"
@@ -33,7 +33,7 @@
       {
         "id": "D",
         "name": "KB Single-Arm Row",
-        "planned": "45 lb KB × 12 reps/side · 3 sets",
+        "planned": "45 lb KB Ã 12 reps/side Â· 3 sets",
         "weight": "",
         "sets_reps": "",
         "note": "Got all these"
@@ -41,7 +41,7 @@
       {
         "id": "E",
         "name": "Lateral Raise",
-        "planned": "15 lb × 15 reps · 3 sets",
+        "planned": "15 lb Ã 15 reps Â· 3 sets",
         "weight": "",
         "sets_reps": "",
         "note": "Got all these.  Last reps were tough"
@@ -49,7 +49,7 @@
       {
         "id": "F",
         "name": "Arms Superset: Hammer Curl + Skull Crusher",
-        "planned": "Hammer curl 25 lb × 12 + Skull crusher 40 lb × 10 · 3 rounds",
+        "planned": "Hammer curl 25 lb Ã 12 + Skull crusher 40 lb Ã 10 Â· 3 rounds",
         "weight": "",
         "sets_reps": "",
         "note": "Got all these"
@@ -57,10 +57,67 @@
       {
         "id": "G",
         "name": "Core Circuit C",
-        "planned": "Cable crunch 50 lb × 12 + Hanging knee raise × 10-12 + Side plank 25s/side · 2 rounds",
+        "planned": "Cable crunch 50 lb Ã 12 + Hanging knee raise Ã 10-12 + Side plank 25s/side Â· 2 rounds",
         "weight": "",
         "sets_reps": "",
         "note": "Got 12 reps on both sets of the hanging knee raise. I probably could have gotten another set in easily."
+      }
+    ]
+  },
+  {
+    "date": "2026-05-19",
+    "day_label": "Tuesday, May 19",
+    "session_type": "Lower Body",
+    "submitted_at": "2026-05-19T17:37:47.745Z",
+    "notes": "Overall this was a good workout. I felt pretty strong throughout the whole thing. I definitely feel worked right now at the end but not too burnt. I was able to manage all the weights, all the reps clean, and I feel good.",
+    "exercises": [
+      {
+        "id": "A",
+        "name": "Leg Press",
+        "planned": "350 lb x 10 reps - 3 sets",
+        "weight": "",
+        "sets_reps": "",
+        "note": ""
+      },
+      {
+        "id": "B",
+        "name": "Hip Thrust Machine",
+        "planned": "150 lb x 12 reps - 3 sets",
+        "weight": "",
+        "sets_reps": "",
+        "note": ""
+      },
+      {
+        "id": "C",
+        "name": "DB Romanian Deadlift",
+        "planned": "40 lb x 12 reps - 3 sets",
+        "weight": "",
+        "sets_reps": "",
+        "note": ""
+      },
+      {
+        "id": "D",
+        "name": "Leg Curl",
+        "planned": "77 lb x 10 reps - 3 sets",
+        "weight": "",
+        "sets_reps": "",
+        "note": ""
+      },
+      {
+        "id": "E",
+        "name": "Goblet Squat (KB)",
+        "planned": "50 lb KB x 12 reps - 3 sets",
+        "weight": "",
+        "sets_reps": "",
+        "note": ""
+      },
+      {
+        "id": "F",
+        "name": "Core Circuit D",
+        "planned": "Plank shoulder tap x 10/side + Dead bugs x 8/side + Pallof press 40 lb x 10/side - 2 rounds",
+        "weight": "",
+        "sets_reps": "",
+        "note": ""
       }
     ]
   }
