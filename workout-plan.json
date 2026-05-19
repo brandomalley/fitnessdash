@@ -11,9 +11,9 @@
       {
         "id": "A",
         "name": "Flat DB Bench Press",
-        "detail": "60 lb × 10 reps · 3 sets",
+        "detail": "65 lb × 10 reps · 3 sets",
         "rest": "90s rest",
-        "note": "Rotating from incline for variety and to give the shoulder a different angle. Last done May 5 at 60 × 10 × 3 — should feel fresh. Controlled 2-sec eccentric, full range."
+        "note": "New working weight at 65. Controlled 2-sec eccentric, full range. Monitor left shoulder — if anything feels off, drop to 60."
       },
       {
         "id": "B",
@@ -86,7 +86,7 @@
       "day_short": "Thu May 21",
       "session_type": "Upper Body",
       "type": "gym",
-      "note": "Flat bench + cable row focus"
+      "note": "Flat bench 65 + cable row focus"
     },
     {
       "date": "2026-05-22",
