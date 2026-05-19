@@ -1,8 +1,8 @@
 {
   "updated": "2026-05-19",
   "workout": {
-    "date": "2026-05-20",
-    "day_label": "Wednesday, May 20",
+    "date": "2026-05-21",
+    "day_label": "Thursday, May 21",
     "session_type": "Upper Body",
     "is_gym_day": true,
     "warmup": "Incline walk · 8-10 min · 3.3-3.5 mph · 6-8% incline",
@@ -20,7 +20,7 @@
         "name": "DB Shoulder Press",
         "detail": "35 lb × 10 reps · 3 sets",
         "rest": "90s rest",
-        "note": "Flat bench today means no stacking concern with the shoulder. 4 days since HIIT — should feel fresher than Monday. Hold at 35 until left shoulder is fully clear."
+        "note": "Flat bench today means no stacking concern with the shoulder. Hold at 35 until left shoulder is fully clear."
       },
       {
         "id": "C",
@@ -61,6 +61,13 @@
   },
   "week": [
     {
+      "date": "2026-05-18",
+      "day_short": "Mon May 18",
+      "session_type": "Upper Body",
+      "type": "gym",
+      "note": "Completed"
+    },
+    {
       "date": "2026-05-19",
       "day_short": "Tue May 19",
       "session_type": "Lower Body",
@@ -70,16 +77,16 @@
     {
       "date": "2026-05-20",
       "day_short": "Wed May 20",
-      "session_type": "Upper Body",
-      "type": "gym",
-      "note": "Flat bench + cable row focus"
+      "session_type": "Rest",
+      "type": "rest",
+      "note": "Rest day"
     },
     {
       "date": "2026-05-21",
       "day_short": "Thu May 21",
-      "session_type": "Rest / Cardio",
-      "type": "rest",
-      "note": "Active recovery or pickleball"
+      "session_type": "Upper Body",
+      "type": "gym",
+      "note": "Flat bench + cable row focus"
     },
     {
       "date": "2026-05-22",
@@ -87,13 +94,6 @@
       "session_type": "Lower Body",
       "type": "gym",
       "note": "Leg press + RDL focus"
-    },
-    {
-      "date": "2026-05-23",
-      "day_short": "Sat May 23",
-      "session_type": "HIIT / Rest",
-      "type": "gym",
-      "note": "HIIT class or active rest"
     }
   ]
 }
