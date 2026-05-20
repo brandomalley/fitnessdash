@@ -862,22 +862,16 @@ const GitHubSync = {
     if(token) this._setStatus('🟢 Connected', 'var(--green)');
     const loadBtn = document.getElementById('gh-load-btn');
     if(loadBtn) loadBtn.addEventListener('click', async function(){
-      const token = GitHubSync.getToken();
-      if(!token){ toast('Connect GitHub token first'); return; }
       GitHubSync._setStatus('⏳ Loading…', 'var(--yellow)');
       try{
-        const res = await fetch('https://api.github.com/repos/'+GitHubSync.OWNER+'/'+GitHubSync.REPO+'/contents/fitness-data.json',{
-          headers:{'Authorization':'Bearer '+token,'Accept':'application/vnd.github+json'}
-        });
-        const meta = await res.json();
-        const bytes = Uint8Array.from(atob(meta.content.replace(/\n/g,'')), c => c.charCodeAt(0));
-        const json = JSON.parse(new TextDecoder('utf-8').decode(bytes));
+        const res = await fetch('https://raw.githubusercontent.com/'+GitHubSync.OWNER+'/'+GitHubSync.REPO+'/main/fitness-data.json?t='+Date.now());
+        const json = await res.json();
         if(json.raw_data && json.raw_data.length){
           DB.setData(json.raw_data);
           renderAll();
           GitHubSync._setStatus('🟢 Connected', 'var(--green)');
-          toast('✅ Data loaded from GitHub!');
-        } else { toast('No data found in GitHub file'); }
+          toast('✅ Loaded '+json.raw_data.length+' days from GitHub!');
+        } else { toast('No data found'); }
       }catch(e){ GitHubSync._setStatus('⚠️ Load failed', 'var(--yellow)'); toast('Load failed: '+e.message); }
     });
     const btn = document.getElementById('gh-save-btn');
