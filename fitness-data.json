@@ -1,5 +1,5 @@
 {
-  "exported": "2026-05-19T17:37:27.363Z",
+  "exported": "2026-05-20T15:55:56.629Z",
   "raw_data": [
     {
       "date": "2026-04-12",
@@ -933,38 +933,38 @@
     {
       "date": "2026-05-18",
       "day_of_week": "Monday",
-      "calories_consumed": 1874,
+      "calories_consumed": 2147,
       "calorie_target": 1900,
-      "protein_g": 139,
+      "protein_g": 144,
       "protein_target_g": 140,
-      "carbs_g": 194,
-      "fat_g": 51,
+      "carbs_g": 235,
+      "fat_g": 69,
       "tdee_estimate": 2500,
-      "food_deficit": 626,
-      "exercise_calories_burned": 520,
-      "net_deficit": 1146,
-      "cumulative_deficit": 23175,
+      "food_deficit": 353,
+      "exercise_calories_burned": 498,
+      "net_deficit": 851,
+      "cumulative_deficit": 22880,
       "weight_lb": null,
       "gym_session": true,
-      "exercise_id": "upper",
+      "exercise_id": "lower",
       "cardio_type": "incline walk",
-      "cardio_minutes": 10,
-      "sleep_quality": 6,
+      "cardio_minutes": 0,
+      "sleep_quality": null,
       "energy_level": null,
       "cns_flags": false,
       "coffee_full": 1,
-      "coffee_quarter": 1,
-      "coffee_half": 0,
+      "coffee_quarter": 0,
+      "coffee_half": 1,
       "coffee_decaf": 0,
       "log_completeness": "complete",
-      "notes": "Edited increased calories 100 and protein 10 added ground beef after dinner",
+      "notes": "",
       "meals_detail": {
         "slots": {
           "smoothie": {
             "label": "Standard",
-            "kcal": 316,
-            "pro": 27,
-            "carbs": 53,
+            "kcal": 302,
+            "pro": 26,
+            "carbs": 49,
             "fat": 2,
             "items": [
               {
@@ -987,12 +987,12 @@
               },
               {
                 "name": "Papaya",
-                "qty": 2,
+                "qty": 1,
                 "unit": "¼ cup",
-                "kcal": 28,
-                "pro": 0.4,
-                "carbs": 8,
-                "fat": 0.2
+                "kcal": 14,
+                "pro": 0.2,
+                "carbs": 4,
+                "fat": 0.1
               },
               {
                 "name": "Orange Juice",
@@ -1016,27 +1016,27 @@
           },
           "lunch": {
             "label": "Standard + Rice",
-            "kcal": 655,
-            "pro": 33,
-            "carbs": 68,
+            "kcal": 571,
+            "pro": 31,
+            "carbs": 49,
             "fat": 24,
             "items": [
               {
                 "name": "Lettuce",
-                "qty": 1.5,
+                "qty": 2,
                 "unit": "cup",
-                "kcal": 15,
-                "pro": 0.8,
-                "carbs": 3,
+                "kcal": 20,
+                "pro": 1,
+                "carbs": 4,
                 "fat": 0.2
               },
               {
                 "name": "Sweet Potato",
-                "qty": 0.8,
+                "qty": 0.5,
                 "unit": "cup cooked",
-                "kcal": 104,
-                "pro": 2.4,
-                "carbs": 24,
+                "kcal": 65,
+                "pro": 1.5,
+                "carbs": 15,
                 "fat": 0.1
               },
               {
@@ -1077,11 +1077,11 @@
               },
               {
                 "name": "White Rice",
-                "qty": 3,
+                "qty": 2,
                 "unit": "¼ cup cooked",
-                "kcal": 150,
-                "pro": 3,
-                "carbs": 33,
+                "kcal": 100,
+                "pro": 2,
+                "carbs": 22,
                 "fat": 0
               }
             ]
@@ -1106,24 +1106,28 @@
           },
           "dinner": {
             "label": "Custom",
-            "kcal": 540,
-            "pro": 29,
-            "carbs": 58,
-            "fat": 20,
+            "kcal": 566,
+            "pro": 33,
+            "carbs": 62,
+            "fat": 19,
             "items": [
               {
                 "name": "Taco bowl",
                 "qty": 1,
                 "unit": "serving",
-                "kcal": 540,
-                "pro": 29,
-                "carbs": 58,
-                "fat": 20
+                "kcal": 566,
+                "pro": 33,
+                "carbs": 62,
+                "fat": 19
               }
             ]
           }
         },
         "extras": [
+          {
+            "name": "Oatmeal w banana and peanut butter",
+            "kcal": 445
+          },
           {
             "name": "Agave in water (1 tsp)",
             "kcal": 21
