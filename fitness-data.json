@@ -1,5 +1,5 @@
 {
-  "exported": "2026-05-20T17:33:28.961Z",
+  "exported": "2026-05-20T17:36:35.499Z",
   "raw_data": [
     {
       "date": "2026-04-12",
@@ -739,16 +739,27 @@
     {
       "date": "2026-05-08",
       "weight_lb": 176.8,
-      "calories_consumed": 0,
-      "protein_g": 0,
-      "carbs_g": 0,
-      "fat_g": 0,
-      "food_deficit": 0,
+      "calories_consumed": 1900,
+      "protein_g": 140,
+      "carbs_g": 185,
+      "fat_g": 52,
+      "food_deficit": 600,
       "exercise_calories_burned": 0,
-      "net_deficit": 0,
-      "cumulative_deficit": 0,
+      "net_deficit": 600,
+      "cumulative_deficit": 19158,
       "gym_session": false,
-      "log_completeness": "partial"
+      "log_completeness": "estimated",
+      "day_of_week": "Friday",
+      "calorie_target": 1900,
+      "protein_target_g": 140,
+      "tdee_estimate": 2500,
+      "exercise_id": "",
+      "cardio_type": "none",
+      "cardio_minutes": 0,
+      "sleep_quality": null,
+      "energy_level": null,
+      "cns_flags": false,
+      "notes": "Weight check-in: 176.8 lb (new low at the time). Macros estimated from typical Friday average."
     },
     {
       "date": "2026-05-10",
