@@ -1,5 +1,5 @@
 {
-  "exported": "2026-05-20T17:24:12.997Z",
+  "exported": "2026-05-20T17:33:28.961Z",
   "raw_data": [
     {
       "date": "2026-04-12",
@@ -366,34 +366,38 @@
       "day_of_week": "Monday",
       "calories_consumed": 1640,
       "calorie_target": 1900,
-      "protein_g": 0,
+      "protein_g": 130,
       "protein_target_g": 140,
-      "carbs_g": 0,
-      "fat_g": 0,
+      "carbs_g": 168,
+      "fat_g": 48,
       "tdee_estimate": 2500,
       "food_deficit": 860,
       "exercise_calories_burned": 390,
       "net_deficit": 1250,
       "cumulative_deficit": 14582,
       "gym_session": true,
-      "exercise_id": "lower"
+      "exercise_id": "lower",
+      "log_completeness": "estimated",
+      "notes": "Lower body gym day. Macros estimated from typical M-Th average."
     },
     {
       "date": "2026-04-28",
       "day_of_week": "Tuesday",
       "calories_consumed": 1797,
       "calorie_target": 1900,
-      "protein_g": 0,
+      "protein_g": 140,
       "protein_target_g": 140,
-      "carbs_g": 0,
-      "fat_g": 0,
+      "carbs_g": 185,
+      "fat_g": 52,
       "tdee_estimate": 2500,
       "food_deficit": 703,
       "exercise_calories_burned": 0,
       "net_deficit": 703,
       "cumulative_deficit": 15285,
       "gym_session": false,
-      "exercise_id": ""
+      "exercise_id": "",
+      "log_completeness": "estimated",
+      "notes": "Rest day. Macros estimated from typical M-Th average."
     },
     {
       "date": "2026-04-29",
