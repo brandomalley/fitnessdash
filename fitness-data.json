@@ -1,5 +1,5 @@
 {
-  "exported": "2026-05-20T17:22:23.571Z",
+  "exported": "2026-05-20T17:24:12.997Z",
   "raw_data": [
     {
       "date": "2026-04-12",
@@ -929,6 +929,56 @@
       "sleep_quality": null,
       "log_completeness": "complete",
       "notes": "Rest day. Gallo pinto bowl + shredded beef + 2 eggs + fried plantain. Protein drink + banana. Agave water. Dinner: tuna + lean beef + rice + butternut squash + avocado + tofu dressing."
+    },
+    {
+      "date": "2026-05-18",
+      "day_of_week": "Monday",
+      "calories_consumed": 1874,
+      "calorie_target": 1900,
+      "protein_g": 139,
+      "protein_target_g": 140,
+      "carbs_g": 185,
+      "fat_g": 52,
+      "tdee_estimate": 2500,
+      "food_deficit": 626,
+      "exercise_calories_burned": 520,
+      "net_deficit": 1146,
+      "cumulative_deficit": 27952,
+      "weight_lb": null,
+      "gym_session": true,
+      "exercise_id": "upper",
+      "cardio_type": "incline walk",
+      "cardio_minutes": 20,
+      "sleep_quality": null,
+      "energy_level": null,
+      "cns_flags": false,
+      "log_completeness": "complete",
+      "notes": "Upper body session. Flat DB bench 65lbx10x3."
+    },
+    {
+      "date": "2026-05-19",
+      "day_of_week": "Tuesday",
+      "calories_consumed": 2147,
+      "calorie_target": 1900,
+      "protein_g": 144,
+      "protein_target_g": 140,
+      "carbs_g": 230,
+      "fat_g": 55,
+      "tdee_estimate": 2500,
+      "food_deficit": 353,
+      "exercise_calories_burned": 498,
+      "net_deficit": 851,
+      "cumulative_deficit": 28803,
+      "weight_lb": null,
+      "gym_session": true,
+      "exercise_id": "lower",
+      "cardio_type": "incline walk",
+      "cardio_minutes": 20,
+      "sleep_quality": null,
+      "energy_level": null,
+      "cns_flags": false,
+      "log_completeness": "complete",
+      "notes": "Lower body session. 498 kcal burned. Extras: oatmeal w banana and peanut butter."
     }
   ]
 }
