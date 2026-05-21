@@ -41,14 +41,14 @@
         "name": "Walking Lunge (DB)",
         "detail": "25 lb DBs × 10 reps/leg · 3 sets",
         "rest": "75s rest",
-        "note": "Swapping goblet squat for variety. Step long enough that front shin stays vertical. Drive through front heel to stand."
+        "note": "Swapping goblet squat for variety. Front shin stays vertical, drive through front heel."
       },
       {
         "id": "F",
         "name": "Core Circuit A",
         "detail": "Dead Bugs × 8/side + Side Plank 25s/side + Hollow Body Hold 20s · 2 rounds",
         "rest": "60s between rounds",
-        "note": "Dead bugs: lower back pressed flat the entire time. Side plank: hips stacked and lifted. Hollow body: arms overhead, ribs down."
+        "note": "Dead bugs: lower back flat the entire time. Side plank: hips stacked. Hollow body: arms overhead, ribs down."
       }
     ]
   },
