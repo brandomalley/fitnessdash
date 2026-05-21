@@ -1,99 +1,71 @@
 {
-  "updated": "2026-05-19",
+  "updated": "2026-05-21",
   "workout": {
-    "date": "2026-05-21",
-    "day_label": "Thursday, May 21",
-    "session_type": "Upper Body",
+    "date": "2026-05-23",
+    "day_label": "Saturday, May 23",
+    "session_type": "Lower Body",
     "is_gym_day": true,
     "warmup": "Incline walk · 8-10 min · 3.3-3.5 mph · 6-8% incline",
-    "finisher": "Incline walk · 10 min · 3.4 mph · 6-8% incline (skip if session hits 65 min)",
+    "finisher": "Incline walk · 10 min · 3.4 mph · 6-8% incline",
     "exercises": [
       {
         "id": "A",
-        "name": "Flat DB Bench Press",
-        "detail": "65 lb × 10 reps · 3 sets",
+        "name": "Leg Press",
+        "detail": "355 lb × 10 reps · 3 sets",
         "rest": "90s rest",
-        "note": "New working weight at 65. Controlled 2-sec eccentric, full range. Monitor left shoulder — if anything feels off, drop to 60."
+        "note": "Up 5 lb from last session. Controlled tempo — no locking at top. Drive through both heels evenly."
       },
       {
         "id": "B",
-        "name": "DB Shoulder Press",
-        "detail": "35 lb × 10 reps · 3 sets",
+        "name": "Hip Thrust Machine",
+        "detail": "155 lb × 12 reps · 3 sets",
         "rest": "90s rest",
-        "note": "Flat bench today means no stacking concern with the shoulder. Hold at 35 until left shoulder is fully clear."
+        "note": "Up 5 lb. Full hip extension at top — hard squeeze, no hyperextension. Chin tucked."
       },
       {
         "id": "C",
-        "name": "Cable Row",
-        "detail": "135 lb × 10 reps · 3 sets",
-        "rest": "90s rest",
-        "note": "Rotating from T-bar row. Drive elbows straight back, full stretch at the catch. If all 3 sets are clean, flag it — next session bumps to 140 (machine goes 120→135→150)."
+        "name": "DB Romanian Deadlift",
+        "detail": "45 lb × 12 reps · 3 sets",
+        "rest": "75s rest",
+        "note": "Up 5 lb from 40. Hinge from hips, soft knee bend. Feel the stretch in the hamstrings — stop before lower back rounds."
       },
       {
         "id": "D",
-        "name": "Face Pulls",
-        "detail": "40 lb × 15 reps · 3 sets",
-        "rest": "60s rest",
-        "note": "Shoulder health staple — don't skip. Elbows high and wide, pull to forehead level, squeeze rear delts at the end. Last done May 11."
+        "name": "Leg Curl",
+        "detail": "82 lb × 10 reps · 3 sets",
+        "rest": "75s rest",
+        "note": "Up 5 lb. Cap at 10 reps per set — don't grind through tightness. Smooth and controlled on the way back up."
       },
       {
         "id": "E",
-        "name": "Rear Delt Fly (cable or DB)",
-        "detail": "10 lb × 15 reps · 3 sets",
-        "rest": "60s rest",
-        "note": "Swapping lateral raises today for rear delt variety. Lead with elbows back and wide, squeeze at the top, avoid shrugging."
+        "name": "Walking Lunge (DB)",
+        "detail": "25 lb DBs × 10 reps/leg · 3 sets",
+        "rest": "75s rest",
+        "note": "Swapping goblet squat for variety. Step long enough that front shin stays vertical. Drive through front heel to stand."
       },
       {
         "id": "F",
-        "name": "Arms Superset: Rope Pushdown + Incline DB Curl",
-        "detail": "Rope pushdown 80 lb × 12 + Incline DB curl 20 lb × 10 · 3 rounds",
-        "rest": "75s between rounds",
-        "note": "Incline curls hit the full stretch on the bicep — arms hang behind the body at the bottom. Keep the weight at 20 lb and focus on the range of motion, not the load. Elbows pinned on the pushdown, full extension at the bottom."
-      },
-      {
-        "id": "G",
-        "name": "Core Circuit B",
-        "detail": "Pallof Press 40 lb × 10/side + Ab Wheel × 8-10 + Bird Dog × 8/side · 2 rounds",
+        "name": "Core Circuit A",
+        "detail": "Dead Bugs × 8/side + Side Plank 25s/side + Hollow Body Hold 20s · 2 rounds",
         "rest": "60s between rounds",
-        "note": "Rotating from Monday's Circuit C. Pallof press: stay tall, resist rotation. Ab wheel: only extend as far as your lower back stays flat. Bird dog: pause 1 sec at the top of each rep."
+        "note": "Dead bugs: lower back pressed flat the entire time. Side plank: hips stacked and lifted. Hollow body: arms overhead, ribs down."
       }
     ]
   },
   "week": [
     {
-      "date": "2026-05-18",
-      "day_short": "Mon May 18",
-      "session_type": "Upper Body",
-      "type": "gym",
-      "note": "Completed"
-    },
-    {
-      "date": "2026-05-19",
-      "day_short": "Tue May 19",
-      "session_type": "Lower Body",
-      "type": "gym",
-      "note": "Done today — 498 kcal"
-    },
-    {
-      "date": "2026-05-20",
-      "day_short": "Wed May 20",
-      "session_type": "Rest",
-      "type": "rest",
-      "note": "Rest day"
-    },
-    {
       "date": "2026-05-21",
       "day_short": "Thu May 21",
       "session_type": "Upper Body",
       "type": "gym",
-      "note": "Flat bench 65 + cable row focus"
+      "note": "Done ✓ — Flat bench 65lb, Cable row 12 on set 3"
     },
     {
-      "date": "2026-05-22",
-      "day_short": "Fri May 22",
+      "date": "2026-05-23",
+      "day_short": "Sat May 23",
       "session_type": "Lower Body",
       "type": "gym",
-      "note": "Leg press + RDL focus"
+      "note": "Leg press 355 · Hip thrust 155 · RDL 45"
     }
   ]
 }
