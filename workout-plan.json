@@ -1,8 +1,8 @@
 {
   "updated": "2026-05-21",
   "workout": {
-    "date": "2026-05-23",
-    "day_label": "Saturday, May 23",
+    "date": "2026-05-22",
+    "day_label": "Friday, May 22",
     "session_type": "Lower Body",
     "is_gym_day": true,
     "warmup": "Incline walk · 8-10 min · 3.3-3.5 mph · 6-8% incline",
@@ -61,8 +61,8 @@
       "note": "Done ✓ — Flat bench 65lb, Cable row 12 on set 3"
     },
     {
-      "date": "2026-05-23",
-      "day_short": "Sat May 23",
+      "date": "2026-05-22",
+      "day_short": "Fri May 22",
       "session_type": "Lower Body",
       "type": "gym",
       "note": "Leg press 355 · Hip thrust 155 · RDL 45"
