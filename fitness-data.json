@@ -1,5 +1,5 @@
 {
-  "exported": "2026-05-21T01:54:24.823Z",
+  "exported": "2026-05-22T02:50:17.337Z",
   "raw_data": [
     {
       "date": "2026-04-12",
@@ -998,27 +998,27 @@
     {
       "date": "2026-05-20",
       "day_of_week": "Wednesday",
-      "calories_consumed": 1683,
+      "calories_consumed": 2714,
       "calorie_target": 1900,
-      "protein_g": 138,
+      "protein_g": 132,
       "protein_target_g": 140,
-      "carbs_g": 168,
-      "fat_g": 46,
+      "carbs_g": 292,
+      "fat_g": 105,
       "tdee_estimate": 2500,
-      "food_deficit": 817,
-      "exercise_calories_burned": 0,
-      "net_deficit": 817,
-      "cumulative_deficit": 29620,
+      "food_deficit": -214,
+      "exercise_calories_burned": 459,
+      "net_deficit": 245,
+      "cumulative_deficit": 29048,
       "weight_lb": null,
-      "gym_session": false,
-      "exercise_id": "",
-      "cardio_type": "none",
+      "gym_session": true,
+      "exercise_id": "upper",
+      "cardio_type": "incline walk",
       "cardio_minutes": 0,
       "sleep_quality": 7,
       "energy_level": null,
       "cns_flags": false,
       "coffee_full": 1,
-      "coffee_quarter": 0,
+      "coffee_quarter": 1,
       "coffee_half": 0,
       "coffee_decaf": 0,
       "log_completeness": "complete",
@@ -1081,9 +1081,9 @@
           },
           "lunch": {
             "label": "Standard + Rice",
-            "kcal": 571,
+            "kcal": 584,
             "pro": 31,
-            "carbs": 49,
+            "carbs": 52,
             "fat": 24,
             "items": [
               {
@@ -1097,11 +1097,11 @@
               },
               {
                 "name": "Sweet Potato",
-                "qty": 0.5,
+                "qty": 0.6,
                 "unit": "cup cooked",
-                "kcal": 65,
-                "pro": 1.5,
-                "carbs": 15,
+                "kcal": 78,
+                "pro": 1.8,
+                "carbs": 18,
                 "fat": 0.1
               },
               {
@@ -1153,50 +1153,42 @@
           },
           "snack": {
             "label": "Chicken 120g",
-            "kcal": 267,
-            "pro": 53,
+            "kcal": 167,
+            "pro": 33,
             "carbs": 0,
-            "fat": 6,
+            "fat": 4,
             "items": [
               {
                 "name": "Chicken Breast",
-                "qty": 160,
+                "qty": 100,
                 "unit": "g",
-                "kcal": 267,
-                "pro": 53.3,
+                "kcal": 167,
+                "pro": 33.3,
                 "carbs": 0,
-                "fat": 6.4
+                "fat": 4
               }
             ]
           },
           "dinner": {
             "label": "Custom",
-            "kcal": 480,
-            "pro": 28,
-            "carbs": 55,
-            "fat": 14,
+            "kcal": 1640,
+            "pro": 42,
+            "carbs": 186,
+            "fat": 75,
             "items": [
               {
-                "name": "Taco bowl",
+                "name": "Fried chicken sandwich at rocamar w albert",
                 "qty": 1,
                 "unit": "serving",
-                "kcal": 480,
-                "pro": 28,
-                "carbs": 55,
-                "fat": 14
+                "kcal": 1640,
+                "pro": 42,
+                "carbs": 186,
+                "fat": 75
               }
             ]
           }
         },
         "extras": [
-          {
-            "name": "Agave in water (1 tsp)",
-            "kcal": 21
-          },
-          {
-            "name": "Agave in water (1 tsp)",
-            "kcal": 21
-          },
           {
             "name": "Agave in water (1 tsp)",
             "kcal": 21
