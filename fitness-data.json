@@ -1,5 +1,5 @@
 {
-  "exported": "2026-05-22T02:50:17.337Z",
+  "exported": "2026-05-22T16:27:41.425Z",
   "raw_data": [
     {
       "date": "2026-04-12",
@@ -443,7 +443,7 @@
       "coffee_half": 0,
       "coffee_decaf": 0,
       "log_completeness": "complete",
-      "notes": "Standard smoothie. Burrito lunch: 60g sausage, cheese, 2 eggs, ¼c rice, ¼c beans. Snack: chicken focaccia sandwich + handful plantain chips. 2 White Claws + ½ bottle red wine. Dinner: spaghetti & meatballs (150g meat, 80g dry pasta, ½c tomato sauce).",
+      "notes": "Standard smoothie. Burrito lunch: 60g sausage, cheese, 2 eggs, Â¼c rice, Â¼c beans. Snack: chicken focaccia sandwich + handful plantain chips. 2 White Claws + Â½ bottle red wine. Dinner: spaghetti & meatballs (150g meat, 80g dry pasta, Â½c tomato sauce).",
       "meals_detail": {
         "slots": {
           "smoothie": {
@@ -492,7 +492,7 @@
               {
                 "name": "White Rice",
                 "qty": 1,
-                "unit": "¼c cup cooked",
+                "unit": "Â¼c cup cooked",
                 "kcal": 50,
                 "pro": 1,
                 "carbs": 11,
@@ -501,7 +501,7 @@
               {
                 "name": "Beans (cooked)",
                 "qty": 1,
-                "unit": "¼c cup",
+                "unit": "Â¼c cup",
                 "kcal": 55,
                 "pro": 3,
                 "carbs": 10,
@@ -611,11 +611,11 @@
         },
         "extras": [
           {
-            "name": "2× White Claw",
+            "name": "2Ã White Claw",
             "kcal": 200
           },
           {
-            "name": "Red wine (½ bottle)",
+            "name": "Red wine (Â½ bottle)",
             "kcal": 319
           }
         ]
@@ -998,6 +998,35 @@
     {
       "date": "2026-05-20",
       "day_of_week": "Wednesday",
+      "calories_consumed": 2147,
+      "calorie_target": 1900,
+      "protein_g": 144,
+      "protein_target_g": 140,
+      "carbs_g": 230,
+      "fat_g": 55,
+      "tdee_estimate": 2500,
+      "food_deficit": 353,
+      "exercise_calories_burned": 0,
+      "net_deficit": 353,
+      "cumulative_deficit": 29156,
+      "weight_lb": null,
+      "gym_session": false,
+      "exercise_id": "",
+      "cardio_type": "none",
+      "cardio_minutes": 0,
+      "sleep_quality": 7,
+      "energy_level": null,
+      "cns_flags": false,
+      "coffee_full": 1,
+      "coffee_quarter": 1,
+      "coffee_half": 0,
+      "coffee_decaf": 0,
+      "log_completeness": "estimated",
+      "notes": "Rest day. Macros estimated from Tuesday (no data recorded)."
+    },
+    {
+      "date": "2026-05-21",
+      "day_of_week": "Thursday",
       "calories_consumed": 2714,
       "calorie_target": 1900,
       "protein_g": 132,
@@ -1008,7 +1037,7 @@
       "food_deficit": -214,
       "exercise_calories_burned": 459,
       "net_deficit": 245,
-      "cumulative_deficit": 29048,
+      "cumulative_deficit": 29401,
       "weight_lb": null,
       "gym_session": true,
       "exercise_id": "upper",
@@ -1022,7 +1051,7 @@
       "coffee_half": 0,
       "coffee_decaf": 0,
       "log_completeness": "complete",
-      "notes": "",
+      "notes": "Upper body gym session. Fried chicken sandwich dinner at Rocamar with Albert.",
       "meals_detail": {
         "slots": {
           "smoothie": {
@@ -1044,7 +1073,7 @@
               {
                 "name": "Blueberries",
                 "qty": 2,
-                "unit": "¼ cup",
+                "unit": "Â¼ cup",
                 "kcal": 42,
                 "pro": 0.6,
                 "carbs": 10,
@@ -1053,7 +1082,7 @@
               {
                 "name": "Papaya",
                 "qty": 1,
-                "unit": "¼ cup",
+                "unit": "Â¼ cup",
                 "kcal": 14,
                 "pro": 0.2,
                 "carbs": 4,
@@ -1107,7 +1136,7 @@
               {
                 "name": "Avocado",
                 "qty": 1,
-                "unit": "¼ avocado",
+                "unit": "Â¼ avocado",
                 "kcal": 65,
                 "pro": 1,
                 "carbs": 3.5,
@@ -1143,7 +1172,7 @@
               {
                 "name": "White Rice",
                 "qty": 2,
-                "unit": "¼ cup cooked",
+                "unit": "Â¼ cup cooked",
                 "kcal": 100,
                 "pro": 2,
                 "carbs": 22,
