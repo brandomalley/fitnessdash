@@ -1,5 +1,5 @@
 {
-  "exported": "2026-05-22T16:27:41.425Z",
+  "exported": "2026-05-23T15:15:28.344Z",
   "raw_data": [
     {
       "date": "2026-04-12",
@@ -443,7 +443,7 @@
       "coffee_half": 0,
       "coffee_decaf": 0,
       "log_completeness": "complete",
-      "notes": "Standard smoothie. Burrito lunch: 60g sausage, cheese, 2 eggs, Â¼c rice, Â¼c beans. Snack: chicken focaccia sandwich + handful plantain chips. 2 White Claws + Â½ bottle red wine. Dinner: spaghetti & meatballs (150g meat, 80g dry pasta, Â½c tomato sauce).",
+      "notes": "Standard smoothie. Burrito lunch: 60g sausage, cheese, 2 eggs, ¼c rice, ¼c beans. Snack: chicken focaccia sandwich + handful plantain chips. 2 White Claws + ½ bottle red wine. Dinner: spaghetti & meatballs (150g meat, 80g dry pasta, ½c tomato sauce).",
       "meals_detail": {
         "slots": {
           "smoothie": {
@@ -492,7 +492,7 @@
               {
                 "name": "White Rice",
                 "qty": 1,
-                "unit": "Â¼c cup cooked",
+                "unit": "¼c cup cooked",
                 "kcal": 50,
                 "pro": 1,
                 "carbs": 11,
@@ -501,7 +501,7 @@
               {
                 "name": "Beans (cooked)",
                 "qty": 1,
-                "unit": "Â¼c cup",
+                "unit": "¼c cup",
                 "kcal": 55,
                 "pro": 3,
                 "carbs": 10,
@@ -611,11 +611,11 @@
         },
         "extras": [
           {
-            "name": "2Ã White Claw",
+            "name": "2× White Claw",
             "kcal": 200
           },
           {
-            "name": "Red wine (Â½ bottle)",
+            "name": "Red wine (½ bottle)",
             "kcal": 319
           }
         ]
@@ -998,35 +998,6 @@
     {
       "date": "2026-05-20",
       "day_of_week": "Wednesday",
-      "calories_consumed": 2147,
-      "calorie_target": 1900,
-      "protein_g": 144,
-      "protein_target_g": 140,
-      "carbs_g": 230,
-      "fat_g": 55,
-      "tdee_estimate": 2500,
-      "food_deficit": 353,
-      "exercise_calories_burned": 0,
-      "net_deficit": 353,
-      "cumulative_deficit": 29156,
-      "weight_lb": null,
-      "gym_session": false,
-      "exercise_id": "",
-      "cardio_type": "none",
-      "cardio_minutes": 0,
-      "sleep_quality": 7,
-      "energy_level": null,
-      "cns_flags": false,
-      "coffee_full": 1,
-      "coffee_quarter": 1,
-      "coffee_half": 0,
-      "coffee_decaf": 0,
-      "log_completeness": "estimated",
-      "notes": "Rest day. Macros estimated from Tuesday (no data recorded)."
-    },
-    {
-      "date": "2026-05-21",
-      "day_of_week": "Thursday",
       "calories_consumed": 2714,
       "calorie_target": 1900,
       "protein_g": 132,
@@ -1037,7 +1008,7 @@
       "food_deficit": -214,
       "exercise_calories_burned": 459,
       "net_deficit": 245,
-      "cumulative_deficit": 29401,
+      "cumulative_deficit": 29048,
       "weight_lb": null,
       "gym_session": true,
       "exercise_id": "upper",
@@ -1051,7 +1022,7 @@
       "coffee_half": 0,
       "coffee_decaf": 0,
       "log_completeness": "complete",
-      "notes": "Upper body gym session. Fried chicken sandwich dinner at Rocamar with Albert.",
+      "notes": "",
       "meals_detail": {
         "slots": {
           "smoothie": {
@@ -1073,7 +1044,7 @@
               {
                 "name": "Blueberries",
                 "qty": 2,
-                "unit": "Â¼ cup",
+                "unit": "¼ cup",
                 "kcal": 42,
                 "pro": 0.6,
                 "carbs": 10,
@@ -1082,7 +1053,7 @@
               {
                 "name": "Papaya",
                 "qty": 1,
-                "unit": "Â¼ cup",
+                "unit": "¼ cup",
                 "kcal": 14,
                 "pro": 0.2,
                 "carbs": 4,
@@ -1136,7 +1107,7 @@
               {
                 "name": "Avocado",
                 "qty": 1,
-                "unit": "Â¼ avocado",
+                "unit": "¼ avocado",
                 "kcal": 65,
                 "pro": 1,
                 "carbs": 3.5,
@@ -1172,7 +1143,7 @@
               {
                 "name": "White Rice",
                 "qty": 2,
-                "unit": "Â¼ cup cooked",
+                "unit": "¼ cup cooked",
                 "kcal": 100,
                 "pro": 2,
                 "carbs": 22,
@@ -1213,6 +1184,199 @@
                 "pro": 42,
                 "carbs": 186,
                 "fat": 75
+              }
+            ]
+          }
+        },
+        "extras": [
+          {
+            "name": "Agave in water (1 tsp)",
+            "kcal": 21
+          }
+        ]
+      }
+    },
+    {
+      "date": "2026-05-21",
+      "day_of_week": "Thursday",
+      "calories_consumed": 1810,
+      "calorie_target": 1900,
+      "protein_g": 122,
+      "protein_target_g": 140,
+      "carbs_g": 200,
+      "fat_g": 55,
+      "tdee_estimate": 2500,
+      "food_deficit": 690,
+      "exercise_calories_burned": 498,
+      "net_deficit": 1188,
+      "cumulative_deficit": 30236,
+      "weight_lb": null,
+      "gym_session": true,
+      "exercise_id": "lower",
+      "cardio_type": "incline walk",
+      "cardio_minutes": 0,
+      "sleep_quality": 6,
+      "energy_level": null,
+      "cns_flags": false,
+      "coffee_full": 2,
+      "coffee_quarter": 0,
+      "coffee_half": 0,
+      "coffee_decaf": 0,
+      "log_completeness": "partial",
+      "notes": "",
+      "meals_detail": {
+        "slots": {
+          "smoothie": {
+            "label": "Standard",
+            "kcal": 302,
+            "pro": 26,
+            "carbs": 49,
+            "fat": 2,
+            "items": [
+              {
+                "name": "Banana",
+                "qty": 1,
+                "unit": "whole",
+                "kcal": 105,
+                "pro": 1.3,
+                "carbs": 27,
+                "fat": 0.4
+              },
+              {
+                "name": "Blueberries",
+                "qty": 2,
+                "unit": "¼ cup",
+                "kcal": 42,
+                "pro": 0.6,
+                "carbs": 10,
+                "fat": 0.2
+              },
+              {
+                "name": "Papaya",
+                "qty": 1,
+                "unit": "¼ cup",
+                "kcal": 14,
+                "pro": 0.2,
+                "carbs": 4,
+                "fat": 0.1
+              },
+              {
+                "name": "Orange Juice",
+                "qty": 3,
+                "unit": "tbsp",
+                "kcal": 21,
+                "pro": 0.3,
+                "carbs": 5.1,
+                "fat": 0
+              },
+              {
+                "name": "Protein Powder",
+                "qty": 1,
+                "unit": "scoop (30g)",
+                "kcal": 120,
+                "pro": 24,
+                "carbs": 3,
+                "fat": 1
+              }
+            ]
+          },
+          "lunch": {
+            "label": "Standard + Rice",
+            "kcal": 866,
+            "pro": 55,
+            "carbs": 72,
+            "fat": 36,
+            "items": [
+              {
+                "name": "Lettuce",
+                "qty": 2,
+                "unit": "cup",
+                "kcal": 20,
+                "pro": 1,
+                "carbs": 4,
+                "fat": 0.2
+              },
+              {
+                "name": "Sweet Potato",
+                "qty": 0.8,
+                "unit": "cup cooked",
+                "kcal": 104,
+                "pro": 2.4,
+                "carbs": 24,
+                "fat": 0.1
+              },
+              {
+                "name": "Avocado",
+                "qty": 2,
+                "unit": "¼ avocado",
+                "kcal": 130,
+                "pro": 2,
+                "carbs": 7,
+                "fat": 12
+              },
+              {
+                "name": "Tofu Dressing",
+                "qty": 2.5,
+                "unit": "tbsp",
+                "kcal": 95,
+                "pro": 2.5,
+                "carbs": 2.5,
+                "fat": 6.3
+              },
+              {
+                "name": "Whole Egg",
+                "qty": 2,
+                "unit": "egg",
+                "kcal": 156,
+                "pro": 12,
+                "carbs": 1.2,
+                "fat": 10.6
+              },
+              {
+                "name": "Egg White",
+                "qty": 3,
+                "unit": "white",
+                "kcal": 51,
+                "pro": 10.5,
+                "carbs": 0,
+                "fat": 0
+              },
+              {
+                "name": "White Rice",
+                "qty": 3,
+                "unit": "¼ cup cooked",
+                "kcal": 150,
+                "pro": 3,
+                "carbs": 33,
+                "fat": 0
+              },
+              {
+                "name": "85 grams beef",
+                "qty": 1,
+                "unit": "serving",
+                "kcal": 160,
+                "pro": 22,
+                "carbs": 0,
+                "fat": 7
+              }
+            ]
+          },
+          "snack": null,
+          "dinner": {
+            "label": "Custom",
+            "kcal": 621,
+            "pro": 41,
+            "carbs": 74,
+            "fat": 17,
+            "items": [
+              {
+                "name": "Taco bowl",
+                "qty": 1,
+                "unit": "serving",
+                "kcal": 621,
+                "pro": 41,
+                "carbs": 74,
+                "fat": 17
               }
             ]
           }
