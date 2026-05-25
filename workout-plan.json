@@ -1,92 +1,47 @@
 {
-  "updated": "2026-05-22",
-  "workout": {
-    "date": "2026-05-25",
-    "day_label": "Monday, May 25",
-    "session_type": "Upper Body",
-    "is_gym_day": true,
-    "warmup": "Incline walk · 8-10 min · 3.3-3.5 mph · 6-8% incline",
-    "finisher": "Incline walk · 10 min · 3.4 mph · 6-8% incline",
-    "exercises": [
-      {
-        "id": "A",
-        "name": "Incline DB Bench Press",
-        "detail": "62.5 lb × 10 reps · 3 sets (use 65 lb if no 62.5s)",
-        "rest": "90s rest",
-        "note": "Got 9 on set 3 last time at this weight — push for 10 today. Controlled eccentric. Monitor left shoulder."
-      },
-      {
-        "id": "B",
-        "name": "DB Shoulder Press",
-        "detail": "35 lb × 10 reps · 3 sets",
-        "rest": "90s rest",
-        "note": "Holding here until left shoulder fully heals. Shoulder has been feeling better — keep the progress going."
-      },
-      {
-        "id": "C",
-        "name": "T-Bar Row",
-        "detail": "50 lb × 10 reps · 3 sets",
-        "rest": "90s rest",
-        "note": "Back to T-bar this session. Chest to pad, drive elbows back, full stretch at bottom."
-      },
-      {
-        "id": "D",
-        "name": "Lateral Raise",
-        "detail": "15 lb × 15 reps · 3 sets",
-        "rest": "60s rest",
-        "note": "Lead with elbow, stop at shoulder height. Left shoulder has been holding up well at 15s — keep it clean."
-      },
-      {
-        "id": "E",
-        "name": "Arms Superset: Hammer Curl + Skull Crusher",
-        "detail": "Hammer curl 25 lb × 12 + Skull crusher 40 lb × 10 · 3 rounds",
-        "rest": "75s between rounds",
-        "note": "You had DOMS from skull crushers last time — that'll be gone now. Elbows pinned on curls. Control the descent on skull crushers."
-      },
-      {
-        "id": "F",
-        "name": "Core Circuit D",
-        "detail": "Plank shoulder tap × 10/side + Dead bugs × 8/side + Pallof press 40 lb × 10/side · 2 rounds",
-        "rest": "60s between rounds",
-        "note": "Anti-rotation focus throughout. Hips square on shoulder taps, lower back flat on dead bugs."
-      }
-    ]
-  },
-  "week": [
+  "date": "2026-05-26",
+  "day_label": "Tuesday, May 26",
+  "session_type": "Lower Body",
+  "generated_at": "2026-05-25",
+  "warmup": "Incline treadmill walk — 8-10 min, 3.3-3.5 mph, 6-8% incline",
+  "exercises": [
     {
-      "date": "2026-05-25",
-      "day_short": "Mon May 25",
-      "session_type": "Upper Body",
-      "type": "gym",
-      "note": "Incline bench 62.5 · T-bar row · Hammer curl + Skull crusher"
+      "id": "A",
+      "name": "Leg Press",
+      "planned": "360 lb × 10 reps · 3 sets",
+      "coaching_note": "Clean 3×10 at 355 last Friday with no issues. Controlled tempo, don't lock knees at top."
     },
     {
-      "date": "2026-05-26",
-      "day_short": "Tue May 26",
-      "session_type": "Lower Body",
-      "type": "gym",
-      "note": "Leg press 360 · Hip thrust 160 · RDL 50 · Lunge 30lb"
+      "id": "B",
+      "name": "Hip Thrust Machine",
+      "planned": "165 lb × 12 reps · 3 sets",
+      "coaching_note": "Hit 160 cleanly last Friday (bumped from 155 due to plate constraints). Full hip extension, squeeze at top, no hyperextension."
     },
     {
-      "date": "2026-05-27",
-      "day_short": "Wed May 27",
-      "session_type": "Rest",
-      "type": "rest",
-      "note": "Rest day"
+      "id": "C",
+      "name": "DB Romanian Deadlift",
+      "planned": "50 lb × 12 reps · 3 sets",
+      "coaching_note": "Hit 45 × 12 × 3 last week, session felt strong overall. Hinge from hips, soft knee bend, back stays flat."
     },
     {
-      "date": "2026-05-28",
-      "day_short": "Thu May 28",
-      "session_type": "Upper Body",
-      "type": "gym",
-      "note": "Flat bench 65 · Cable row 150 · Incline curl 22.5lb"
+      "id": "D",
+      "name": "Leg Curl",
+      "planned": "77 lb × 12 reps · 3 sets",
+      "coaching_note": "88 was too much last Friday — got 10/9 then had to drop. Back to 77 and push for 12 each set. Build volume here before trying 88 again."
     },
     {
-      "date": "2026-05-29",
-      "day_short": "Fri May 29",
-      "session_type": "Lower Body",
-      "type": "gym",
-      "note": "Lower body"
+      "id": "E",
+      "name": "KB Swing (Two-Hand)",
+      "planned": "35 lb × 15 reps · 3 sets",
+      "coaching_note": "30 felt light back in early May — time to try 35. Drive with hips, not arms. Good variety from the lunges and goblet squats you've been doing."
+    },
+    {
+      "id": "F",
+      "name": "Core Circuit C",
+      "planned": "Cable Crunch 50 lb × 12 + Hanging Knee Raise × 10-12 + Side Plank 25s/side · 2 rounds",
+      "coaching_note": "Haven't hit this combo in a while. Kneeling cable crunch — round into it fully. Hanging knee raise — full hang, pull knees to chest."
     }
-  ]
+  ],
+  "finisher": "Incline treadmill walk — 10 min (skip if session hits 65 min)",
+  "session_notes": "Legs should be fresh — you hit upper today on a post-rough-weekend recovery day. Push the leg press and hip thrust. Dial back leg curl vs last Friday (88 was too much). KB swings for variety."
 }
