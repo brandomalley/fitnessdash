@@ -1,52 +1,61 @@
 {
-  "generated": "2026-05-26",
-  "session_type": "upper",
-  "day": "Thursday, May 29",
-  "warmup": "Incline treadmill walk — 8–10 min at 3.3–3.5 mph, 6–8% incline",
-  "exercises": [
-    {
-      "id": "A",
-      "name": "Flat DB Bench Press",
-      "prescription": "65 lb × 10 reps · 3 sets",
-      "cue": "May 21: got 3×10, last rep on set 3 tough. Push for cleaner reps today — controlled 2-sec eccentric. Hold at 65, next bump is 70."
-    },
-    {
-      "id": "B",
-      "name": "DB Shoulder Press",
-      "prescription": "35 lb × 10 reps · 3 sets",
-      "cue": "Holding at 35 per shoulder protocol. You got 12 on set 3 Monday — shoulder is trending positive. Next bump is 40 lb (no half-pounds at your gym)."
-    },
-    {
-      "id": "C",
-      "name": "Cable Row",
-      "prescription": "150 lb × 10 reps · 3 sets (drop to 135 on set 3 if needed)",
-      "cue": "May 21: got 12 clean at 135 lb. Machine jumps to 150 — time to test it. Attempt 150 for sets 1–2. If set 3 is too heavy, drop to 135."
-    },
-    {
-      "id": "D",
-      "name": "Face Pulls",
-      "prescription": "40 lb × 15 reps · 3 sets",
-      "cue": "Elbows high and wide. Pause at peak contraction. Don't rush these — they protect the shoulder."
-    },
-    {
-      "id": "E",
-      "name": "Rear Delt Fly (cable)",
-      "prescription": "11 lb × 15 reps · 3 sets",
-      "cue": "May 21: 11 lb dual cable, last rep tough. Hold at 11 lb for clean, full-range reps. Lead with elbows, not hands."
-    },
-    {
-      "id": "F",
-      "name": "Arms Superset: Rope Pushdown + EZ-Bar Curl",
-      "prescription": "Rope pushdown 80 lb × 12 + EZ-Bar curl 45 lb × 10 · 3 rounds",
-      "cue": "60–75s between rounds. EZ-bar is fresh stimulus — keep elbows pinned, no swinging. Rope pushdown: full extension at bottom, squeeze."
-    },
-    {
-      "id": "G",
-      "name": "Core Circuit A",
-      "prescription": "Dead Bugs × 8/side + Side Plank 30s/side + Hollow Body Hold 25s · 2 rounds",
-      "cue": "Dead bugs: lower back pressed flat the entire time. Hollow body: arms overhead, lower back flat — if hips pop up, reset. 30s side plank is a bump from your usual 25s."
-    }
-  ],
-  "finisher": "Incline treadmill walk — 10 min at 3.3–3.5 mph, 6–8% incline. Skip if session hits 65 min.",
-  "notes": "Big test today: cable row at 150 lb after getting 12 clean at 135 on May 21. Flat bench at 65 lb — push for cleaner 3×10 than last time. EZ-bar curl is a fresh bicep stimulus."
+  "workout": {
+    "date": "2026-05-29",
+    "day_label": "Thursday, May 29",
+    "session_type": "Upper Body",
+    "is_gym_day": true,
+    "warmup": "Incline walk · 8–10 min · 3.3–3.5 mph · 6–8% incline",
+    "finisher": "Incline walk · 10 min · 3.3–3.5 mph · 6–8% incline. Skip if session hits 65 min.",
+    "exercises": [
+      {
+        "id": "A",
+        "name": "Flat DB Bench Press",
+        "detail": "65 lb × 10 · 3 sets",
+        "rest": "90s rest",
+        "note": "May 21: got 3×10, last rep on set 3 tough. Push for cleaner reps today — controlled 2-sec eccentric. Hold at 65, next bump is 70."
+      },
+      {
+        "id": "B",
+        "name": "DB Shoulder Press",
+        "detail": "35 lb × 10 · 3 sets",
+        "rest": "90s rest",
+        "note": "Holding at 35 per shoulder protocol. Got 12 on set 3 Monday — shoulder trending positive. Next bump is 40 lb (no half-pounds at your gym)."
+      },
+      {
+        "id": "C",
+        "name": "Cable Row",
+        "detail": "150 lb × 10 · 3 sets (drop to 135 on set 3 if needed)",
+        "rest": "90s rest",
+        "note": "May 21: got 12 clean at 135 lb. Machine jumps to 150 — time to test it. Attempt 150 for sets 1–2. If set 3 gets ugly, drop to 135."
+      },
+      {
+        "id": "D",
+        "name": "Face Pulls",
+        "detail": "40 lb × 15 · 3 sets",
+        "rest": "60s rest",
+        "note": "Elbows high and wide. Pause at peak contraction. Don't rush these — they protect the shoulder."
+      },
+      {
+        "id": "E",
+        "name": "Rear Delt Fly (cable)",
+        "detail": "11 lb × 15 · 3 sets",
+        "rest": "60s rest",
+        "note": "May 21: 11 lb dual cable, last rep tough. Hold at 11 lb for clean full-range reps. Lead with elbows, not hands."
+      },
+      {
+        "id": "F",
+        "name": "Arms Superset: Rope Pushdown + EZ-Bar Curl",
+        "detail": "Rope pushdown 80 lb × 12 + EZ-Bar curl 45 lb × 10 · 3 rounds",
+        "rest": "60–75s between rounds",
+        "note": "EZ-bar is a fresh stimulus — keep elbows pinned, no swinging. Rope pushdown: full extension at bottom, squeeze."
+      },
+      {
+        "id": "G",
+        "name": "Core Circuit A",
+        "detail": "Dead Bugs × 8/side + Side Plank 30s/side + Hollow Body Hold 25s · 2 rounds",
+        "rest": "Minimal rest between movements",
+        "note": "Dead bugs: lower back pressed flat throughout. Hollow body: arms overhead, lower back flat — if hips pop up, reset."
+      }
+    ]
+  }
 }
