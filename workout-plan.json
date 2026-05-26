@@ -8,13 +8,13 @@
       "id": "A",
       "name": "Flat DB Bench Press",
       "prescription": "65 lb × 10 reps · 3 sets",
-      "cue": "May 21: got 3×10, last rep on set 3 tough. Push for cleaner reps today — controlled 2-sec eccentric. Alternating with incline from Monday."
+      "cue": "May 21: got 3×10, last rep on set 3 tough. Push for cleaner reps today — controlled 2-sec eccentric. Hold at 65, next bump is 70."
     },
     {
       "id": "B",
       "name": "DB Shoulder Press",
       "prescription": "35 lb × 10 reps · 3 sets",
-      "cue": "Holding at 35 per shoulder protocol. You got 12 on set 3 Monday — shoulder is trending positive. Try for clean 3×10 today. A bump to 37.5 is coming soon."
+      "cue": "Holding at 35 per shoulder protocol. You got 12 on set 3 Monday — shoulder is trending positive. Next bump is 40 lb (no half-pounds at your gym)."
     },
     {
       "id": "C",
@@ -48,5 +48,5 @@
     }
   ],
   "finisher": "Incline treadmill walk — 10 min at 3.3–3.5 mph, 6–8% incline. Skip if session hits 65 min.",
-  "notes": "Big test today: cable row at 150 lb after getting 12 clean at 135 on May 21. Flat bench alternates with incline from Monday's session. EZ-bar curl is a fresh bicep stimulus — haven't done it in several sessions."
+  "notes": "Big test today: cable row at 150 lb after getting 12 clean at 135 on May 21. Flat bench at 65 lb — push for cleaner 3×10 than last time. EZ-bar curl is a fresh bicep stimulus."
 }
