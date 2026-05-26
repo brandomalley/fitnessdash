@@ -1,105 +1,52 @@
 {
-  "workout": {
-    "date": "2026-05-26",
-    "day_label": "Tuesday, May 26",
-    "session_type": "Lower Body",
-    "is_gym_day": true,
-    "warmup": "Incline walk · 8-10 min · 3.3-3.5 mph · 6-8% incline",
-    "finisher": "Incline walk · 10 min · 3.4 mph · 6-8% incline (skip if session hits 65 min)",
-    "exercises": [
-      {
-        "id": "A",
-        "name": "Leg Press",
-        "detail": "360 lb × 10 · 3 sets",
-        "rest": "90s rest",
-        "note": "Clean 3×10 at 355 last Friday. Controlled tempo, don't lock knees at top."
-      },
-      {
-        "id": "B",
-        "name": "Hip Thrust Machine",
-        "detail": "165 lb × 12 · 3 sets",
-        "rest": "75s rest",
-        "note": "Hit 160 cleanly last Friday. Full hip extension, squeeze at top, no hyperextension."
-      },
-      {
-        "id": "C",
-        "name": "DB Romanian Deadlift",
-        "detail": "50 lb × 12 · 3 sets",
-        "rest": "75s rest",
-        "note": "Hit 45×12×3 last week. Hinge from hips, soft knee bend, back stays flat."
-      },
-      {
-        "id": "D",
-        "name": "Leg Curl",
-        "detail": "77 lb × 12 · 3 sets",
-        "rest": "75s rest",
-        "note": "88 was too much last Friday — got 10/9 then dropped. Back to 77, push for 12 each set."
-      },
-      {
-        "id": "E",
-        "name": "KB Swing (Two-Hand)",
-        "detail": "35 lb × 15 · 3 sets",
-        "rest": "60s rest",
-        "note": "30 felt light in early May — time to try 35. Drive with hips, not arms."
-      },
-      {
-        "id": "F",
-        "name": "Core Circuit C",
-        "detail": "Cable Crunch 50 lb × 12 + Hanging Knee Raise × 10-12 + Side Plank 25s/side · 2 rounds",
-        "rest": "60s between rounds",
-        "note": "Haven't hit this combo recently. Kneeling cable crunch — round into it. Full hang on knee raise."
-      }
-    ]
-  },
-  "week": [
+  "generated": "2026-05-26",
+  "session_type": "upper",
+  "day": "Thursday, May 29",
+  "warmup": "Incline treadmill walk — 8–10 min at 3.3–3.5 mph, 6–8% incline",
+  "exercises": [
     {
-      "date": "2026-05-25",
-      "day_short": "Mon May 25",
-      "session_type": "Upper Body ✓",
-      "type": "gym",
-      "note": "Done — incline bench 10/10/8, shoulder press 3×10 (12 on set 3), T-bar row 3×10 (12 on set 3)"
+      "id": "A",
+      "name": "Flat DB Bench Press",
+      "prescription": "65 lb × 10 reps · 3 sets",
+      "cue": "May 21: got 3×10, last rep on set 3 tough. Push for cleaner reps today — controlled 2-sec eccentric. Alternating with incline from Monday."
     },
     {
-      "date": "2026-05-26",
-      "day_short": "Tue May 26",
-      "session_type": "Lower Body",
-      "type": "gym",
-      "note": "Leg press 360 · hip thrust 165 · RDL 50 · leg curl 77×12 · KB swing 35 · core circuit C"
+      "id": "B",
+      "name": "DB Shoulder Press",
+      "prescription": "35 lb × 10 reps · 3 sets",
+      "cue": "Holding at 35 per shoulder protocol. You got 12 on set 3 Monday — shoulder is trending positive. Try for clean 3×10 today. A bump to 37.5 is coming soon."
     },
     {
-      "date": "2026-05-27",
-      "day_short": "Wed May 27",
-      "session_type": "Rest Day",
-      "type": "rest",
-      "note": "Full rest · stay on nutrition"
+      "id": "C",
+      "name": "Cable Row",
+      "prescription": "150 lb × 10 reps · 3 sets (drop to 135 on set 3 if needed)",
+      "cue": "May 21: got 12 clean at 135 lb. Machine jumps to 150 — time to test it. Attempt 150 for sets 1–2. If set 3 is too heavy, drop to 135."
     },
     {
-      "date": "2026-05-28",
-      "day_short": "Thu May 28",
-      "session_type": "Upper Body",
-      "type": "gym",
-      "note": "Upper body — plan coming Thursday"
+      "id": "D",
+      "name": "Face Pulls",
+      "prescription": "40 lb × 15 reps · 3 sets",
+      "cue": "Elbows high and wide. Pause at peak contraction. Don't rush these — they protect the shoulder."
     },
     {
-      "date": "2026-05-29",
-      "day_short": "Fri May 29",
-      "session_type": "Lower Body",
-      "type": "gym",
-      "note": "Lower body — plan coming Friday"
+      "id": "E",
+      "name": "Rear Delt Fly (cable)",
+      "prescription": "11 lb × 15 reps · 3 sets",
+      "cue": "May 21: 11 lb dual cable, last rep tough. Hold at 11 lb for clean, full-range reps. Lead with elbows, not hands."
     },
     {
-      "date": "2026-05-30",
-      "day_short": "Sat May 30",
-      "session_type": "Flexible",
-      "type": "cardio",
-      "note": "HIIT class, pickleball, or rest"
+      "id": "F",
+      "name": "Arms Superset: Rope Pushdown + EZ-Bar Curl",
+      "prescription": "Rope pushdown 80 lb × 12 + EZ-Bar curl 45 lb × 10 · 3 rounds",
+      "cue": "60–75s between rounds. EZ-bar is fresh stimulus — keep elbows pinned, no swinging. Rope pushdown: full extension at bottom, squeeze."
     },
     {
-      "date": "2026-05-31",
-      "day_short": "Sun May 31",
-      "session_type": "Rest / Active",
-      "type": "rest",
-      "note": "Rest or light active recovery"
+      "id": "G",
+      "name": "Core Circuit A",
+      "prescription": "Dead Bugs × 8/side + Side Plank 30s/side + Hollow Body Hold 25s · 2 rounds",
+      "cue": "Dead bugs: lower back pressed flat the entire time. Hollow body: arms overhead, lower back flat — if hips pop up, reset. 30s side plank is a bump from your usual 25s."
     }
-  ]
+  ],
+  "finisher": "Incline treadmill walk — 10 min at 3.3–3.5 mph, 6–8% incline. Skip if session hits 65 min.",
+  "notes": "Big test today: cable row at 150 lb after getting 12 clean at 135 on May 21. Flat bench alternates with incline from Monday's session. EZ-bar curl is a fresh bicep stimulus — haven't done it in several sessions."
 }
