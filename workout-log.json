@@ -9,7 +9,7 @@
       {
         "id": "A",
         "name": "Incline DB Bench Press",
-        "planned": "62.5 lb ÃÂÃÂÃÂÃÂ 10 reps ÃÂÃÂÃÂÃÂ· 3 sets (use 65 lb if gym doesn't have 62.5s)",
+        "planned": "62.5 lb ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ 10 reps ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ· 3 sets (use 65 lb if gym doesn't have 62.5s)",
         "weight": "",
         "sets_reps": "",
         "note": "Got 9 on set 3"
@@ -17,7 +17,7 @@
       {
         "id": "B",
         "name": "DB Shoulder Press",
-        "planned": "35 lb ÃÂÃÂÃÂÃÂ 10 reps ÃÂÃÂÃÂÃÂ· 3 sets",
+        "planned": "35 lb ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ 10 reps ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ· 3 sets",
         "weight": "",
         "sets_reps": "",
         "note": "Got 3 xs 10 here. Last rep tough. Shoulders still tired from hit class sat."
@@ -25,7 +25,7 @@
       {
         "id": "C",
         "name": "T-Bar Row",
-        "planned": "50 lb ÃÂÃÂÃÂÃÂ 10 reps ÃÂÃÂÃÂÃÂ· 3 sets",
+        "planned": "50 lb ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ 10 reps ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ· 3 sets",
         "weight": "",
         "sets_reps": "",
         "note": "Got all these"
@@ -33,7 +33,7 @@
       {
         "id": "D",
         "name": "KB Single-Arm Row",
-        "planned": "45 lb KB ÃÂÃÂÃÂÃÂ 12 reps/side ÃÂÃÂÃÂÃÂ· 3 sets",
+        "planned": "45 lb KB ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ 12 reps/side ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ· 3 sets",
         "weight": "",
         "sets_reps": "",
         "note": "Got all these"
@@ -41,7 +41,7 @@
       {
         "id": "E",
         "name": "Lateral Raise",
-        "planned": "15 lb ÃÂÃÂÃÂÃÂ 15 reps ÃÂÃÂÃÂÃÂ· 3 sets",
+        "planned": "15 lb ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ 15 reps ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ· 3 sets",
         "weight": "",
         "sets_reps": "",
         "note": "Got all these.  Last reps were tough"
@@ -49,7 +49,7 @@
       {
         "id": "F",
         "name": "Arms Superset: Hammer Curl + Skull Crusher",
-        "planned": "Hammer curl 25 lb ÃÂÃÂÃÂÃÂ 12 + Skull crusher 40 lb ÃÂÃÂÃÂÃÂ 10 ÃÂÃÂÃÂÃÂ· 3 rounds",
+        "planned": "Hammer curl 25 lb ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ 12 + Skull crusher 40 lb ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ 10 ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ· 3 rounds",
         "weight": "",
         "sets_reps": "",
         "note": "Got all these"
@@ -57,7 +57,7 @@
       {
         "id": "G",
         "name": "Core Circuit C",
-        "planned": "Cable crunch 50 lb ÃÂÃÂÃÂÃÂ 12 + Hanging knee raise ÃÂÃÂÃÂÃÂ 10-12 + Side plank 25s/side ÃÂÃÂÃÂÃÂ· 2 rounds",
+        "planned": "Cable crunch 50 lb ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ 12 + Hanging knee raise ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ 10-12 + Side plank 25s/side ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ· 2 rounds",
         "weight": "",
         "sets_reps": "",
         "note": "Got 12 reps on both sets of the hanging knee raise. I probably could have gotten another set in easily."
@@ -131,7 +131,7 @@
       {
         "id": "A",
         "name": "Flat DB Bench Press",
-        "planned": "65 lb ÃÂ 10 reps ÃÂ· 3 sets",
+        "planned": "65 lb ÃÂÃÂ 10 reps ÃÂÃÂ· 3 sets",
         "weight": "",
         "sets_reps": "",
         "note": "I got all the reps. The last rep on set three was tough. I probably would not have been able to do one more."
@@ -139,7 +139,7 @@
       {
         "id": "B",
         "name": "DB Shoulder Press",
-        "planned": "35 lb ÃÂ 10 reps ÃÂ· 3 sets",
+        "planned": "35 lb ÃÂÃÂ 10 reps ÃÂÃÂ· 3 sets",
         "weight": "",
         "sets_reps": "",
         "note": "Got all the reps here. Left shoulder is tired but less tired than it's typically been on that exercise in the past."
@@ -147,7 +147,7 @@
       {
         "id": "C",
         "name": "Cable Row",
-        "planned": "135 lb ÃÂ 10 reps ÃÂ· 3 sets",
+        "planned": "135 lb ÃÂÃÂ 10 reps ÃÂÃÂ· 3 sets",
         "weight": "",
         "sets_reps": "",
         "note": "Got 12 on set 3 here."
@@ -155,7 +155,7 @@
       {
         "id": "D",
         "name": "Face Pulls",
-        "planned": "40 lb ÃÂ 15 reps ÃÂ· 3 sets",
+        "planned": "40 lb ÃÂÃÂ 15 reps ÃÂÃÂ· 3 sets",
         "weight": "",
         "sets_reps": "",
         "note": "Got all these"
@@ -163,7 +163,7 @@
       {
         "id": "E",
         "name": "Rear Delt Fly (cable or DB)",
-        "planned": "10 lb ÃÂ 15 reps ÃÂ· 3 sets",
+        "planned": "10 lb ÃÂÃÂ 15 reps ÃÂÃÂ· 3 sets",
         "weight": "",
         "sets_reps": "",
         "note": "Did 11 lbs cause that was the lowest on the cable machine that had 2 cables so I can do both arms at the same time. Last rep pretty tough. I liked the burn on this one."
@@ -171,7 +171,7 @@
       {
         "id": "F",
         "name": "Arms Superset: Rope Pushdown + Incline DB Curl",
-        "planned": "Rope pushdown 80 lb ÃÂ 12 + Incline DB curl 20 lb ÃÂ 10 ÃÂ· 3 rounds",
+        "planned": "Rope pushdown 80 lb ÃÂÃÂ 12 + Incline DB curl 20 lb ÃÂÃÂ 10 ÃÂÃÂ· 3 rounds",
         "weight": "",
         "sets_reps": "",
         "note": "The tricep pushdown was tough but I got all of the reps. I think it was tough because of the skull crushers that I did earlier in the week, which was the first time I did that and they gave me a little bit extra DOMS. I got all of the curls. I did 12 reps on the last set of the curls."
@@ -179,7 +179,7 @@
       {
         "id": "G",
         "name": "Core Circuit B",
-        "planned": "Pallof Press 40 lb ÃÂ 10/side + Ab Wheel ÃÂ 8-10 + Bird Dog ÃÂ 8/side ÃÂ· 2 rounds",
+        "planned": "Pallof Press 40 lb ÃÂÃÂ 10/side + Ab Wheel ÃÂÃÂ 8-10 + Bird Dog ÃÂÃÂ 8/side ÃÂÃÂ· 2 rounds",
         "weight": "",
         "sets_reps": "",
         "note": "I got 10 per side on both sets of the bird dogs. Also 10 on the ab wheel. On the bird dogs I did a crunch so I did one side at a time and crunched in elbow to knee."
@@ -196,7 +196,7 @@
       {
         "id": "A",
         "name": "Leg Press",
-        "planned": "355 lb Ã 10 reps Â· 3 sets",
+        "planned": "355 lb ÃÂ 10 reps ÃÂ· 3 sets",
         "weight": "",
         "sets_reps": "",
         "note": ""
@@ -204,7 +204,7 @@
       {
         "id": "B",
         "name": "Hip Thrust Machine",
-        "planned": "155 lb Ã 12 reps Â· 3 sets",
+        "planned": "155 lb ÃÂ 12 reps ÃÂ· 3 sets",
         "weight": "",
         "sets_reps": "",
         "note": "There are no 2.5 lb weights at my gym and to make the hip thrust machine even on both sides I just decided to do 160 lb. I got all the reps."
@@ -212,7 +212,7 @@
       {
         "id": "C",
         "name": "DB Romanian Deadlift",
-        "planned": "45 lb Ã 12 reps Â· 3 sets",
+        "planned": "45 lb ÃÂ 12 reps ÃÂ· 3 sets",
         "weight": "",
         "sets_reps": "",
         "note": ""
@@ -220,7 +220,7 @@
       {
         "id": "D",
         "name": "Leg Curl",
-        "planned": "82 lb Ã 10 reps Â· 3 sets",
+        "planned": "82 lb ÃÂ 10 reps ÃÂ· 3 sets",
         "weight": "",
         "sets_reps": "",
         "note": "The leg curl machine goes from 77 to 88 so I did 88. I got 10 reps on set one, nine reps on set two. Then I dropped it back down to 77 pounds and I got 8 reps."
@@ -228,7 +228,7 @@
       {
         "id": "E",
         "name": "Walking Lunge (DB)",
-        "planned": "25 lb DBs Ã 10 reps/leg Â· 3 sets",
+        "planned": "25 lb DBs ÃÂ 10 reps/leg ÃÂ· 3 sets",
         "weight": "",
         "sets_reps": "",
         "note": "These felt kind of easy."
@@ -236,7 +236,7 @@
       {
         "id": "F",
         "name": "Core Circuit A",
-        "planned": "Dead Bugs Ã 8/side + Side Plank 25s/side + Hollow Body Hold 20s Â· 2 rounds",
+        "planned": "Dead Bugs ÃÂ 8/side + Side Plank 25s/side + Hollow Body Hold 20s ÃÂ· 2 rounds",
         "weight": "",
         "sets_reps": "",
         "note": ""
@@ -253,7 +253,7 @@
       {
         "id": "A",
         "name": "Incline DB Bench Press",
-        "planned": "62.5 lb × 10 reps · 3 sets (use 65 lb if no 62.5s)",
+        "planned": "62.5 lb Ã 10 reps Â· 3 sets (use 65 lb if no 62.5s)",
         "weight": "",
         "sets_reps": "",
         "note": "Got eight on the last set. First two we got 10."
@@ -261,7 +261,7 @@
       {
         "id": "B",
         "name": "DB Shoulder Press",
-        "planned": "35 lb × 10 reps · 3 sets",
+        "planned": "35 lb Ã 10 reps Â· 3 sets",
         "weight": "",
         "sets_reps": "",
         "note": "I got 12 on set number three."
@@ -269,7 +269,7 @@
       {
         "id": "C",
         "name": "T-Bar Row",
-        "planned": "50 lb × 10 reps · 3 sets",
+        "planned": "50 lb Ã 10 reps Â· 3 sets",
         "weight": "",
         "sets_reps": "",
         "note": "Got 12 refs on set three here."
@@ -277,7 +277,7 @@
       {
         "id": "D",
         "name": "Lateral Raise",
-        "planned": "15 lb × 15 reps · 3 sets",
+        "planned": "15 lb Ã 15 reps Â· 3 sets",
         "weight": "",
         "sets_reps": "",
         "note": ""
@@ -285,7 +285,7 @@
       {
         "id": "E",
         "name": "Arms Superset: Hammer Curl + Skull Crusher",
-        "planned": "Hammer curl 25 lb × 12 + Skull crusher 40 lb × 10 · 3 rounds",
+        "planned": "Hammer curl 25 lb Ã 12 + Skull crusher 40 lb Ã 10 Â· 3 rounds",
         "weight": "",
         "sets_reps": "",
         "note": ""
@@ -293,10 +293,67 @@
       {
         "id": "F",
         "name": "Core Circuit D",
-        "planned": "Plank shoulder tap × 10/side + Dead bugs × 8/side + Pallof press 40 lb × 10/side · 2 rounds",
+        "planned": "Plank shoulder tap Ã 10/side + Dead bugs Ã 8/side + Pallof press 40 lb Ã 10/side Â· 2 rounds",
         "weight": "",
         "sets_reps": "",
         "note": "I did three sets of the core instead of two."
+      }
+    ]
+  },
+  {
+    "date": "2026-05-26",
+    "day_label": "Tuesday, May 26",
+    "session_type": "Lower Body",
+    "submitted_at": "2026-05-26T16:01:40.385Z",
+    "notes": "I did the hip thrust machine first because somebody was on the leg press and then I went to the leg press so hip thrust was my first exercise, leg press too.",
+    "exercises": [
+      {
+        "id": "A",
+        "name": "Leg Press",
+        "planned": "360 lb × 10 · 3 sets",
+        "weight": "",
+        "sets_reps": "",
+        "note": ""
+      },
+      {
+        "id": "B",
+        "name": "Hip Thrust Machine",
+        "planned": "165 lb × 12 · 3 sets",
+        "weight": "",
+        "sets_reps": "",
+        "note": "I did 170 on the hip thrusters. Don't give me increments of 5 on this machine. It's plate loaded and there's no half pound weight so in order to keep the balance I have to have a zero on the end of the number. I got all the reps though: 170, three sets of 12."
+      },
+      {
+        "id": "C",
+        "name": "DB Romanian Deadlift",
+        "planned": "50 lb × 12 · 3 sets",
+        "weight": "",
+        "sets_reps": "",
+        "note": ""
+      },
+      {
+        "id": "D",
+        "name": "Leg Curl",
+        "planned": "77 lb × 12 · 3 sets",
+        "weight": "",
+        "sets_reps": "",
+        "note": "I got 12 on set one, 9 on set two, and 7 on set three. Hamstrings continue to be my weak spot."
+      },
+      {
+        "id": "E",
+        "name": "KB Swing (Two-Hand)",
+        "planned": "35 lb × 15 · 3 sets",
+        "weight": "",
+        "sets_reps": "",
+        "note": ""
+      },
+      {
+        "id": "F",
+        "name": "Core Circuit C",
+        "planned": "Cable Crunch 50 lb × 12 + Hanging Knee Raise × 10-12 + Side Plank 25s/side · 2 rounds",
+        "weight": "",
+        "sets_reps": "",
+        "note": ""
       }
     ]
   }
