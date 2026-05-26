@@ -1,5 +1,5 @@
 {
-  "exported": "2026-05-25T22:47:43.131Z",
+  "exported": "2026-05-26T16:01:35.110Z",
   "raw_data": [
     {
       "date": "2026-04-12",
@@ -366,38 +366,34 @@
       "day_of_week": "Monday",
       "calories_consumed": 1640,
       "calorie_target": 1900,
-      "protein_g": 130,
+      "protein_g": 0,
       "protein_target_g": 140,
-      "carbs_g": 168,
-      "fat_g": 48,
+      "carbs_g": 0,
+      "fat_g": 0,
       "tdee_estimate": 2500,
       "food_deficit": 860,
       "exercise_calories_burned": 390,
       "net_deficit": 1250,
       "cumulative_deficit": 14582,
       "gym_session": true,
-      "exercise_id": "lower",
-      "log_completeness": "estimated",
-      "notes": "Lower body gym day. Macros estimated from typical M-Th average."
+      "exercise_id": "lower"
     },
     {
       "date": "2026-04-28",
       "day_of_week": "Tuesday",
       "calories_consumed": 1797,
       "calorie_target": 1900,
-      "protein_g": 140,
+      "protein_g": 0,
       "protein_target_g": 140,
-      "carbs_g": 185,
-      "fat_g": 52,
+      "carbs_g": 0,
+      "fat_g": 0,
       "tdee_estimate": 2500,
       "food_deficit": 703,
       "exercise_calories_burned": 0,
       "net_deficit": 703,
       "cumulative_deficit": 15285,
       "gym_session": false,
-      "exercise_id": "",
-      "log_completeness": "estimated",
-      "notes": "Rest day. Macros estimated from typical M-Th average."
+      "exercise_id": ""
     },
     {
       "date": "2026-04-29",
@@ -739,27 +735,16 @@
     {
       "date": "2026-05-08",
       "weight_lb": 176.8,
-      "calories_consumed": 1900,
-      "protein_g": 140,
-      "carbs_g": 185,
-      "fat_g": 52,
-      "food_deficit": 600,
+      "calories_consumed": 0,
+      "protein_g": 0,
+      "carbs_g": 0,
+      "fat_g": 0,
+      "food_deficit": 0,
       "exercise_calories_burned": 0,
-      "net_deficit": 600,
-      "cumulative_deficit": 19158,
+      "net_deficit": 0,
+      "cumulative_deficit": 0,
       "gym_session": false,
-      "log_completeness": "estimated",
-      "day_of_week": "Friday",
-      "calorie_target": 1900,
-      "protein_target_g": 140,
-      "tdee_estimate": 2500,
-      "exercise_id": "",
-      "cardio_type": "none",
-      "cardio_minutes": 0,
-      "sleep_quality": null,
-      "energy_level": null,
-      "cns_flags": false,
-      "notes": "Weight check-in: 176.8 lb (new low at the time). Macros estimated from typical Friday average."
+      "log_completeness": "partial"
     },
     {
       "date": "2026-05-10",
@@ -944,550 +929,6 @@
       "sleep_quality": null,
       "log_completeness": "complete",
       "notes": "Rest day. Gallo pinto bowl + shredded beef + 2 eggs + fried plantain. Protein drink + banana. Agave water. Dinner: tuna + lean beef + rice + butternut squash + avocado + tofu dressing."
-    },
-    {
-      "date": "2026-05-18",
-      "day_of_week": "Monday",
-      "calories_consumed": 1874,
-      "calorie_target": 1900,
-      "protein_g": 139,
-      "protein_target_g": 140,
-      "carbs_g": 185,
-      "fat_g": 52,
-      "tdee_estimate": 2500,
-      "food_deficit": 626,
-      "exercise_calories_burned": 520,
-      "net_deficit": 1146,
-      "cumulative_deficit": 27952,
-      "weight_lb": null,
-      "gym_session": true,
-      "exercise_id": "upper",
-      "cardio_type": "incline walk",
-      "cardio_minutes": 20,
-      "sleep_quality": null,
-      "energy_level": null,
-      "cns_flags": false,
-      "log_completeness": "complete",
-      "notes": "Upper body session. Flat DB bench 65lbx10x3."
-    },
-    {
-      "date": "2026-05-19",
-      "day_of_week": "Tuesday",
-      "calories_consumed": 2147,
-      "calorie_target": 1900,
-      "protein_g": 144,
-      "protein_target_g": 140,
-      "carbs_g": 230,
-      "fat_g": 55,
-      "tdee_estimate": 2500,
-      "food_deficit": 353,
-      "exercise_calories_burned": 498,
-      "net_deficit": 851,
-      "cumulative_deficit": 28803,
-      "weight_lb": null,
-      "gym_session": true,
-      "exercise_id": "lower",
-      "cardio_type": "incline walk",
-      "cardio_minutes": 20,
-      "sleep_quality": null,
-      "energy_level": null,
-      "cns_flags": false,
-      "log_completeness": "complete",
-      "notes": "Lower body session. 498 kcal burned. Extras: oatmeal w banana and peanut butter."
-    },
-    {
-      "date": "2026-05-20",
-      "day_of_week": "Wednesday",
-      "calories_consumed": 2714,
-      "calorie_target": 1900,
-      "protein_g": 132,
-      "protein_target_g": 140,
-      "carbs_g": 292,
-      "fat_g": 105,
-      "tdee_estimate": 2500,
-      "food_deficit": -214,
-      "exercise_calories_burned": 459,
-      "net_deficit": 245,
-      "cumulative_deficit": 29048,
-      "weight_lb": null,
-      "gym_session": true,
-      "exercise_id": "upper",
-      "cardio_type": "incline walk",
-      "cardio_minutes": 0,
-      "sleep_quality": 7,
-      "energy_level": null,
-      "cns_flags": false,
-      "coffee_full": 1,
-      "coffee_quarter": 1,
-      "coffee_half": 0,
-      "coffee_decaf": 0,
-      "log_completeness": "complete",
-      "notes": "",
-      "meals_detail": {
-        "slots": {
-          "smoothie": {
-            "label": "Standard",
-            "kcal": 302,
-            "pro": 26,
-            "carbs": 49,
-            "fat": 2,
-            "items": [
-              {
-                "name": "Banana",
-                "qty": 1,
-                "unit": "whole",
-                "kcal": 105,
-                "pro": 1.3,
-                "carbs": 27,
-                "fat": 0.4
-              },
-              {
-                "name": "Blueberries",
-                "qty": 2,
-                "unit": "¼ cup",
-                "kcal": 42,
-                "pro": 0.6,
-                "carbs": 10,
-                "fat": 0.2
-              },
-              {
-                "name": "Papaya",
-                "qty": 1,
-                "unit": "¼ cup",
-                "kcal": 14,
-                "pro": 0.2,
-                "carbs": 4,
-                "fat": 0.1
-              },
-              {
-                "name": "Orange Juice",
-                "qty": 3,
-                "unit": "tbsp",
-                "kcal": 21,
-                "pro": 0.3,
-                "carbs": 5.1,
-                "fat": 0
-              },
-              {
-                "name": "Protein Powder",
-                "qty": 1,
-                "unit": "scoop (30g)",
-                "kcal": 120,
-                "pro": 24,
-                "carbs": 3,
-                "fat": 1
-              }
-            ]
-          },
-          "lunch": {
-            "label": "Standard + Rice",
-            "kcal": 584,
-            "pro": 31,
-            "carbs": 52,
-            "fat": 24,
-            "items": [
-              {
-                "name": "Lettuce",
-                "qty": 2,
-                "unit": "cup",
-                "kcal": 20,
-                "pro": 1,
-                "carbs": 4,
-                "fat": 0.2
-              },
-              {
-                "name": "Sweet Potato",
-                "qty": 0.6,
-                "unit": "cup cooked",
-                "kcal": 78,
-                "pro": 1.8,
-                "carbs": 18,
-                "fat": 0.1
-              },
-              {
-                "name": "Avocado",
-                "qty": 1,
-                "unit": "¼ avocado",
-                "kcal": 65,
-                "pro": 1,
-                "carbs": 3.5,
-                "fat": 6
-              },
-              {
-                "name": "Tofu Dressing",
-                "qty": 3,
-                "unit": "tbsp",
-                "kcal": 114,
-                "pro": 3,
-                "carbs": 3,
-                "fat": 7.5
-              },
-              {
-                "name": "Whole Egg",
-                "qty": 2,
-                "unit": "egg",
-                "kcal": 156,
-                "pro": 12,
-                "carbs": 1.2,
-                "fat": 10.6
-              },
-              {
-                "name": "Egg White",
-                "qty": 3,
-                "unit": "white",
-                "kcal": 51,
-                "pro": 10.5,
-                "carbs": 0,
-                "fat": 0
-              },
-              {
-                "name": "White Rice",
-                "qty": 2,
-                "unit": "¼ cup cooked",
-                "kcal": 100,
-                "pro": 2,
-                "carbs": 22,
-                "fat": 0
-              }
-            ]
-          },
-          "snack": {
-            "label": "Chicken 120g",
-            "kcal": 167,
-            "pro": 33,
-            "carbs": 0,
-            "fat": 4,
-            "items": [
-              {
-                "name": "Chicken Breast",
-                "qty": 100,
-                "unit": "g",
-                "kcal": 167,
-                "pro": 33.3,
-                "carbs": 0,
-                "fat": 4
-              }
-            ]
-          },
-          "dinner": {
-            "label": "Custom",
-            "kcal": 1640,
-            "pro": 42,
-            "carbs": 186,
-            "fat": 75,
-            "items": [
-              {
-                "name": "Fried chicken sandwich at rocamar w albert",
-                "qty": 1,
-                "unit": "serving",
-                "kcal": 1640,
-                "pro": 42,
-                "carbs": 186,
-                "fat": 75
-              }
-            ]
-          }
-        },
-        "extras": [
-          {
-            "name": "Agave in water (1 tsp)",
-            "kcal": 21
-          }
-        ]
-      }
-    },
-    {
-      "date": "2026-05-21",
-      "day_of_week": "Thursday",
-      "calories_consumed": 1810,
-      "calorie_target": 1900,
-      "protein_g": 122,
-      "protein_target_g": 140,
-      "carbs_g": 200,
-      "fat_g": 55,
-      "tdee_estimate": 2500,
-      "food_deficit": 690,
-      "exercise_calories_burned": 498,
-      "net_deficit": 1188,
-      "cumulative_deficit": 30236,
-      "weight_lb": null,
-      "gym_session": true,
-      "exercise_id": "lower",
-      "cardio_type": "incline walk",
-      "cardio_minutes": 0,
-      "sleep_quality": 6,
-      "energy_level": null,
-      "cns_flags": false,
-      "coffee_full": 2,
-      "coffee_quarter": 0,
-      "coffee_half": 0,
-      "coffee_decaf": 0,
-      "log_completeness": "partial",
-      "notes": "",
-      "meals_detail": {
-        "slots": {
-          "smoothie": {
-            "label": "Standard",
-            "kcal": 302,
-            "pro": 26,
-            "carbs": 49,
-            "fat": 2,
-            "items": [
-              {
-                "name": "Banana",
-                "qty": 1,
-                "unit": "whole",
-                "kcal": 105,
-                "pro": 1.3,
-                "carbs": 27,
-                "fat": 0.4
-              },
-              {
-                "name": "Blueberries",
-                "qty": 2,
-                "unit": "¼ cup",
-                "kcal": 42,
-                "pro": 0.6,
-                "carbs": 10,
-                "fat": 0.2
-              },
-              {
-                "name": "Papaya",
-                "qty": 1,
-                "unit": "¼ cup",
-                "kcal": 14,
-                "pro": 0.2,
-                "carbs": 4,
-                "fat": 0.1
-              },
-              {
-                "name": "Orange Juice",
-                "qty": 3,
-                "unit": "tbsp",
-                "kcal": 21,
-                "pro": 0.3,
-                "carbs": 5.1,
-                "fat": 0
-              },
-              {
-                "name": "Protein Powder",
-                "qty": 1,
-                "unit": "scoop (30g)",
-                "kcal": 120,
-                "pro": 24,
-                "carbs": 3,
-                "fat": 1
-              }
-            ]
-          },
-          "lunch": {
-            "label": "Standard + Rice",
-            "kcal": 866,
-            "pro": 55,
-            "carbs": 72,
-            "fat": 36,
-            "items": [
-              {
-                "name": "Lettuce",
-                "qty": 2,
-                "unit": "cup",
-                "kcal": 20,
-                "pro": 1,
-                "carbs": 4,
-                "fat": 0.2
-              },
-              {
-                "name": "Sweet Potato",
-                "qty": 0.8,
-                "unit": "cup cooked",
-                "kcal": 104,
-                "pro": 2.4,
-                "carbs": 24,
-                "fat": 0.1
-              },
-              {
-                "name": "Avocado",
-                "qty": 2,
-                "unit": "¼ avocado",
-                "kcal": 130,
-                "pro": 2,
-                "carbs": 7,
-                "fat": 12
-              },
-              {
-                "name": "Tofu Dressing",
-                "qty": 2.5,
-                "unit": "tbsp",
-                "kcal": 95,
-                "pro": 2.5,
-                "carbs": 2.5,
-                "fat": 6.3
-              },
-              {
-                "name": "Whole Egg",
-                "qty": 2,
-                "unit": "egg",
-                "kcal": 156,
-                "pro": 12,
-                "carbs": 1.2,
-                "fat": 10.6
-              },
-              {
-                "name": "Egg White",
-                "qty": 3,
-                "unit": "white",
-                "kcal": 51,
-                "pro": 10.5,
-                "carbs": 0,
-                "fat": 0
-              },
-              {
-                "name": "White Rice",
-                "qty": 3,
-                "unit": "¼ cup cooked",
-                "kcal": 150,
-                "pro": 3,
-                "carbs": 33,
-                "fat": 0
-              },
-              {
-                "name": "85 grams beef",
-                "qty": 1,
-                "unit": "serving",
-                "kcal": 160,
-                "pro": 22,
-                "carbs": 0,
-                "fat": 7
-              }
-            ]
-          },
-          "snack": null,
-          "dinner": {
-            "label": "Custom",
-            "kcal": 621,
-            "pro": 41,
-            "carbs": 74,
-            "fat": 17,
-            "items": [
-              {
-                "name": "Taco bowl",
-                "qty": 1,
-                "unit": "serving",
-                "kcal": 621,
-                "pro": 41,
-                "carbs": 74,
-                "fat": 17
-              }
-            ]
-          }
-        },
-        "extras": [
-          {
-            "name": "Agave in water (1 tsp)",
-            "kcal": 21
-          }
-        ]
-      }
-    },
-    {
-      "date": "2026-05-22",
-      "day_of_week": "Friday",
-      "calories_consumed": 1900,
-      "calorie_target": 1900,
-      "protein_g": 140,
-      "protein_target_g": 140,
-      "carbs_g": 185,
-      "fat_g": 52,
-      "tdee_estimate": 2500,
-      "food_deficit": 600,
-      "exercise_calories_burned": 498,
-      "net_deficit": 800,
-      "cumulative_deficit": 31036,
-      "weight_lb": null,
-      "gym_session": true,
-      "exercise_id": "lower",
-      "cardio_type": "incline walk",
-      "cardio_minutes": 20,
-      "sleep_quality": null,
-      "energy_level": null,
-      "cns_flags": false,
-      "log_completeness": "estimated",
-      "notes": "Lower body session. Leg press 355lb, hip thrust 160lb, RDL 45lb, leg curl 88→77lb, walking lunge 25lb. Macros estimated."
-    },
-    {
-      "date": "2026-05-23",
-      "day_of_week": "Saturday",
-      "calories_consumed": 2300,
-      "calorie_target": 1900,
-      "protein_g": 100,
-      "protein_target_g": 140,
-      "carbs_g": 200,
-      "fat_g": 80,
-      "tdee_estimate": 2500,
-      "food_deficit": -200,
-      "exercise_calories_burned": 0,
-      "net_deficit": -200,
-      "cumulative_deficit": 30836,
-      "weight_lb": null,
-      "gym_session": false,
-      "exercise_id": "",
-      "cardio_type": "none",
-      "cardio_minutes": 0,
-      "sleep_quality": null,
-      "energy_level": null,
-      "cns_flags": true,
-      "log_completeness": "estimated",
-      "notes": "Heavy drinking day per May 25 session notes. Calories and macros estimated."
-    },
-    {
-      "date": "2026-05-24",
-      "day_of_week": "Sunday",
-      "calories_consumed": 1800,
-      "calorie_target": 1900,
-      "protein_g": 120,
-      "protein_target_g": 140,
-      "carbs_g": 180,
-      "fat_g": 55,
-      "tdee_estimate": 2500,
-      "food_deficit": 700,
-      "exercise_calories_burned": 0,
-      "net_deficit": 400,
-      "cumulative_deficit": 31236,
-      "weight_lb": null,
-      "gym_session": false,
-      "exercise_id": "",
-      "cardio_type": "none",
-      "cardio_minutes": 0,
-      "sleep_quality": null,
-      "energy_level": null,
-      "cns_flags": false,
-      "log_completeness": "estimated",
-      "notes": "Hangover recovery day per May 25 session notes. Macros estimated."
-    },
-    {
-      "date": "2026-05-25",
-      "day_of_week": "Monday",
-      "calories_consumed": 1900,
-      "calorie_target": 1900,
-      "protein_g": 140,
-      "protein_target_g": 140,
-      "carbs_g": 185,
-      "fat_g": 52,
-      "tdee_estimate": 2500,
-      "food_deficit": 600,
-      "exercise_calories_burned": 520,
-      "net_deficit": 1120,
-      "cumulative_deficit": 32356,
-      "weight_lb": null,
-      "gym_session": true,
-      "exercise_id": "upper",
-      "cardio_type": "incline walk",
-      "cardio_minutes": 20,
-      "sleep_quality": null,
-      "energy_level": null,
-      "cns_flags": false,
-      "log_completeness": "estimated",
-      "notes": "Upper body session. Incline bench 10/10/8, shoulder press 3x10 (12 on set 3), T-bar row 3x10 (12 on set 3), lateral raise, hammer curl + skull crusher, core circuit D x3 sets. Post-rough-weekend but solid session."
     }
   ]
 }
