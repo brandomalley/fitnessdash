@@ -1,60 +1,53 @@
 {
   "workout": {
-    "date": "2026-05-29",
-    "day_label": "Thursday, May 29",
-    "session_type": "Upper Body",
+    "date": "2026-06-01",
+    "day_label": "Monday, June 1",
+    "session_type": "Lower Body",
     "is_gym_day": true,
     "warmup": "Incline walk · 8–10 min · 3.3–3.5 mph · 6–8% incline",
     "finisher": "Incline walk · 10 min · 3.3–3.5 mph · 6–8% incline. Skip if session hits 65 min.",
     "exercises": [
       {
         "id": "A",
-        "name": "Flat DB Bench Press",
-        "detail": "65 lb × 10 · 3 sets",
+        "name": "Leg Press",
+        "detail": "370 lb × 10 · 3 sets",
         "rest": "90s rest",
-        "note": "May 21: got 3×10, last rep on set 3 tough. Push for cleaner reps today — controlled 2-sec eccentric. Hold at 65, next bump is 70."
+        "note": "May 26: hit 360 × 10 × 3 clean. Adding 10 lb today. Controlled tempo — don't lock out at the top."
       },
       {
         "id": "B",
-        "name": "DB Shoulder Press",
-        "detail": "35 lb × 10 · 3 sets",
+        "name": "Hip Thrust Machine",
+        "detail": "180 lb × 12 · 3 sets",
         "rest": "90s rest",
-        "note": "Holding at 35 per shoulder protocol. Got 12 on set 3 Monday — shoulder trending positive. Next bump is 40 lb (no half-pounds at your gym)."
+        "note": "May 26: hit 170 × 12 × 3 clean. Machine is plate-loaded — 10 lb increments only, never use odd numbers. Full hip extension at top, squeeze glutes, no hyperextension."
       },
       {
         "id": "C",
-        "name": "Cable Row",
-        "detail": "150 lb × 10 · 3 sets (drop to 135 on set 3 if needed)",
+        "name": "DB Romanian Deadlift",
+        "detail": "55 lb × 12 · 3 sets",
         "rest": "90s rest",
-        "note": "May 21: got 12 clean at 135 lb. Machine jumps to 150 — time to test it. Attempt 150 for sets 1–2. If set 3 gets ugly, drop to 135."
+        "note": "May 26: hit 50 × 12 × 3 clean, back felt fine. Bumping to 55 lb. Hinge from hips, soft knee bend, feel the hamstring stretch at the bottom."
       },
       {
         "id": "D",
-        "name": "Face Pulls",
-        "detail": "40 lb × 15 · 3 sets",
-        "rest": "60s rest",
-        "note": "Elbows high and wide. Pause at peak contraction. Don't rush these — they protect the shoulder."
+        "name": "Leg Curl",
+        "detail": "77 lb × 10 · 3 sets",
+        "rest": "75s rest",
+        "note": "Hamstrings are the consistent weak link — got 12/9/7 on May 26. Holding at 77 lb. Cap last set at 10 reps even if you have more — don't grind this one."
       },
       {
         "id": "E",
-        "name": "Rear Delt Fly (cable)",
-        "detail": "11 lb × 15 · 3 sets",
-        "rest": "60s rest",
-        "note": "May 21: 11 lb dual cable, last rep tough. Hold at 11 lb for clean full-range reps. Lead with elbows, not hands."
+        "name": "Walking Lunge (DB)",
+        "detail": "30 lb × 10/leg · 3 sets",
+        "rest": "75s rest",
+        "note": "May 22: 25 lb felt easy. Bumping to 30 lb. Drive through heel of front foot, keep torso upright. Full range — back knee close to the floor."
       },
       {
         "id": "F",
-        "name": "Arms Superset: Rope Pushdown + EZ-Bar Curl",
-        "detail": "Rope pushdown 80 lb × 12 + EZ-Bar curl 45 lb × 10 · 3 rounds",
-        "rest": "60–75s between rounds",
-        "note": "EZ-bar is a fresh stimulus — keep elbows pinned, no swinging. Rope pushdown: full extension at bottom, squeeze."
-      },
-      {
-        "id": "G",
-        "name": "Core Circuit A",
-        "detail": "Dead Bugs × 8/side + Side Plank 30s/side + Hollow Body Hold 25s · 2 rounds",
-        "rest": "Minimal rest between movements",
-        "note": "Dead bugs: lower back pressed flat throughout. Hollow body: arms overhead, lower back flat — if hips pop up, reset."
+        "name": "Core Circuit B",
+        "detail": "Pallof Press 40 lb × 10/side + Ab Wheel × 8–10 + Bird Dog × 8/side · 2 rounds",
+        "rest": "Minimal rest between movements, 60s between rounds",
+        "note": "Pallof Press: stand tall, resist rotation — don't let the cable pull you. Ab Wheel: from knees, only extend as far as your lower back stays flat. Bird Dog: opposite arm/leg, pause 1 sec at top."
       }
     ]
   }
