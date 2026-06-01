@@ -1,7 +1,7 @@
 {
   "workout": {
-    "date": "2026-06-01",
-    "day_label": "Monday, June 1",
+    "date": "2026-06-02",
+    "day_label": "Tuesday, June 2",
     "session_type": "Lower Body",
     "is_gym_day": true,
     "warmup": "Incline walk · 8–10 min · 3.3–3.5 mph · 6–8% incline",
@@ -19,7 +19,7 @@
         "name": "Hip Thrust Machine",
         "detail": "180 lb × 12 · 3 sets",
         "rest": "90s rest",
-        "note": "May 26: hit 170 × 12 × 3 clean. Machine is plate-loaded — 10 lb increments only, never use odd numbers. Full hip extension at top, squeeze glutes, no hyperextension."
+        "note": "May 26: hit 170 × 12 × 3 clean. Machine is plate-loaded — 10 lb increments only. Full hip extension at top, squeeze glutes, no hyperextension."
       },
       {
         "id": "C",
@@ -33,21 +33,21 @@
         "name": "Leg Curl",
         "detail": "77 lb × 10 · 3 sets",
         "rest": "75s rest",
-        "note": "Hamstrings are the consistent weak link — got 12/9/7 on May 26. Holding at 77 lb. Cap last set at 10 reps even if you have more — don't grind this one."
+        "note": "Hamstrings are the consistent weak link — got 12/9/7 on May 26. Holding at 77 lb. Cap last set at 10 reps even if you have more."
       },
       {
         "id": "E",
         "name": "Walking Lunge (DB)",
         "detail": "30 lb × 10/leg · 3 sets",
         "rest": "75s rest",
-        "note": "May 22: 25 lb felt easy. Bumping to 30 lb. Drive through heel of front foot, keep torso upright. Full range — back knee close to the floor."
+        "note": "May 22: 25 lb felt easy. Bumping to 30 lb. Drive through heel of front foot, keep torso upright. Back knee close to the floor."
       },
       {
         "id": "F",
         "name": "Core Circuit B",
         "detail": "Pallof Press 40 lb × 10/side + Ab Wheel × 8–10 + Bird Dog × 8/side · 2 rounds",
         "rest": "Minimal rest between movements, 60s between rounds",
-        "note": "Pallof Press: stand tall, resist rotation — don't let the cable pull you. Ab Wheel: from knees, only extend as far as your lower back stays flat. Bird Dog: opposite arm/leg, pause 1 sec at top."
+        "note": "Pallof Press: stand tall, resist rotation. Ab Wheel: from knees, only extend as far as your lower back stays flat. Bird Dog: opposite arm/leg, pause 1 sec at top."
       }
     ]
   }
