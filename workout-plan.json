@@ -1,60 +1,53 @@
 {
   "workout": {
-    "date": "2026-06-04",
-    "day_label": "Thursday, June 4",
-    "session_type": "Upper Body",
+    "date": "2026-06-05",
+    "day_label": "Friday, June 5",
+    "session_type": "Lower Body",
     "is_gym_day": true,
     "warmup": "Incline walk · 8–10 min · 3.3–3.5 mph · 6–8% incline",
     "finisher": "Incline walk · 10 min · 3.3–3.5 mph · 6–8% incline. Skip if session hits 65 min.",
     "exercises": [
       {
         "id": "A",
-        "name": "Incline DB Bench Press",
-        "detail": "60 lb × 10 · 3 sets",
+        "name": "Leg Press",
+        "detail": "380 lb × 10 · 3 sets",
         "rest": "90s rest",
-        "note": "May 25 was 10/10/8 due to rough weekend — not a regression. Fully recovered now. Target clean 3×10. Controlled 2-sec eccentric. Left shoulder OK at 60 lb — monitor."
+        "note": "June 2: hit 370 × 10 × 3 clean. Adding 10 lb. Controlled tempo, don't lock out at top."
       },
       {
         "id": "B",
-        "name": "KB Single-Arm Overhead Press",
-        "detail": "25 lb KB × 8/side · 3 sets",
+        "name": "Hip Thrust Machine",
+        "detail": "190 lb × 12 · 3 sets",
         "rest": "90s rest",
-        "note": "Last done May 18. Unilateral press — core braced, don't flare the elbow. Lighter than DB press so it's safe paired with incline bench on the recovering shoulder. Alternate sides each set."
+        "note": "June 2: hit 180 × 12 × 3 clean. Plate-loaded — 10 lb increments only. Full hip extension, squeeze at top, no hyperextension."
       },
       {
         "id": "C",
-        "name": "T-Bar Row",
-        "detail": "55 lb × 10 · 3 sets",
+        "name": "DB Romanian Deadlift",
+        "detail": "60 lb × 12 · 3 sets",
         "rest": "90s rest",
-        "note": "Got 12 on set 3 at 50 lb on May 25 — bump to 55 lb. Chest to pad, row to lower sternum, squeeze at the top. Don't let it turn into a shrug."
+        "note": "June 2: hit 55 × 12 × 3 clean, back felt fine. Bumping to 60 lb. Hinge from hips, soft knee, feel the stretch at the bottom."
       },
       {
         "id": "D",
-        "name": "Face Pulls",
-        "detail": "40 lb × 15 · 3 sets",
-        "rest": "60s rest",
-        "note": "Elbows high and wide. Pause at peak contraction. Non-negotiable for shoulder health — don't skip or rush."
+        "name": "Leg Curl",
+        "detail": "77 lb × 10 · 3 sets",
+        "rest": "75s rest",
+        "note": "June 2: barely got the last two reps at 77 lb. Holding here — don't chase it. Cap the last set at 10 even if you feel strong."
       },
       {
         "id": "E",
-        "name": "Lateral Raise",
-        "detail": "15 lb × 15 · 3 sets",
-        "rest": "60s rest",
-        "note": "Consistent at 15 lb. Lead with elbow, stop at shoulder height. No momentum."
+        "name": "Walking Lunge (DB)",
+        "detail": "30 lb × 10/leg · 3 sets",
+        "rest": "75s rest",
+        "note": "First full session at 30 lb — holding to confirm it before bumping. Drive through heel of front foot, back knee close to floor."
       },
       {
         "id": "F",
-        "name": "Arms Superset: Incline DB Curl + Skull Crusher",
-        "detail": "Incline DB curl 20 lb × 12 + Skull crusher 40 lb × 10 · 3 rounds",
-        "rest": "60–75s between rounds",
-        "note": "Incline curl last done May 21 — full stretch on the bicep, slow eccentric. Skull crusher: elbows narrow, lower just behind forehead. No flaring."
-      },
-      {
-        "id": "G",
-        "name": "Core Circuit B",
-        "detail": "Pallof Press 40 lb × 10/side + Ab Wheel × 10 + Bird Dog × 8/side · 2 rounds",
-        "rest": "Minimal rest between movements",
-        "note": "Pallof press: stand tall, no hip shift when pressing out. Ab wheel from knees — only extend as far as lumbar stays neutral. Bird dog: pause 1 sec at top, do the crunch variation you like."
+        "name": "Core Circuit D",
+        "detail": "Plank Shoulder Tap × 10/side + Dead Bugs × 8/side + Pallof Press 40 lb × 10/side · 3 rounds",
+        "rest": "Minimal rest between movements, 60s between rounds",
+        "note": "3 rounds today — you skipped core Wednesday, this makes up for it. Plank taps: keep hips still. Dead bugs: lower back flat throughout. Pallof: stand tall, resist the pull."
       }
     ]
   }
