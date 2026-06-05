@@ -1,53 +1,60 @@
 {
   "workout": {
-    "date": "2026-06-05",
-    "day_label": "Friday, June 5",
-    "session_type": "Lower Body",
+    "date": "2026-06-06",
+    "day_label": "Saturday, June 6",
+    "session_type": "Upper Body",
     "is_gym_day": true,
     "warmup": "Incline walk · 8–10 min · 3.3–3.5 mph · 6–8% incline",
-    "finisher": "Incline walk · 10 min · 3.3–3.5 mph · 6–8% incline. Skip if session hits 65 min.",
+    "finisher": "Incline walk · 10 min · 3.3–3.5 mph · 6–8% incline",
     "exercises": [
       {
         "id": "A",
-        "name": "Leg Press",
-        "detail": "380 lb × 10 · 3 sets",
+        "name": "Flat DB Bench Press",
+        "detail": "70 lb × 10 · 3 sets",
         "rest": "90s rest",
-        "note": "June 2: hit 370 × 10 × 3 clean. Adding 10 lb. Controlled tempo, don't lock out at top."
+        "note": "May 29: hit 65 × 11 on last set — bumping to 70 lb. Controlled 2-sec eccentric. Using flat today since you did incline Wednesday."
       },
       {
         "id": "B",
-        "name": "Hip Thrust Machine",
-        "detail": "190 lb × 12 · 3 sets",
+        "name": "DB Shoulder Press",
+        "detail": "35 lb × 10 · 3 sets",
         "rest": "90s rest",
-        "note": "June 2: hit 180 × 12 × 3 clean. Plate-loaded — 10 lb increments only. Full hip extension, squeeze at top, no hyperextension."
+        "note": "Holding at 35 per shoulder protocol — you've been getting 12–14 on set 3, shoulder is trending well. Next bump to 40 lb once cleared."
       },
       {
         "id": "C",
-        "name": "DB Romanian Deadlift",
-        "detail": "60 lb × 12 · 3 sets",
+        "name": "T-Bar Row",
+        "detail": "55 lb × 10 · 3 sets",
         "rest": "90s rest",
-        "note": "June 2: hit 55 × 12 × 3 clean, back felt fine. Bumping to 60 lb. Hinge from hips, soft knee, feel the stretch at the bottom."
+        "note": "Machine was taken June 3 — try it today. If taken again, sub double KB bent-over rows at 40 lb × 10 × 3. T-bar: neutral spine, drive elbows back."
       },
       {
         "id": "D",
-        "name": "Leg Curl",
-        "detail": "77 lb × 10 · 3 sets",
-        "rest": "75s rest",
-        "note": "June 2: barely got the last two reps at 77 lb. Holding here — don't chase it. Cap the last set at 10 even if you feel strong."
+        "name": "Cable Row",
+        "detail": "150 lb × 10 · 3 sets",
+        "rest": "90s rest",
+        "note": "May 29: got 3×10 but last two reps were sloppy. Holding at 150 — focus on clean form. Full stretch at the start, don't yank with the lower back."
       },
       {
         "id": "E",
-        "name": "Walking Lunge (DB)",
-        "detail": "30 lb × 10/leg · 3 sets",
-        "rest": "75s rest",
-        "note": "First full session at 30 lb — holding to confirm it before bumping. Drive through heel of front foot, back knee close to floor."
+        "name": "Face Pulls",
+        "detail": "40 lb × 15 · 3 sets",
+        "rest": "60s rest",
+        "note": "Elbows high and wide, pause at peak contraction. These protect the shoulder — don't skip them."
       },
       {
         "id": "F",
-        "name": "Core Circuit D",
-        "detail": "Plank Shoulder Tap × 10/side + Dead Bugs × 8/side + Pallof Press 40 lb × 10/side · 3 rounds",
+        "name": "Arms Superset: Rope Pushdown + Hammer Curl",
+        "detail": "Rope pushdown 80 lb × 12 + Hammer curl 25 lb × 12 · 3 rounds",
+        "rest": "60–75s between rounds",
+        "note": "Pushdown: full extension at bottom, squeeze. Hammer curl: elbows pinned, no swinging."
+      },
+      {
+        "id": "G",
+        "name": "Core Circuit C",
+        "detail": "Cable Crunch 50 lb × 12 + Hanging Knee Raise × 10–12 + Side Plank 30s/side · 2 rounds",
         "rest": "Minimal rest between movements, 60s between rounds",
-        "note": "3 rounds today — you skipped core Wednesday, this makes up for it. Plank taps: keep hips still. Dead bugs: lower back flat throughout. Pallof: stand tall, resist the pull."
+        "note": "You skipped core Wednesday — get it done today. Cable crunch: round into it, don't just hinge at the hips. Hanging knee raise: control the descent."
       }
     ]
   }
