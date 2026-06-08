@@ -1,60 +1,53 @@
 {
   "workout": {
-    "date": "2026-06-06",
-    "day_label": "Saturday, June 6",
-    "session_type": "Upper Body",
+    "date": "2026-06-09",
+    "day_label": "Monday, June 9",
+    "session_type": "Lower Body",
     "is_gym_day": true,
     "warmup": "Incline walk · 8–10 min · 3.3–3.5 mph · 6–8% incline",
-    "finisher": "Incline walk · 10 min · 3.3–3.5 mph · 6–8% incline",
+    "finisher": "Incline walk · 10 min · 3.3–3.5 mph · 6–8% incline. Skip if session hits 65 min.",
     "exercises": [
       {
         "id": "A",
-        "name": "Flat DB Bench Press",
-        "detail": "70 lb × 10 · 3 sets",
+        "name": "Leg Press",
+        "detail": "390 lb × 10 · 3 sets",
         "rest": "90s rest",
-        "note": "May 29: hit 65 × 11 on last set — bumping to 70 lb. Controlled 2-sec eccentric. Using flat today since you did incline Wednesday."
+        "note": "June 5: hit 380 × 10 × 3 clean. Adding 10 lb. Controlled tempo, don't lock out at top."
       },
       {
         "id": "B",
-        "name": "DB Shoulder Press",
-        "detail": "40 lb × 10 · 3 sets",
+        "name": "Hip Thrust Machine",
+        "detail": "200 lb × 12 · 3 sets",
         "rest": "90s rest",
-        "note": "Bumping from 35 — you've been hitting 12–14 on set 3 and the shoulder is trending well. First time at 40 lb, so push for 10 clean reps each set. If set 3 drops below 8, note it."
+        "note": "June 5: hit 190 × 12 × 3 clean. Plate-loaded — 10 lb increments only. Full hip extension, squeeze at top, no hyperextension."
       },
       {
         "id": "C",
-        "name": "T-Bar Row",
-        "detail": "55 lb × 10 · 3 sets",
+        "name": "DB Romanian Deadlift",
+        "detail": "65 lb × 12 · 3 sets",
         "rest": "90s rest",
-        "note": "Machine was taken June 3 — try it today. If taken again, sub double KB bent-over rows at 40 lb × 10 × 3. T-bar: neutral spine, drive elbows back."
+        "note": "June 5: hit 60 × 12 × 3 but forearms gassed. Use the gym straps today — your legs have more in them than your grip does. Hinge from hips, soft knee, stretch at the bottom."
       },
       {
         "id": "D",
-        "name": "Lat Pulldown",
-        "detail": "120 lb × 10 · 3 sets",
-        "rest": "90s rest",
-        "note": "Vertical pull to pair with T-Bar Row. If machine is taken, sub KB Single-Arm Row at 45 lb × 12/side. Full stretch at top, drive elbows down to finish."
+        "name": "Leg Curl",
+        "detail": "77 lb × 10 · 3 sets",
+        "rest": "75s rest",
+        "note": "June 5: 10/10/9 — slight improvement. Holding at 77 lb. Hamstrings are the weak link — don't chase weight here."
       },
       {
         "id": "E",
-        "name": "Face Pulls",
-        "detail": "40 lb × 15 · 3 sets",
-        "rest": "60s rest",
-        "note": "Elbows high and wide, pause at peak contraction. These protect the shoulder — don't skip them."
+        "name": "Goblet Squat (KB)",
+        "detail": "50 lb × 12 · 3 sets",
+        "rest": "75s rest",
+        "note": "Swapping lunges out — two sessions in a row. Feet shoulder-width, toes slightly out. Sit into it, chest tall, drive through heels."
       },
       {
         "id": "F",
-        "name": "Arms Superset: Rope Pushdown + Hammer Curl",
-        "detail": "Rope pushdown 80 lb × 12 + Hammer curl 25 lb × 12 · 3 rounds",
-        "rest": "60–75s between rounds",
-        "note": "Pushdown: full extension at bottom, squeeze. Hammer curl: elbows pinned, no swinging."
-      },
-      {
-        "id": "G",
-        "name": "Core Circuit C",
-        "detail": "Cable Crunch 50 lb × 12 + Hanging Knee Raise × 10–12 + Side Plank 30s/side · 2 rounds",
+        "name": "Core Circuit A",
+        "detail": "Dead Bugs × 8/side + Side Plank 30s/side + Hollow Body Hold 25s · 2 rounds",
         "rest": "Minimal rest between movements, 60s between rounds",
-        "note": "You skipped core Wednesday — get it done today. Cable crunch: round into it, don't just hinge at the hips. Hanging knee raise: control the descent."
+        "note": "Dead bugs: lower back flat the whole time. Side plank: hips stacked. Hollow body: arms overhead, lower back flat — reset if hips pop up."
       }
     ]
   }
