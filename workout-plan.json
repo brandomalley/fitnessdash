@@ -10,16 +10,16 @@
       {
         "id": "A",
         "name": "Leg Press",
-        "detail": "380 lb × 10 · 3 sets",
+        "detail": "390 lb × 10 · 3 sets",
         "rest": "90s rest",
-        "note": "June 5 confirmed at 380 × 10 × 3. Holding to reconfirm — June 9 session was compromised. If this feels easy, bump to 390 next session."
+        "note": "Confirmed at 390 × 10 × 3 on June 9. Bump to 400 next session if clean."
       },
       {
         "id": "B",
         "name": "Hip Thrust Machine",
-        "detail": "190 lb × 12 · 3 sets",
+        "detail": "200 lb × 12 · 3 sets",
         "rest": "90s rest",
-        "note": "Plate-loaded — 10 lb increments only. June 5 confirmed at 190 × 12 × 3. Holding to reconfirm after disrupted June 9. Full hip extension, squeeze at top, no hyperextension."
+        "note": "Plate-loaded — 10 lb increments only. Confirmed at 200 × 12 × 3 on June 9. Full hip extension, squeeze at top, no hyperextension."
       },
       {
         "id": "C",
