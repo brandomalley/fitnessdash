@@ -1,69 +1,55 @@
 {
   "workout": {
-    "date": "2026-06-12",
-    "day_label": "Thursday, June 12",
-    "session_type": "Upper Body",
+    "date": "2026-06-13",
+    "day_label": "Friday, June 13",
+    "session_type": "Lower Body",
     "is_gym_day": true,
-    "warmup": "Incline walk · 8–10 min · 3.3–3.5 mph · 6–8% incline — DO NOT SKIP. Critical for back warmup after strain.",
+    "warmup": "Incline walk · 8–10 min · 3.3–3.5 mph · 6–8% incline — do not skip. This is your back warmup, not just cardio.",
     "finisher": "Incline walk · 10 min · 3.3–3.5 mph · 6–8% incline. Skip if session hits 65 min.",
     "exercises": [
       {
         "id": "A",
-        "name": "Incline DB Bench Press",
-        "detail": "65 lb × 10 · 3 sets",
+        "name": "Leg Press",
+        "detail": "380 lb × 10 · 3 sets",
         "rest": "90s rest",
-        "note": "Bumped from 60 lb — earned it, got 11 on set 3 June 4. Controlled eccentric. Monitor left shoulder — if any pinching, drop back to 60."
+        "note": "June 5 confirmed at 380 × 10 × 3. Holding to reconfirm — June 9 session was compromised. If this feels easy, bump to 390 next session."
       },
       {
         "id": "B",
-        "name": "KB Single-Arm Overhead Press",
-        "detail": "30 lb × 8/side · 3 sets",
-        "rest": "60s rest",
-        "note": "Bumped from 25 lb — felt easy June 4. Unilateral — brace core throughout. Complements incline bench without stacking heavy bilateral shoulder load."
+        "name": "Hip Thrust Machine",
+        "detail": "190 lb × 12 · 3 sets",
+        "rest": "90s rest",
+        "note": "Plate-loaded — 10 lb increments only. June 5 confirmed at 190 × 12 × 3. Holding to reconfirm after disrupted June 9. Full hip extension, squeeze at top, no hyperextension."
       },
       {
         "id": "C",
-        "name": "Cable Row",
-        "detail": "150 lb × 10 · 3 sets",
+        "name": "Leg Curl",
+        "detail": "77 lb × 10 · 3 sets",
         "rest": "90s rest",
-        "note": "Hold at 150 lb. Upper back strain active — if you feel any pull in the rhomboid/mid-trap area, stop the set immediately. Seated and chest-supported = lower risk, but listen to your body."
+        "note": "June 9 you got 3 clean sets of 10 — strongest it's felt. Hold at 77 lb. Push for 11–12 on the last set if feeling strong today. Don't chase weight here — hamstrings are the weak link."
       },
       {
         "id": "D",
-        "name": "Lat Pulldown",
-        "detail": "125 lb × 10 · 3 sets",
+        "name": "Pendulum Squat",
+        "detail": "Start with sled only. Add 1 plate per side (45 lb each) if sled feels easy.",
         "rest": "90s rest",
-        "note": "Bump from 120 lb — got all reps June 6. Full stretch at top. Vertical pull — pairs with Cable Row."
+        "note": "New movement replacing goblet squat — no upper back required. Chest against pad, upright torso, squat to parallel or just below. Feel out the pattern on the first set before adding load. Log the sled weight and what you added so we can build from it next session."
       },
       {
         "id": "E",
-        "name": "Face Pulls",
-        "detail": "50 lb × 15 · 3 sets",
+        "name": "Walking Lunge (DB)",
+        "detail": "30 lb × 10/leg · 3 sets",
         "rest": "60s rest",
-        "note": "Hold at 50 lb — first session at this weight June 6, felt easy. Elbows high and wide. Good for shoulder health and upper back recovery."
+        "note": "First session at 30 lb was June 2. Hold to confirm — bump to 35 lb next session if these feel clean and controlled."
       },
       {
         "id": "F",
-        "name": "Lateral Raise",
-        "detail": "15 lb × 15 · 3 sets",
-        "rest": "60s rest",
-        "note": "Hold at 15 lb. Lead with elbow, stop at shoulder height. Shoulders were gassed June 4 — don't push the last set."
-      },
-      {
-        "id": "G",
-        "name": "Arms Superset: Skull Crusher + Incline DB Curl",
-        "detail": "Skull Crusher (EZ-Bar) 40 lb × 10 + Incline DB Curl 20 lb × 12 · 3 rounds",
-        "rest": "75s rest between rounds",
-        "note": "Rotating from Rope Pushdown + Hammer Curl (June 6). Get a full stretch on the incline curl — don't rush it."
-      },
-      {
-        "id": "H",
         "name": "Core Circuit (Back-Safe)",
-        "detail": "Dead Bugs × 10/side + Side Plank 30s/side + Bird Dog × 8/side · 2 rounds",
+        "detail": "Pallof Press 40 lb × 10/side + Side Plank 30s/side + Bird Dog × 8/side · 2 rounds",
         "rest": "30s between exercises, 60s between rounds",
-        "note": "Back-safe circuit — chosen specifically given upper back strain. Skip ab wheel and hollow body this session. Slow and controlled on dead bugs — lower back pressed flat."
+        "note": "All back-safe. No ab wheel or hollow body until upper back strain is fully resolved."
       }
     ],
-    "coach_notes": "T-Bar Row and KB double bent-over rows are OFF this session — upper back strain (rhomboid/mid-trap) needs another week before loaded brace movements return. Cable Row is okay because it's chest-supported. If Cable Row provokes anything, drop weight to 135 or skip it. Back should be feeling better by this session — if it's still sharp, do NOT push through on any pulling movement."
+    "coach_notes": "RDL is OFF until upper back sharpness is completely gone — it returns at 60 lb with straps. Pendulum squat is new so log the weight and feel carefully. If back feels off at any point during the session, skip the remaining exercises and go straight to the finisher walk — do not push through."
   }
 }
