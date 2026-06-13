@@ -1,55 +1,69 @@
 {
   "workout": {
-    "date": "2026-06-13",
-    "day_label": "Friday, June 13",
-    "session_type": "Lower Body",
+    "date": "2026-06-15",
+    "day_label": "Sunday, June 15",
+    "session_type": "Upper Body",
     "is_gym_day": true,
-    "warmup": "Incline walk · 8–10 min · 3.3–3.5 mph · 6–8% incline — do not skip. This is your back warmup, not just cardio.",
-    "finisher": "Incline walk · 10 min · 3.3–3.5 mph · 6–8% incline. Skip if session hits 65 min.",
+    "warmup": "Incline walk · 8–10 min · 3.3–3.5 mph · 6–8% incline — do not skip.",
+    "finisher": "Incline walk · 10 min · 3.3–3.5 mph · 6–8% incline. Weekend session — OK to go a little longer if feeling good.",
     "exercises": [
       {
         "id": "A",
-        "name": "Leg Press",
-        "detail": "390 lb × 10 · 3 sets",
+        "name": "Chest Press Machine",
+        "detail": "135 lb × 10 · 3 sets",
         "rest": "90s rest",
-        "note": "Confirmed at 390 × 10 × 3 on June 9. Bump to 400 next session if clean."
+        "note": "First full session at 135. June 12 you hit 135 × 10 on set 3 — now hold it for all 3. Controlled tempo, no rushing."
       },
       {
         "id": "B",
-        "name": "Hip Thrust Machine",
-        "detail": "200 lb × 12 · 3 sets",
+        "name": "Shoulder Press Machine (neutral grip)",
+        "detail": "80 lb × 10 · 3 sets",
         "rest": "90s rest",
-        "note": "Plate-loaded — 10 lb increments only. Confirmed at 200 × 12 × 3 on June 9. Full hip extension, squeeze at top, no hyperextension."
+        "note": "This was your working weight on June 12 — felt difficult but right. Hold at 80. Push for 11–12 on set 3 if feeling strong."
       },
       {
         "id": "C",
-        "name": "Leg Curl",
-        "detail": "77 lb × 10 · 3 sets",
+        "name": "Cable Row",
+        "detail": "135 lb × 10 · 3 sets",
         "rest": "90s rest",
-        "note": "June 9 you got 3 clean sets of 10 — strongest it's felt. Hold at 77 lb. Push for 11–12 on the last set if feeling strong today. Don't chase weight here — hamstrings are the weak link."
+        "note": "Building back up after conservative June 12 session (120/120/135). Try 135 across all 3 sets now. If back feels strong and no flare, bump to 150 next session."
       },
       {
         "id": "D",
-        "name": "Pendulum Squat",
-        "detail": "Start with sled only. Add 1 plate per side (45 lb each) if sled feels easy.",
+        "name": "Lat Pulldown",
+        "detail": "125 lb × 10 · 3 sets",
         "rest": "90s rest",
-        "note": "New movement replacing goblet squat — no upper back required. Chest against pad, upright torso, squat to parallel or just below. Feel out the pattern on the first set before adding load. Log the sled weight and what you added so we can build from it next session."
+        "note": "First session at 125 was June 12 — got all reps clean. Hold to confirm, then bump to 130 next session."
       },
       {
         "id": "E",
-        "name": "Walking Lunge (DB)",
-        "detail": "30 lb × 10/leg · 3 sets",
+        "name": "Face Pulls",
+        "detail": "50 lb × 15 · 3 sets",
         "rest": "60s rest",
-        "note": "First session at 30 lb was June 2. Hold to confirm — bump to 35 lb next session if these feel clean and controlled."
+        "note": "Hold at 50 lb. Elbows high and wide. Good for shoulder and upper back recovery."
       },
       {
         "id": "F",
-        "name": "Core Circuit (Back-Safe)",
-        "detail": "Pallof Press 40 lb × 10/side + Side Plank 30s/side + Bird Dog × 8/side · 2 rounds",
+        "name": "Lateral Raise",
+        "detail": "15 lb × 15 · 3 sets",
+        "rest": "60s rest",
+        "note": "Got 15/15/12 on June 12 — shoulders gas out late. Lead with elbow, stop at shoulder height. Hold at 15 lb."
+      },
+      {
+        "id": "G",
+        "name": "Arms Superset: Rope Pushdown + EZ-Bar Curl",
+        "detail": "Rope Pushdown 80 lb × 12 + EZ-Bar Curl 45 lb × 10 · 3 rounds",
+        "rest": "75s rest between rounds",
+        "note": "Rotating bicep from incline curl (June 12). Skull crusher stays off until back is fully clear — rope pushdown is the tricep movement for now."
+      },
+      {
+        "id": "H",
+        "name": "Core Circuit C",
+        "detail": "Cable Crunch 50 lb × 12 + Hanging Knee Raise × 10–12 + Side Plank 30s/side · 2 rounds",
         "rest": "30s between exercises, 60s between rounds",
-        "note": "All back-safe. No ab wheel or hollow body until upper back strain is fully resolved."
+        "note": "Neither movement loads the upper back — safe to do. Full round through the crunch, controlled on the knee raises."
       }
     ],
-    "coach_notes": "RDL is OFF until upper back sharpness is completely gone — it returns at 60 lb with straps. Pendulum squat is new so log the weight and feel carefully. If back feels off at any point during the session, skip the remaining exercises and go straight to the finisher walk — do not push through."
+    "coach_notes": "Back is tracking in the right direction — stayed pain-free through all of Friday's lower body. Keep listening to it. If cable row provokes anything, drop to 120 or skip. Skull crusher and T-bar row stay off until sharpness is completely gone."
   }
 }
