@@ -12,14 +12,14 @@
         "name": "Leg Press",
         "detail": "390 lb × 10 · 3 sets",
         "rest": "90s rest",
-        "note": "Back on the plan after being skipped June 13 (machine was taken). Confirmed at 390 × 10 × 3 on June 9. Controlled tempo, don't lock out at top."
+        "note": "If machine is taken, swap to Pendulum Squat at 70 lb/side × 10 × 3 — then leg press goes next lower session. Confirmed at 390 × 10 × 3 on June 9. Controlled tempo, don't lock out at top."
       },
       {
         "id": "B",
         "name": "Hip Thrust Machine",
         "detail": "200 lb × 12 · 3 sets",
         "rest": "90s rest",
-        "note": "Plate-loaded — 10 lb increments only. Confirmed at 200 × 12 × 3 on June 9 and June 13. Full hip extension, squeeze at top, no hyperextension."
+        "note": "Plate-loaded — 10 lb increments only. Confirmed at 200 × 12 × 3. Full hip extension, squeeze at top, no hyperextension."
       },
       {
         "id": "C",
@@ -30,26 +30,19 @@
       },
       {
         "id": "D",
-        "name": "Pendulum Squat",
-        "detail": "70 lb/side × 10 · 3 sets",
-        "rest": "90s rest",
-        "note": "Last rep was very tough June 13 — hold at 70 lb/side to confirm. Back felt fully supported. Upright torso, squat to parallel or just below."
-      },
-      {
-        "id": "E",
         "name": "Walking Lunge (DB)",
         "detail": "30 lb × 10/leg · 3 sets",
         "rest": "60s rest",
-        "note": "Confirmed at 30 lb June 13. If these feel controlled and clean today, bump to 35 lb next lower session."
+        "note": "If these feel controlled and clean today, bump to 35 lb next lower session."
       },
       {
-        "id": "F",
+        "id": "E",
         "name": "Core Circuit D",
         "detail": "Plank Shoulder Tap × 10/side + Dead Bugs × 10/side + Pallof Press 40 lb × 10/side · 2 rounds",
         "rest": "30s between exercises, 60s between rounds",
         "note": "All back-safe. Slow and controlled on dead bugs — lower back pressed flat."
       }
     ],
-    "coach_notes": "RDL stays off until upper back sharpness is completely gone — then returns at 60 lb with straps. Wednesday is upper body, so log today carefully — how the back feels after this session informs Wednesday's plan."
+    "coach_notes": "Pendulum squat alternates with leg press — it's not in this session. Next lower body gets pendulum squat instead of leg press. RDL stays off until upper back sharpness is completely gone."
   }
 }
