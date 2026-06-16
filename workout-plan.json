@@ -1,48 +1,69 @@
 {
   "workout": {
     "date": "2026-06-17",
-    "day_label": "Tuesday, June 17",
-    "session_type": "Lower Body",
+    "day_label": "Wednesday, June 17",
+    "session_type": "Upper Body",
     "is_gym_day": true,
     "warmup": "Incline walk · 8–10 min · 3.3–3.5 mph · 6–8% incline — do not skip.",
     "finisher": "Incline walk · 10 min · 3.3–3.5 mph · 6–8% incline. Skip if session hits 65 min.",
+    "coach_note": "Back-safe upper — your upper back was still tight today (6/16). All machine-based push, chest-supported pulls, no T-bar / RDL / skull crusher. After this, two full rest days (Thu/Fri) into Saturday's HIIT.",
     "exercises": [
       {
         "id": "A",
-        "name": "Leg Press",
-        "detail": "390 lb × 10 · 3 sets",
+        "name": "Chest Press Machine",
+        "detail": "140 lb × 10 · 3 sets",
         "rest": "90s rest",
-        "note": "If machine is taken, swap to Pendulum Squat at 70 lb/side × 10 × 3 — then leg press goes next lower session. Confirmed at 390 × 10 × 3 on June 9. Controlled tempo, don't lock out at top."
+        "note": "Got 11 on set 3 at 140 last session — program 140 across all 3 sets, push for 11–12 on the last set. Machine (no DB kickback setup) — safe for the back."
       },
       {
         "id": "B",
-        "name": "Hip Thrust Machine",
-        "detail": "200 lb × 12 · 3 sets",
+        "name": "Shoulder Press Machine (neutral grip)",
+        "detail": "80 lb × 10 · 3 sets",
         "rest": "90s rest",
-        "note": "Plate-loaded — 10 lb increments only. Confirmed at 200 × 12 × 3. Full hip extension, squeeze at top, no hyperextension."
+        "note": "Program 80 across all 3 sets (got 11 on set 3 last time). Keep one rep in reserve — don't stack max chest + max shoulder on the same day. Neutral grip, fixed path."
       },
       {
         "id": "C",
-        "name": "Leg Curl",
-        "detail": "77 lb × 10 · 3 sets",
-        "rest": "90s rest",
-        "note": "Got 11 on set 3 last session — push for 12 on set 3 today. Once you hit 12 consistently, that's the signal to bump weight."
+        "name": "Cable Row",
+        "detail": "135 lb × 10 · 3 sets",
+        "rest": "75s rest",
+        "note": "Horizontal pull. Chest-supported, back-safe. Keep torso braced — if the upper back flares, drop to 120. Target is 150 once the strain fully clears."
       },
       {
         "id": "D",
-        "name": "Walking Lunge (DB)",
-        "detail": "30 lb × 10/leg · 3 sets",
-        "rest": "60s rest",
-        "note": "If these feel controlled and clean today, bump to 35 lb next lower session."
+        "name": "Lat Pulldown",
+        "detail": "135 lb × 10 · 3 sets",
+        "rest": "75s rest",
+        "note": "Vertical pull — pairs with the cable row. Full stretch at the top. Machine goes 120→135→150."
       },
       {
         "id": "E",
-        "name": "Core Circuit D",
-        "detail": "Plank Shoulder Tap × 10/side + Dead Bugs × 10/side + Pallof Press 40 lb × 10/side · 2 rounds",
-        "rest": "30s between exercises, 60s between rounds",
-        "note": "All back-safe. Slow and controlled on dead bugs — lower back pressed flat."
+        "name": "Face Pulls",
+        "detail": "60 lb × 15 · 3 sets",
+        "rest": "60s rest",
+        "note": "Rear delts + rotator cuff — great for back recovery. Elbows high and wide. Don't skip."
+      },
+      {
+        "id": "F",
+        "name": "Lateral Raise",
+        "detail": "15 lb × 15 · 3 sets",
+        "rest": "60s rest",
+        "note": "Lead with the elbow, stop at shoulder height. Shoulders gas out on set 3 — don't force sloppy reps."
+      },
+      {
+        "id": "G",
+        "name": "Arms Superset: Rope Pushdown + Hammer Curl",
+        "detail": "Pushdown 80 lb × 12  +  Hammer Curl 25 lb × 10–12 · 3 rounds",
+        "rest": "60–75s between rounds",
+        "note": "Rotated bicep to hammer curls for variety. Skull crusher stays OFF until the back is fully clear. Elbows pinned."
+      },
+      {
+        "id": "H",
+        "name": "Core Circuit (Back-Safe)",
+        "detail": "Plank Shoulder Tap 10/side → Dead Bugs 8–10/side → Pallof Press 40 lb × 10/side · 2 rounds",
+        "rest": "minimal",
+        "note": "All back-safe. Different combo than last upper session. Lower back pressed flat on dead bugs; brace hard on the pallof."
       }
-    ],
-    "coach_notes": "Pendulum squat alternates with leg press — it's not in this session. Next lower body gets pendulum squat instead of leg press. RDL stays off until upper back sharpness is completely gone."
+    ]
   }
 }
