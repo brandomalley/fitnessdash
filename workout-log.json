@@ -725,80 +725,7 @@
   },
   {
     "date": "2026-06-12",
-    "day_label": "Thursday, June 12",
-    "session_type": "Upper Body",
-    "submitted_at": "2026-06-12T00:18:53.075Z",
-    "notes": "",
-    "exercises": [
-      {
-        "id": "A",
-        "name": "Incline DB Bench Press",
-        "planned": "65 lb ÃÂÃÂ 10 ÃÂÃÂ· 3 sets",
-        "weight": "",
-        "sets_reps": "",
-        "note": "I did the chest press machine instead of dumbbells because my back is still bothering me. I started off with the plates at 110 and felt pretty good with that so I bumped it to 130. I got 10 reps on my second set and then I bumped it. I don't know; I think these are 5 lb increments so probably 135 and I got 10. The 10 was maybe I could have done 11 but I didn't want to push it, but not more than that."
-      },
-      {
-        "id": "B",
-        "name": "KB Single-Arm Overhead Press",
-        "planned": "30 lb ÃÂÃÂ 8/side ÃÂÃÂ· 3 sets",
-        "weight": "",
-        "sets_reps": "",
-        "note": "I did the shoulder press machine here with the neutral grip. I put it on 80. I got three sets of 10. They were good, difficult. That's my weight for this machine, I think."
-      },
-      {
-        "id": "C",
-        "name": "Cable Row",
-        "planned": "150 lb ÃÂÃÂ 10 ÃÂÃÂ· 3 sets",
-        "weight": "",
-        "sets_reps": "",
-        "note": "I started a little lighter here because I was afraid of the back. This exercise seems to get a little bit lower on the back than where my pull is. I did 120 for 12 for set 1 and 2 then 135lbs for set 3 and got only 9 reps."
-      },
-      {
-        "id": "D",
-        "name": "Lat Pulldown",
-        "planned": "125 lb ÃÂÃÂ 10 ÃÂÃÂ· 3 sets",
-        "weight": "",
-        "sets_reps": "",
-        "note": "I got all these with no pain."
-      },
-      {
-        "id": "E",
-        "name": "Face Pulls",
-        "planned": "50 lb ÃÂÃÂ 15 ÃÂÃÂ· 3 sets",
-        "weight": "",
-        "sets_reps": "",
-        "note": "Got all these."
-      },
-      {
-        "id": "F",
-        "name": "Lateral Raise",
-        "planned": "15 lb ÃÂÃÂ 15 ÃÂÃÂ· 3 sets",
-        "weight": "",
-        "sets_reps": "",
-        "note": "I got 15 on set one and two and 12 on set three."
-      },
-      {
-        "id": "G",
-        "name": "Arms Superset: Skull Crusher + Incline DB Curl",
-        "planned": "Skull Crusher (EZ-Bar) 40 lb ÃÂÃÂ 10 + Incline DB Curl 20 lb ÃÂÃÂ 12 ÃÂÃÂ· 3 rounds",
-        "weight": "",
-        "sets_reps": "",
-        "note": "I switched the skull crusher to rope press down because I felt like if I had to lift the weight over my head in a weird position, it might affect my pulled muscle. I felt that I want to stick to less stuff like that until my back is healed. As of right now in the workout it feels okay. It's discomfort but not any pinching or pain. I did 80 lb on the press downs. I got two sets of 12 and the last set I got 11. The incline bicep curls I got all the reps."
-      },
-      {
-        "id": "H",
-        "name": "Core Circuit (Back-Safe)",
-        "planned": "Dead Bugs ÃÂÃÂ 10/side + Side Plank 30s/side + Bird Dog ÃÂÃÂ 8/side ÃÂÃÂ· 2 rounds",
-        "weight": "",
-        "sets_reps": "",
-        "note": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-06-13",
-    "day_label": "Friday, June 13",
+    "day_label": "Friday, June 12",
     "session_type": "Lower Body",
     "submitted_at": "2026-06-12T13:03:01.676Z",
     "notes": "I bounced around a little bit with the exercises today. Obviously I got the lunges in actually before the leg curls so maybe I would have actually gotten 12 on the last set if I didn't do the lunges right before. Just a note, overall my back felt fine throughout the whole entire exercise and it's still definitely tight but I can definitely get some good workouts in while I am being cautious of that spot.",
@@ -854,8 +781,8 @@
     ]
   },
   {
-    "date": "2026-06-15",
-    "day_label": "Sunday, June 15",
+    "date": "2026-06-14",
+    "day_label": "Sunday, June 14",
     "session_type": "Upper Body",
     "submitted_at": "2026-06-14T14:04:25.969Z",
     "notes": "",
@@ -927,8 +854,8 @@
     ]
   },
   {
-    "date": "2026-06-17",
-    "day_label": "Tuesday, June 17",
+    "date": "2026-06-16",
+    "day_label": "Tuesday, June 16",
     "session_type": "Lower Body",
     "submitted_at": "2026-06-16T12:59:24.796Z",
     "notes": "I did 12 minutes on the finisher at 8% incline, 3.3 speed.",
