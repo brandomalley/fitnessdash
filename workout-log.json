@@ -974,5 +974,44 @@
         "note": ""
       }
     ]
+  },
+  {
+    "date": "2026-06-22",
+    "day_label": "Monday, June 22",
+    "session_type": "Upper Body",
+    "submitted_at": "2026-06-23T02:07:21.876Z",
+    "notes": "Skipped core today — Saturday's Mantaraya HIIT was heavy, gave core a break, moving it to tomorrow's lower body. Big note: back felt good enough to return to DB bench, DB shoulder press, and skull crushers (all were off during recovery). Left shoulder still the weak link — planning rehab/prehab work during next week's travel break. Finisher: incline walk 10 min, 8% incline, 3.3 mph.",
+    "exercises": [
+      {
+        "name": "Flat DB Bench Press",
+        "planned": "70 lb × 10 · 3 sets",
+        "note": "Got 10, 10, 7 — set 3 dropped to 7, likely fatigue from heavy Saturday. First session back on DB bench after using the chest press machine through back recovery."
+      },
+      {
+        "name": "DB Shoulder Press",
+        "planned": "40 lb × 10 · 3 sets",
+        "note": "3 sets of 10, clean. Left shoulder still weak — wants to add rehab work during next week's break."
+      },
+      {
+        "name": "Cable Row",
+        "planned": "150 lb × 10 · 3 sets",
+        "note": "3×10 at 150 — back to full target weight (was held at 135 during back recovery)."
+      },
+      {
+        "name": "Lat Pulldown",
+        "planned": "135 lb × 10 · 3 sets",
+        "note": "3×10, last reps really tough."
+      },
+      {
+        "name": "Arms Superset: Skull Crusher + Incline DB Curl",
+        "planned": "Skull Crusher (DB) 40 lb + Incline DB Curl 20 lb × 12 · 3 rounds",
+        "note": "Incline DB curls 20 lb, 3×12 all reps. Skull crushers with a single 40 lb DB held horizontally (easier on back/elbows): 12, 10, 10. First time back to skull crushers since the strain."
+      },
+      {
+        "name": "Core Circuit",
+        "planned": "—",
+        "note": "Skipped — Saturday was heavy, core needed a break. Moved to tomorrow's lower body session."
+      }
+    ]
   }
 ]
