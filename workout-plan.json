@@ -1,47 +1,54 @@
 {
   "workout": {
-    "date": "2026-06-23",
-    "day_label": "Tuesday, June 23",
+    "date": "2026-07-01",
+    "day_label": "Wednesday, July 1",
     "session_type": "Lower Body",
     "is_gym_day": true,
-    "warmup": "Incline walk · 8–10 min · 3.3–3.5 mph · 6–8% incline — NOT optional on lower day, this is your back warmup.",
+    "warmup": "Incline walk · 8–10 min · 3.3–3.5 mph · 6–8% incline — NOT optional on lower day, this is your back warmup. Especially important after 8 days off and on the road.",
     "finisher": "Incline walk · 10 min · 3.3–3.5 mph · 6–8% incline. Skip if session hits 65 min.",
-    "coach_note": "Last session before you travel Wednesday. Pendulum squat today (leg press was last lower). Carrying over the core you skipped Monday. Back's cleared a lot — but keep the warmup honest.",
+    "coach_note": "First lower since June 23. You're at Planet Fitness — no pendulum squat or plate-loaded hip thrust machine, so this is built around PF equipment (leg press, leg curl, leg extension, Smith/DB glutes, DB lunges). Leg press is up in the rotation anyway (pendulum was last lower). Weights are best-guess targets — PF machines run different increments/angles, so calibrate to feel: pick a load where the last 1–2 reps are hard but clean. Protein was low last week — if you can get a shake in beforehand, do it. Back is clearing well but keep RDL off and the warmup honest.",
     "exercises": [
       {
         "id": "A",
-        "name": "Pendulum Squat",
-        "detail": "70 lb/side × 10 · 3 sets",
+        "name": "Leg Press",
+        "detail": "~390 lb (home reference) · 3 x 10",
         "rest": "90s rest",
-        "note": "Alternates with leg press — you did leg press last lower (6/16), so squat today. Sled ~50–60 lb. Upright torso, chest on the pad, squat to parallel or just below. Back fully supported. Last rep was tough at 70/side — hold here and own all 3 sets before adding."
+        "note": "Quad compound. Rotation says leg press today (pendulum was last lower). PF leg press is likely a different machine than home — start lighter to gauge it, then work up to a load where set 3 of 10 is genuinely hard. Controlled tempo, no locking out at the top, knees tracking over toes."
       },
       {
         "id": "B",
-        "name": "Hip Thrust Machine",
-        "detail": "210 lb × 12 · 3 sets",
-        "rest": "90s rest",
-        "note": "Bumping from 200 → 210 — you've hit 200×12×3 cleanly several sessions running. Plate-loaded, 10 lb increments only. Full hip extension, squeeze at top, NO hyperextension."
+        "name": "Seated/Lying Leg Curl",
+        "detail": "Bump from 77 lb · 3 x 10–12",
+        "rest": "75s rest",
+        "note": "Hamstrings — your weak link, so don't rush it. You got 12 on set 3 at 77 lb on June 23, which earns a bump. On a PF machine, find the next notch up where you cap at 10–12 with the last rep tough. If hamstrings feel tight (old left-ham caution), hold weight and cap the last set at 10."
       },
       {
         "id": "C",
-        "name": "Leg Curl",
-        "detail": "77 lb × 10–12 · 3 sets",
+        "name": "Smith Machine Hip Thrust (or DB Hip Thrust)",
+        "detail": "Moderate load · 3 x 12",
         "rest": "75s rest",
-        "note": "Got 11 on set 3 the last two sessions — go for 12 on all three before we bump. Hamstrings are the weak link, don't rush it. If they feel tight, cap the last set at 10."
+        "note": "No plate-loaded hip thrust machine at PF. Use the Smith bar across the hips with a pad, or a single heavy DB on the hips, shoulders on a bench. Last machine session your lower back was tight and you held at 180 — be conservative here, prioritize a hard glute squeeze at the top over load. Full hip extension, NO hyperextension at the top."
       },
       {
         "id": "D",
-        "name": "Walking Lunge (DB)",
-        "detail": "35 lb × 10/leg · 3 sets",
-        "rest": "75s rest",
-        "note": "Bumping from 30 → 35 (you confirmed 30 was clean). Drive through the heel of the working leg, knee drive at the top if you want it."
+        "name": "Leg Extension",
+        "detail": "Moderate · 3 x 12–15",
+        "rest": "60s rest",
+        "note": "Quad accessory and a variety swap — PF always has this one. Squeeze hard at the top, slow 2-count down. Pick a weight where 12–15 burns on the last set. Easy on the back, good to add while traveling."
       },
       {
         "id": "E",
-        "name": "Core Circuit (Back-Safe)",
-        "detail": "Cable Crunch 66 lb × 12 → Dead Bugs 8–10/side → Side Plank 30s/side · 2 rounds",
-        "rest": "minimal",
-        "note": "This is the core you carried over from Monday. Round into the cable crunch, lower back flat on dead bugs, hips stacked on the side plank. Fresh combo vs last lower day."
+        "name": "Walking Lunge (DB)",
+        "detail": "30 lb · 3 x 10/leg",
+        "rest": "75s rest",
+        "note": "Hold at 30 lb — you chose 30 over 35 last time and got clean, controlled reps with good activation, so confirm 30 again before bumping. Long step, drive through the heel, knee drive at the top. If space is tight at PF, do reverse lunges in place."
+      },
+      {
+        "id": "F",
+        "name": "Core Circuit (Back-Safe) — 2 rounds",
+        "detail": "Pallof Press 40 lb x 10/side → Bird Dog 8/side → Plank w/ Shoulder Tap 10 taps/side",
+        "rest": "Minimal between moves, 60s between rounds",
+        "note": "Fresh combo — different from your last two sessions. All back-safe anti-rotation/stability work. Pallof on a cable at 40 lb (your confirmed weight); if no cable free, sub a band. Slow and controlled, brace the whole time."
       }
     ]
   }
