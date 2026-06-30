@@ -47,5 +47,86 @@
         "note": ""
       }
     ]
+  },
+  {
+    "date": "2026-06-30",
+    "day_label": "Tuesday, June 30",
+    "session_type": "Upper Body",
+    "submitted_at": "2026-06-30T20:39:34.780Z",
+    "notes": "First session since lower body last Tuesday (June 23) — ~7 days off. Traveling, using Planet Fitness (different equipment than home gym). Came in under-fueled — hadn't had normal protein over the last 5 days. Suspects some machines run heavier here than home gym. Solid session overall given the layoff and low fuel.",
+    "exercises": [
+      {
+        "id": "A",
+        "name": "Magnum Decline Bench Press (Hammer Strength)",
+        "planned": "Travel substitute for chest press machine",
+        "weight": "60 lb/arm (45 lb plate/side + 15 lb starting resistance)",
+        "sets_reps": "10 / 10 / 10",
+        "note": "Set 1 regular grip 10. Set 2 switched to neutral grip 10. Set 3 10. Plate-loaded Hammer Strength decline press, stickers read 'Starting Resistance 15 lb' so ~60 lb per arm. Good substitute for the chest press machine while traveling."
+      },
+      {
+        "id": "B",
+        "name": "DB Shoulder Press",
+        "planned": "40 lb · 3 x 10",
+        "weight": "40 lb",
+        "sets_reps": "10 / 10 / 10",
+        "note": "All reps. Last rep pretty tough but got them all. Held at 40."
+      },
+      {
+        "id": "C",
+        "name": "Cable Row",
+        "planned": "135 lb · 3 x 10 (home)",
+        "weight": "130 / 130 / 120",
+        "sets_reps": "10 / 8 / 10",
+        "note": "Started 130 (this gym's increments differ from home). Got 10, then 8 on set 2. Dropped to 120 for set 3 and got 10 — probably had 1+ more. Attributes the drop-off to 5 days of low protein + machine possibly running heavier here."
+      },
+      {
+        "id": "D",
+        "name": "Lat Pulldown",
+        "planned": "135 lb · 3 x 10 (home)",
+        "weight": "115 lb",
+        "sets_reps": "10 / 10 / 10",
+        "note": "Started 115 at this gym. 3x10, last rep tough. Different machine/increments than home."
+      },
+      {
+        "id": "E",
+        "name": "Lateral Raise",
+        "planned": "15 lb · 3 x 15 (home)",
+        "weight": "20 lb",
+        "sets_reps": "15 / 15 / 15",
+        "note": "Went up to 20 lb. Got all 3 sets of 15. Last rep very difficult but completed. Monitor left shoulder at this weight."
+      },
+      {
+        "id": "F1",
+        "name": "Incline DB Curl",
+        "planned": "20 lb · 3 x 12 (superset)",
+        "weight": "20 lb",
+        "sets_reps": "12 / 12 / 12",
+        "note": "Incline bench. 3x12 at 20 lb. Supersetted with skull crushers."
+      },
+      {
+        "id": "F2",
+        "name": "Skull Crusher (EZ-Bar)",
+        "planned": "40 lb · superset",
+        "weight": "40 lb",
+        "sets_reps": "12 / 10",
+        "note": "40 lb bar. Set 1 12, set 2 10. Only 2 sets. NOTE: this was OFF the home program due to upper back strain (overhead extension risk) — back must be feeling good. Flag if any tightness."
+      },
+      {
+        "id": "G",
+        "name": "Core Circuit (2 rounds)",
+        "planned": "Hanging knee raise / dead bugs / side plank",
+        "weight": "BW",
+        "sets_reps": "2 rounds",
+        "note": "Hanging knee raises x10, dead bugs x20, 30-sec planks each side. 2 rounds."
+      },
+      {
+        "id": "H",
+        "name": "Treadmill (incline walk finisher)",
+        "planned": "10 min",
+        "weight": "3.3 mph / 8% incline",
+        "sets_reps": "10 min",
+        "note": "Finisher. 3.3 speed, 8% incline, 10 min."
+      }
+    ]
   }
 ]
