@@ -1,12 +1,12 @@
 {
   "workout": {
-    "date": "2026-07-01",
-    "day_label": "Wednesday, July 1",
+    "date": "2026-07-03",
+    "day_label": "Friday, July 3",
     "session_type": "Lower Body",
     "is_gym_day": true,
     "warmup": "Incline walk · 8–10 min · 3.3–3.5 mph · 6–8% incline — NOT optional on lower day, this is your back warmup. Especially important after 8 days off and on the road.",
     "finisher": "Incline walk · 10 min · 3.3–3.5 mph · 6–8% incline. Skip if session hits 65 min.",
-    "coach_note": "First lower since June 23. You're at Planet Fitness — no pendulum squat or plate-loaded hip thrust machine, so this is built around PF equipment (leg press, leg curl, leg extension, Smith/DB glutes, DB lunges). Leg press is up in the rotation anyway (pendulum was last lower). Weights are best-guess targets — PF machines run different increments/angles, so calibrate to feel: pick a load where the last 1–2 reps are hard but clean. Protein was low last week — if you can get a shake in beforehand, do it. Back is clearing well but keep RDL off and the warmup honest.",
+    "coach_note": "Rescheduled from July 1 — you did a long bike ride Wednesday instead, so legs got a day to recover before this. First lower since June 23. You're at Planet Fitness: no pendulum squat or plate-loaded hip-thrust machine, so this is built around PF equipment (leg press, leg curl, leg extension, Smith/DB glutes, DB lunges). Leg press is up in the rotation anyway. Weights are best-guess targets — PF machines run different increments/angles, so calibrate to feel: last 1–2 reps hard but clean. Quads/glutes may still be a bit taxed from the ride — if leg press feels heavy early, start lower and build. Get a pea shake in beforehand, keep RDL off, keep the warmup honest.",
     "exercises": [
       {
         "id": "A",
