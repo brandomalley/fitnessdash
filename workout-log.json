@@ -130,8 +130,8 @@
     ]
   },
   {
-    "date": "2026-07-03",
-    "day_label": "Friday, July 3",
+    "date": "2026-07-02",
+    "day_label": "Thursday, July 2",
     "session_type": "Lower Body",
     "submitted_at": "2026-07-03T15:32:08.621Z",
     "notes": "BACK CLEARED as of this session (July 2/3) — no pain during or after loaded hinge. Restrictions lifted: RDL, deadlift, T-bar row, KB bent-over row, skull crusher all back on.",
@@ -183,6 +183,87 @@
         "weight": "",
         "sets_reps": "2 rounds",
         "note": "Completed as planned — Pallof Press 40 lb x10/side → Bird Dog 8/side → Plank w/ Shoulder Tap 10/side, 2 rounds."
+      }
+    ]
+  },
+  {
+    "date": "2026-07-03",
+    "day_label": "Friday, July 3",
+    "session_type": "Upper Body",
+    "submitted_at": "2026-07-03T15:41:49.846Z",
+    "notes": "Freestyle upper at Planet Fitness — no pre-built plan. Back fully cleared, pulls back to normal. Strong, well-driven session across the board — multiple weight bumps confirmed. Left shoulder still weak; Brandon noted he's stopped his rehab work and it was helping — flag to resume.",
+    "exercises": [
+      {
+        "id": "W",
+        "name": "Warmup — Incline Walk",
+        "planned": "8–10 min",
+        "weight": "3.3 mph / 7.5% incline",
+        "sets_reps": "10 min",
+        "note": "Warmup."
+      },
+      {
+        "id": "A",
+        "name": "Flat DB Bench Press",
+        "planned": "70 lb · 3 x 10",
+        "weight": "70 lb",
+        "sets_reps": "10 / 10 / 10",
+        "note": "All reps clean, last rep hard with nothing more in the tank — felt strong and solid. 70 lb CONFIRMED. Next session, test 75 on set 1 (no half-lb DBs)."
+      },
+      {
+        "id": "B",
+        "name": "Shoulder Press Machine (PF)",
+        "planned": "60 lb start",
+        "weight": "60 / 65 / 70",
+        "sets_reps": "10/10/10 / 10 / 12",
+        "note": "Ramped: 3x10 @ 60, then 65 x10, then 70 x12. 70 lb is the new PF starting weight next shoulder session. NOTE: left shoulder still weak — Brandon wants to resume rehab (external rotations etc.), it helped before and he stopped."
+      },
+      {
+        "id": "C",
+        "name": "Seated Cable Row (PF)",
+        "planned": "start ~120",
+        "weight": "120 / 125 / 125",
+        "sets_reps": "10 / 10 / 10",
+        "note": "120 x10, bumped to 125 x10, 125 x10. Start at 125 next session. Horizontal pull — paired with lat pulldown (vertical). Well-fueled this week vs June 30."
+      },
+      {
+        "id": "D",
+        "name": "Lat Pulldown (PF)",
+        "planned": "start ~115",
+        "weight": "115 / 125 / 125",
+        "sets_reps": "10 / 10 / 10",
+        "note": "115 x10 very easy, jumped to 125 for sets 2–3 x10. Switched to NEUTRAL grip on the shorter/close bar — helps move a bit more weight. 125 is the new starting weight. Vertical pull."
+      },
+      {
+        "id": "E",
+        "name": "Face Pulls (PF)",
+        "planned": "start ~25",
+        "weight": "25 / 30 / 30",
+        "sets_reps": "15 / 15 / 15",
+        "note": "25 x15 very easy, bumped to 30 for 2 more sets x15. 30 lb is the new PF starting weight. Good for shoulder health — keep."
+      },
+      {
+        "id": "F",
+        "name": "Arms Circuit — Rope Pushdown + EZ/Preacher Curl",
+        "planned": "superset · 3 rounds",
+        "weight": "Pushdown 40 lb / Curl bar 50 lb",
+        "sets_reps": "Pushdown 12/12/11 · Curl 12/11/10",
+        "note": "Rope tricep pushdown at 40 lb (likes the weight) supersetted with standing curl bar at 50 lb. 3 rounds. Both progressing well."
+      },
+      {
+        "id": "G",
+        "name": "Core Circuit — 2 rounds",
+        "planned": "Cable crunch / dead bugs / side plank",
+        "weight": "Cable crunch 40 lb",
+        "sets_reps": "2 rounds",
+        "note": "Cable crunch 40 lb x12 → dead bugs 20 total (10/side) → 30s plank per side. 2 rounds."
+      },
+      {
+        "id": "H",
+        "name": "Finisher — Incline Walk",
+        "planned": "10 min",
+        "weight": "3.4 mph / 8.5% incline",
+        "sets_reps": "12 min",
+        "note": "Finisher."
       }
     ]
   }
