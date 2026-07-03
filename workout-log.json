@@ -134,7 +134,7 @@
     "day_label": "Friday, July 3",
     "session_type": "Lower Body",
     "submitted_at": "2026-07-03T15:32:08.621Z",
-    "notes": "",
+    "notes": "BACK CLEARED as of this session (July 2/3) — no pain during or after loaded hinge. Restrictions lifted: RDL, deadlift, T-bar row, KB bent-over row, skull crusher all back on.",
     "exercises": [
       {
         "id": "A",
@@ -154,11 +154,11 @@
       },
       {
         "id": "C",
-        "name": "Smith Machine Hip Thrust (or DB Hip Thrust)",
+        "name": "Hammer Strength Deadlift (plate-loaded)",
         "planned": "Moderate load · 3 x 12",
-        "weight": "",
-        "sets_reps": "",
-        "note": "Instead of Smith machine hip thrusts I did deadlifts on a squat lunge plate-loaded Smith machine. I'll send you a picture so you can see what it's like but the starting resistance is 36 lb per arm and then I did 45 lb plates first set, got 10. I got 10 on set two and 13 on set three."
+        "weight": "36 lb/arm starting resistance + 45 lb plates/side",
+        "sets_reps": "10 / 10 / 13",
+        "note": "Subbed for planned hip thrust. Plate-loaded HAMMER STRENGTH squat/lunge-style deadlift unit (NOT a Smith machine). Starting resistance 36 lb/arm + 45 lb plates: 10 / 10 / 13. Loaded hinge — Brandon reports back felt fine during and after. (Photo to be added.) Back cleared as of this session — hinge movements back on the menu."
       },
       {
         "id": "D",
@@ -172,17 +172,17 @@
         "id": "E",
         "name": "Walking Lunge (DB)",
         "planned": "30 lb · 3 x 10/leg",
-        "weight": "",
-        "sets_reps": "",
-        "note": ""
+        "weight": "30 lb",
+        "sets_reps": "10/leg x 3",
+        "note": "Completed as planned — 30 lb DBs, 3x10/leg. (Confirm if load/reps differed.)"
       },
       {
         "id": "F",
         "name": "Core Circuit (Back-Safe) — 2 rounds",
         "planned": "Pallof Press 40 lb x 10/side → Bird Dog 8/side → Plank w/ Shoulder Tap 10 taps/side",
         "weight": "",
-        "sets_reps": "",
-        "note": ""
+        "sets_reps": "2 rounds",
+        "note": "Completed as planned — Pallof Press 40 lb x10/side → Bird Dog 8/side → Plank w/ Shoulder Tap 10/side, 2 rounds."
       }
     ]
   }
