@@ -1,12 +1,12 @@
 {
   "workout": {
-    "date": "2026-07-05",
-    "day_label": "Sunday, July 5",
+    "date": "2026-07-06",
+    "day_label": "Monday, July 6",
     "session_type": "Lower Body",
     "is_gym_day": true,
     "warmup": "Incline walk · 8–10 min · 3.3–3.5 mph · 6–8% incline — NOT optional on lower day, this is your back warmup.",
     "finisher": "Incline walk · 10 min · 3.3–3.5 mph · 6–8% incline. Skip if session hits 65 min.",
-    "coach_note": "Rest or easy activity Saturday, then this Sunday. Spacing it out keeps you clear of the 4-in-5 recovery rule after a busy week (upper 6/30, lower 7/2, upper 7/3 + a ride). Back is fully cleared now, so the Hammer Strength hinge stays in and you can push it. Progressions below are from your actual 7/2 numbers — PF machines run heavy, so calibrate to feel and treat these as targets.",
+    "coach_note": "Rescheduled from Sunday — you hiked Spencer's Butte instead (nice leg work). Do this Monday IF your legs feel fresh; if the descent left your quads sore, push to Tuesday and make Monday rest/upper. Back is cleared, so the Hammer Strength hinge stays in and you can push it. Progressions are from your actual 7/2 numbers — PF machines run heavy, calibrate to feel.",
     "exercises": [
       {
         "id": "A",
