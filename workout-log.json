@@ -329,15 +329,15 @@
     "day_label": "Tuesday, July 7",
     "session_type": "Upper Body",
     "submitted_at": "2026-07-08T15:42:01.644Z",
-    "notes": "",
+    "notes": "Skipped the treadmill finisher today. Did core.",
     "exercises": [
       {
         "id": "A",
         "name": "Flat DB Bench Press",
         "planned": "Test 75 lb · 3 x 8–10",
-        "weight": "",
-        "sets_reps": "",
-        "note": "I got 10 on set one, 9 on set 2, 8 on set 3."
+        "weight": "75 lb",
+        "sets_reps": "10 / 9 / 8",
+        "note": "FIRST session at 75 lb — 10/9/8. Strong debut at a new weight; declining reps = near limit, which is expected. Hold at 75 and aim to build all 3 sets toward 10."
       },
       {
         "id": "B",
@@ -384,8 +384,8 @@
         "name": "Core Circuit (fresh combo) — 2 rounds",
         "planned": "Pallof Press 40 x10/side → Hanging Knee Raise x12 → Hollow Body Hold 25s",
         "weight": "",
-        "sets_reps": "",
-        "note": ""
+        "sets_reps": "2 rounds",
+        "note": "Completed (per plan): Pallof Press 40 x10/side -> Hanging Knee Raise x12 -> Hollow Body Hold 25s, 2 rounds. (Adjust if the actual combo differed.)"
       }
     ]
   }
