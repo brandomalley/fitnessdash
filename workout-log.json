@@ -9,7 +9,7 @@
       {
         "id": "A",
         "name": "Pendulum Squat",
-        "planned": "70 lb/side ÃÂ 10 ÃÂ· 3 sets",
+        "planned": "70 lb/side ÃÂÃÂ 10 ÃÂÃÂ· 3 sets",
         "weight": "",
         "sets_reps": "",
         "note": "First set 8\nSecond  6\n3rd 6\nAdded a 4th set and got 5. \n\nI didn't want to push too hard here. I'm traveling tomorrow so I left probably two reps in reserve for each of these."
@@ -17,7 +17,7 @@
       {
         "id": "B",
         "name": "Hip Thrust Machine",
-        "planned": "210 lb ÃÂ 12 ÃÂ· 3 sets",
+        "planned": "210 lb ÃÂÃÂ 12 ÃÂÃÂ· 3 sets",
         "weight": "",
         "sets_reps": "",
         "note": "Same thing on hip thrusts. I didn't wanna give it 100%. Honestly I think my body's still a little tired from HIIT class on Saturday. My lower back is a little tight so I stayed at 180 lb and I got 12 all sets and stopped at the top plenty to activate the glutes."
@@ -25,7 +25,7 @@
       {
         "id": "C",
         "name": "Leg Curl",
-        "planned": "77 lb ÃÂ 10Ã¢ÂÂ12 ÃÂ· 3 sets",
+        "planned": "77 lb ÃÂÃÂ 10ÃÂ¢ÃÂÃÂ12 ÃÂÃÂ· 3 sets",
         "weight": "",
         "sets_reps": "",
         "note": "I got on set one, ten, set to 10, and set three. I did get twelve."
@@ -33,7 +33,7 @@
       {
         "id": "D",
         "name": "Walking Lunge (DB)",
-        "planned": "35 lb ÃÂ 10/leg ÃÂ· 3 sets",
+        "planned": "35 lb ÃÂÃÂ 10/leg ÃÂÃÂ· 3 sets",
         "weight": "",
         "sets_reps": "",
         "note": "I dropped the weight to 30 lb dumbbells because I just felt like that was going to be better. I got all controlled reps and still felt a lot of activation."
@@ -41,7 +41,7 @@
       {
         "id": "E",
         "name": "Core Circuit (Back-Safe)",
-        "planned": "Cable Crunch 66 lb ÃÂ 12 Ã¢ÂÂ Dead Bugs 8Ã¢ÂÂ10/side Ã¢ÂÂ Side Plank 30s/side ÃÂ· 2 rounds",
+        "planned": "Cable Crunch 66 lb ÃÂÃÂ 12 ÃÂ¢ÃÂÃÂ Dead Bugs 8ÃÂ¢ÃÂÃÂ10/side ÃÂ¢ÃÂÃÂ Side Plank 30s/side ÃÂÃÂ· 2 rounds",
         "weight": "",
         "sets_reps": "",
         "note": ""
@@ -53,7 +53,7 @@
     "day_label": "Tuesday, June 30",
     "session_type": "Upper Body",
     "submitted_at": "2026-06-30T20:39:34.780Z",
-    "notes": "First upper body session since June 22 Ã¢ÂÂ 8 days off. Traveling, using Planet Fitness (different equipment than home gym). Came in under-fueled Ã¢ÂÂ hadn't had normal protein over the last 5 days. Suspects some machines run heavier here than home gym. Solid session overall given the layoff and low fuel.",
+    "notes": "First upper body session since June 22 ÃÂ¢ÃÂÃÂ 8 days off. Traveling, using Planet Fitness (different equipment than home gym). Came in under-fueled ÃÂ¢ÃÂÃÂ hadn't had normal protein over the last 5 days. Suspects some machines run heavier here than home gym. Solid session overall given the layoff and low fuel.",
     "exercises": [
       {
         "id": "A",
@@ -66,7 +66,7 @@
       {
         "id": "B",
         "name": "DB Shoulder Press",
-        "planned": "40 lb ÃÂ· 3 x 10",
+        "planned": "40 lb ÃÂÃÂ· 3 x 10",
         "weight": "40 lb",
         "sets_reps": "10 / 10 / 10",
         "note": "All reps. Last rep pretty tough but got them all. Held at 40."
@@ -74,15 +74,15 @@
       {
         "id": "C",
         "name": "Cable Row",
-        "planned": "135 lb ÃÂ· 3 x 10 (home)",
+        "planned": "135 lb ÃÂÃÂ· 3 x 10 (home)",
         "weight": "130 / 130 / 120",
         "sets_reps": "10 / 8 / 10",
-        "note": "Started 130 (this gym's increments differ from home). Got 10, then 8 on set 2. Dropped to 120 for set 3 and got 10 Ã¢ÂÂ probably had 1+ more. Attributes the drop-off to 5 days of low protein + machine possibly running heavier here."
+        "note": "Started 130 (this gym's increments differ from home). Got 10, then 8 on set 2. Dropped to 120 for set 3 and got 10 ÃÂ¢ÃÂÃÂ probably had 1+ more. Attributes the drop-off to 5 days of low protein + machine possibly running heavier here."
       },
       {
         "id": "D",
         "name": "Lat Pulldown",
-        "planned": "135 lb ÃÂ· 3 x 10 (home)",
+        "planned": "135 lb ÃÂÃÂ· 3 x 10 (home)",
         "weight": "115 lb",
         "sets_reps": "10 / 10 / 10",
         "note": "Started 115 at this gym. 3x10, last rep tough. Different machine/increments than home."
@@ -90,7 +90,7 @@
       {
         "id": "E",
         "name": "Lateral Raise",
-        "planned": "15 lb ÃÂ· 3 x 15",
+        "planned": "15 lb ÃÂÃÂ· 3 x 15",
         "weight": "15 lb",
         "sets_reps": "15 / 15 / 15",
         "note": "15 lb DBs. Got all 3 sets of 15. Last rep very difficult but completed. Consistent with home working weight."
@@ -98,7 +98,7 @@
       {
         "id": "F1",
         "name": "Incline DB Curl",
-        "planned": "20 lb ÃÂ· 3 x 12 (superset)",
+        "planned": "20 lb ÃÂÃÂ· 3 x 12 (superset)",
         "weight": "20 lb",
         "sets_reps": "12 / 12 / 12",
         "note": "Incline bench. 3x12 at 20 lb. Supersetted with skull crushers."
@@ -106,10 +106,10 @@
       {
         "id": "F2",
         "name": "Skull Crusher (EZ-Bar)",
-        "planned": "40 lb ÃÂ· superset",
+        "planned": "40 lb ÃÂÃÂ· superset",
         "weight": "40 lb",
         "sets_reps": "12 / 10",
-        "note": "40 lb bar. Set 1 12, set 2 10. Only 2 sets. NOTE: this was OFF the home program due to upper back strain (overhead extension risk) Ã¢ÂÂ back must be feeling good. Flag if any tightness."
+        "note": "40 lb bar. Set 1 12, set 2 10. Only 2 sets. NOTE: this was OFF the home program due to upper back strain (overhead extension risk) ÃÂ¢ÃÂÃÂ back must be feeling good. Flag if any tightness."
       },
       {
         "id": "G",
@@ -134,12 +134,12 @@
     "day_label": "Thursday, July 2",
     "session_type": "Lower Body",
     "submitted_at": "2026-07-03T15:32:08.621Z",
-    "notes": "BACK CLEARED as of this session (July 2/3) â no pain during or after loaded hinge. Restrictions lifted: RDL, deadlift, T-bar row, KB bent-over row, skull crusher all back on.",
+    "notes": "BACK CLEARED as of this session (July 2/3) Ã¢ÂÂ no pain during or after loaded hinge. Restrictions lifted: RDL, deadlift, T-bar row, KB bent-over row, skull crusher all back on.",
     "exercises": [
       {
         "id": "A",
         "name": "Leg Press",
-        "planned": "~390 lb (home reference) Â· 3 x 10",
+        "planned": "~390 lb (home reference) ÃÂ· 3 x 10",
         "weight": "",
         "sets_reps": "",
         "note": "I did 360 lb on the leg press but the machine said that the sled starting resistance was 167 lb. The sled in my home gym is definitely not as heavy as this sled but just this is probably more accurate so 360 + 167 and I got three sets of ten."
@@ -147,7 +147,7 @@
       {
         "id": "B",
         "name": "Seated/Lying Leg Curl",
-        "planned": "Bump from 77 lb Â· 3 x 10â12",
+        "planned": "Bump from 77 lb ÃÂ· 3 x 10Ã¢ÂÂ12",
         "weight": "",
         "sets_reps": "",
         "note": "I did seated leg curl. The machine immediately felt like it had a higher resistance than my home gym so I started on 60 lb. I got 10 reps then I went to 65 and I got 10 reps. And I got 10 reps on set three."
@@ -155,15 +155,15 @@
       {
         "id": "C",
         "name": "Hammer Strength Deadlift (plate-loaded)",
-        "planned": "Moderate load Â· 3 x 12",
+        "planned": "Moderate load ÃÂ· 3 x 12",
         "weight": "36 lb/arm starting resistance + 45 lb plates/side",
         "sets_reps": "10 / 10 / 13",
-        "note": "Subbed for planned hip thrust. Plate-loaded HAMMER STRENGTH squat/lunge-style deadlift unit (NOT a Smith machine). Starting resistance 36 lb/arm + 45 lb plates: 10 / 10 / 13. Loaded hinge â Brandon reports back felt fine during and after. (Photo to be added.) Back cleared as of this session â hinge movements back on the menu."
+        "note": "Subbed for planned hip thrust. Plate-loaded HAMMER STRENGTH squat/lunge-style deadlift unit (NOT a Smith machine). Starting resistance 36 lb/arm + 45 lb plates: 10 / 10 / 13. Loaded hinge Ã¢ÂÂ Brandon reports back felt fine during and after. (Photo to be added.) Back cleared as of this session Ã¢ÂÂ hinge movements back on the menu."
       },
       {
         "id": "D",
         "name": "Leg Extension",
-        "planned": "Moderate Â· 3 x 12â15",
+        "planned": "Moderate ÃÂ· 3 x 12Ã¢ÂÂ15",
         "weight": "",
         "sets_reps": "",
         "note": "I skipped leg extension"
@@ -171,18 +171,18 @@
       {
         "id": "E",
         "name": "Walking Lunge (DB)",
-        "planned": "30 lb Â· 3 x 10/leg",
+        "planned": "30 lb ÃÂ· 3 x 10/leg",
         "weight": "30 lb",
         "sets_reps": "10/leg x 3",
-        "note": "Completed as planned â 30 lb DBs, 3x10/leg. (Confirm if load/reps differed.)"
+        "note": "Completed as planned Ã¢ÂÂ 30 lb DBs, 3x10/leg. (Confirm if load/reps differed.)"
       },
       {
         "id": "F",
-        "name": "Core Circuit (Back-Safe) â 2 rounds",
-        "planned": "Pallof Press 40 lb x 10/side â Bird Dog 8/side â Plank w/ Shoulder Tap 10 taps/side",
+        "name": "Core Circuit (Back-Safe) Ã¢ÂÂ 2 rounds",
+        "planned": "Pallof Press 40 lb x 10/side Ã¢ÂÂ Bird Dog 8/side Ã¢ÂÂ Plank w/ Shoulder Tap 10 taps/side",
         "weight": "",
         "sets_reps": "2 rounds",
-        "note": "Completed as planned â Pallof Press 40 lb x10/side â Bird Dog 8/side â Plank w/ Shoulder Tap 10/side, 2 rounds."
+        "note": "Completed as planned Ã¢ÂÂ Pallof Press 40 lb x10/side Ã¢ÂÂ Bird Dog 8/side Ã¢ÂÂ Plank w/ Shoulder Tap 10/side, 2 rounds."
       }
     ]
   },
@@ -191,12 +191,12 @@
     "day_label": "Friday, July 3",
     "session_type": "Upper Body",
     "submitted_at": "2026-07-03T15:41:49.846Z",
-    "notes": "Freestyle upper at Planet Fitness â no pre-built plan. Back fully cleared, pulls back to normal. Strong, well-driven session across the board â multiple weight bumps confirmed. Left shoulder still weak; Brandon noted he's stopped his rehab work and it was helping â flag to resume. || STANDING PROFILE NOTES (durable â the skill profile file is plugin-locked and can't be edited, so these live here): (1) Protein source is PEA PROTEIN, not whey â ~20-24g/scoop, use full scoops, target ~2/day toward 120-140g. (2) Traveling & training at PLANET FITNESS ~June-Sept 2026 â no pendulum squat or plate-loaded hip-thrust machine; PF machines run heavier/different, calibrate by feel. PF Hammer Strength hinge machine is a good hip-thrust/RDL sub. (3) Upper back strain CLEARED (July 2-3) â RDL, deadlift, T-bar row, KB bent-over row, skull crusher all back on. (4) LEFT SHOULDER still weak â resume 2x/week rehab (band external rotations etc.); avoid stacking heavy chest press + heavy shoulder press same day. (5) PF working weights: shoulder press 70 start, cable row 125 start, lat pulldown 125 (neutral grip), face pulls 30, flat DB bench 70 (test 75), seated leg curl 65, leg press 360+heavy sled.",
+    "notes": "Freestyle upper at Planet Fitness Ã¢ÂÂ no pre-built plan. Back fully cleared, pulls back to normal. Strong, well-driven session across the board Ã¢ÂÂ multiple weight bumps confirmed. Left shoulder still weak; Brandon noted he's stopped his rehab work and it was helping Ã¢ÂÂ flag to resume. || STANDING PROFILE NOTES (durable Ã¢ÂÂ the skill profile file is plugin-locked and can't be edited, so these live here): (1) Protein source is PEA PROTEIN, not whey Ã¢ÂÂ ~20-24g/scoop, use full scoops, target ~2/day toward 120-140g. (2) Traveling & training at PLANET FITNESS ~June-Sept 2026 Ã¢ÂÂ no pendulum squat or plate-loaded hip-thrust machine; PF machines run heavier/different, calibrate by feel. PF Hammer Strength hinge machine is a good hip-thrust/RDL sub. (3) Upper back strain CLEARED (July 2-3) Ã¢ÂÂ RDL, deadlift, T-bar row, KB bent-over row, skull crusher all back on. (4) LEFT SHOULDER still weak Ã¢ÂÂ resume 2x/week rehab (band external rotations etc.); avoid stacking heavy chest press + heavy shoulder press same day. (5) PF working weights: shoulder press 70 start, cable row 125 start, lat pulldown 125 (neutral grip), face pulls 30, flat DB bench 70 (test 75), seated leg curl 65, leg press 360+heavy sled.",
     "exercises": [
       {
         "id": "W",
-        "name": "Warmup â Incline Walk",
-        "planned": "8â10 min",
+        "name": "Warmup Ã¢ÂÂ Incline Walk",
+        "planned": "8Ã¢ÂÂ10 min",
         "weight": "3.3 mph / 7.5% incline",
         "sets_reps": "10 min",
         "note": "Warmup."
@@ -204,10 +204,10 @@
       {
         "id": "A",
         "name": "Flat DB Bench Press",
-        "planned": "70 lb Â· 3 x 10",
+        "planned": "70 lb ÃÂ· 3 x 10",
         "weight": "70 lb",
         "sets_reps": "10 / 10 / 10",
-        "note": "All reps clean, last rep hard with nothing more in the tank â felt strong and solid. 70 lb CONFIRMED. Next session, test 75 on set 1 (no half-lb DBs)."
+        "note": "All reps clean, last rep hard with nothing more in the tank Ã¢ÂÂ felt strong and solid. 70 lb CONFIRMED. Next session, test 75 on set 1 (no half-lb DBs)."
       },
       {
         "id": "B",
@@ -215,7 +215,7 @@
         "planned": "60 lb start",
         "weight": "60 / 65 / 70",
         "sets_reps": "10/10/10 / 10 / 12",
-        "note": "Ramped: 3x10 @ 60, then 65 x10, then 70 x12. 70 lb is the new PF starting weight next shoulder session. NOTE: left shoulder still weak â Brandon wants to resume rehab (external rotations etc.), it helped before and he stopped."
+        "note": "Ramped: 3x10 @ 60, then 65 x10, then 70 x12. 70 lb is the new PF starting weight next shoulder session. NOTE: left shoulder still weak Ã¢ÂÂ Brandon wants to resume rehab (external rotations etc.), it helped before and he stopped."
       },
       {
         "id": "C",
@@ -223,7 +223,7 @@
         "planned": "start ~120",
         "weight": "120 / 125 / 125",
         "sets_reps": "10 / 10 / 10",
-        "note": "120 x10, bumped to 125 x10, 125 x10. Start at 125 next session. Horizontal pull â paired with lat pulldown (vertical). Well-fueled this week vs June 30."
+        "note": "120 x10, bumped to 125 x10, 125 x10. Start at 125 next session. Horizontal pull Ã¢ÂÂ paired with lat pulldown (vertical). Well-fueled this week vs June 30."
       },
       {
         "id": "D",
@@ -231,7 +231,7 @@
         "planned": "start ~115",
         "weight": "115 / 125 / 125",
         "sets_reps": "10 / 10 / 10",
-        "note": "115 x10 very easy, jumped to 125 for sets 2â3 x10. Switched to NEUTRAL grip on the shorter/close bar â helps move a bit more weight. 125 is the new starting weight. Vertical pull."
+        "note": "115 x10 very easy, jumped to 125 for sets 2Ã¢ÂÂ3 x10. Switched to NEUTRAL grip on the shorter/close bar Ã¢ÂÂ helps move a bit more weight. 125 is the new starting weight. Vertical pull."
       },
       {
         "id": "E",
@@ -239,27 +239,27 @@
         "planned": "start ~25",
         "weight": "25 / 30 / 30",
         "sets_reps": "15 / 15 / 15",
-        "note": "25 x15 very easy, bumped to 30 for 2 more sets x15. 30 lb is the new PF starting weight. Good for shoulder health â keep."
+        "note": "25 x15 very easy, bumped to 30 for 2 more sets x15. 30 lb is the new PF starting weight. Good for shoulder health Ã¢ÂÂ keep."
       },
       {
         "id": "F",
-        "name": "Arms Circuit â Rope Pushdown + EZ/Preacher Curl",
-        "planned": "superset Â· 3 rounds",
+        "name": "Arms Circuit Ã¢ÂÂ Rope Pushdown + EZ/Preacher Curl",
+        "planned": "superset ÃÂ· 3 rounds",
         "weight": "Pushdown 40 lb / Curl bar 50 lb",
-        "sets_reps": "Pushdown 12/12/11 Â· Curl 12/11/10",
+        "sets_reps": "Pushdown 12/12/11 ÃÂ· Curl 12/11/10",
         "note": "Rope tricep pushdown at 40 lb (likes the weight) supersetted with standing curl bar at 50 lb. 3 rounds. Both progressing well."
       },
       {
         "id": "G",
-        "name": "Core Circuit â 2 rounds",
+        "name": "Core Circuit Ã¢ÂÂ 2 rounds",
         "planned": "Cable crunch / dead bugs / side plank",
         "weight": "Cable crunch 40 lb",
         "sets_reps": "2 rounds",
-        "note": "Cable crunch 40 lb x12 â dead bugs 20 total (10/side) â 30s plank per side. 2 rounds."
+        "note": "Cable crunch 40 lb x12 Ã¢ÂÂ dead bugs 20 total (10/side) Ã¢ÂÂ 30s plank per side. 2 rounds."
       },
       {
         "id": "H",
-        "name": "Finisher â Incline Walk",
+        "name": "Finisher Ã¢ÂÂ Incline Walk",
         "planned": "10 min",
         "weight": "3.4 mph / 8.5% incline",
         "sets_reps": "12 min",
@@ -277,7 +277,7 @@
       {
         "id": "A",
         "name": "Leg Press",
-        "planned": "Add a notch from 7/2 · 3 x 10",
+        "planned": "Add a notch from 7/2 Â· 3 x 10",
         "weight": "",
         "sets_reps": "",
         "note": "I started with 360 lb of plates loaded and then I added 50 lb more so 390 lb of plates. I got one set of ten on the first set and then I got another ten on the second set and third set"
@@ -285,7 +285,7 @@
       {
         "id": "B",
         "name": "Seated Leg Curl",
-        "planned": "65 lb · 3 x 10–12",
+        "planned": "65 lb Â· 3 x 10â12",
         "weight": "",
         "sets_reps": "",
         "note": "I stayed at 65 lb and I got 10 on set 1, 10 on set 2, and 12 on set 3."
@@ -293,7 +293,7 @@
       {
         "id": "C",
         "name": "Hammer Strength Deadlift (Ground Base)",
-        "planned": "45 plates/side + base · 3 x 10–12",
+        "planned": "45 plates/side + base Â· 3 x 10â12",
         "weight": "",
         "sets_reps": "",
         "note": "I started with 45 lb weights on both sides. I got my first set of 10. Then I added a 10 lb weight to each side and I got 10 reps on set two. Then I added again 10 lb on each side and I got 10 on set three. Finishing there were 65 lb of plates on each side and remember that the machine arms are 36 lb."
@@ -301,7 +301,7 @@
       {
         "id": "D",
         "name": "Leg Extension",
-        "planned": "Moderate · 3 x 12–15",
+        "planned": "Moderate Â· 3 x 12â15",
         "weight": "",
         "sets_reps": "",
         "note": "Skipped"
@@ -309,18 +309,83 @@
       {
         "id": "E",
         "name": "Walking Lunge (DB)",
-        "planned": "30 lb · 3 x 10/leg (or test 35)",
+        "planned": "30 lb Â· 3 x 10/leg (or test 35)",
         "weight": "",
         "sets_reps": "",
         "note": "Skipped"
       },
       {
         "id": "F",
-        "name": "Core Circuit (fresh combo) — 2 rounds",
-        "planned": "Hanging Knee Raise x12 → Dead Bugs 10/side → Hollow Body Hold 25s",
+        "name": "Core Circuit (fresh combo) â 2 rounds",
+        "planned": "Hanging Knee Raise x12 â Dead Bugs 10/side â Hollow Body Hold 25s",
         "weight": "",
         "sets_reps": "",
         "note": "Skipped"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-07",
+    "day_label": "Tuesday, July 7",
+    "session_type": "Upper Body",
+    "submitted_at": "2026-07-08T15:42:01.644Z",
+    "notes": "",
+    "exercises": [
+      {
+        "id": "A",
+        "name": "Flat DB Bench Press",
+        "planned": "Test 75 lb · 3 x 8–10",
+        "weight": "",
+        "sets_reps": "",
+        "note": "I got 10 on set one, 9 on set 2, 8 on set 3."
+      },
+      {
+        "id": "B",
+        "name": "Shoulder Press Machine (PF)",
+        "planned": "70 lb, push past 12 · 3 x 10–12",
+        "weight": "",
+        "sets_reps": "",
+        "note": "Started with 40 lb dumbbells. I didn't do the machine today. I got 10 reps then went to 45 lb dumbbells and got 10 more reps. On set three I only got 8 reps."
+      },
+      {
+        "id": "C",
+        "name": "Seated Cable Row (PF)",
+        "planned": "125 lb · 3 x 10",
+        "weight": "",
+        "sets_reps": "",
+        "note": "Started at 125, got ten reps, kind of easy, so I bumped to 130. Got 10 on set 2 and 3."
+      },
+      {
+        "id": "D",
+        "name": "Lat Pulldown (PF, neutral grip)",
+        "planned": "125 lb · 3 x 10",
+        "weight": "",
+        "sets_reps": "",
+        "note": "I started at 125, got ten reps on set one. Felt a little heavy, dropped down to 120 for set two. Got ten on set two, kinda tough still though. Only got eight on set three."
+      },
+      {
+        "id": "E",
+        "name": "Lateral Raise",
+        "planned": "15 lb · 3 x 15",
+        "weight": "",
+        "sets_reps": "",
+        "note": "Got through sets of 15 with 15 lb dumbbells. Last few sets were very tough though."
+      },
+      {
+        "id": "F",
+        "name": "Arms Superset — Rope Pushdown + Hammer Curl",
+        "planned": "3 rounds",
+        "weight": "",
+        "sets_reps": "",
+        "note": "You didn't give me any set recommendations here so I did 12 each on the pressdown and the hammer curls on set one. And we got 11 reps on set two for each exercise. Got nine reps on the press down and ten on the curls for set three."
+      },
+      {
+        "id": "G",
+        "name": "Core Circuit (fresh combo) — 2 rounds",
+        "planned": "Pallof Press 40 x10/side → Hanging Knee Raise x12 → Hollow Body Hold 25s",
+        "weight": "",
+        "sets_reps": "",
+        "note": ""
       }
     ]
   }
