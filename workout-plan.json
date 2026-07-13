@@ -2,53 +2,46 @@
   "workout": {
     "date": "2026-07-14",
     "day_label": "Tuesday, July 14",
-    "session_type": "Lower Body",
+    "session_type": "Lower Body — STRENGTH BLOCK Day 1",
     "is_gym_day": true,
-    "warmup": "Incline walk · 8–10 min · 3.3–3.5 mph · 6–8% incline — NOT optional on lower day, this is your back warmup. Extra important after a lot of walking + a long car ride stiffened things up.",
-    "finisher": "Incline walk · 10 min · 3.3–3.5 mph · 6–8% incline. Skip if session hits 65 min.",
-    "coach_note": "Monday was rest (legs still carrying Friday + travel). This is Tuesday, legs should feel good. Rotating the squat to leg press (hack squat was Friday). Glute-focused hip thrust instead of another hinge since you did RDLs Friday. PF machines vary by location — gauge load by first-set reps, aim to land ~10. Bring straps when you next do RDL/deadlift; grip was your only limiter Friday.",
+    "warmup": "Incline walk · 8–10 min. THEN ramp-up sets on Leg Press before your heavy work (e.g. a light set of 8 and a medium set of 5) — heavy days need real warmup sets, not just the treadmill.",
+    "finisher": "Optional — skip the finisher walk on heavy days if the session runs long with the added rest.",
+    "coach_note": "START of your 2–3 week heavy strength block. You've been on 10s for ~2 months, so the main lifts now go HEAVY for 4x5–6 with longer rest (2–3 min) to build strength; accessories & core stay 10–15 for volume. Weights below are targets from your recent 10-rep loads — add weight until 5–6 is genuinely hard but clean. STRAPS on the RDL so your legs, not your grip, set the limit. PF machines vary by location (you're in Ballard this week) — gauge by feel.",
     "exercises": [
       {
         "id": "A",
-        "name": "Leg Press",
-        "detail": "~390 lb + push · 3 x 10",
-        "rest": "90s rest",
-        "note": "You hit 390 for a clean 3x10 on 7/6. Start there; if set 1 of 10 is smooth, add a plate. Rotating back to leg press after Friday's hack squat. Controlled, no lockout."
+        "name": "Leg Press [HEAVY]",
+        "detail": "4 x 5–6 · heavy · 2–3 min rest",
+        "rest": "2–3 min rest",
+        "note": "MAIN LIFT. You did 390 for 3x10 — for 5–6 reps go meaningfully heavier, work up to a load where set of 5–6 is hard but clean (likely ~440–480 + sled, but let feel decide). Do 2 ramp-up sets first. Controlled, no lockout, full depth you can control."
       },
       {
         "id": "B",
-        "name": "Seated Leg Curl",
-        "detail": "70 lb, push for 12 · 3 x 10–12",
-        "rest": "75s rest",
-        "note": "70 for 10/10/11 on 7/10 and hamstrings felt great. Same weight, chase 12 on all sets — once you own 3x12, go to 75. Cap at 10 if they feel tight."
+        "name": "DB Romanian Deadlift [HEAVY — USE STRAPS]",
+        "detail": "4 x 6 · heavy · 2–3 min rest",
+        "rest": "2–3 min rest",
+        "note": "MAIN LIFT. This is the day to use straps — grip capped you at 70 on 7/10 while your legs had more. Strap in and go to ~75–85 for hard sets of 6. Hinge from the hips, soft knees, flat back, feel the hamstrings stretch. Straps = legs set the limit, not your hands."
       },
       {
         "id": "C",
-        "name": "Hip Thrust (Smith or DB)",
-        "detail": "Moderate · 3 x 12",
+        "name": "Seated Leg Curl",
+        "detail": "70 lb · 3 x 10–12",
         "rest": "75s rest",
-        "note": "Glute focus, and a break from hinging after Friday's RDLs. Smith bar across the hips with a pad, or a heavy DB. Full hip extension, hard squeeze at top, NO hyperextension. Load for a strong 12."
+        "note": "Accessory — stays in the higher rep range for hamstring volume. 70 for 10–12, chase 12. Weak-link muscle, keep the reps up."
       },
       {
         "id": "D",
         "name": "Leg Extension",
         "detail": "Moderate · 3 x 12–15",
         "rest": "60s rest",
-        "note": "You've skipped this a few times — get it in. Quad isolation, squeeze at the top, slow negative. Easy on the back, good burn to finish the quads."
+        "note": "Accessory quad volume. Squeeze at the top, slow negative. Burn out the quads after the heavy pressing."
       },
       {
         "id": "E",
-        "name": "Walking Lunge (DB)",
-        "detail": "35 lb · 3 x 10/leg",
-        "rest": "75s rest",
-        "note": "35 confirmed Friday. Hold here, own all 3 sets clean before going up. Long step, drive through the heel."
-      },
-      {
-        "id": "F",
-        "name": "Core Circuit (fresh combo) — 2 rounds",
+        "name": "Core Circuit — 2 rounds",
         "detail": "Hanging Knee Raise x12 → Pallof Press 40 x10/side → Side Plank 30s/side",
-        "rest": "Minimal between moves, 60s between rounds",
-        "note": "Different from your last two core circuits. All back-safe. Pallof on a cable at 40; band if the cable's taken."
+        "rest": "60s between rounds",
+        "note": "Back-safe, fresh combo. Pallof on cable at 40 (band if taken)."
       }
     ]
   }
