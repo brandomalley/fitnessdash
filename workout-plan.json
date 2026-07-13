@@ -1,61 +1,54 @@
 {
   "workout": {
-    "date": "2026-07-07",
-    "day_label": "Tuesday, July 7",
-    "session_type": "Upper Body",
+    "date": "2026-07-14",
+    "day_label": "Tuesday, July 14",
+    "session_type": "Lower Body",
     "is_gym_day": true,
-    "warmup": "Incline walk · 8–10 min · 3.3–3.5 mph · 6–8% incline.",
+    "warmup": "Incline walk · 8–10 min · 3.3–3.5 mph · 6–8% incline — NOT optional on lower day, this is your back warmup. Extra important after a lot of walking + a long car ride stiffened things up.",
     "finisher": "Incline walk · 10 min · 3.3–3.5 mph · 6–8% incline. Skip if session hits 65 min.",
-    "coach_note": "Upper day, clean split after Monday's lower. Legs get a break. Progressions are from your strong 7/3 upper — PF machines run heavy, calibrate to feel. Pulls pair horizontal (cable row) + vertical (lat pulldown). Keep the band external-rotation shoulder work you're doing on your own — good insurance with the pressing going up.",
+    "coach_note": "Monday was rest (legs still carrying Friday + travel). This is Tuesday, legs should feel good. Rotating the squat to leg press (hack squat was Friday). Glute-focused hip thrust instead of another hinge since you did RDLs Friday. PF machines vary by location — gauge load by first-set reps, aim to land ~10. Bring straps when you next do RDL/deadlift; grip was your only limiter Friday.",
     "exercises": [
       {
         "id": "A",
-        "name": "Flat DB Bench Press",
-        "detail": "Test 75 lb · 3 x 8–10",
+        "name": "Leg Press",
+        "detail": "~390 lb + push · 3 x 10",
         "rest": "90s rest",
-        "note": "70 was confirmed clean on 7/3 (last rep hard, nothing left). Grab the 75s for set 1 and see how they move — if you get 8+ clean, stay at 75; if it's grindy, drop back to 70. Controlled eccentric, watch the left shoulder."
+        "note": "You hit 390 for a clean 3x10 on 7/6. Start there; if set 1 of 10 is smooth, add a plate. Rotating back to leg press after Friday's hack squat. Controlled, no lockout."
       },
       {
         "id": "B",
-        "name": "Shoulder Press Machine (PF)",
-        "detail": "70 lb, push past 12 · 3 x 10–12",
+        "name": "Seated Leg Curl",
+        "detail": "70 lb, push for 12 · 3 x 10–12",
         "rest": "75s rest",
-        "note": "You hit 70x12 on 7/3. Run 70 again but if you clear 12 on set 1, bump to 75 for the rest. Don't grind it if the left shoulder complains — that's the one to protect."
+        "note": "70 for 10/10/11 on 7/10 and hamstrings felt great. Same weight, chase 12 on all sets — once you own 3x12, go to 75. Cap at 10 if they feel tight."
       },
       {
         "id": "C",
-        "name": "Seated Cable Row (PF)",
-        "detail": "125 lb · 3 x 10",
+        "name": "Hip Thrust (Smith or DB)",
+        "detail": "Moderate · 3 x 12",
         "rest": "75s rest",
-        "note": "Start at 125 (you finished there 7/3). Horizontal pull. If all 3 sets of 10 are clean, next time start at 135. Squeeze the shoulder blades, no jerking."
+        "note": "Glute focus, and a break from hinging after Friday's RDLs. Smith bar across the hips with a pad, or a heavy DB. Full hip extension, hard squeeze at top, NO hyperextension. Load for a strong 12."
       },
       {
         "id": "D",
-        "name": "Lat Pulldown (PF, neutral grip)",
-        "detail": "125 lb · 3 x 10",
-        "rest": "75s rest",
-        "note": "Neutral close grip — the one that let you move more. Start 125. Vertical pull, full stretch at the top, drive elbows down."
+        "name": "Leg Extension",
+        "detail": "Moderate · 3 x 12–15",
+        "rest": "60s rest",
+        "note": "You've skipped this a few times — get it in. Quad isolation, squeeze at the top, slow negative. Easy on the back, good burn to finish the quads."
       },
       {
         "id": "E",
-        "name": "Lateral Raise",
-        "detail": "15 lb · 3 x 15",
-        "rest": "60s rest",
-        "note": "Shoulder accessory. Lead with the elbow, stop at shoulder height. If time and the shoulder feels good, add Face Pulls at 30 lb x15 x2 for rear-delt/rotator health."
+        "name": "Walking Lunge (DB)",
+        "detail": "35 lb · 3 x 10/leg",
+        "rest": "75s rest",
+        "note": "35 confirmed Friday. Hold here, own all 3 sets clean before going up. Long step, drive through the heel."
       },
       {
         "id": "F",
-        "name": "Arms Superset — Rope Pushdown + Hammer Curl",
-        "detail": "3 rounds",
-        "rest": "60–75s between rounds",
-        "note": "Rope tricep pushdown at 40 lb + hammer curls at 25 lb (rotating off last week's straight-bar curls for variety). Elbows pinned, controlled. 3 rounds."
-      },
-      {
-        "id": "G",
         "name": "Core Circuit (fresh combo) — 2 rounds",
-        "detail": "Pallof Press 40 x10/side → Hanging Knee Raise x12 → Hollow Body Hold 25s",
+        "detail": "Hanging Knee Raise x12 → Pallof Press 40 x10/side → Side Plank 30s/side",
         "rest": "Minimal between moves, 60s between rounds",
-        "note": "Different combo from your last sessions. Back's cleared so hollow body is fine — arms overhead, lower back pressed flat. Pallof on a cable at 40; sub a band if the cable's taken."
+        "note": "Different from your last two core circuits. All back-safe. Pallof on a cable at 40; band if the cable's taken."
       }
     ]
   }
