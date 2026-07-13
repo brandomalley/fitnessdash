@@ -388,5 +388,119 @@
         "note": "Completed (per plan): Pallof Press 40 x10/side -> Hanging Knee Raise x12 -> Hollow Body Hold 25s, 2 rounds. (Adjust if the actual combo differed.)"
       }
     ]
+  },
+  {
+    "date": "2026-07-10",
+    "day_label": "Friday, July 10",
+    "session_type": "Lower Body",
+    "submitted_at": "2026-07-13T23:14:00.703Z",
+    "notes": "Logged after the fact (didn't use the app live). Cut short — had to leave. Planned a decent amount of walking that day. Back fully cleared — DB deadlifts back in and feeling strong.",
+    "exercises": [
+      {
+        "id": "A",
+        "name": "Hack Squat Machine",
+        "planned": "variety squat machine",
+        "weight": "90 lb plates (2x45) + 105 lb starting resistance; +50 lb set 2",
+        "sets_reps": "10 / 10",
+        "note": "New machine (PF). Set 1: two 45s = 90 lb loaded + machine's 105 lb starting resistance. Set 2: added 50 lb, got 10, last rep pretty tough. Good quad variety vs leg press/pendulum."
+      },
+      {
+        "id": "B",
+        "name": "Seated Leg Curl",
+        "planned": "70 lb",
+        "weight": "70 lb",
+        "sets_reps": "10 / 10 / 11",
+        "note": "70 lb, 10/10/11. Felt good — hamstrings felt better than they have in a while. Bump toward 75 next when 12 comes easy."
+      },
+      {
+        "id": "C",
+        "name": "DB Romanian Deadlift",
+        "planned": "ramp up",
+        "weight": "50 / 60 / 70",
+        "sets_reps": "10 / 11 / 10",
+        "note": "Back cleared — DB deadlifts back in. 50 easy x10, 60 easy x11, 70 x10. Grip was the limiter on set 3, legs had more. Consider straps to push past grip. Strong return to the hinge."
+      },
+      {
+        "id": "D",
+        "name": "Walking Lunge (DB)",
+        "planned": "test 35",
+        "weight": "35 lb",
+        "sets_reps": "10/leg x 3",
+        "note": "Moved up to 35 lb (from 30). 3x10/leg, last sets tough but felt good. 35 confirmed."
+      }
+    ]
+  },
+  {
+    "date": "2026-07-11",
+    "day_label": "Saturday, July 11",
+    "session_type": "Upper Body",
+    "submitted_at": "2026-07-13T23:14:00.703Z",
+    "notes": "Logged after the fact. Different gym (different PF) — machine weights vary, so gauging load by reps on the first set. Strong full session.",
+    "exercises": [
+      {
+        "id": "A",
+        "name": "Flat DB Bench Press",
+        "planned": "75 lb",
+        "weight": "75 lb",
+        "sets_reps": "10 / 9 / 8",
+        "note": "Second session at 75 — 10/9/8, matching last time. Consistent. Keep building all 3 sets toward 10 before going up."
+      },
+      {
+        "id": "B",
+        "name": "DB Shoulder Press",
+        "planned": "45 lb",
+        "weight": "45 lb",
+        "sets_reps": "10 / 9 / 10",
+        "note": "DB press at 45: 10/9/10. Solid. Left shoulder handling it well."
+      },
+      {
+        "id": "C",
+        "name": "Seated Cable Row (PF)",
+        "planned": "125-130",
+        "weight": "125 / 130 / 130",
+        "sets_reps": "10 / 10 / 10",
+        "note": "125 easy x10, bumped to 130 for sets 2-3, 10/10. 130 is the working weight now — start there next."
+      },
+      {
+        "id": "D",
+        "name": "Lat Pulldown (PF)",
+        "planned": "125",
+        "weight": "125",
+        "sets_reps": "10 / 8 / 10",
+        "note": "125: 10, then 8 (fatiguing), then 10 tough. Hold 125 to own all 3 sets."
+      },
+      {
+        "id": "E",
+        "name": "Face Pulls",
+        "planned": "gauge machine",
+        "weight": "60 lb",
+        "sets_reps": "15 / 15 / 15",
+        "note": "Different gym/machine — 30 was way too light, bumped to 60, got 3x15. NOTE: PF machines vary location to location; gauge load by first-set reps and aim to land ~10-15. Face pull weight is machine-dependent, not a fixed number."
+      },
+      {
+        "id": "F",
+        "name": "Arms Superset — Rope Pushdown + Cable Curl",
+        "planned": "3 rounds",
+        "weight": "70 lb (both, same cable machine)",
+        "sets_reps": "Pushdown 12/12/11 · Curl 12/12/12",
+        "note": "Wanted the rope face-pull/rear-delt machine but it was taken, went into arms. Rope pushdown + cable curls both at 70 lb on the same cable stack. Pushdown 12/12/11, curls 12/12/12. Curls strong all the way through."
+      },
+      {
+        "id": "G",
+        "name": "Core Circuit — 2 rounds",
+        "planned": "ab circuit",
+        "weight": "BW",
+        "sets_reps": "2 rounds",
+        "note": "Ab wheel x12 -> bicycle kicks x24 -> side plank 30s/side. 2 rounds. Ab wheel back in now that back's cleared."
+      },
+      {
+        "id": "H",
+        "name": "Finisher — Incline Walk",
+        "planned": "10-15 min",
+        "weight": "3.4 mph / 8.5% incline",
+        "sets_reps": "15 min",
+        "note": "15 min incline finisher."
+      }
+    ]
   }
 ]
