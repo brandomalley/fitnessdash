@@ -4,16 +4,16 @@
     "day_label": "Wednesday, July 15",
     "session_type": "Upper Body — STRENGTH BLOCK Day 2",
     "is_gym_day": true,
-    "warmup": "The 15-min walk to PF is your warmup — noted, that covers it. But heavy pressing still needs ramp-up sets: on the Smith bench do a light set of 8 and a medium set of 5 before your first work set. Do not skip these.",
+    "warmup": "The 15-min walk to PF is your warmup — that covers it. Heavy pressing still needs ramp-up sets on the Smith bench: 1 plate/side (45s) x 8, then 1 plate + a 25/side x 5. Then your work sets. Do not cold-open a heavy press.",
     "finisher": "The walk home. No treadmill finisher needed while you're at this location.",
     "coach_note": "Day 2 of the heavy block. Same rules as yesterday: main lifts go 4x5–6 with 2–3 min rest, accessories stay 10–15. Yesterday you learned the big lesson — 75 lb DBs and your grip are the ceiling at this PF, not your muscles. So the heavy press moves to the SMITH MACHINE where you can actually load it. Same logic as your deadlift idea — you were right, run Smith for the heavy hinge next lower day too. Straps should land in a couple days; that fixes RDL and hanging knee raises both.",
     "exercises": [
       {
         "id": "A",
         "name": "Smith Machine Bench Press [HEAVY]",
-        "detail": "4 x 5–6 · heavy · 2–3 min rest",
+        "detail": "4 x 5-6 · start 2 plates/side · 2-3 min rest",
         "rest": "2–3 min rest",
-        "note": "MAIN LIFT. You're pressing 75 lb DBs for 10/9/8 = roughly 150 lb of bar equivalent for 10. For 5–6 reps you want ~175–195 on the Smith bar (PF Smith bars are counterbalanced, so gauge by feel not math). Ramp up: light 8, medium 5, then work sets. Land where 5–6 is hard but the bar speed stays clean. Watch the left shoulder — if anything pinches, drop 10 lb and stay there."
+        "note": "MAIN LIFT. PLATE MATH, not a total — the PF Smith bar is angled and counterbalanced, so the naked bar is nowhere near 45 lb and nobody knows the real number. Ignore totals, count plates.\n\nSTART: 2 plates/side (45+45). Ramp up first: 45/side x8, then 45+25/side x5.\n\nREAD THE FIRST WORK SET — same as you did on leg press today:\n- Got 8+ → add a 10 per side, too light\n- Got 5-6 hard but clean → that's the weight, stay for all 4 sets\n- Got 3-4 → strip a 10 per side\n\nWrite down what you land on and it becomes the number going forward. Watch the left shoulder — if anything pinches, strip a 10 and stay there."
       },
       {
         "id": "B",
