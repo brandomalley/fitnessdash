@@ -4,30 +4,30 @@
     "day_label": "Wednesday, July 15",
     "session_type": "Upper Body — STRENGTH BLOCK Day 2",
     "is_gym_day": true,
-    "warmup": "The 15-min walk to PF is your warmup — that covers it. Heavy pressing still needs ramp-up sets on the Smith bench: 1 plate/side (45s) x 8, then 1 plate + a 25/side x 5. Then your work sets. Do not cold-open a heavy press.",
+    "warmup": "WALK = your warmup. The 15-min walk to PF covers general warmup — no treadmill needed at this location.\n\nRAMP-UP SETS = separate, and required. Every [HEAVY] lift below gets 2 ramp sets before its work sets. They're written into each exercise. They are NOT training — don't count them, don't chase reps, don't go near failure. 60-90s rest between them. Costs ~4 min total.\n\nDo not cold-open a heavy set. That's how June 9 happened.",
     "finisher": "The walk home. No treadmill finisher needed while you're at this location.",
     "coach_note": "Day 2 of the heavy block. Same rules as yesterday: main lifts go 4x5–6 with 2–3 min rest, accessories stay 10–15. Yesterday you learned the big lesson — 75 lb DBs and your grip are the ceiling at this PF, not your muscles. So the heavy press moves to the SMITH MACHINE where you can actually load it. Same logic as your deadlift idea — you were right, run Smith for the heavy hinge next lower day too. Straps should land in a couple days; that fixes RDL and hanging knee raises both.",
     "exercises": [
       {
         "id": "A",
         "name": "Smith Machine Bench Press [HEAVY]",
-        "detail": "4 x 5-6 · start 2 plates/side · 2-3 min rest",
+        "detail": "RAMP: 45/side x8 → 45+25/side x5 · WORK: 4 x 5-6 @ 45+45/side · 2-3 min rest",
         "rest": "2–3 min rest",
         "note": "MAIN LIFT. PLATE MATH, not a total — the PF Smith bar is angled and counterbalanced, so the naked bar is nowhere near 45 lb and nobody knows the real number. Ignore totals, count plates.\n\nSTART: 2 plates/side (45+45). Ramp up first: 45/side x8, then 45+25/side x5.\n\nREAD THE FIRST WORK SET — same as you did on leg press today:\n- Got 8+ → add a 10 per side, too light\n- Got 5-6 hard but clean → that's the weight, stay for all 4 sets\n- Got 3-4 → strip a 10 per side\n\nWrite down what you land on and it becomes the number going forward. Watch the left shoulder — if anything pinches, strip a 10 and stay there."
       },
       {
         "id": "B",
         "name": "Lat Pulldown [HEAVY]",
-        "detail": "4 x 5–6 · heavy · 2–3 min rest",
+        "detail": "RAMP: 100 x8 → 125 x5 · WORK: 4 x 5-6 @ 150 · 2-3 min rest",
         "rest": "2–3 min rest",
-        "note": "MAIN LIFT. 125 gave you 10/8/10 on 7/11. Go to 150–160 and pull hard for 5–6. VERTICAL pull. Full stretch at the top, drive the elbows down and back. If your grip starts slipping before your lats give out, that's the strap problem again — note it and it's solved this week."
+        "note": "MAIN LIFT. VERTICAL pull. 125 gave you 10/8/10 on 7/11, so 150 is the target for 5-6.\n\nRAMP FIRST: 100 x8 (easy), then 125 x5 (medium). Neither is a work set.\n\nREAD SET ONE at 150:\n- Got 8+ → go to 160\n- Got 5-6 hard but clean → stay for all 4 sets\n- Got 3-4 → drop to 135\n\nFull stretch at the top, drive elbows down and back. If your grip slips before your lats quit, note it — the straps fix that this week."
       },
       {
         "id": "C",
         "name": "DB Shoulder Press [HEAVY]",
-        "detail": "4 x 5–6 · heavy · 2–3 min rest",
+        "detail": "RAMP: 35 x8 → 50 x5 · WORK: 4 x 5-6 @ 60 · 2-3 min rest",
         "rest": "2–3 min rest",
-        "note": "MAIN LIFT. 45 lb gave you 10/9/10 — that's got room. Go to 60 lb for sets of 5–6. This is well under the 75 lb DB ceiling so you're fine here. Seated, back supported, press without flaring the elbows. Left shoulder has handled every jump so far — keep it honest and stop the set if the groove feels off."
+        "note": "MAIN LIFT. 45 lb gave you 10/9/10 — plenty of room. 60 lb is the target for 5-6, well under the 75 lb DB ceiling here.\n\nRAMP FIRST: 35 x8 (easy), then 50 x5 (medium). Getting the shoulder warm matters more on this lift than any other in the session.\n\nREAD SET ONE at 60:\n- Got 8+ → go to 65\n- Got 5-6 hard but clean → stay for all 4 sets\n- Got 3-4 → drop to 55\n\nSeated, back supported, don't flare the elbows. Left shoulder has taken every jump so far — but stop the set if the groove feels off, not after."
       },
       {
         "id": "D",
