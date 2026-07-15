@@ -1,47 +1,61 @@
 {
   "workout": {
-    "date": "2026-07-14",
-    "day_label": "Tuesday, July 14",
-    "session_type": "Lower Body — STRENGTH BLOCK Day 1",
+    "date": "2026-07-15",
+    "day_label": "Wednesday, July 15",
+    "session_type": "Upper Body — STRENGTH BLOCK Day 2",
     "is_gym_day": true,
-    "warmup": "Incline walk · 8–10 min. THEN ramp-up sets on Leg Press before your heavy work (e.g. a light set of 8 and a medium set of 5) — heavy days need real warmup sets, not just the treadmill.",
-    "finisher": "Optional — skip the finisher walk on heavy days if the session runs long with the added rest.",
-    "coach_note": "START of your 2–3 week heavy strength block. You've been on 10s for ~2 months, so the main lifts now go HEAVY for 4x5–6 with longer rest (2–3 min) to build strength; accessories & core stay 10–15 for volume. Weights below are targets from your recent 10-rep loads — add weight until 5–6 is genuinely hard but clean. STRAPS on the RDL so your legs, not your grip, set the limit. PF machines vary by location (you're in Ballard this week) — gauge by feel.",
+    "warmup": "The 15-min walk to PF is your warmup — noted, that covers it. But heavy pressing still needs ramp-up sets: on the Smith bench do a light set of 8 and a medium set of 5 before your first work set. Do not skip these.",
+    "finisher": "The walk home. No treadmill finisher needed while you're at this location.",
+    "coach_note": "Day 2 of the heavy block. Same rules as yesterday: main lifts go 4x5–6 with 2–3 min rest, accessories stay 10–15. Yesterday you learned the big lesson — 75 lb DBs and your grip are the ceiling at this PF, not your muscles. So the heavy press moves to the SMITH MACHINE where you can actually load it. Same logic as your deadlift idea — you were right, run Smith for the heavy hinge next lower day too. Straps should land in a couple days; that fixes RDL and hanging knee raises both.",
     "exercises": [
       {
         "id": "A",
-        "name": "Leg Press [HEAVY]",
+        "name": "Smith Machine Bench Press [HEAVY]",
         "detail": "4 x 5–6 · heavy · 2–3 min rest",
         "rest": "2–3 min rest",
-        "note": "MAIN LIFT. You did 390 for 3x10 — for 5–6 reps go meaningfully heavier, work up to a load where set of 5–6 is hard but clean (likely ~440–480 + sled, but let feel decide). Do 2 ramp-up sets first. Controlled, no lockout, full depth you can control."
+        "note": "MAIN LIFT. You're pressing 75 lb DBs for 10/9/8 = roughly 150 lb of bar equivalent for 10. For 5–6 reps you want ~175–195 on the Smith bar (PF Smith bars are counterbalanced, so gauge by feel not math). Ramp up: light 8, medium 5, then work sets. Land where 5–6 is hard but the bar speed stays clean. Watch the left shoulder — if anything pinches, drop 10 lb and stay there."
       },
       {
         "id": "B",
-        "name": "DB Romanian Deadlift [HEAVY — USE STRAPS]",
-        "detail": "4 x 6 · heavy · 2–3 min rest",
+        "name": "Lat Pulldown [HEAVY]",
+        "detail": "4 x 5–6 · heavy · 2–3 min rest",
         "rest": "2–3 min rest",
-        "note": "MAIN LIFT. This is the day to use straps — grip capped you at 70 on 7/10 while your legs had more. Strap in and go to ~75–85 for hard sets of 6. Hinge from the hips, soft knees, flat back, feel the hamstrings stretch. Straps = legs set the limit, not your hands."
+        "note": "MAIN LIFT. 125 gave you 10/8/10 on 7/11. Go to 150–160 and pull hard for 5–6. VERTICAL pull. Full stretch at the top, drive the elbows down and back. If your grip starts slipping before your lats give out, that's the strap problem again — note it and it's solved this week."
       },
       {
         "id": "C",
-        "name": "Seated Leg Curl",
-        "detail": "70 lb · 3 x 10–12",
-        "rest": "75s rest",
-        "note": "Accessory — stays in the higher rep range for hamstring volume. 70 for 10–12, chase 12. Weak-link muscle, keep the reps up."
+        "name": "DB Shoulder Press [HEAVY]",
+        "detail": "4 x 5–6 · heavy · 2–3 min rest",
+        "rest": "2–3 min rest",
+        "note": "MAIN LIFT. 45 lb gave you 10/9/10 — that's got room. Go to 60 lb for sets of 5–6. This is well under the 75 lb DB ceiling so you're fine here. Seated, back supported, press without flaring the elbows. Left shoulder has handled every jump so far — keep it honest and stop the set if the groove feels off."
       },
       {
         "id": "D",
-        "name": "Leg Extension",
-        "detail": "Moderate · 3 x 12–15",
-        "rest": "60s rest",
-        "note": "Accessory quad volume. Squeeze at the top, slow negative. Burn out the quads after the heavy pressing."
+        "name": "Seated Cable Row (PF)",
+        "detail": "130 lb · 3 x 10",
+        "rest": "75s rest",
+        "note": "Accessory — stays in the volume range. 130 is your confirmed working weight from 7/11 (125 was easy, 130 gave you 10/10). Start at 130. HORIZONTAL pull, pairs with the pulldown above. Chest tall, squeeze at the back, no torso rocking."
       },
       {
         "id": "E",
+        "name": "Face Pulls",
+        "detail": "~60 lb · 3 x 15",
+        "rest": "60s rest",
+        "note": "60 worked at the last PF but machines vary location to location — gauge by first-set reps and land in the 12–15 zone. Elbows high and wide. Don't skip these; they're what's kept the shoulder trending the right way."
+      },
+      {
+        "id": "F",
+        "name": "Arms Superset — Rope Pushdown + Cable Curl",
+        "detail": "80 lb both · 3 rounds x 10–12 · 60–75s between rounds",
+        "rest": "60–75s between rounds",
+        "note": "You ran both at 70 lb and got 12/12/11 on pushdowns and 12/12/12 on curls — curls especially were strong all the way through. Both go to 80 lb. Same cable stack, back to back, minimal rest inside the round."
+      },
+      {
+        "id": "G",
         "name": "Core Circuit — 2 rounds",
-        "detail": "Hanging Knee Raise x12 → Pallof Press 40 x10/side → Side Plank 30s/side",
-        "rest": "60s between rounds",
-        "note": "Back-safe, fresh combo. Pallof on cable at 40 (band if taken)."
+        "detail": "Cable Crunch x12 → Dead Bugs x10/side → Side Plank 45–60s/side",
+        "rest": "Straight through, 60s between rounds",
+        "note": "Rotated off yesterday's combo. No hanging work today — your grip is already getting taxed by the pulldown, and it's what cut your knee raises short yesterday. Side planks per your own note: you said 30s was too easy and you hit a full minute, so it's 45–60s/side now. Cable crunch: kneel, round INTO the crunch, don't just hip-hinge."
       }
     ]
   }
