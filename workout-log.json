@@ -557,63 +557,63 @@
     "day_label": "Wednesday, July 15",
     "session_type": "Upper Body — STRENGTH BLOCK Day 2",
     "submitted_at": "2026-07-15T23:43:29.599Z",
-    "notes": "I forgot my phone but I remembered most of the workout. The Smith machines were taken at the very beginning of the session so I did a warm-up with some dumbbells. I did 50 lb dumbbells x 10 and then I went over to the chest machine because I thought I wasn't gonna get a Smith machine. I did another warm-up of 165 on the machine, I think, x 8 and then a Smith machine opened up. I went right into 90 lbs on each side, which was really too heavy, and I only got 2 reps.\n\nThe bar it did was labeled. It said it was 25 lbs so I dropped down to 45 and a 25 lb plate on both sides, so 70 lbs each on the sides plus the 25 lb bar. I was able to get, I think, 4 sets of 5 on those.\n\nThen I went to shoulder press and I started, I think, with 30 lbs as a warm-up and then went to 45 lbs each with 8 reps or something like that. For the working set I started at 55 lbs and I got 3 sets of 6 on 55 lbs. Actually I think set 2 I only got 5.\n\nThen I went to lat pulldown and I did some warm-ups. I forget honestly what the weight was, maybe 115. I did maybe 2 sets of warm-ups there and then working weights I went to 145 and I got 3 sets of 6. On the cable row I did 150 lbs as my working weight. I got 4 sets of 6, I believe. The lat pulldown was actually 4 sets of 6, I'm pretty sure.\n\nThen I did face pulls. I forget the weight they used but I got 3 sets of 15 and it was difficult to get the last couple reps. I did cable rope cable press down with the rope and I think the weight was like 45 lbs maybe. I did 3 sets of 12 and 25 lb dumbbell curl hammer curls, 3 sets of 12 on a circuit.\n\nFor core I did:\n- 20 dead bugs\n- 20 shoulder taps\n- 20 bird dogs\n\n\nTwo sets of those \n\nI did a 10 min walk on the treadmill and then walked home 18 mins slight incline.",
+    "notes": "STRENGTH BLOCK Day 2 (upper). Forgot phone, logged from memory. Smith machines busy at the start (Ballard is crowded) so warmed up with DBs + chest machine until one opened. Overshot bench at 90/side (2 reps), corrected down to 165 total for a clean 4x5. Strong pulls — lat pulldown 145 and cable row 150 for sets of 6, both big jumps from the 10-rep weights. Finished with 10 min treadmill walk + 18 min walk home on slight incline. ORIGINAL NOTE: I forgot my phone but I remembered most of the workout. The Smith machines were taken at the very beginning of the session so I did a warm-up with some dumbbells. I did 50 lb dumbbells x 10 and then I went over to the chest machine because I thought I wasn't gonna get a Smith machine. I did another warm-up of 165 on the machine, I think, x 8 and then a Smith machine opened up. I went right into 90 lbs on each side, which was really too heavy, and I only got 2 reps.\n\nThe bar it did was labeled. It said it was 25 lbs so I dropped down to 45 and a 25 lb plate on both sides, so 70 lbs each on the sides plus the 25 lb bar. I was able to get, I think, 4 sets of 5 on those.\n\nThen I went to shoulder press and I started, I think, with 30 lbs as a warm-up and then went to 45 lbs each with 8 reps or something like that. For the working set I started at 55 lbs and I got 3 sets of 6 on 55 lbs. Actually I think set 2 I only got 5.\n\nThen I went to lat pulldown and I did some warm-ups. I forget honestly what the weight was, maybe 115. I did maybe 2 sets of warm-ups there and then working weights I went to 145 and I got 3 sets of 6. On the cable row I did 150 lbs as my working weight. I got 4 sets of 6, I believe. The lat pulldown was actually 4 sets of 6, I'm pretty sure.\n\nThen I did face pulls. I forget the weight they used but I got 3 sets of 15 and it was difficult to get the last couple reps. I did cable rope cable press down with the rope and I think the weight was like 45 lbs maybe. I did 3 sets of 12 and 25 lb dumbbell curl hammer curls, 3 sets of 12 on a circuit.\n\nFor core I did:\n- 20 dead bugs\n- 20 shoulder taps\n- 20 bird dogs\n\n\nTwo sets of those \n\nI did a 10 min walk on the treadmill and then walked home 18 mins slight incline.",
     "exercises": [
       {
         "id": "A",
         "name": "Smith Machine Bench Press [HEAVY]",
         "planned": "RAMP: 45/side x8 → 45+25/side x5 · WORK: 4 x 5-6 @ 45+45/side · 2-3 min rest",
-        "weight": "",
-        "sets_reps": "",
-        "note": ""
+        "weight": "165 lb total (70/side + 25 lb bar)",
+        "sets_reps": "4 x 5",
+        "note": "Smith machines were taken at first — warmed up with 50 lb DBs x10 and chest machine 165 x8. When a Smith opened, tried 90/side = WAY too heavy, only 2 reps. Dropped to 45+25 = 70/side + 25 lb bar = 165 total, got a clean 4x5. Good self-correction — that's exactly how to find a heavy working weight. 165 is the Smith bench baseline."
       },
       {
         "id": "B",
         "name": "Lat Pulldown [HEAVY]",
         "planned": "RAMP: 100 x8 → 125 x5 · WORK: 4 x 5-6 @ 150 · 2-3 min rest",
-        "weight": "",
-        "sets_reps": "",
-        "note": ""
+        "weight": "145 lb",
+        "sets_reps": "4 x 6",
+        "note": "Warmups ~115 x2 sets, then working weight 145 for 4x6. Big increase from 125 at 10 reps. Strong."
       },
       {
         "id": "C",
         "name": "DB Shoulder Press [HEAVY]",
         "planned": "RAMP: 35 x8 → 50 x5 · WORK: 4 x 5-6 @ 60 · 2-3 min rest",
-        "weight": "",
-        "sets_reps": "",
-        "note": ""
+        "weight": "55 lb DBs",
+        "sets_reps": "6 / 5 / 6",
+        "note": "Warmups 30 then 45x8. Working sets 55 lb DBs: 6/5/6. Big jump from 45s at 10 reps. Left shoulder handled it. Own 3x6 at 55 before going up."
       },
       {
         "id": "D",
         "name": "Seated Cable Row (PF)",
         "planned": "130 lb · 3 x 10",
-        "weight": "",
-        "sets_reps": "",
-        "note": ""
+        "weight": "150 lb",
+        "sets_reps": "4 x 6",
+        "note": "Working weight 150 for 4x6. Up from 130 at 10 reps. Horizontal pull, paired with lat pulldown (vertical)."
       },
       {
         "id": "E",
         "name": "Face Pulls",
         "planned": "~60 lb · 3 x 15",
-        "weight": "",
-        "sets_reps": "",
-        "note": ""
+        "weight": "unrecorded (Ballard machine)",
+        "sets_reps": "3 x 15",
+        "note": "3x15, last couple reps difficult. Weight not recorded — PF Ballard machine. Accessory stays in high-rep range during the strength block."
       },
       {
         "id": "F",
         "name": "Arms Superset — Rope Pushdown + Cable Curl",
         "planned": "80 lb both · 3 rounds x 10–12 · 60–75s between rounds",
-        "weight": "",
-        "sets_reps": "",
-        "note": ""
+        "weight": "Pushdown ~45 lb / Hammer Curl 25 lb",
+        "sets_reps": "3 x 12 each",
+        "note": "Rope pushdown ~45 lb 3x12 + 25 lb hammer curls 3x12, done as a circuit. Accessories stay 10-15 during the heavy block."
       },
       {
         "id": "G",
         "name": "Core Circuit — 2 rounds",
         "planned": "Cable Crunch x12 → Dead Bugs x10/side → Side Plank 45–60s/side",
-        "weight": "",
-        "sets_reps": "",
-        "note": ""
+        "weight": "BW",
+        "sets_reps": "2 rounds",
+        "note": "Dead bugs x20 -> shoulder taps x20 -> bird dogs x20. 2 rounds."
       }
     ]
   }
