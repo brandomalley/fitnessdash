@@ -6,14 +6,14 @@
     "is_gym_day": true,
     "warmup": "Your 15-min walk to the gym is your warmup. DO ramp-up sets on the leg press (a light 8, then a medium 5) before the heavy work.",
     "finisher": "Your 15-min walk home.",
-    "coach_note": "Legs are recovered (hilly run Thu, walk Fri, upper Sat) — good to go heavy. This is the lower day that got bumped from Saturday. Main lifts heavy 4x6, accessories 10-12. Two carry-overs from Day 1: DB RDL is OUT (PF DBs cap at 75, grip failed) — hinge is on the SMITH machine now; leg curl at 65 (70 broke down), leg extension up (60 too easy). You're at this gym through ~7/24, so a couple more heavy sessions then we deload.",
+    "coach_note": "Legs recovered enough to go (though you had a hilly run Thu + ~20k steps Fri — gauge the first heavy set and don't grind on flat legs). ROTATED to hack squat (leg press was your last two lower days). Hinge is on the Smith machine now (PF DBs cap at 75). Leg curl 65, leg extension up. Main lifts heavy 4x6, accessories 10-12. At this gym through ~7/24, then deload.",
     "exercises": [
       {
         "id": "A",
-        "name": "Leg Press [HEAVY]",
-        "detail": "450 lb plates (+167 sled) · 4 x 6 · 2–3 min rest",
+        "name": "Hack Squat Machine [HEAVY]",
+        "detail": "4 x 6 · heavy · 2–3 min rest",
         "rest": "2–3 min rest",
-        "note": "MAIN LIFT. On 7/14 you hit 450 for 6 and it was tough. Same 450, but own all 4 sets of 6 clean this time. Ramp up first (360 x8, then a medium 5). If 6 is clean on every set, add next time."
+        "note": "MAIN LIFT — rotating off leg press (you did leg press the last two lower days). On 7/10 you did 140 loaded (+105 machine) for 10s; for heavy 6s go up — work toward ~180–230 loaded, but gauge by feel given the leg volume this week. Ramp up first. Chest tall, full depth you can control, drive through the heels."
       },
       {
         "id": "B",
