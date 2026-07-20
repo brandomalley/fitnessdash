@@ -6,14 +6,15 @@
     "is_gym_day": true,
     "warmup": "Your 15-min walk to the gym is your warmup. DO ramp-up sets on the leg press (a light 8, then a medium 5) before the heavy work.",
     "finisher": "Your 15-min walk home.",
-    "coach_note": "Legs recovered enough to go (though you had a hilly run Thu + ~20k steps Fri — gauge the first heavy set and don't grind on flat legs). ROTATED to hack squat (leg press was your last two lower days). Hinge is on the Smith machine now (PF DBs cap at 75). Leg curl 65, leg extension up. Main lifts heavy 4x6, accessories 10-12. At this gym through ~7/24, then deload.",
+    "coach_note": "No squat/hack machine at this PF (through end of week) — squat is on the Smith. Both squat (A) and RDL (B) are Smith-machine lifts this week; if it's busy, do them back to back at the one station. Legs had a hilly run Thu + ~20k steps Fri, so gauge the first heavy set and keep reps clean over heavy. Main lifts 4x6, accessories 10-12. At this gym through ~7/24, then deload.",
     "exercises": [
       {
         "id": "A",
-        "name": "Hack Squat Machine [HEAVY]",
+        "name": "Smith Machine Squat [HEAVY]",
         "detail": "4 x 6 · heavy · 2–3 min rest",
         "rest": "2–3 min rest",
-        "note": "MAIN LIFT — rotating off leg press (you did leg press the last two lower days). On 7/10 you did 140 loaded (+105 machine) for 10s; for heavy 6s go up — work toward ~180–230 loaded, but gauge by feel given the leg volume this week. Ramp up first. Chest tall, full depth you can control, drive through the heels."
+        "note": "MAIN LIFT — no squat/hack machine at this PF, so Smith squat. New movement for you here, so DON'T chase a number: ramp up and find a weight where 6 is hard but every rep is clean and deep (thighs to parallel or just below). Bar 25 lb + plates. Feet slightly forward of the bar so knees track well. With the run + 20k steps in your legs, err lighter and nail the pattern — you can push the load next Smith-squat session.",
+        "_order": 1
       },
       {
         "id": "B",
