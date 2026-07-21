@@ -1,48 +1,61 @@
 {
   "workout": {
-    "date": "2026-07-20",
-    "day_label": "Monday, July 20",
-    "session_type": "Lower Body — STRENGTH BLOCK Day 5",
+    "date": "2026-07-22",
+    "day_label": "Wednesday, July 22",
+    "session_type": "Upper Body — STRENGTH BLOCK Day 6",
     "is_gym_day": true,
-    "warmup": "Your 15-min walk to the gym is your warmup. DO ramp-up sets on the leg press (a light 8, then a medium 5) before the heavy work.",
-    "finisher": "Your 15-min walk home.",
-    "coach_note": "No squat/hack machine at this PF (through end of week) — squat is on the Smith. Both squat (A) and RDL (B) are Smith-machine lifts this week; if it's busy, do them back to back at the one station. Legs had a hilly run Thu + ~20k steps Fri, so gauge the first heavy set and keep reps clean over heavy. Main lifts 4x6, accessories 10-12. At this gym through ~7/24, then deload.",
+    "warmup": "Your walk to the gym is your warmup. DO ramp-up sets on the Smith bench (light 8, then medium 5) before your working weight.",
+    "finisher": "Your walk home.",
+    "coach_note": "Upper Wednesday, lower Thursday, then a long weekend off (back ~Mon/Tue) — that break is a natural DELOAD to close the strength block. So Wed + Thu are your last two heavy sessions; push them, then rest into next week and we return to the 10-rep range (heavier than before). Main lifts 4x5-6, accessories 10-15.",
     "exercises": [
       {
         "id": "A",
-        "name": "Smith Machine Squat [HEAVY]",
-        "detail": "4 x 6 · heavy · 2–3 min rest",
+        "name": "Smith Machine Bench Press [HEAVY]",
+        "detail": "175 lb total · 4 x 5 · 2–3 min rest",
         "rest": "2–3 min rest",
-        "note": "MAIN LIFT — no squat/hack machine at this PF, so Smith squat. New movement for you here, so DON'T chase a number: ramp up and find a weight where 6 is hard but every rep is clean and deep (thighs to parallel or just below). Bar 25 lb + plates. Feet slightly forward of the bar so knees track well. With the run + 20k steps in your legs, err lighter and nail the pattern — you can push the load next Smith-squat session.",
-        "_order": 1
+        "note": "MAIN LIFT. You got 175 for 5/5/4 last time. Own all 4 sets of 5 at 175 today — that's the goal before adding. Ramp up first. Ballard Smith bar = 25 lb."
       },
       {
         "id": "B",
-        "name": "Smith Machine Romanian Deadlift [HEAVY]",
-        "detail": "4 x 6 · 2–3 min rest · straps if arrived",
-        "rest": "2–3 min rest",
-        "note": "MAIN LIFT — replaces DB RDL (75 lb DB cap was your ceiling). Ballard Smith bar = 25 lb; load ~135–155 total, adjust so 6 is hard but clean. Hinge from the hips, soft knees, flat back, bar close, feel the hamstring stretch. Straps if they've come."
+        "name": "DB Shoulder Press [HEAVY]",
+        "detail": "60 lb · 4 x 5–6 · 2 min rest",
+        "rest": "2 min rest",
+        "note": "MAIN LIFT. You OWNED 55 for 4x6, so bump to 60. Aim 4x5-6. Watch the left shoulder; ramp with lighter DBs first. PF caps at 75 so still room."
       },
       {
         "id": "C",
-        "name": "Seated Leg Curl",
-        "detail": "65 lb · 3 x 10–12",
-        "rest": "75s rest",
-        "note": "65, not 70 — you broke down to 6 reps on set 3 at 70 last time. 65 should hold 10–12 across all three. Keep the squeeze-and-hold at the contraction."
+        "name": "Seated Cable Row [HEAVY]",
+        "detail": "165–170 lb · 4 x 6",
+        "rest": "2 min rest",
+        "note": "MAIN LIFT. 160 was a clean 4x6 — go 165-170. Your best lift, keep pushing. Chest up, controlled."
       },
       {
         "id": "D",
-        "name": "Leg Extension",
-        "detail": "70–75 lb · 3 x 10–12",
-        "rest": "60s rest",
-        "note": "Up from 60 (too easy — 10 clean every set). Squeeze at the top, slow negative."
+        "name": "Lat Pulldown [HEAVY]",
+        "detail": "150 lb · 4 x 6 · neutral close grip",
+        "rest": "2 min rest",
+        "note": "MAIN LIFT. Back to your neutral close grip (you tried the wide bar last time — it's harder, so numbers won't match). 150 for 4x6. Full stretch, drive elbows down."
       },
       {
         "id": "E",
+        "name": "Face Pulls",
+        "detail": "3 x 15",
+        "rest": "60s rest",
+        "note": "Don't forget these today (you subbed lateral raises last time). Rear-delt/rotator health, pairs with your band work. Gauge the machine by feel."
+      },
+      {
+        "id": "F",
+        "name": "Arms Superset — Rope Pushdown + Hammer Curl",
+        "detail": "Pushdown 45 / Hammer 25 · 3 x 12",
+        "rest": "60–75s between rounds",
+        "note": "Rotating back to pushdown + hammer curls (did skull crushers + incline curls last time). Accessories stay 10-15 through the block."
+      },
+      {
+        "id": "G",
         "name": "Core Circuit (fresh combo) — 2 rounds",
-        "detail": "Ab Wheel Rollout x8–10 → Dead Bugs x10/side → Hollow Body Hold 25–30s",
+        "detail": "Hanging Knee Raise x12 → Pallof Press 25 x10/side → Bicycle Crunch x24",
         "rest": "60s between rounds",
-        "note": "Actually fresh this time — different from yesterday's cable crunch/bicycle/side plank. Back's cleared so ab wheel and hollow body are in. No hanging raises so your grip stays fresh for the Smith RDL. Ab wheel from the knees, only roll as far as your lower back stays neutral."
+        "note": "Fresh vs your recent circuits. Grip's fine to hang today (no heavy hinge on upper day). Pallof at 25 (you found the cables heavy at that station)."
       }
     ]
   }
