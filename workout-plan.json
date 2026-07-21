@@ -6,7 +6,7 @@
     "is_gym_day": true,
     "warmup": "Your walk to the gym is your warmup. DO ramp-up sets on the Smith bench (light 8, then medium 5) before your working weight.",
     "finisher": "Your walk home.",
-    "coach_note": "Upper Wednesday, lower Thursday, then a long weekend off (back ~Mon/Tue) — that break is a natural DELOAD to close the strength block. So Wed + Thu are your last two heavy sessions; push them, then rest into next week and we return to the 10-rep range (heavier than before). Main lifts 4x5-6, accessories 10-15.",
+    "coach_note": "Upper Wednesday, lower Thursday, then a weekend off (back ~Mon/Tue). This is only WEEK 1 of the strength block (started 7/14) — the weekend is just rest, NOT a deload, and the block continues when you're back. Keep pushing heavy next week; real deload comes after ~2 more weeks (early-mid Aug), then we return to the 10-rep range. Main lifts 4x5-6, accessories 10-15.",
     "exercises": [
       {
         "id": "A",
