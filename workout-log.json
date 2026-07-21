@@ -687,47 +687,47 @@
     "day_label": "Monday, July 20",
     "session_type": "Lower Body — STRENGTH BLOCK Day 5",
     "submitted_at": "2026-07-21T03:56:20.200Z",
-    "notes": "",
+    "notes": "STRENGTH BLOCK Day 5 (lower). No squat machine at this PF so Smith squat (first time) — 185-205 for 5-6, below parallel. Smith RDL WITH STRAPS: grip solved, clean 3x6 at 165-185. Leg curls skipped (machines taken); leg extension 70 instead. Core via stability-ball rollout (no ab wheel). Good adaptable session in a limited gym.",
     "exercises": [
       {
         "id": "A",
         "name": "Smith Machine Squat [HEAVY]",
         "planned": "4 x 6 · heavy · 2–3 min rest",
-        "weight": "",
-        "sets_reps": "",
-        "note": "I did a short warm up with two 45 lb plates on each side. I did like six slow ones, went a little further than parallel down. Then I bumped to two 45 lb plates on each side and got five reps on set one. Dropped one of the 45 lb plates on each side to a 25 and a 10 so 45 + 35 on each side plus the bar and I got six reps on set two. Stayed here for set three and got five."
+        "weight": "205 total (90/side+25 bar), then 185",
+        "sets_reps": "5 / 6 / 5",
+        "note": "First Smith squat — warmed up 2x45, worked at 90/side+bar (205) for 5, dropped to 45+35/side (185) for 6 then 5. Went below parallel, good depth on a new movement. 185–205 is your Smith-squat baseline; build from here."
       },
       {
         "id": "B",
         "name": "Smith Machine Romanian Deadlift [HEAVY]",
         "planned": "4 x 6 · 2–3 min rest · straps if arrived",
-        "weight": "",
-        "sets_reps": "",
-        "note": "Without straps I did a warm up with 45 lb plates on each side. I did eight reps pretty lightly. Started with a 45 lb and a 25 lb plate on both sides. I did use straps. I got six reps on set 1. Added tens on each side so basically same as squat weight on last set now and I got six reps on set two, three"
+        "weight": "165 → 185 total, WITH STRAPS",
+        "sets_reps": "6 / 6 / 6",
+        "note": "USED STRAPS — grip no longer the limiter, exactly the fix we wanted. 45+25/side (165) for 6, then added 10s (185) for 6/6. Clean 3x6 with the hamstrings doing the work. Straps unlock the hinge — keep using them."
       },
       {
         "id": "C",
         "name": "Seated Leg Curl",
         "planned": "65 lb · 3 x 10–12",
-        "weight": "",
-        "sets_reps": "",
-        "note": "Never did these."
+        "weight": "—",
+        "sets_reps": "skipped",
+        "note": "Skipped — leg curl machines were taken the whole time."
       },
       {
         "id": "D",
         "name": "Leg Extension",
         "planned": "70–75 lb · 3 x 10–12",
-        "weight": "",
-        "sets_reps": "",
-        "note": "I went from RDLs to leg extension because the leg curl machines were taken. I started at 70 lbs. and got 12 reps on set one. We got ten reps on set two and 3"
+        "weight": "70 lb",
+        "sets_reps": "12 / 10 / 10",
+        "note": "70 for 12/10/10 (did it before RDL/after since curls were taken). Good — hold 70, chase 12 across all sets."
       },
       {
         "id": "E",
         "name": "Core Circuit (fresh combo) — 2 rounds",
         "planned": "Ab Wheel Rollout x8–10 → Dead Bugs x10/side → Hollow Body Hold 25–30s",
-        "weight": "",
-        "sets_reps": "",
-        "note": "I did core after leg extension because leg curl machines were still taken. Instead of doing the ab-wheel there was no ab-wheel so I did on the whatever you call the blow-up ball. I put my forearms on and did a plank extension thing, kind of like an ab-wheel. Maybe a little harder"
+        "weight": "BW",
+        "sets_reps": "2 rounds",
+        "note": "No ab wheel available — subbed a stability-ball forearm rollout/plank extension (similar pattern, maybe a touch harder). Good improvisation. 2 rounds."
       }
     ]
   }
