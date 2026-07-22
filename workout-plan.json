@@ -6,7 +6,7 @@
     "is_gym_day": true,
     "warmup": "Your walk to the gym is your warmup. DO ramp-up sets on the Smith bench (light 8, then medium 5) before your working weight.",
     "finisher": "Your walk home.",
-    "coach_note": "Upper Wednesday, lower Thursday, then a weekend off (back ~Mon/Tue). This is only WEEK 1 of the strength block (started 7/14) — the weekend is just rest, NOT a deload, and the block continues when you're back. Keep pushing heavy next week; real deload comes after ~2 more weeks (early-mid Aug), then we return to the 10-rep range. Main lifts 4x5-6, accessories 10-15.",
+    "coach_note": "HEADS UP  training slightly under-recovered today (poor sleep + beer/pizza last night). AUTOREGULATE the heavy lifts: match your last numbers, don't chase PRs. If a top set feels grindy or slow, drop 5-10 lb and keep reps clean  no ugly missed reps under fatigue. Rope pushdowns pulled from arms (sore triceps). Hydrate with electrolytes (alcohol dehydrates). If burning cals is the goal, add 12-15 min incline walk at the end. Upper Wednesday, lower Thursday, then a weekend off (back ~Mon/Tue). This is only WEEK 1 of the strength block (started 7/14) — the weekend is just rest, NOT a deload, and the block continues when you're back. Keep pushing heavy next week; real deload comes after ~2 more weeks (early-mid Aug), then we return to the 10-rep range. Main lifts 4x5-6, accessories 10-15.",
     "exercises": [
       {
         "id": "A",
@@ -45,10 +45,10 @@
       },
       {
         "id": "F",
-        "name": "Arms Superset — Rope Pushdown + Hammer Curl",
-        "detail": "Pushdown 45 / Hammer 25 · 3 x 12",
+        "name": "Arms Superset  Hammer Curl + Incline DB Curl (biceps only)",
+        "detail": "Hammer 25 / Incline Curl 25  3 x 12",
         "rest": "60–75s between rounds",
-        "note": "Rotating back to pushdown + hammer curls (did skull crushers + incline curls last time). Accessories stay 10-15 through the block."
+        "note": "Pushdowns pulled today  triceps still sore from Monday's skull crushers, and they already get worked on the bench + shoulder press. Biceps only here: hammer curls + incline DB curls. Let the tris recover; pushdowns are back in next upper day."
       },
       {
         "id": "G",
