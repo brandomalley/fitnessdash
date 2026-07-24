@@ -1,61 +1,54 @@
 {
   "workout": {
-    "date": "2026-07-22",
-    "day_label": "Wednesday, July 22",
-    "session_type": "Upper Body — STRENGTH BLOCK Day 6",
+    "date": "2026-07-24",
+    "day_label": "Friday, July 25",
+    "session_type": "Lower Body  STRENGTH BLOCK Day 7",
     "is_gym_day": true,
-    "warmup": "Your walk to the gym is your warmup. DO ramp-up sets on the Smith bench (light 8, then medium 5) before your working weight.",
-    "finisher": "Your walk home.",
-    "coach_note": "HEADS UP  training slightly under-recovered today (poor sleep + beer/pizza last night). AUTOREGULATE the heavy lifts: match your last numbers, don't chase PRs. If a top set feels grindy or slow, drop 5-10 lb and keep reps clean  no ugly missed reps under fatigue. Rope pushdowns pulled from arms (sore triceps). Hydrate with electrolytes (alcohol dehydrates). If burning cals is the goal, add 12-15 min incline walk at the end. Upper Wednesday, lower Thursday, then a weekend off (back ~Mon/Tue). This is only WEEK 1 of the strength block (started 7/14) — the weekend is just rest, NOT a deload, and the block continues when you're back. Keep pushing heavy next week; real deload comes after ~2 more weeks (early-mid Aug), then we return to the 10-rep range. Main lifts 4x5-6, accessories 10-15.",
+    "warmup": "Walk to the gym, THEN ramp up the Smith squat: empty bar x8, then 2 progressively heavier warmup sets. On lower day this doubles as your back warmup  do NOT skip it, especially with the mid-back tweak.",
+    "finisher": "Walk home. Optional 12-15 min incline walk if you want extra cals before the weekend off.",
+    "coach_note": "LOWER  Strength Block Day 7, then OFF Sat-Sun (just rest, the block continues Mon/Tue). BIG FLAG: you tweaked your left mid-back on Wednesday's bench, same spot as your old rhomboid strain. That reorders today  Seated Leg Curl LEADS the hamstring work (it's back-safe), and the Smith RDL is CONDITIONAL: only if the back is 100% warm and pain-free, held at 185 (no increase this week), and you stop at the first sign of tightness. Warm the back up thoroughly before squatting. Everything else, autoregulate like normal  match your numbers, keep reps clean, no ugly grinds.",
     "exercises": [
       {
         "id": "A",
-        "name": "Smith Machine Bench Press [HEAVY]",
-        "detail": "175 lb total · 4 x 5 · 2–3 min rest",
-        "rest": "2–3 min rest",
-        "note": "MAIN LIFT. You got 175 for 5/5/4 last time. Own all 4 sets of 5 at 175 today — that's the goal before adding. Ramp up first. Ballard Smith bar = 25 lb."
+        "name": "Smith Machine Squat [HEAVY]",
+        "detail": "195-205 lb (bar+plates)  4 x 6  2-3 min rest",
+        "rest": "2-3 min",
+        "note": "MAIN LIFT. Last time you worked 205 for 5 and 185 for 6 with good depth. Work at 195-205 today, chase a clean 6 on all sets, below parallel like last time. Hold this range to lock it in before adding  it's a still-new movement."
       },
       {
         "id": "B",
-        "name": "DB Shoulder Press [HEAVY]",
-        "detail": "60 lb · 4 x 5–6 · 2 min rest",
-        "rest": "2 min rest",
-        "note": "MAIN LIFT. You OWNED 55 for 4x6, so bump to 60. Aim 4x5-6. Watch the left shoulder; ramp with lighter DBs first. PF caps at 75 so still room."
+        "name": "Seated Leg Curl",
+        "detail": "65 lb  3 x 10-12",
+        "rest": "90 sec",
+        "note": "PRIMARY hamstring today, moved up front because it's back-safe (no spinal load). This got skipped your last two lowers because the machines were taken  grab it early today. Hamstrings are your weak link: controlled tempo, squeeze the contraction, no yanking."
       },
       {
         "id": "C",
-        "name": "Seated Cable Row [HEAVY]",
-        "detail": "165–170 lb · 4 x 6",
-        "rest": "2 min rest",
-        "note": "MAIN LIFT. 160 was a clean 4x6 — go 165-170. Your best lift, keep pushing. Chest up, controlled."
+        "name": "Smith Machine RDL [HEAVY  CONDITIONAL]",
+        "detail": "185 lb w/ straps  4 x 6  HOLD weight (no increase)",
+        "rest": "2-3 min",
+        "note": "BACK CHECK FIRST. Only do these if your left mid-back is 100% warm and pain-free after squats. HOLD at 185 this week  do not add weight. Straps on, drive with hips and hamstrings, bar stays close, neutral spine, soft knees. ANY tightness in that mid-back = stop and skip the rest of the sets; we'll bring the RDL back next lower day once it's fully clear. The leg curl already covered your hamstrings, so skipping this is totally fine today."
       },
       {
         "id": "D",
-        "name": "Lat Pulldown [HEAVY]",
-        "detail": "150 lb · 4 x 6 · neutral close grip",
-        "rest": "2 min rest",
-        "note": "MAIN LIFT. Back to your neutral close grip (you tried the wide bar last time — it's harder, so numbers won't match). 150 for 4x6. Full stretch, drive elbows down."
+        "name": "Leg Extension",
+        "detail": "70 lb  3 x 12",
+        "rest": "60-90 sec",
+        "note": "You got 12/10/10 last time. Chase a full 12 on all three sets today  once you own that, we bump to 75."
       },
       {
         "id": "E",
-        "name": "Face Pulls",
-        "detail": "3 x 15",
-        "rest": "60s rest",
-        "note": "Don't forget these today (you subbed lateral raises last time). Rear-delt/rotator health, pairs with your band work. Gauge the machine by feel."
+        "name": "Walking Lunge (DB)",
+        "detail": "30 lb DBs  3 x 10/leg",
+        "rest": "90 sec",
+        "note": "Glute + single-leg work to finish. Knee drive at the top, drive through the heel of the working leg. Skip if the session's running long or the back's fussy  it's the optional one today."
       },
       {
         "id": "F",
-        "name": "Arms Superset  Hammer Curl + Incline DB Curl (biceps only)",
-        "detail": "Hammer 25 / Incline Curl 25  3 x 12",
-        "rest": "60–75s between rounds",
-        "note": "Pushdowns pulled today  triceps still sore from Monday's skull crushers, and they already get worked on the bench + shoulder press. Biceps only here: hammer curls + incline DB curls. Let the tris recover; pushdowns are back in next upper day."
-      },
-      {
-        "id": "G",
-        "name": "Core  LIGHT / optional today",
-        "detail": "Skip if abs still sore. If anything: 1 round Pallof Press 25 x10/side (anti-rotation only)",
-        "rest": "60s between rounds",
-        "note": "Abs still sore from Monday's squats + deadlifts, so no direct flexion today (dropped the hanging knee raises + bicycle crunches). Your core already braces hard on every heavy set. If they feel fine once you're warm, one easy round of Pallof press is plenty  otherwise skip it entirely and let them recover."
+        "name": "Core Circuit (fresh, back-safe)  2 rounds",
+        "detail": "Hanging Knee Raise x12  Side Plank 45s/side  Dead Bugs x10/side",
+        "rest": "minimal",
+        "note": "Fresh combo, all back-safe given the mid-back. Your abs should be recovered from Monday now. Controlled reps, brace, no straining."
       }
     ]
   }
