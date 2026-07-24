@@ -4,16 +4,16 @@
     "day_label": "Friday, July 24",
     "session_type": "Lower Body  STRENGTH BLOCK Day 7",
     "is_gym_day": true,
-    "warmup": "Walk to the gym, THEN ramp up the Smith squat: empty bar x8, then 2 progressively heavier warmup sets. On lower day this doubles as your back warmup  do NOT skip it, especially with the mid-back tweak.",
+    "warmup": "Walk to the gym, then ramp the leg press: 2 progressively heavier warmup sets before your working weight. Add a set of bodyweight squats or leg swings to warm the hips/back  key on lower day, especially with the mid-back tweak.",
     "finisher": "Walk home. Optional 12-15 min incline walk if you want extra cals before the weekend off.",
-    "coach_note": "LOWER  Strength Block Day 7, then OFF Sat-Sun (just rest, the block continues Mon/Tue). BIG FLAG: you tweaked your left mid-back on Wednesday's bench, same spot as your old rhomboid strain. That reorders today  Seated Leg Curl LEADS the hamstring work (it's back-safe), and the Smith RDL is CONDITIONAL: only if the back is 100% warm and pain-free, held at 185 (no increase this week), and you stop at the first sign of tightness. Warm the back up thoroughly before squatting. Everything else, autoregulate like normal  match your numbers, keep reps clean, no ugly grinds.",
+    "coach_note": "LOWER  Strength Block Day 7, then OFF Sat-Sun (just rest, the block continues Mon/Tue). BIG FLAG: you tweaked your left mid-back on Wednesday's bench, same spot as your old rhomboid strain. That reorders today  Seated Leg Curl LEADS the hamstring work (it's back-safe), and the Smith RDL is CONDITIONAL: only if the back is 100% warm and pain-free, held at 185 (no increase this week), and you stop at the first sign of tightness. Leg press is in today instead of squat (rotation + it spares the mid-back). Warm the hips and back up thoroughly first. Everything else, autoregulate like normal  match your numbers, keep reps clean, no ugly grinds.",
     "exercises": [
       {
         "id": "A",
-        "name": "Smith Machine Squat [HEAVY]",
-        "detail": "195-205 lb (bar+plates)  4 x 6  2-3 min rest",
+        "name": "Leg Press [HEAVY]",
+        "detail": "~360-390 lb (gauge by feel  PF machine differs)  4 x 6-8  2 min rest",
         "rest": "2-3 min",
-        "note": "MAIN LIFT. Last time you worked 205 for 5 and 185 for 6 with good depth. Work at 195-205 today, chase a clean 6 on all sets, below parallel like last time. Hold this range to lock it in before adding  it's a still-new movement."
+        "note": "Rotated in per the squat-pattern alternation (you did Smith squat last lower). PF leg press loads differently than your usual machine, so gauge by your first-set reps, not the plate number  aim for a weight where 6-8 is heavy but clean. Bonus: fully back-supported, so it keeps the load off that mid-back. Controlled tempo, no locking the knees at the top, full depth without rounding the low back."
       },
       {
         "id": "B",
