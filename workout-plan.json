@@ -1,54 +1,61 @@
 {
   "workout": {
-    "date": "2026-07-24",
-    "day_label": "Friday, July 24",
-    "session_type": "Lower Body  STRENGTH BLOCK Day 7",
+    "date": "2026-07-29",
+    "day_label": "Wednesday, July 29",
+    "session_type": "Upper Body - STRENGTH BLOCK Day 8",
     "is_gym_day": true,
-    "warmup": "Walk to the gym, then ramp the leg press: 2 progressively heavier warmup sets before your working weight. Add a set of bodyweight squats or leg swings to warm the hips/back  key on lower day, especially with the mid-back tweak.",
-    "finisher": "Walk home. Optional 12-15 min incline walk if you want extra cals before the weekend off.",
-    "coach_note": "LOWER  Strength Block Day 7, then OFF Sat-Sun (just rest, the block continues Mon/Tue). BIG FLAG: you tweaked your left mid-back on Wednesday's bench, same spot as your old rhomboid strain. That reorders today  Seated Leg Curl LEADS the hamstring work (it's back-safe), and the Smith RDL is CONDITIONAL: only if the back is 100% warm and pain-free, held at 185 (no increase this week), and you stop at the first sign of tightness. Leg press is in today instead of squat (rotation + it spares the mid-back). Warm the hips and back up thoroughly first. Everything else, autoregulate like normal  match your numbers, keep reps clean, no ugly grinds.",
+    "warmup": "8-10 min incline walk (3.3-3.5 mph, 6-8%). Then ramp the bench: 115 x 8, 145 x 5 before your first working set. Add band pull-aparts x 20 to wake the mid-back up before you load it.",
+    "finisher": "Skip it if you're at 65 min - four heavy lifts eat the clock. Otherwise 10 min incline walk.",
+    "coach_note": "First session back after 4 days off and the back is fully clear - this is your best shot at 175 on the bench. You've hit 175 for 5/5/4 twice now and stalled on set 4 both times, never from strength, always from accumulated fatigue. Fresh CNS today: go get 4x5 and the lift graduates. Two things I'm holding you to. (1) 60 lb shoulder press is not ready - you got 3 reps on it Jul 22. Own 55 for 4x6 first, then take a bonus set at 60 just to see the number. (2) Face pulls. You've skipped them two sessions running, and they're the single best insurance policy for the exact spot that tweaked last week. They're placed before arms so you don't forget again.",
     "exercises": [
       {
         "id": "A",
-        "name": "Leg Press [HEAVY]",
-        "detail": "~360-390 lb (gauge by feel  PF machine differs)  4 x 6-8  2 min rest",
-        "rest": "2-3 min",
-        "note": "Rotated in per the squat-pattern alternation (you did Smith squat last lower). PF leg press loads differently than your usual machine, so gauge by your first-set reps, not the plate number  aim for a weight where 6-8 is heavy but clean. Bonus: fully back-supported, so it keeps the load off that mid-back. Controlled tempo, no locking the knees at the top, full depth without rounding the low back."
+        "name": "Smith Machine Bench Press [HEAVY]",
+        "detail": "175 lb total - 4 x 5",
+        "rest": "3 min",
+        "note": "Your ceiling lift. Ramp 115 x 8, 145 x 5, then 175. You've gotten 5/5/4 here twice - set 4 is the whole goal today. If set 3 comes in under 5 reps, drop set 4 to 165 and get 5 clean there. Any sharpness in the left mid-back, rack it and move on. No heroics on the first session back."
       },
       {
         "id": "B",
-        "name": "Seated Leg Curl",
-        "detail": "65 lb  3 x 10-12",
-        "rest": "90 sec",
-        "note": "PRIMARY hamstring today, moved up front because it's back-safe (no spinal load). This got skipped your last two lowers because the machines were taken  grab it early today. Hamstrings are your weak link: controlled tempo, squeeze the contraction, no yanking."
+        "name": "DB Shoulder Press [HEAVY]",
+        "detail": "55 lb - 4 x 6, then optional 5th set at 60 lb",
+        "rest": "2 min",
+        "note": "60 was too much on Jul 22 (only 3 reps). Own 55 for all four sets of 6 first. Setup trick for getting them up: sit with the DBs on your thighs and kick one knee at a time to drive each dumbbell to the shoulder - don't muscle them up from a dead hang, that's what's burning you on rep 1. If 55 x 4x6 is clean, add a 5th set at 60 and just see where you land."
       },
       {
         "id": "C",
-        "name": "Smith Machine RDL [HEAVY  CONDITIONAL]",
-        "detail": "185 lb w/ straps  4 x 6  HOLD weight (no increase)",
-        "rest": "2-3 min",
-        "note": "BACK CHECK FIRST. Only do these if your left mid-back is 100% warm and pain-free after squats. HOLD at 185 this week  do not add weight. Straps on, drive with hips and hamstrings, bar stays close, neutral spine, soft knees. ANY tightness in that mid-back = stop and skip the rest of the sets; we'll bring the RDL back next lower day once it's fully clear. The leg curl already covered your hamstrings, so skipping this is totally fine today."
+        "name": "Seated Cable Row [HEAVY]",
+        "detail": "165 lb - 4 x 6",
+        "rest": "2 min",
+        "note": "Your strongest lift. You got 6/6/6 at 165 on Jul 22 then dropped to 160 for set 4 - finish all four at 165 today and 170 is yours next session. Chest supported, controlled, no yanking with the low back."
       },
       {
         "id": "D",
-        "name": "Leg Extension",
-        "detail": "70 lb  3 x 12",
-        "rest": "60-90 sec",
-        "note": "You got 12/10/10 last time. Chase a full 12 on all three sets today  once you own that, we bump to 75."
+        "name": "Lat Pulldown [HEAVY]",
+        "detail": "145 lb - 4 x 6, neutral close grip",
+        "rest": "2 min",
+        "note": "You ran out of gas here Jul 22 and stopped at 3 sets. Being fresh should fix that - all 4 sets today. Neutral close grip (you used the wide bar Jul 18, so this is the rotation). Full stretch at the top, drive the elbows down to the ribs."
       },
       {
         "id": "E",
-        "name": "Walking Lunge (DB)",
-        "detail": "30 lb DBs  3 x 10/leg",
-        "rest": "90 sec",
-        "note": "Glute + single-leg work to finish. Knee drive at the top, drive through the heel of the working leg. Skip if the session's running long or the back's fussy  it's the optional one today."
+        "name": "Face Pulls",
+        "detail": "60 lb - 3 x 15",
+        "rest": "60 sec",
+        "note": "NOT optional today. Third session in a row on the schedule and you've missed the last two. Elbows high and wide, pull to the forehead, pause a beat at the back. This is direct rhomboid and rotator cuff work - exactly the tissue that tweaked last week."
       },
       {
         "id": "F",
-        "name": "Core Circuit (fresh, back-safe)  2 rounds",
-        "detail": "Hanging Knee Raise x12  Side Plank 45s/side  Dead Bugs x10/side",
-        "rest": "minimal",
-        "note": "Fresh combo, all back-safe given the mid-back. Your abs should be recovered from Monday now. Controlled reps, brace, no straining."
+        "name": "Arms Superset - EZ-Bar Curl + Rope Pushdown",
+        "detail": "EZ-Bar Curl 45 lb x 10 + Rope Pushdown 80 lb x 12 - 2 rounds",
+        "rest": "75 sec between rounds",
+        "note": "Rotated off the hammer/incline curls you did Jul 22. Only 2 rounds - the heavy bench already cooked your triceps and the clock is tight. Elbows pinned on both movements."
+      },
+      {
+        "id": "G",
+        "name": "Core Circuit",
+        "detail": "2 rounds: Cable Crunch 66 lb x 12, Dead Bugs x 10/side, Side Plank 30 sec/side",
+        "rest": "45 sec between rounds",
+        "note": "Different circuit from Jul 22 (that was pallof press). Dead bugs and side plank keep the lower back safe. Cut to 1 round if you're past 65 min."
       }
     ]
   }
