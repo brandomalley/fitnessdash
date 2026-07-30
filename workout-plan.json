@@ -1,61 +1,47 @@
 {
   "workout": {
-    "date": "2026-07-29",
-    "day_label": "Wednesday, July 29",
-    "session_type": "Upper Body - STRENGTH BLOCK Day 8",
+    "date": "2026-07-30",
+    "day_label": "Thursday, July 30",
+    "session_type": "Lower Body - STRENGTH BLOCK Day 9",
     "is_gym_day": true,
-    "warmup": "8-10 min incline walk (3.3-3.5 mph, 6-8%). Then ramp the bench: 115 x 8, 145 x 5 before your first working set. Add band pull-aparts x 20 to wake the mid-back up before you load it.",
-    "finisher": "Skip it if you're at 65 min - four heavy lifts eat the clock. Otherwise 10 min incline walk.",
-    "coach_note": "First session back after 4 days off and the back is fully clear - this is your best shot at 175 on the bench. You've hit 175 for 5/5/4 twice now and stalled on set 4 both times, never from strength, always from accumulated fatigue. Fresh CNS today: go get 4x5 and the lift graduates. Two things I'm holding you to. (1) 60 lb shoulder press is not ready - you got 3 reps on it Jul 22. Own 55 for 4x6 first, then take a bonus set at 60 just to see the number. (2) Face pulls. You've skipped them two sessions running, and they're the single best insurance policy for the exact spot that tweaked last week. They're placed before arms so you don't forget again.",
+    "warmup": "8-10 min incline walk (3.3-3.5 mph, 6-8%) - non-negotiable on lower day, this is your back warmup not just cardio. Then bodyweight squats x 15 and leg swings before you touch the bar. Ramp the Smith squat: bar only x 8, then 2x45 (135) x 5, then work.",
+    "finisher": "Skip if you're at 65 min. Otherwise 10 min incline walk.",
+    "coach_note": "You hit 175 for a clean 4x5 on the bench yesterday - that's the set 4 you'd missed twice. 175 is graduated, we go to 185 next upper day. Today: you've never actually completed 4 full sets at 185 on either Smith lift. Jul 20 you got squat 205x5 then 185 for 6 and 5, and RDL 185 for 6/6 (only 3 sets total). Today is about finishing the job at 185 on both - four clean sets, then both lifts move up next week. Back is clear so the RDL is unrestricted, but STRAPS ON, no exceptions - that's what fixed the grip and kept the hinge safe. Two logging notes: your Jul 24 lower session never made it into the app, so I'm programming off Jul 20 - if you went heavier Friday, adjust up and tell me after. And yesterday's shoulder press note says you started at 50 and then dropped to 50, so I can't tell if the top set was 50 or 55 - clarify when you get a minute.",
     "exercises": [
       {
         "id": "A",
-        "name": "Smith Machine Bench Press [HEAVY]",
-        "detail": "175 lb total - 4 x 5",
-        "rest": "3 min",
-        "note": "Your ceiling lift. Ramp 115 x 8, 145 x 5, then 175. You've gotten 5/5/4 here twice - set 4 is the whole goal today. If set 3 comes in under 5 reps, drop set 4 to 165 and get 5 clean there. Any sharpness in the left mid-back, rack it and move on. No heroics on the first session back."
+        "name": "Smith Machine Squat [HEAVY]",
+        "detail": "185 lb (45+35/side + bar) - 4 x 6",
+        "rest": "2-3 min",
+        "note": "Finish all four sets at 185 - you got 6 then 5 last time and stopped. Below parallel like you did Jul 20, that depth was good. If sets 1 and 2 fly, put 205 on for sets 3 and 4. If the Smith rack is taken, sub Leg Press at 360-390 for 4 x 6-8 and we flip the rotation next lower day."
       },
       {
         "id": "B",
-        "name": "DB Shoulder Press [HEAVY]",
-        "detail": "55 lb - 4 x 6, then optional 5th set at 60 lb",
-        "rest": "2 min",
-        "note": "60 was too much on Jul 22 (only 3 reps). Own 55 for all four sets of 6 first. Setup trick for getting them up: sit with the DBs on your thighs and kick one knee at a time to drive each dumbbell to the shoulder - don't muscle them up from a dead hang, that's what's burning you on rep 1. If 55 x 4x6 is clean, add a 5th set at 60 and just see where you land."
+        "name": "Smith Machine Romanian Deadlift [HEAVY]",
+        "detail": "185 lb - 4 x 6 - STRAPS ON",
+        "rest": "2-3 min",
+        "note": "Ramp at 165 x 6 first, then 185 for four sets. You did 6/6 at 185 last time and it was clean - the hamstrings were doing the work, which is exactly right. Straps are mandatory here, they're what solved the grip and took the strain off your upper back. Hinge from the hips, soft knee, bar close to the legs. Complete 4x6 and you go to 195 next lower day."
       },
       {
         "id": "C",
-        "name": "Seated Cable Row [HEAVY]",
-        "detail": "165 lb - 4 x 6",
-        "rest": "2 min",
-        "note": "Your strongest lift. You got 6/6/6 at 165 on Jul 22 then dropped to 160 for set 4 - finish all four at 165 today and 170 is yours next session. Chest supported, controlled, no yanking with the low back."
+        "name": "Seated Leg Curl",
+        "detail": "70 lb - 3 x 10-12",
+        "rest": "90 sec",
+        "note": "Third session in a row this is on the sheet and you've been shut out by taken machines twice. Hamstrings are your weak link - if the seated machine is occupied, use the lying leg curl, and if both are gone do stability-ball leg curls for 3 x 12. Don't skip it a third time. Slow on the way back down."
       },
       {
         "id": "D",
-        "name": "Lat Pulldown [HEAVY]",
-        "detail": "145 lb - 4 x 6, neutral close grip",
-        "rest": "2 min",
-        "note": "You ran out of gas here Jul 22 and stopped at 3 sets. Being fresh should fix that - all 4 sets today. Neutral close grip (you used the wide bar Jul 18, so this is the rotation). Full stretch at the top, drive the elbows down to the ribs."
+        "name": "Hip Thrust Machine",
+        "detail": "200 lb - 3 x 10-12",
+        "rest": "90 sec",
+        "note": "Bringing glutes back in - you haven't hit these in a while and they've been missing from the block. Plate-loaded, 10 lb increments only. Full hip extension, hard squeeze at the top, and no hyperextension at lockout. If the machine is taken, sub DB walking lunge at 35 lb for 3 x 10/leg."
       },
       {
         "id": "E",
-        "name": "Face Pulls",
-        "detail": "60 lb - 3 x 15",
-        "rest": "60 sec",
-        "note": "NOT optional today. Third session in a row on the schedule and you've missed the last two. Elbows high and wide, pull to the forehead, pause a beat at the back. This is direct rhomboid and rotator cuff work - exactly the tissue that tweaked last week."
-      },
-      {
-        "id": "F",
-        "name": "Arms Superset - EZ-Bar Curl + Rope Pushdown",
-        "detail": "EZ-Bar Curl 45 lb x 10 + Rope Pushdown 80 lb x 12 - 2 rounds",
-        "rest": "75 sec between rounds",
-        "note": "Rotated off the hammer/incline curls you did Jul 22. Only 2 rounds - the heavy bench already cooked your triceps and the clock is tight. Elbows pinned on both movements."
-      },
-      {
-        "id": "G",
         "name": "Core Circuit",
-        "detail": "2 rounds: Cable Crunch 66 lb x 12, Dead Bugs x 10/side, Side Plank 30 sec/side",
+        "detail": "2 rounds: Pallof Press 40 lb x 10/side, Bird Dog x 8/side, Hanging Knee Raise x 10",
         "rest": "45 sec between rounds",
-        "note": "Different circuit from Jul 22 (that was pallof press). Dead bugs and side plank keep the lower back safe. Cut to 1 round if you're past 65 min."
+        "note": "Rotated off yesterday's cable crunch / dead bug / side plank. All three are back-safe after two heavy hinge-pattern lifts. Pause a full second at the top of the bird dog. Cut to 1 round if you're past 65 min."
       }
     ]
   }
