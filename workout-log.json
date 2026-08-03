@@ -929,9 +929,9 @@
         "id": "B",
         "name": "DB Shoulder Press [HEAVY]",
         "planned": "55 lb - 4 x 6 (drop to 50 if set 1 not clean)",
-        "weight": "55 lb",
-        "sets_reps": "6 / 6 / 7 / 6",
-        "note": "Verbatim: 'Started 55lb dbs. Got 6 but last rep was a little sloppy. Went down to 55's for set 2, got 6 reps. 7 reps on set 3 and 6 reps set 4.' AMBIGUITY AGAIN - says 55 then 'went down to' 55, so the opener was probably 60. Recorded as 55 across all four. If genuinely 4x6+ at 55, this lift is owned and 60 is next."
+        "weight": "55 lb set 1, 50 lb sets 2-4",
+        "sets_reps": "6 @ 55 / 6 @ 50 / 7 @ 50 / 6 @ 50",
+        "note": "Opened at 55 and got 6, last rep sloppy. Dropped to 50 for sets 2-4: 6, 7, 6. CONFIRMED by Brandon Aug 3. PATTERN: 55 was owned for a clean 4x6 on Jul 18, but in the three sessions since it has only been good for one set before dropping. Jul 22: 60 for 3 then 55 for 5/5/6. Jul 29: 55 then 50 x3. Aug 2: 55 then 50 x3. Not a strength loss - this lift always runs second, behind the heavy bench, and on Aug 2 the bench was FREE barbell at 185. Profile already warns against stacking heavy chest press and heavy shoulder press. FIX: alternate lift order on upper days, consolidate volume at 50 for 4x8, retest 55 fresh."
       },
       {
         "id": "C",
