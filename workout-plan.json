@@ -1,47 +1,54 @@
 {
   "workout": {
-    "date": "2026-07-30",
-    "day_label": "Thursday, July 30",
-    "session_type": "Lower Body - STRENGTH BLOCK Day 9",
+    "date": "2026-08-03",
+    "day_label": "Monday, August 3",
+    "session_type": "Lower Body - STRENGTH BLOCK Day 11",
     "is_gym_day": true,
-    "warmup": "8-10 min incline walk (3.3-3.5 mph, 6-8%) - non-negotiable on lower day, this is your back warmup not just cardio. Then bodyweight squats x 15 and leg swings before you touch the bar. Ramp the Smith squat: bar only x 8, then 2x45 (135) x 5, then work.",
-    "finisher": "Skip if you're at 65 min. Otherwise 10 min incline walk.",
-    "coach_note": "You hit 175 for a clean 4x5 on the bench yesterday - that's the set 4 you'd missed twice. 175 is graduated, we go to 185 next upper day. Today: you've never actually completed 4 full sets at 185 on either Smith lift. Jul 20 you got squat 205x5 then 185 for 6 and 5, and RDL 185 for 6/6 (only 3 sets total). Today is about finishing the job at 185 on both - four clean sets, then both lifts move up next week. Back is clear so the RDL is unrestricted, but STRAPS ON, no exceptions - that's what fixed the grip and kept the hinge safe. Two logging notes: your Jul 24 lower session never made it into the app, so I'm programming off Jul 20 - if you went heavier Friday, adjust up and tell me after. And yesterday's shoulder press note says you started at 50 and then dropped to 50, so I can't tell if the top set was 50 or 55 - clarify when you get a minute.",
+    "warmup": "8-10 min incline walk (3.3-3.5 mph, 6-8%) - this is your back warmup on lower day, not optional. Bodyweight squats x 15 and leg swings. Ramp the squat: bar x 8, 135 x 5, 185 x 3, then work at 205.",
+    "finisher": "Skip if you're at 65 min. Otherwise 10-12 min incline walk.",
+    "coach_note": "Both heavy lifts move up today. Jul 30 you did 185 for 6/6/6 then put 10/side on and got 6 at 205 - so 205 is already proven for a set, today it's proven for four. The RDL went even better: you started 20 lb over what I wrote and took 205 for a clean 4x6, so 215 is the honest next step. Straps on, no exceptions. Two things carried over from the upper-day review: log PLATES PER SIDE and name the gym, because the Smith bar changes under you between locations and the totals stop meaning anything. And do the core this time - you skipped it Jul 30 and squats plus RDLs cover flexion and extension but nothing anti-rotation. If you're training tomorrow instead of today, this all still stands.",
     "exercises": [
       {
         "id": "A",
         "name": "Smith Machine Squat [HEAVY]",
-        "detail": "185 lb (45+35/side + bar) - 4 x 6",
+        "detail": "205 lb / 90 per side - 4 x 6",
         "rest": "2-3 min",
-        "note": "Finish all four sets at 185 - you got 6 then 5 last time and stopped. Below parallel like you did Jul 20, that depth was good. If sets 1 and 2 fly, put 205 on for sets 3 and 4. If the Smith rack is taken, sub Leg Press at 360-390 for 4 x 6-8 and we flip the rotation next lower day."
+        "note": "You closed Jul 30 with 205 x 6 on set 4 after three sets at 185, so you already know this weight moves. Today it's all four sets. Below parallel, same depth you've been hitting. If set 3 drops under 6, take set 4 at 185 and finish strong rather than grinding. If the Smith is taken, sub Leg Press 360-390 for 4 x 6-8 and we flip the rotation next time."
       },
       {
         "id": "B",
         "name": "Smith Machine Romanian Deadlift [HEAVY]",
-        "detail": "185 lb - 4 x 6 - STRAPS ON",
+        "detail": "215 lb / 95 per side - 4 x 6 - STRAPS ON",
         "rest": "2-3 min",
-        "note": "Ramp at 165 x 6 first, then 185 for four sets. You did 6/6 at 185 last time and it was clean - the hamstrings were doing the work, which is exactly right. Straps are mandatory here, they're what solved the grip and took the strain off your upper back. Hinge from the hips, soft knee, bar close to the legs. Complete 4x6 and you go to 195 next lower day."
+        "note": "Ramp 165 x 6, then 215 for four sets. You took 205 for a clean 4x6 unprompted last time and the hamstrings did the work, so this is an earned 10 lb, not a reach. Straps are mandatory - they're what solved the grip and kept the load off your upper back. Hinge from the hips, soft knee, bar close to the legs the whole way."
       },
       {
         "id": "C",
         "name": "Seated Leg Curl",
-        "detail": "70 lb - 3 x 10-12",
+        "detail": "70 lb - 3 x 12",
         "rest": "90 sec",
-        "note": "Third session in a row this is on the sheet and you've been shut out by taken machines twice. Hamstrings are your weak link - if the seated machine is occupied, use the lying leg curl, and if both are gone do stability-ball leg curls for 3 x 12. Don't skip it a third time. Slow on the way back down."
+        "note": "HOLD at 70. You got 12/10/10 last time - the fade on sets 2 and 3 is the whole reason we're not adding weight. Get all three sets to 12 before we touch 75. Slow on the way back down, that eccentric is where hamstrings actually grow. Lying leg curl or stability-ball curls if the seated machine is taken."
       },
       {
         "id": "D",
         "name": "Hip Thrust Machine",
         "detail": "200 lb - 3 x 10-12",
         "rest": "90 sec",
-        "note": "Bringing glutes back in - you haven't hit these in a while and they've been missing from the block. Plate-loaded, 10 lb increments only. Full hip extension, hard squeeze at the top, and no hyperextension at lockout. If the machine is taken, sub DB walking lunge at 35 lb for 3 x 10/leg."
+        "note": "Second attempt - you subbed lunges last time when the machine was occupied, which was the right call. Glutes have been the missing piece of this block, so take the machine if it's free. Plate-loaded, 10 lb increments only. Full extension, hard squeeze, no hyperextension at the top. Fallback stays DB walking lunge 35 lb x 3 x 10/leg."
       },
       {
         "id": "E",
         "name": "Core Circuit",
-        "detail": "2 rounds: Pallof Press 40 lb x 10/side, Bird Dog x 8/side, Hanging Knee Raise x 10",
+        "detail": "2 rounds: Dead Bugs x 10/side, Side Plank 30 sec/side, Stability Ball Rollout x 10",
         "rest": "45 sec between rounds",
-        "note": "Rotated off yesterday's cable crunch / dead bug / side plank. All three are back-safe after two heavy hinge-pattern lifts. Pause a full second at the top of the bird dog. Cut to 1 round if you're past 65 min."
+        "note": "Rotated off Sunday's pallof / knee raise / shoulder tap. All back-safe after two heavy hinge-pattern lifts. Ball rollout instead of ab wheel since you've used the ball before at these gyms - only roll as far as your lower back stays neutral. Don't skip it this time."
+      },
+      {
+        "id": "F",
+        "name": "OPTIONAL - Free Barbell Squat (pattern work only)",
+        "detail": "135 lb (bar + 45/side) - 2 x 5, light and technical",
+        "rest": "90 sec",
+        "note": "ONLY if the gym has a rack and you're under 65 min. This is NOT a working set - it's cheap practice so the October transition isn't starting from zero. Your free bench transferred beautifully, but squatting free is a genuinely different skill: the Smith lets you lean into a fixed path, a free bar makes you balance and brace. Safety pins set just below depth, every set. Two easy sets, then walk away. Resist adding weight."
       }
     ]
   }
