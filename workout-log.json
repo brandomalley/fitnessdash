@@ -909,5 +909,70 @@
         "note": "Skipped core. Body was feeling little fried. I also get a lot of core activation on squats and rdls."
       }
     ]
+  },
+  {
+    "date": "2026-08-02",
+    "day_label": "Sunday, August 2",
+    "session_type": "Upper Body - STRENGTH BLOCK Day 10",
+    "submitted_at": "2026-08-03T16:03:52.000Z",
+    "notes": "STRENGTH BLOCK Day 10 (upper). SWITCHED BENCH TO FREE BARBELL - the gym had a rack. 185 for 5/5/5 and 4 on set 4, matching the Smith prescription on a harder lift. Cable row clean 4x6 at 160 (machine had no 5 lb increment between 160 and 170). Found a true neutral-grip pulldown bar. Face pulls completed for the third session running and full core circuit done. Finished with a 12 min incline walk. Logged retroactively via coach - app entry was missed.",
+    "exercises": [
+      {
+        "id": "A",
+        "name": "Barbell Bench Press [HEAVY] - FREE WEIGHT",
+        "planned": "Smith Machine Bench Press - 185 total / 80 per side - 4 x 5",
+        "weight": "185 lb (45 lb bar + 70/side)",
+        "sets_reps": "5 / 5 / 5 / 4",
+        "note": "Chose free barbell over the Smith - the gym had a rack. Ramped 135 x 8, then 185 for 5 on sets 1, 2, 3 and 4 reps on set 4. First free-bar bench of the block and he hit the Smith prescription on a harder movement. Plate load 140 lb free vs 150 lb on the Smith - carryover is real. New free-bar baseline 185."
+      },
+      {
+        "id": "B",
+        "name": "DB Shoulder Press [HEAVY]",
+        "planned": "55 lb - 4 x 6 (drop to 50 if set 1 not clean)",
+        "weight": "55 lb",
+        "sets_reps": "6 / 6 / 7 / 6",
+        "note": "Verbatim: 'Started 55lb dbs. Got 6 but last rep was a little sloppy. Went down to 55's for set 2, got 6 reps. 7 reps on set 3 and 6 reps set 4.' AMBIGUITY AGAIN - says 55 then 'went down to' 55, so the opener was probably 60. Recorded as 55 across all four. If genuinely 4x6+ at 55, this lift is owned and 60 is next."
+      },
+      {
+        "id": "C",
+        "name": "Seated Cable Row [HEAVY]",
+        "planned": "165 lb - 4 x 6",
+        "weight": "160 lb",
+        "sets_reps": "6 / 6 / 6 / 6",
+        "note": "Machine jumps 160 to 170 with no 5 lb increment, so ran 160 instead of the programmed 165. Clean 6 reps on all four sets. Go 170 next session."
+      },
+      {
+        "id": "D",
+        "name": "Lat Pulldown [HEAVY]",
+        "planned": "150 lb - 4 x 6",
+        "weight": "150 lb, 140 lb on set 4",
+        "sets_reps": "6 / 6 / 6 / 7 at 140",
+        "note": "Found a true neutral-grip bar this time - wide metal bar with ring handles around the grips. 150 for 6 on sets 1, 2, 3, then dropped to 140 for set 4 and got 7."
+      },
+      {
+        "id": "E",
+        "name": "Face Pulls",
+        "planned": "37.5 lb - 3 x 15",
+        "weight": "37.5 lb",
+        "sets_reps": "15 / 15 / 15",
+        "note": "All reps at the bumped weight. Third consecutive session completed - the skipping pattern is broken."
+      },
+      {
+        "id": "F",
+        "name": "Arms Superset - Rope Hammer Curl + Rope Pushdown",
+        "planned": "Hammer Curl 30 lb x 10-12 + Rope Pushdown 47.5 lb x 12 - 3 rounds",
+        "weight": "Curls 37.5 lb / Pushdowns 32.5 then 37.5 lb",
+        "sets_reps": "12 / 12 / 10 on both",
+        "note": "No 30 lb dumbbells near the rope station, so used the rope for hammer curls. Curls at 37.5 for 12, 12, 10. Pushdowns at 32.5 for 12 and 12, bumped to 37.5 for set 3 and got 10. Good in-the-moment adaptation."
+      },
+      {
+        "id": "G",
+        "name": "Core Circuit",
+        "planned": "2 rounds: Pallof Press 40 lb x 10/side, Hanging Knee Raise x 10, Plank Shoulder Tap x 10/side",
+        "weight": "",
+        "sets_reps": "2 rounds complete",
+        "note": "Full circuit completed - no skip this time."
+      }
+    ]
   }
 ]
