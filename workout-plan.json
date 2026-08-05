@@ -1,54 +1,61 @@
 {
   "workout": {
-    "date": "2026-08-03",
-    "day_label": "Monday, August 3",
-    "session_type": "Lower Body - STRENGTH BLOCK Day 11",
+    "date": "2026-08-06",
+    "day_label": "Thursday, August 6",
+    "session_type": "Upper Body - STRENGTH BLOCK Day 12",
     "is_gym_day": true,
-    "warmup": "8-10 min incline walk (3.3-3.5 mph, 6-8%) - this is your back warmup on lower day, not optional. Bodyweight squats x 15 and leg swings. Ramp the squat: bar x 8, 135 x 5, 185 x 3, then work at 205.",
+    "warmup": "8-10 min incline walk (3.3-3.5 mph, 6-8%). Band pull-aparts x 20. Ramp the shoulder press light: 30s x 8, 40s x 5, then work at 50. Ramp the bench when you get to it: 135 x 8, 165 x 3.",
+    "coach_note": "ORDER CHANGED TODAY - shoulder press goes FIRST. You owned 55 lb for 4x6 on Jul 18 and it has collapsed to one good set every session since, and the constant every time was that it ran second, right behind the heavy bench. Today you press while you're fresh, at 50 for sets of 8. That is not a downgrade, it is the volume base this lift never got. Own 50 x 4x8 and 55 comes back next session in this same lead slot. Bench holds at 185 - you earned it Sunday, but it is running second for the first time so complete it before you add to it. One flag from Monday: your lower back got tired on RDL set 4 AND again on the hip thrusts. You stopped both at the right moment, which is exactly the judgment I want. But that is the signal to consolidate, not climb - your RDL jumped 205 to 235 in a single session. Next lower day we hold and clean it up.",
     "finisher": "Skip if you're at 65 min. Otherwise 10-12 min incline walk.",
-    "coach_note": "Both heavy lifts move up today. Jul 30 you did 185 for 6/6/6 then put 10/side on and got 6 at 205 - so 205 is already proven for a set, today it's proven for four. The RDL went even better: you started 20 lb over what I wrote and took 205 for a clean 4x6, so 215 is the honest next step. Straps on, no exceptions. Two things carried over from the upper-day review: log PLATES PER SIDE and name the gym, because the Smith bar changes under you between locations and the totals stop meaning anything. And do the core this time - you skipped it Jul 30 and squats plus RDLs cover flexion and extension but nothing anti-rotation. If you're training tomorrow instead of today, this all still stands.",
     "exercises": [
       {
         "id": "A",
-        "name": "Smith Machine Squat [HEAVY]",
-        "detail": "205 lb / 90 per side - 4 x 6",
-        "rest": "2-3 min",
-        "note": "You closed Jul 30 with 205 x 6 on set 4 after three sets at 185, so you already know this weight moves. Today it's all four sets. Below parallel, same depth you've been hitting. If set 3 drops under 6, take set 4 at 185 and finish strong rather than grinding. If the Smith is taken, sub Leg Press 360-390 for 4 x 6-8 and we flip the rotation next time."
+        "name": "DB Shoulder Press [HEAVY] - LEAD LIFT",
+        "detail": "50 lb - 4 x 8",
+        "rest": "2 min",
+        "note": "First lift of the day, fully fresh - this is the whole experiment. 50 for four sets of EIGHT, not six. You did 6/7/6 at 50 last time while already fatigued from benching, so 4x8 fresh is real work and right at the edge. Setup: sit upright with back support, DBs on your thighs, kick one knee at a time to drive each up. Do not muscle them from a dead hang. If all four sets hit 8, we test 55 in this slot next upper day."
       },
       {
         "id": "B",
-        "name": "Smith Machine Romanian Deadlift [HEAVY]",
-        "detail": "215 lb / 95 per side - 4 x 6 - STRAPS ON",
-        "rest": "2-3 min",
-        "note": "Ramp 165 x 6, then 215 for four sets. You took 205 for a clean 4x6 unprompted last time and the hamstrings did the work, so this is an earned 10 lb, not a reach. Straps are mandatory - they're what solved the grip and kept the load off your upper back. Hinge from the hips, soft knee, bar close to the legs the whole way."
+        "name": "Barbell Bench Press [HEAVY]",
+        "detail": "185 lb (45 bar + 70/side) - 4 x 5. No rack: Smith at 185 total / 80 per side",
+        "rest": "3 min",
+        "note": "HOLD at 185. You got 5/5/5/4 on the free bar Sunday and it is your first time running bench in the second slot, so the job is completing 4x5 - not adding. Ramp 135 x 8, 165 x 3. Free barbell whenever a rack exists; the Smith at 80/side is the fallback. If set 4 comes up short again, that is fine and expected with the new order."
       },
       {
         "id": "C",
-        "name": "Seated Leg Curl",
-        "detail": "70 lb - 3 x 12",
-        "rest": "90 sec",
-        "note": "HOLD at 70. You got 12/10/10 last time - the fade on sets 2 and 3 is the whole reason we're not adding weight. Get all three sets to 12 before we touch 75. Slow on the way back down, that eccentric is where hamstrings actually grow. Lying leg curl or stability-ball curls if the seated machine is taken."
+        "name": "Seated Cable Row [HEAVY]",
+        "detail": "170 lb - 4 x 6",
+        "rest": "2 min",
+        "note": "You took a clean 4x6 at 160 on Sunday and the only reason it wasn't 165 is the machine had no 5 lb increment. 170 is the honest next step. Chest supported, controlled, no yanking with the low back - especially this week."
       },
       {
         "id": "D",
-        "name": "Hip Thrust Machine",
-        "detail": "200 lb - 3 x 10-12",
-        "rest": "90 sec",
-        "note": "Second attempt - you subbed lunges last time when the machine was occupied, which was the right call. Glutes have been the missing piece of this block, so take the machine if it's free. Plate-loaded, 10 lb increments only. Full extension, hard squeeze, no hyperextension at the top. Fallback stays DB walking lunge 35 lb x 3 x 10/leg."
+        "name": "Lat Pulldown [HEAVY]",
+        "detail": "150 lb - 4 x 6",
+        "rest": "2 min",
+        "note": "150 for 6 on sets 1, 2, 3 last time, then 140 for 7 on set 4. Close it out at 150 for all four today. Use the neutral-grip lat bar you found - wide metal bar with the ring handles. Full stretch at the top, elbows down to the ribs."
       },
       {
         "id": "E",
-        "name": "Core Circuit",
-        "detail": "2 rounds: Dead Bugs x 10/side, Side Plank 30 sec/side, Stability Ball Rollout x 10",
-        "rest": "45 sec between rounds",
-        "note": "Rotated off Sunday's pallof / knee raise / shoulder tap. All back-safe after two heavy hinge-pattern lifts. Ball rollout instead of ab wheel since you've used the ball before at these gyms - only roll as far as your lower back stays neutral. Don't skip it this time."
+        "name": "Face Pulls",
+        "detail": "42.5 lb (functional trainer) - 3 x 15",
+        "rest": "60 sec",
+        "note": "Bumping from 37.5 - you got all three sets of 15 clean. Four consecutive sessions completed now, the skipping pattern is gone. Elbows high and wide, pull to the forehead, pause a beat at the back. Best insurance you have for the mid-back."
       },
       {
         "id": "F",
-        "name": "OPTIONAL - Free Barbell Squat (pattern work only)",
-        "detail": "135 lb (bar + 45/side) - 2 x 5, light and technical",
-        "rest": "90 sec",
-        "note": "ONLY if the gym has a rack and you're under 65 min. This is NOT a working set - it's cheap practice so the October transition isn't starting from zero. Your free bench transferred beautifully, but squatting free is a genuinely different skill: the Smith lets you lean into a fixed path, a free bar makes you balance and brace. Safety pins set just below depth, every set. Two easy sets, then walk away. Resist adding weight."
+        "name": "Arms Superset - EZ-Bar Curl + Rope Pushdown",
+        "detail": "EZ-Bar Curl 50 lb x 10 + Rope Pushdown 42.5 lb x 12 - 3 rounds",
+        "rest": "75 sec between rounds",
+        "note": "Rotating off Sunday's rope hammer curls. EZ-bar at 50 gave you 10 then 12 on Jul 29. Pushdowns up from 37.5. If no EZ-bar is free, rope hammer curls at 37.5 are the fallback. Elbows pinned on both."
+      },
+      {
+        "id": "G",
+        "name": "Core Circuit",
+        "detail": "2 rounds: Cable Crunch 42.5 lb x 12, Bird Dog x 8/side, Hollow Body Hold 25 sec",
+        "rest": "45 sec between rounds",
+        "note": "Rotated off both recent circuits. Bird dog is deliberate this week - it's back-safe and your lower back took a beating Monday. Pause a full second at the top. Skip the hollow body hold if the low back complains at all."
       }
     ]
   }
