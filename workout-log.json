@@ -1096,5 +1096,54 @@
         "note": "Did this but replaced cable Crunch with 40 bicycle kicks (each set)"
       }
     ]
+  },
+  {
+    "date": "2026-08-08",
+    "day_label": "Saturday, August 8",
+    "session_type": "Lower Body - STRENGTH BLOCK Day 13 (hotel gym)",
+    "submitted_at": "2026-08-10T00:00:00.000Z",
+    "notes": "HOTEL GYM - dumbbells only, no Smith, no machines, KB capped at 30 lb. Lower back was TIGHT from the first movement and stayed tight all session. Brandon attributes it to a 4.5 hour car ride the day before plus residual fatigue from the big Aug 3 lower session (RDL jumped 205 to 235). He self-regulated correctly throughout - dropped weight on RDLs and lunges rather than pushing, slowed the tempo, kept core braced. Back reported as tight but NOT worse by the end. THIS IS THE THIRD CONSECUTIVE LOWER SESSION WITH LOWER BACK COMPLAINTS (Aug 3 RDL set 4 + hip thrusts, Aug 8 throughout). Finished with a 12 min incline walk. Logged retroactively via coach.",
+    "exercises": [
+      {
+        "id": "A",
+        "name": "Goblet Squat (DB)",
+        "planned": "Hotel substitute for Smith Squat",
+        "weight": "50 lb, then 65 lb",
+        "sets_reps": "12 @ 50 / 12 @ 65 / 12 @ 65",
+        "note": "Held at the chest (goblet squat). Opened at 50 for 12, bumped to 65 for two more sets of 12. Lower back already felt tight here at the very start of the session."
+      },
+      {
+        "id": "B",
+        "name": "DB Romanian Deadlift",
+        "planned": "Hotel substitute for Smith RDL",
+        "weight": "65 lb, then 50 lb",
+        "sets_reps": "8 @ 65 / 10 @ 50 / 12 @ 50",
+        "note": "Opened at 65 lb DBs for 8 and the back was quite tight, so dropped to 50 for sets 2 and 3 (10 then 12). Deliberately focused on a deep hamstring stretch, slow controlled tempo, and maintaining core tension. Back stayed tight but did not get worse. WORTH NOTING: 65 lb unstrapped DB RDL is the exact lift and load that caused the June 9 rhomboid strain. Same movement, same weight, same tightness signal."
+      },
+      {
+        "id": "C",
+        "name": "Walking Lunge (DB)",
+        "planned": "35 lb x 10/leg x 3",
+        "weight": "35 lb, 30 lb on set 3",
+        "sets_reps": "10/leg / 10/leg / 10/leg @ 30",
+        "note": "Two sets at 35 as programmed, dropped to 30 for set 3 - last reps at 35 felt heavy. Brandon attributed the fatigue to the car ride plus residual from the Aug 3 session."
+      },
+      {
+        "id": "D",
+        "name": "Kettlebell Swing (two-hand)",
+        "planned": "Glute activation",
+        "weight": "30 lb (gym max)",
+        "sets_reps": "15 / 15 / 15",
+        "note": "Hotel KB capped at 30 lb. Ran 3 x 15 for glute activation since no hip thrust machine was available."
+      },
+      {
+        "id": "E",
+        "name": "Core Circuit",
+        "planned": "2 rounds",
+        "weight": "",
+        "sets_reps": "2 rounds complete",
+        "note": "Pallof Press x 10, Hanging Knee Raise x 10, Side Plank 45 sec/side. Side planks up from the usual 30 sec."
+      }
+    ]
   }
 ]
