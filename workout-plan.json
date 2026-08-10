@@ -1,61 +1,61 @@
 {
   "workout": {
-    "date": "2026-08-06",
-    "day_label": "Thursday, August 6",
-    "session_type": "Upper Body - STRENGTH BLOCK Day 12",
+    "date": "2026-08-10",
+    "day_label": "Monday, August 10",
+    "session_type": "Upper Body - STRENGTH BLOCK Day 14",
     "is_gym_day": true,
-    "warmup": "8-10 min incline walk (3.3-3.5 mph, 6-8%). Band pull-aparts x 20. Ramp the shoulder press light: 30s x 8, 40s x 5, then work at 50. Ramp the bench when you get to it: 135 x 8, 165 x 3.",
-    "coach_note": "ORDER CHANGED TODAY - shoulder press goes FIRST. You owned 55 lb for 4x6 on Jul 18 and it has collapsed to one good set every session since, and the constant every time was that it ran second, right behind the heavy bench. Today you press while you're fresh, at 50 for sets of 8. That is not a downgrade, it is the volume base this lift never got. Own 50 x 4x8 and 55 comes back next session in this same lead slot. Bench holds at 185 - you earned it Sunday, but it is running second for the first time so complete it before you add to it. One flag from Monday: your lower back got tired on RDL set 4 AND again on the hip thrusts. You stopped both at the right moment, which is exactly the judgment I want. But that is the signal to consolidate, not climb - your RDL jumped 205 to 235 in a single session. Next lower day we hold and clean it up.",
+    "warmup": "8-10 min incline walk (3.3-3.5 mph, 6-8%). Band pull-aparts x 20. Ramp the shoulder press: 35s x 8, 45s x 5, then work at 55. Ramp the bench when you get there: 135 x 8, 165 x 3.",
+    "coach_note": "Back at a real gym with real equipment - first full session since Aug 3. THE ORDER CHANGE WORKED. Thursday you pressed 50 for 8, called it easy, went to 55 and got 8, 8, 9. For three straight weeks 55 was good for exactly one set when it ran behind the bench; fresh and first, you did three sets of 8+ and your best set was your last. That lift was never weak, it was just always tired. Shoulder press stays in the lead slot permanently. Today you finish the job at 55 for four sets, and there's a 60 lb test waiting at the end if it goes well. Bench holds at 185 - Thursday was dumbbells at a hotel so it doesn't count as a test. SEPARATE ISSUE, not today's problem but read it: your lower back has now complained three lower sessions running. Today is upper, which buys it two more days. We are changing the hinge before your next lower day - see my message.",
     "finisher": "Skip if you're at 65 min. Otherwise 10-12 min incline walk.",
     "exercises": [
       {
         "id": "A",
         "name": "DB Shoulder Press [HEAVY] - LEAD LIFT",
-        "detail": "50 lb - 4 x 8",
+        "detail": "55 lb - 4 x 8, then optional 5th set at 60 lb",
         "rest": "2 min",
-        "note": "First lift of the day, fully fresh - this is the whole experiment. 50 for four sets of EIGHT, not six. You did 6/7/6 at 50 last time while already fatigued from benching, so 4x8 fresh is real work and right at the edge. Setup: sit upright with back support, DBs on your thighs, kick one knee at a time to drive each up. Do not muscle them from a dead hang. If all four sets hit 8, we test 55 in this slot next upper day."
+        "note": "Stays first. Thursday: 50 x 8 easy, then 55 for 8/8/9 - and the 9 came on your LAST set, which means there was more in the tank. Today all four working sets at 55. Setup: upright back pad, DBs on thighs, kick one knee at a time. If sets 3 and 4 both come in at 8 clean, add a fifth set at 60 and take what you get - no grinding, just a read. 60 failed badly back on Jul 22 but that was in the fatigued slot, so it's an honest retest now."
       },
       {
         "id": "B",
         "name": "Barbell Bench Press [HEAVY]",
         "detail": "185 lb (45 bar + 70/side) - 4 x 5. No rack: Smith at 185 total / 80 per side",
         "rest": "3 min",
-        "note": "HOLD at 185. You got 5/5/5/4 on the free bar Sunday and it is your first time running bench in the second slot, so the job is completing 4x5 - not adding. Ramp 135 x 8, 165 x 3. Free barbell whenever a rack exists; the Smith at 80/side is the fallback. If set 4 comes up short again, that is fine and expected with the new order."
+        "note": "HOLD at 185. Thursday's 75 lb dumbbells at a slight incline was a good hotel improvisation but it tells us nothing about your bench, so 185 is still unconfirmed in the second slot. Complete 4x5 before adding. Ramp 135 x 8, 165 x 3. Free barbell if this location has a rack, Smith at 80/side if not - and note which one you used."
       },
       {
         "id": "C",
         "name": "Seated Cable Row [HEAVY]",
         "detail": "170 lb - 4 x 6",
         "rest": "2 min",
-        "note": "You took a clean 4x6 at 160 on Sunday and the only reason it wasn't 165 is the machine had no 5 lb increment. 170 is the honest next step. Chest supported, controlled, no yanking with the low back - especially this week."
+        "note": "Back to a real cable stack after TRX rows at the hotel. You had a clean 4x6 at 160 on Aug 2 and only stayed there because the machine had no 5 lb step. 170 today. Chest supported, strict - do NOT pull with the low back this week, it's already irritated."
       },
       {
         "id": "D",
         "name": "Lat Pulldown [HEAVY]",
         "detail": "150 lb - 4 x 6",
         "rest": "2 min",
-        "note": "150 for 6 on sets 1, 2, 3 last time, then 140 for 7 on set 4. Close it out at 150 for all four today. Use the neutral-grip lat bar you found - wide metal bar with the ring handles. Full stretch at the top, elbows down to the ribs."
+        "note": "150 for 6 on three sets last time you had a real machine. Close out all four today. Neutral-grip bar (the wide metal one with ring handles) if it's there. Worth noting: you got 4-5 strict pull-ups at the hotel, pronated AND neutral. That's a real number and we'll start programming them once this block winds down."
       },
       {
         "id": "E",
         "name": "Face Pulls",
-        "detail": "42.5 lb (functional trainer) - 3 x 15",
+        "detail": "42.5 lb - 3 x 15",
         "rest": "60 sec",
-        "note": "Bumping from 37.5 - you got all three sets of 15 clean. Four consecutive sessions completed now, the skipping pattern is gone. Elbows high and wide, pull to the forehead, pause a beat at the back. Best insurance you have for the mid-back."
+        "note": "Up from 37.5 - you got all 15s clean on Aug 2. Thursday you subbed lateral raises because the hotel had no cable, so this is the first real face pull since. Elbows high and wide, pull to the forehead, pause at the back."
       },
       {
         "id": "F",
         "name": "Arms Superset - EZ-Bar Curl + Rope Pushdown",
         "detail": "EZ-Bar Curl 50 lb x 10 + Rope Pushdown 42.5 lb x 12 - 3 rounds",
         "rest": "75 sec between rounds",
-        "note": "Rotating off Sunday's rope hammer curls. EZ-bar at 50 gave you 10 then 12 on Jul 29. Pushdowns up from 37.5. If no EZ-bar is free, rope hammer curls at 37.5 are the fallback. Elbows pinned on both."
+        "note": "Thursday was incline DB curls and DB skull crushers by necessity. Back to the programmed pairing. EZ-bar at 50 gave you 10 then 12 on Jul 29. Elbows pinned on both."
       },
       {
         "id": "G",
         "name": "Core Circuit",
-        "detail": "2 rounds: Cable Crunch 42.5 lb x 12, Bird Dog x 8/side, Hollow Body Hold 25 sec",
+        "detail": "2 rounds: Cable Crunch 66 lb x 12, Dead Bugs x 10/side, Plank Shoulder Tap x 10/side",
         "rest": "45 sec between rounds",
-        "note": "Rotated off both recent circuits. Bird dog is deliberate this week - it's back-safe and your lower back took a beating Monday. Pause a full second at the top. Skip the hollow body hold if the low back complains at all."
+        "note": "Rotated off the last two circuits. All three are back-safe, which matters right now. Cable crunch at 66 if it's a standard stack, 42.5 if you're on a functional trainer. Lower back stays pressed flat on the dead bugs."
       }
     ]
   }
