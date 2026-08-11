@@ -1,61 +1,54 @@
 {
   "workout": {
-    "date": "2026-08-10",
-    "day_label": "Monday, August 10",
-    "session_type": "Upper Body - STRENGTH BLOCK Day 14",
+    "date": "2026-08-12",
+    "day_label": "Wednesday, August 12",
+    "session_type": "Lower Body - STRENGTH BLOCK Day 15 (HINGE RESET)",
     "is_gym_day": true,
-    "warmup": "8-10 min incline walk (3.3-3.5 mph, 6-8%). Band pull-aparts x 20. Ramp the shoulder press: 35s x 8, 45s x 5, then work at 55. Ramp the bench when you get there: 135 x 8, 165 x 3.",
-    "coach_note": "Back at a real gym with real equipment - first full session since Aug 3. THE ORDER CHANGE WORKED. Thursday you pressed 50 for 8, called it easy, went to 55 and got 8, 8, 9. For three straight weeks 55 was good for exactly one set when it ran behind the bench; fresh and first, you did three sets of 8+ and your best set was your last. That lift was never weak, it was just always tired. Shoulder press stays in the lead slot permanently. Today you finish the job at 55 for four sets, and there's a 60 lb test waiting at the end if it goes well. Bench holds at 185 - Thursday was dumbbells at a hotel so it doesn't count as a test. SEPARATE ISSUE, not today's problem but read it: your lower back has now complained three lower sessions running. Today is upper, which buys it two more days. We are changing the hinge before your next lower day - see my message.",
-    "finisher": "Skip if you're at 65 min. Otherwise 10-12 min incline walk.",
+    "warmup": "NON-NEGOTIABLE TODAY: 10 min incline walk (3.3-3.5 mph, 6-8%). Then Bird Dog x 8/side, bodyweight Glute Bridge x 15, 90/90 hip switches x 10/side. Ramp the squat: bar + 45/side x 8, then 70/side x 3.",
+    "coach_note": "This is the session where we fix your back. Three lower days in a row have ended with a tight or fried lower back - Jul 30 (skipped core, body fried), Aug 3 (RDL set 4 and hip thrusts, back tired), Aug 8 (tight from the FIRST movement and it never let go). That is not bad luck, that is the heavy bilateral hinge. The Smith RDL went 205 to 235 in a single session on Aug 3, and your hotel DB RDL at 65 lb unstrapped on Aug 8 is the exact lift and load that strained your upper back on June 9. So the RDL is OUT this week. It gets replaced with the 45-degree back extension: same hamstring and glute hinge pattern, torso supported on a pad, zero spinal compression, no grip or forearm limiter. Everything else stays heavy. The squat still progresses to 215. You are not deloading, you are removing the one lift that keeps writing checks your low back has to cash. Also worth naming: Monday you pressed 55 for 8/8/8/10 and beat the prescription while under-recovered and hungover. The lift-order change is permanent and it is working.",
+    "finisher": "10-12 min incline walk. Do not skip this one - it flushes the lower back.",
     "exercises": [
       {
         "id": "A",
-        "name": "DB Shoulder Press [HEAVY] - LEAD LIFT",
-        "detail": "55 lb - 4 x 8, then optional 5th set at 60 lb",
-        "rest": "2 min",
-        "note": "Stays first. Thursday: 50 x 8 easy, then 55 for 8/8/9 - and the 9 came on your LAST set, which means there was more in the tank. Today all four working sets at 55. Setup: upright back pad, DBs on thighs, kick one knee at a time. If sets 3 and 4 both come in at 8 clean, add a fifth set at 60 and take what you get - no grinding, just a read. 60 failed badly back on Jul 22 but that was in the fatigued slot, so it's an honest retest now."
+        "name": "Smith Machine Squat [HEAVY]",
+        "detail": "215 lb (95 per side + 25 lb bar) - 4 x 6",
+        "rest": "2-3 min",
+        "note": "Clean 4x6 at 205 on Aug 3, so 215 is earned. The squat is NOT what is irritating your back - it is back-supported and you have handled every jump in this block. Brace hard before you unrack, chest up, controlled down, drive through midfoot. STOP RULE: if your low back is tight during the ramp sets or set 1, drop to 205 for all four sets and tell me. No hero sets today, we are protecting the fix."
       },
       {
         "id": "B",
-        "name": "Barbell Bench Press [HEAVY]",
-        "detail": "185 lb (45 bar + 70/side) - 4 x 5. No rack: Smith at 185 total / 80 per side",
-        "rest": "3 min",
-        "note": "HOLD at 185. Thursday's 75 lb dumbbells at a slight incline was a good hotel improvisation but it tells us nothing about your bench, so 185 is still unconfirmed in the second slot. Complete 4x5 before adding. Ramp 135 x 8, 165 x 3. Free barbell if this location has a rack, Smith at 80/side if not - and note which one you used."
+        "name": "45-Degree Back Extension - REPLACES RDL",
+        "detail": "Bodyweight x 12, then hold a 25 lb plate at the chest - 3 x 12",
+        "rest": "90 sec",
+        "note": "THIS IS THE HINGE CHANGE. Pad at the hip crease, NOT up at your belly button - if the pad is too high you hinge from the spine instead of the hips. Squeeze glutes and hamstrings to come up, stop when your body is a straight line - do NOT arch past neutral at the top. Slow 3-second lower. First set bodyweight to find the groove, then hold the 25 lb plate. No 45-degree bench at your gym? Sub Seated Good Morning with a light bar (65 lb) 3 x 12, or add a 4th set to the leg curl. Report which you did."
       },
       {
         "id": "C",
-        "name": "Seated Cable Row [HEAVY]",
-        "detail": "170 lb - 4 x 6",
-        "rest": "2 min",
-        "note": "Back to a real cable stack after TRX rows at the hotel. You had a clean 4x6 at 160 on Aug 2 and only stayed there because the machine had no 5 lb step. 170 today. Chest supported, strict - do NOT pull with the low back this week, it's already irritated."
+        "name": "Hip Thrust Machine",
+        "detail": "200 lb - 3 x 12",
+        "rest": "90 sec",
+        "note": "Hold at 200, do not chase weight here. On Aug 3 you ran these on the Smith at 90/side AFTER the RDLs and your back and glutes were cooked by set 2. Today they follow a spine-friendly hinge, so all three sets should be there. Full hip extension, hard glute squeeze, ribs down, chin tucked - ZERO hyperextension at the top. No machine? Smith at 65-70 per side with a pad, and stop at 3 sets regardless."
       },
       {
         "id": "D",
-        "name": "Lat Pulldown [HEAVY]",
-        "detail": "150 lb - 4 x 6",
-        "rest": "2 min",
-        "note": "150 for 6 on three sets last time you had a real machine. Close out all four today. Neutral-grip bar (the wide metal one with ring handles) if it's there. Worth noting: you got 4-5 strict pull-ups at the hotel, pronated AND neutral. That's a real number and we'll start programming them once this block winds down."
+        "name": "Seated Leg Curl",
+        "detail": "70 lb - 3 x 12",
+        "rest": "90 sec",
+        "note": "Third time asking for 12/12/12 at 70. Jul 30 you got 12/10/10, Aug 3 you got 12/10/12 - set 2 is where you leak. Take the full 90 seconds before set 2 and drive it. Get all 36 clean and you move to 80 next lower day. Hamstrings are your weak link and they are also your lower back's best friend, so this one matters more than usual right now."
       },
       {
         "id": "E",
-        "name": "Face Pulls",
-        "detail": "42.5 lb - 3 x 15",
-        "rest": "60 sec",
-        "note": "Up from 37.5 - you got all 15s clean on Aug 2. Thursday you subbed lateral raises because the hotel had no cable, so this is the first real face pull since. Elbows high and wide, pull to the forehead, pause at the back."
+        "name": "Walking Lunge (DB)",
+        "detail": "35 lb - 3 x 8/leg",
+        "rest": "90 sec",
+        "note": "Reps cut from 10 to 8 per leg so you can actually own 35 lb. Aug 8 you got two sets at 35 and dropped to 30 for the third, but that was a hotel session on a tight back after a 4.5 hour car ride. Torso tall, knee tracks over the toe, drive through the front heel. Three clean sets of 8 at 35 and we go back to 10s next time."
       },
       {
         "id": "F",
-        "name": "Arms Superset - EZ-Bar Curl + Rope Pushdown",
-        "detail": "EZ-Bar Curl 50 lb x 10 + Rope Pushdown 42.5 lb x 12 - 3 rounds",
-        "rest": "75 sec between rounds",
-        "note": "Thursday was incline DB curls and DB skull crushers by necessity. Back to the programmed pairing. EZ-bar at 50 gave you 10 then 12 on Jul 29. Elbows pinned on both."
-      },
-      {
-        "id": "G",
-        "name": "Core Circuit",
-        "detail": "2 rounds: Cable Crunch 66 lb x 12, Dead Bugs x 10/side, Plank Shoulder Tap x 10/side",
+        "name": "Core Circuit - BACK-SAFE RESET",
+        "detail": "2 rounds: Dead Bugs x 10/side, Side Plank 45 sec/side, Bird Dog x 8/side",
         "rest": "45 sec between rounds",
-        "note": "Rotated off the last two circuits. All three are back-safe, which matters right now. Cable crunch at 66 if it's a standard stack, 42.5 if you're on a functional trainer. Lower back stays pressed flat on the dead bugs."
+        "note": "Every movement here is anti-extension or anti-rotation - exactly what an irritated low back needs, and nothing loads the spine. Lower back pressed flat on the dead bugs, hips stacked on the side plank, one-second pause at the top of every bird dog. Do NOT skip this like you did on Jul 30 - right now this circuit is treatment, not accessory work."
       }
     ]
   }
