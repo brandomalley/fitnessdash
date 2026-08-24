@@ -2,60 +2,39 @@
   "workout": {
     "date": "2026-08-25",
     "day_label": "Tuesday, August 25",
-    "session_type": "Lower Body - Full Session (training around right scapular strain)",
-    "is_gym_day": true,
-    "warmup": "10 min incline walk (3.3-3.5 mph, 6-8%). Then 90/90 hip switches x 10/side, bodyweight glute bridge x 15, Cat-Cow x 10. Ramp the squat: bar + 45/side x 8, then 70/side x 3.",
-    "coach_note": "I had this wrong and you corrected me, so here is the revised plan. I read your injury as a lumbar strain and built you a rehab day. It is not lumbar - it is your RIGHT MID-BACK, under the shoulder blade. That is the same place you strained on June 9, which makes this a recurrence, not a new injury. It also means your legs are completely uninvolved: you squatted 185 for 7/7/7 and hinged on Sunday with no back problem, which is the proof. So you do not need a rest day. You need a full lower body session with your upper back left alone. Look at what actually provokes it: hoisting a 50 lb DB to your knee on Friday, and the lat pulldown yesterday. Both are loaded scapular retraction and depression. Bench pressing yesterday was pain-free. So PULLING aggravates it, pressing does not, and legs do not touch it at all. Today is heavy legs and zero loaded pulling. The one change from a normal lower day is the hinge: back extension instead of RDL, because a loaded barbell hangs from your shoulder girdle and puts traction right through the strained tissue. Your leg curl also gets the 80 lb it earned on Aug 16. One more thing, and I mean this: same muscle, twice in ten weeks, both times from a dumbbell setup. That is a pattern, not bad luck, and it is worth twenty minutes with a physical therapist to find out why that area keeps failing. I can program around it indefinitely but I cannot diagnose it.",
-    "finisher": "10-12 min incline walk.",
+    "session_type": "ACTIVE RECOVERY + Scapular Rehab (~30-35 min)",
+    "is_gym_day": false,
+    "warmup": "None needed - the walk is the session. Start easy.",
+    "coach_note": "You caught a real error and you were right to. I built you a full lower day 48 hours after Sunday's lower session, which is too soon, and it would have been your fourth session in five days - Friday, Sunday, Monday, Tuesday - which trips your own 4-in-5 rule. My first instinct to make today easy was correct, I just had the wrong reason for it. It is not your back that needs the day, it is your legs: your hamstrings were down to 7 reps by the last set on Sunday and you have trained four of the last six days while traveling and under-slept. So today is short and genuinely easy. The one thing that IS worth doing is the scapular work, because that tissue has now failed twice in ten weeks and gentle blood flow on day four helps a strain rather than hurting it. Thirty minutes, nothing heavy, no legs. Your full lower session is built and waiting for tomorrow - squats at 185 for 4x8, and the 80 lb leg curl you earned. Wednesday puts you 72 hours off Sunday, which is what that session deserves.",
+    "finisher": "None. Do not add anything to this.",
     "exercises": [
       {
         "id": "A",
-        "name": "Smith Machine Squat",
-        "detail": "185 lb - 4 x 8",
-        "rest": "2-3 min",
-        "note": "Same load as Sunday, chasing reps instead of weight. You got 7/7/7 at 185 on Aug 23 and 6/6/7 on Aug 16 - it is moving the right direction, so bank a clean 4x8 before we load it again. Brace before you unrack. One note specific to your injury: setting the bar on your back requires you to pull your shoulder blades together to build a shelf, so if that position lights up the right side, use a slightly wider grip and a lighter squeeze. Report if it does."
+        "name": "Walk - Easy",
+        "detail": "20-25 min. Incline treadmill at 3.0-3.3 mph / 4-6%, or just walk outside.",
+        "rest": "none",
+        "note": "Conversational pace the whole way. If you would rather get it outdoors than on a treadmill, do that - you mentioned wanting to put up 8-10k steps on travel days and this counts. The point is circulation and moving your thoracic spine, not a training effect."
       },
       {
         "id": "B",
-        "name": "45-Degree Back Extension - REPLACES RDL",
-        "detail": "Bodyweight, arms crossed on chest - 3 x 15",
-        "rest": "90 sec",
-        "note": "Bodyweight ONLY today and arms crossed on the chest - do not hold a plate and do not hold a dumbbell. The whole point is a hinge with zero load hanging from your shoulder girdle, because a loaded bar drags the scapula down through exactly the tissue you strained. Pad at the hip crease, not the belly. Squeeze glutes and hamstrings up to a straight line, no arching past neutral, slow 3-second lower. Your lumbar spine handled hinging fine on Sunday so this should feel easy - that is intentional."
+        "name": "Scapular Rehab Block - PAIN-FREE ONLY",
+        "detail": "3 rounds: Band Pull-Apart x 20 (light), Prone Y-Raise bodyweight x 12, Wall Slide x 10",
+        "rest": "45 sec between rounds",
+        "note": "This is the actual purpose of today. Day 4 on a muscle strain is where gentle, loaded-but-light movement starts speeding recovery instead of interfering with it. LIGHT band - lighter than you think, you should be able to do 20 without strain. Y-raise face down with no weight at all, thumbs up, lift from the lower trap rather than shrugging. Wall slides with your back flat and forearms tracking the wall. The rule is absolute: pain-free or you stop. Dull working sensation is fine, sharp is not."
       },
       {
         "id": "C",
-        "name": "Seated Leg Curl",
-        "detail": "80 lb - 3 x 10-12",
-        "rest": "90 sec",
-        "note": "THE BUMP YOU EARNED. You put up 70 x 12/12/12 on Aug 16, which is what I had been asking for across three sessions. First time at 80, so take what it gives you - 10 clean reps a set is a win. Hamstrings faded badly on Sunday (12/10/7), but that was after four sets of squats plus RDLs; today's hinge is far less taxing so they should show up better."
+        "name": "Thoracic Mobility",
+        "detail": "Foam roll upper back x 8 slow passes, then Open Book rotation x 8/side",
+        "rest": "none",
+        "note": "Roll the mid-back only, above the ribs and below the neck - do NOT roll your lower back. Open books: lie on your side, knees stacked and bent, arms straight out in front, open the top arm across your body and follow it with your eyes, breathe out at the end range. A stiff thoracic spine forces the scapular stabilizers to work harder to get range they should be getting from the joint, which is plausibly part of why that tissue keeps failing."
       },
       {
         "id": "D",
-        "name": "Hip Thrust Machine",
-        "detail": "200 lb - 3 x 12",
-        "rest": "90 sec",
-        "note": "Back in the rotation - you have not trained glutes directly since the kickback machine on Aug 16, which you correctly hated. Full hip extension, hard squeeze, ribs down, chin tucked, no hyperextension at the top. If your upper back rests against the bench pad in a way that presses on the sore spot, add a towel or shift the pad down. No machine here? Smith at 65-70 per side."
-      },
-      {
-        "id": "E",
-        "name": "Leg Extension",
-        "detail": "75 lb - 3 x 12",
-        "rest": "60 sec",
-        "note": "You did 70 x 12 then 75 x 10 with two in reserve on Sunday, so 75 for three sets of 12 is the honest next step. Controlled both directions, no slamming the stack, brief squeeze at the top."
-      },
-      {
-        "id": "F",
-        "name": "Scapular Rehab Block - PAIN-FREE ONLY",
-        "detail": "2 rounds: Band Pull-Apart x 20 (light), Prone Y-Raise bodyweight x 12, Wall Slide x 10",
-        "rest": "45 sec",
-        "note": "This is treatment for the strained area, not training. Day 4 on a muscle strain is when gentle blood flow starts helping rather than hurting. LIGHT band, no load on the Y-raise, full range, slow. The rule is absolute: pain-free or you stop. A dull working sensation is fine, anything sharp means skip it and tell me. These target lower trap and the scapular stabilizers, which is the tissue that has now failed twice."
-      },
-      {
-        "id": "G",
-        "name": "Core Circuit",
-        "detail": "2 rounds: Dead Bugs x 12/side, Bird Dog x 10/side, Supported Knee Raise x 15",
-        "rest": "45 sec",
-        "note": "No side planks today - propping on your elbow loads the shoulder girdle on the side that hurts. Everything here is anti-extension and back-safe with no scapular demand. Lower back flat on the dead bugs, reach long not high on the bird dogs, pause a second at full extension. Use the back-supported knee raise station, not the hanging bar - hanging puts traction straight through the strained area."
+        "name": "Light Core",
+        "detail": "2 rounds: Dead Bugs x 12/side, Bird Dog x 10/side",
+        "rest": "30 sec",
+        "note": "Optional, and only if you feel like it. No side planks - propping on the elbow loads the shoulder girdle on the bad side. Low back stays pressed flat on the dead bugs, reach long rather than high on the bird dogs."
       }
     ]
   }
