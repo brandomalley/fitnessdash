@@ -2,67 +2,60 @@
   "workout": {
     "date": "2026-08-25",
     "day_label": "Tuesday, August 25",
-    "session_type": "BACK REHAB + ACTIVE RECOVERY (no spinal loading)",
+    "session_type": "Lower Body - Full Session (training around right scapular strain)",
     "is_gym_day": true,
-    "warmup": "12-15 min incline walk, EASY - 3.0-3.3 mph at 4-6%. This is not a conditioning effort, it is blood flow to an irritated erector. Then Cat-Cow x 10 slow, and 90/90 hip switches x 10/side.",
-    "coach_note": "This is a treatment session, not a training session, and I want you to read it that way. Friday you tweaked the lower right side of your back hoisting a 50 lb dumbbell to your knee - the SETUP, not the press. Today is day four and it is still achy. You have trained three of the last four days around it: light RDLs Sunday, machines and reps-in-reserve today. All of that was the right call and I want that on the record. But your rotation puts a lower day here, and squats or hinges on a four-day-old erector strain is how two weeks becomes two months. So we spend one day paying it off. Nothing today loads your spine: no bar on your back, no hinge, no dumbbell lifted off the floor. Every DB you touch comes off a rack at hip height or higher - that is the exact mechanism that hurt you, and it is a setup habit worth fixing permanently. The Big 3 below (curl-up, side plank, bird dog) is the actual evidence-based protocol for a lumbar strain, not filler I padded the session with. Do it deliberately. If everything is quiet tomorrow you get a modified lower day Wednesday - leg press, extension, curl, all back-supported, still no loaded hinge. Your leg curl also earned 80 lb from that 12/12/12 on Aug 16, and it will be waiting for you when the hinge comes back. STOP RULE for today: anything sharp, anything that catches, you are done. Walk and go home.",
-    "finisher": "10 min easy walk, flat or light incline. Total session should run 40-50 min.",
+    "warmup": "10 min incline walk (3.3-3.5 mph, 6-8%). Then 90/90 hip switches x 10/side, bodyweight glute bridge x 15, Cat-Cow x 10. Ramp the squat: bar + 45/side x 8, then 70/side x 3.",
+    "coach_note": "I had this wrong and you corrected me, so here is the revised plan. I read your injury as a lumbar strain and built you a rehab day. It is not lumbar - it is your RIGHT MID-BACK, under the shoulder blade. That is the same place you strained on June 9, which makes this a recurrence, not a new injury. It also means your legs are completely uninvolved: you squatted 185 for 7/7/7 and hinged on Sunday with no back problem, which is the proof. So you do not need a rest day. You need a full lower body session with your upper back left alone. Look at what actually provokes it: hoisting a 50 lb DB to your knee on Friday, and the lat pulldown yesterday. Both are loaded scapular retraction and depression. Bench pressing yesterday was pain-free. So PULLING aggravates it, pressing does not, and legs do not touch it at all. Today is heavy legs and zero loaded pulling. The one change from a normal lower day is the hinge: back extension instead of RDL, because a loaded barbell hangs from your shoulder girdle and puts traction right through the strained tissue. Your leg curl also gets the 80 lb it earned on Aug 16. One more thing, and I mean this: same muscle, twice in ten weeks, both times from a dumbbell setup. That is a pattern, not bad luck, and it is worth twenty minutes with a physical therapist to find out why that area keeps failing. I can program around it indefinitely but I cannot diagnose it.",
+    "finisher": "10-12 min incline walk.",
     "exercises": [
       {
         "id": "A",
-        "name": "McGill Big 3 - Modified Curl-Up",
-        "detail": "3 sets x 10 sec holds per side (hands under low back, one knee bent)",
-        "rest": "30 sec",
-        "note": "Hands palm-down under your lower back, one knee bent and one leg straight. Lift head and shoulders only an inch or two - this is a brace, not a crunch. Hold 10 seconds, breathe through it, down. Switch which knee is bent between sets. No chin tuck to the chest, no pulling on your neck. This one is deliberately unglamorous and it is the most useful thing you will do today."
+        "name": "Smith Machine Squat",
+        "detail": "185 lb - 4 x 8",
+        "rest": "2-3 min",
+        "note": "Same load as Sunday, chasing reps instead of weight. You got 7/7/7 at 185 on Aug 23 and 6/6/7 on Aug 16 - it is moving the right direction, so bank a clean 4x8 before we load it again. Brace before you unrack. One note specific to your injury: setting the bar on your back requires you to pull your shoulder blades together to build a shelf, so if that position lights up the right side, use a slightly wider grip and a lighter squeeze. Report if it does."
       },
       {
         "id": "B",
-        "name": "McGill Big 3 - Side Plank",
-        "detail": "3 x 30 sec/side (from the knees if the full version pulls on the right side)",
-        "rest": "30 sec",
-        "note": "You have been holding 45 sec so this is a step DOWN on purpose. Hips stacked, body in one line, ribs down. Side planks load the obliques and quadratus lumborum without compressing the spine, which is exactly what an irritated erector wants. Start on your LEFT side (good side) so you know what normal feels like before you test the right."
+        "name": "45-Degree Back Extension - REPLACES RDL",
+        "detail": "Bodyweight, arms crossed on chest - 3 x 15",
+        "rest": "90 sec",
+        "note": "Bodyweight ONLY today and arms crossed on the chest - do not hold a plate and do not hold a dumbbell. The whole point is a hinge with zero load hanging from your shoulder girdle, because a loaded bar drags the scapula down through exactly the tissue you strained. Pad at the hip crease, not the belly. Squeeze glutes and hamstrings up to a straight line, no arching past neutral, slow 3-second lower. Your lumbar spine handled hinging fine on Sunday so this should feel easy - that is intentional."
       },
       {
         "id": "C",
-        "name": "McGill Big 3 - Bird Dog",
-        "detail": "3 x 8/side, 3 sec hold at the top",
-        "rest": "30 sec",
-        "note": "Opposite arm and leg, reach long rather than high - hand and heel push away from each other. Hips stay square, no rotation, no arching. Three-second pause at full extension. If your right side complains, shorten the reach rather than skipping the rep."
+        "name": "Seated Leg Curl",
+        "detail": "80 lb - 3 x 10-12",
+        "rest": "90 sec",
+        "note": "THE BUMP YOU EARNED. You put up 70 x 12/12/12 on Aug 16, which is what I had been asking for across three sessions. First time at 80, so take what it gives you - 10 clean reps a set is a win. Hamstrings faded badly on Sunday (12/10/7), but that was after four sets of squats plus RDLs; today's hinge is far less taxing so they should show up better."
       },
       {
         "id": "D",
-        "name": "Supine Glute Bridge -> Single-Leg Glute Bridge",
-        "detail": "2 x 15 double-leg, then 2 x 10/leg single-leg. Bodyweight only.",
-        "rest": "45 sec",
-        "note": "Zero spinal load, and it keeps your glutes firing while the hinge is benched. Ribs DOWN, squeeze at the top, do not arch your low back to get higher - that is the mistake that makes a bridge feel like a back exercise. For the single-leg version, hug the non-working knee loosely to your chest."
+        "name": "Hip Thrust Machine",
+        "detail": "200 lb - 3 x 12",
+        "rest": "90 sec",
+        "note": "Back in the rotation - you have not trained glutes directly since the kickback machine on Aug 16, which you correctly hated. Full hip extension, hard squeeze, ribs down, chin tucked, no hyperextension at the top. If your upper back rests against the bench pad in a way that presses on the sore spot, add a towel or shift the pad down. No machine here? Smith at 65-70 per side."
       },
       {
         "id": "E",
-        "name": "Banded Clamshell + Side-Lying Hip Abduction",
-        "detail": "2 rounds: Clamshell x 15/side, Hip Abduction x 15/side",
-        "rest": "30 sec",
-        "note": "Glute medius work. Weak hip abductors make the lumbar spine do stabilizing work it should not be doing, which is relevant to a one-sided strain like yours. Light band or no band. Pelvis stays still - if you are rolling backward to get range, you are cheating it."
+        "name": "Leg Extension",
+        "detail": "75 lb - 3 x 12",
+        "rest": "60 sec",
+        "note": "You did 70 x 12 then 75 x 10 with two in reserve on Sunday, so 75 for three sets of 12 is the honest next step. Controlled both directions, no slamming the stack, brief squeeze at the top."
       },
       {
         "id": "F",
-        "name": "Seated Leg Curl - LIGHT",
-        "detail": "50 lb - 2 x 15",
-        "rest": "60 sec",
-        "note": "Deliberately 20 lb below your working weight. Back fully supported, no spinal compression, and it moves blood through the hamstrings, which pull on the pelvis and influence how your low back feels. This is circulation work, not a set you push. If the machine seat makes you round your lower back to get in position, skip it."
+        "name": "Scapular Rehab Block - PAIN-FREE ONLY",
+        "detail": "2 rounds: Band Pull-Apart x 20 (light), Prone Y-Raise bodyweight x 12, Wall Slide x 10",
+        "rest": "45 sec",
+        "note": "This is treatment for the strained area, not training. Day 4 on a muscle strain is when gentle blood flow starts helping rather than hurting. LIGHT band, no load on the Y-raise, full range, slow. The rule is absolute: pain-free or you stop. A dull working sensation is fine, anything sharp means skip it and tell me. These target lower trap and the scapular stabilizers, which is the tissue that has now failed twice."
       },
       {
         "id": "G",
-        "name": "Leg Extension - LIGHT",
-        "detail": "60 lb - 2 x 15",
-        "rest": "60 sec",
-        "note": "Same logic - supported, easy, quad blood flow. Controlled tempo both directions, no slamming the stack. Skip if you are already at 50 minutes."
-      },
-      {
-        "id": "H",
-        "name": "Hip Flexor Stretch + Standing Hamstring Stretch",
-        "detail": "45 sec/side each, 2 rounds",
-        "rest": "none",
-        "note": "Half-kneeling hip flexor stretch: tuck the pelvis under BEFORE you push forward, or you just extend your lumbar spine and feel nothing in the hip. Four and a half hours in a car two weeks ago and a lot of travel since means your hip flexors are short, and short hip flexors tilt the pelvis and load the erectors. This is upstream of the actual problem."
+        "name": "Core Circuit",
+        "detail": "2 rounds: Dead Bugs x 12/side, Bird Dog x 10/side, Supported Knee Raise x 15",
+        "rest": "45 sec",
+        "note": "No side planks today - propping on your elbow loads the shoulder girdle on the side that hurts. Everything here is anti-extension and back-safe with no scapular demand. Lower back flat on the dead bugs, reach long not high on the bird dogs, pause a second at full extension. Use the back-supported knee raise station, not the hanging bar - hanging puts traction straight through the strained area."
       }
     ]
   }

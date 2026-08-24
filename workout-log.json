@@ -1296,9 +1296,9 @@
   {
     "date": "2026-08-21",
     "day_label": "Friday, August 21",
-    "session_type": "Upper Body - ABORTED AT 20 MIN (BACK INJURY)",
+    "session_type": "Upper Body - ABORTED AT 20 MIN (RIGHT SCAPULAR STRAIN - RECURRENCE)",
     "submitted_at": "2026-08-24T00:00:00.000Z",
-    "notes": "*** INJURY SESSION - READ THIS ONE. *** Hotel gym, limited sleep the night before. TWEAKED THE LOWER RIGHT SIDE OF HIS BACK while hoisting a 50 lb dumbbell up to his knee to set up for shoulder press - the DB kickback setup, which his profile has flagged as a risk since the June 9 strain. Continued for a couple of sets, then stopped at roughly 20 minutes because he felt he was going to injure himself. Correct call. This injury was still limiting him on Aug 23 and Aug 24. Distinct from the June rhomboid/mid-trap strain: that was UPPER back, this is LOWER RIGHT. Logged retroactively via coach Aug 24.",
+    "notes": "*** INJURY SESSION - CORRECTED LOCATION, READ THIS ONE. *** Hotel gym, limited sleep the night before. Strained the RIGHT MID-BACK, at/just under the inferior border of the right shoulder blade, while hoisting a 50 lb dumbbell up to his knee to set up for shoulder press - the DB setup, not the press. Continued a couple of sets, then stopped at roughly 20 minutes because he felt he was going to injure himself. Correct call. CRITICAL CORRECTION (Brandon clarified Aug 24): this is NOT a lumbar/lower back injury. It is the SAME REGION as the June 9 rhomboid/mid-trap strain - rhomboid, lower trap, scapular stabilizers on the right side. THIS IS A RECURRENCE AT THE SAME SITE, roughly 10 weeks apart, and both times the mechanism was a loaded dumbbell setup rather than the lift itself. Implication for programming: the LUMBAR SPINE IS NOT THE PROBLEM - he squatted and hinged on Aug 23 with no lower back issue. The restricted category is loaded scapular retraction/depression: lat pulldown, rows, heavy DB hoisting, farmer carries, anything that pulls the right shoulder blade down under load.",
     "exercises": [
       {
         "id": "A",
@@ -1314,7 +1314,7 @@
         "planned": "N/A - unprogrammed",
         "weight": "",
         "sets_reps": "",
-        "note": "50 lb (hotel maximum). INJURY OCCURRED HERE - tweaked lower right back lifting the DB to the knee during setup. Completed a couple of sets after."
+        "note": "50 lb (hotel maximum). INJURY OCCURRED HERE - strained the right mid-back under the shoulder blade while lifting the DB to the knee during setup. Completed a couple of sets after. Same mechanism and same site as the June 9 strain."
       },
       {
         "id": "C",
@@ -1337,9 +1337,9 @@
   {
     "date": "2026-08-23",
     "day_label": "Sunday, August 23",
-    "session_type": "Lower Body - Training Around Right-Side Back Injury",
+    "session_type": "Lower Body - Training Around Right Scapular Strain",
     "submitted_at": "2026-08-24T00:00:00.000Z",
-    "notes": "Second session since the Aug 21 right-side back tweak, which was still bothering him. Self-regulated well: kept the RDL deliberately light for stretch rather than load, and dropped lunges to 20 lb citing travel fatigue. Squat still improved on Aug 16 (7/7/7 vs 6/6/7 at the same 185). Hamstrings fatigued late. Logged retroactively via coach Aug 24.",
+    "notes": "Second session since the Aug 21 right scapular strain. IMPORTANT DATA POINT: he squatted to 185 for 7/7/7 and hinged (Smith RDL) with NO lower back problem - confirming the injury is scapular/mid-back, not lumbar. Self-regulated well: kept the RDL deliberately light for stretch rather than load, dropped lunges to 20 lb citing travel fatigue. Squat improved on Aug 16 at the same 185 load (7/7/7 vs 6/6/7). Hamstrings fatigued late in the session. Logged retroactively via coach Aug 24.",
     "exercises": [
       {
         "id": "A",
@@ -1355,7 +1355,7 @@
         "planned": "N/A - unprogrammed",
         "weight": "",
         "sets_reps": "",
-        "note": "DELIBERATELY LIGHT because of the back. Stayed at 45/side (115 total) for 3 x 12, prioritizing a deep hamstring stretch over load. Good decision given an active injury."
+        "note": "Stayed at 45/side (115 total) for 3 x 12, prioritizing a deep hamstring stretch over load. NOTE: he hinged here without lower back complaint, which is the evidence that the lumbar spine is fine and the problem is higher up and to the right."
       },
       {
         "id": "C",
@@ -1402,9 +1402,9 @@
   {
     "date": "2026-08-24",
     "day_label": "Monday, August 24",
-    "session_type": "Upper Body - Machine-Biased Around Back Injury",
+    "session_type": "Upper Body - Machine-Biased Around Right Scapular Strain",
     "submitted_at": "2026-08-24T00:00:00.000Z",
-    "notes": "Third session since the Aug 21 right-side back tweak; still bothering him, so he deliberately chose supported/machine variations for stabilization - shoulder press machine instead of DBs, chest-supported row machine instead of the cable row. Exactly the right adaptation. Felt the right lower back slightly on the lat pulldown and kept reps in reserve rather than pushing. Bench was strong. Logged retroactively via coach Aug 24.",
+    "notes": "Third session since the Aug 21 right scapular strain; still achy but not sharp. Chose supported/machine variations for stabilization - shoulder press machine instead of DBs (also avoiding the DB hoist that caused the injury), chest-supported row machine instead of the cable row. Correct adaptation. FELT THE STRAIN ON THE LAT PULLDOWN and kept reps in reserve - this is diagnostic: the pulldown loads scapular depression and retraction, exactly the strained tissue. Bench pressing was strong and pain-free, which further localizes the problem to pulling rather than pressing. Logged retroactively via coach Aug 24.",
     "exercises": [
       {
         "id": "A",
@@ -1436,7 +1436,7 @@
         "planned": "N/A - unprogrammed",
         "weight": "",
         "sets_reps": "",
-        "note": "115 lb x 10, 10, 10 with about 2 reps in reserve. FELT THE LOWER RIGHT BACK SLIGHTLY on this - deliberately kept reps in reserve instead of pushing. Correct call."
+        "note": "115 lb x 10, 10, 10 with about 2 reps in reserve. FELT THE RIGHT SCAPULAR STRAIN on this - deliberately kept reps in reserve instead of pushing. Diagnostic: pulldowns load scapular depression/retraction, the exact strained tissue. Bench was pain-free the same session. Pulling aggravates, pressing does not."
       },
       {
         "id": "E",
