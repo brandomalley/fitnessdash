@@ -1,54 +1,68 @@
 {
   "workout": {
-    "date": "2026-08-12",
-    "day_label": "Wednesday, August 12",
-    "session_type": "Lower Body - STRENGTH BLOCK Day 15 (HINGE RESET)",
+    "date": "2026-08-25",
+    "day_label": "Tuesday, August 25",
+    "session_type": "BACK REHAB + ACTIVE RECOVERY (no spinal loading)",
     "is_gym_day": true,
-    "warmup": "NON-NEGOTIABLE TODAY: 10 min incline walk (3.3-3.5 mph, 6-8%). Then Bird Dog x 8/side, bodyweight Glute Bridge x 15, 90/90 hip switches x 10/side. Ramp the squat: bar + 45/side x 8, then 70/side x 3.",
-    "coach_note": "This is the session where we fix your back. Three lower days in a row have ended with a tight or fried lower back - Jul 30 (skipped core, body fried), Aug 3 (RDL set 4 and hip thrusts, back tired), Aug 8 (tight from the FIRST movement and it never let go). That is not bad luck, that is the heavy bilateral hinge. The Smith RDL went 205 to 235 in a single session on Aug 3, and your hotel DB RDL at 65 lb unstrapped on Aug 8 is the exact lift and load that strained your upper back on June 9. So the RDL is OUT this week. It gets replaced with the 45-degree back extension: same hamstring and glute hinge pattern, torso supported on a pad, zero spinal compression, no grip or forearm limiter. Everything else stays heavy. The squat still progresses to 215. You are not deloading, you are removing the one lift that keeps writing checks your low back has to cash. Also worth naming: Monday you pressed 55 for 8/8/8/10 and beat the prescription while under-recovered and hungover. The lift-order change is permanent and it is working.",
-    "finisher": "10-12 min incline walk. Do not skip this one - it flushes the lower back.",
+    "warmup": "12-15 min incline walk, EASY - 3.0-3.3 mph at 4-6%. This is not a conditioning effort, it is blood flow to an irritated erector. Then Cat-Cow x 10 slow, and 90/90 hip switches x 10/side.",
+    "coach_note": "This is a treatment session, not a training session, and I want you to read it that way. Friday you tweaked the lower right side of your back hoisting a 50 lb dumbbell to your knee - the SETUP, not the press. Today is day four and it is still achy. You have trained three of the last four days around it: light RDLs Sunday, machines and reps-in-reserve today. All of that was the right call and I want that on the record. But your rotation puts a lower day here, and squats or hinges on a four-day-old erector strain is how two weeks becomes two months. So we spend one day paying it off. Nothing today loads your spine: no bar on your back, no hinge, no dumbbell lifted off the floor. Every DB you touch comes off a rack at hip height or higher - that is the exact mechanism that hurt you, and it is a setup habit worth fixing permanently. The Big 3 below (curl-up, side plank, bird dog) is the actual evidence-based protocol for a lumbar strain, not filler I padded the session with. Do it deliberately. If everything is quiet tomorrow you get a modified lower day Wednesday - leg press, extension, curl, all back-supported, still no loaded hinge. Your leg curl also earned 80 lb from that 12/12/12 on Aug 16, and it will be waiting for you when the hinge comes back. STOP RULE for today: anything sharp, anything that catches, you are done. Walk and go home.",
+    "finisher": "10 min easy walk, flat or light incline. Total session should run 40-50 min.",
     "exercises": [
       {
         "id": "A",
-        "name": "Smith Machine Squat [HEAVY]",
-        "detail": "215 lb (95 per side + 25 lb bar) - 4 x 6",
-        "rest": "2-3 min",
-        "note": "Clean 4x6 at 205 on Aug 3, so 215 is earned. The squat is NOT what is irritating your back - it is back-supported and you have handled every jump in this block. Brace hard before you unrack, chest up, controlled down, drive through midfoot. STOP RULE: if your low back is tight during the ramp sets or set 1, drop to 205 for all four sets and tell me. No hero sets today, we are protecting the fix."
+        "name": "McGill Big 3 - Modified Curl-Up",
+        "detail": "3 sets x 10 sec holds per side (hands under low back, one knee bent)",
+        "rest": "30 sec",
+        "note": "Hands palm-down under your lower back, one knee bent and one leg straight. Lift head and shoulders only an inch or two - this is a brace, not a crunch. Hold 10 seconds, breathe through it, down. Switch which knee is bent between sets. No chin tuck to the chest, no pulling on your neck. This one is deliberately unglamorous and it is the most useful thing you will do today."
       },
       {
         "id": "B",
-        "name": "45-Degree Back Extension - REPLACES RDL",
-        "detail": "Bodyweight x 12, then hold a 25 lb plate at the chest - 3 x 12",
-        "rest": "90 sec",
-        "note": "THIS IS THE HINGE CHANGE. Pad at the hip crease, NOT up at your belly button - if the pad is too high you hinge from the spine instead of the hips. Squeeze glutes and hamstrings to come up, stop when your body is a straight line - do NOT arch past neutral at the top. Slow 3-second lower. First set bodyweight to find the groove, then hold the 25 lb plate. No 45-degree bench at your gym? Sub Seated Good Morning with a light bar (65 lb) 3 x 12, or add a 4th set to the leg curl. Report which you did."
+        "name": "McGill Big 3 - Side Plank",
+        "detail": "3 x 30 sec/side (from the knees if the full version pulls on the right side)",
+        "rest": "30 sec",
+        "note": "You have been holding 45 sec so this is a step DOWN on purpose. Hips stacked, body in one line, ribs down. Side planks load the obliques and quadratus lumborum without compressing the spine, which is exactly what an irritated erector wants. Start on your LEFT side (good side) so you know what normal feels like before you test the right."
       },
       {
         "id": "C",
-        "name": "Hip Thrust Machine",
-        "detail": "200 lb - 3 x 12",
-        "rest": "90 sec",
-        "note": "Hold at 200, do not chase weight here. On Aug 3 you ran these on the Smith at 90/side AFTER the RDLs and your back and glutes were cooked by set 2. Today they follow a spine-friendly hinge, so all three sets should be there. Full hip extension, hard glute squeeze, ribs down, chin tucked - ZERO hyperextension at the top. No machine? Smith at 65-70 per side with a pad, and stop at 3 sets regardless."
+        "name": "McGill Big 3 - Bird Dog",
+        "detail": "3 x 8/side, 3 sec hold at the top",
+        "rest": "30 sec",
+        "note": "Opposite arm and leg, reach long rather than high - hand and heel push away from each other. Hips stay square, no rotation, no arching. Three-second pause at full extension. If your right side complains, shorten the reach rather than skipping the rep."
       },
       {
         "id": "D",
-        "name": "Seated Leg Curl",
-        "detail": "70 lb - 3 x 12",
-        "rest": "90 sec",
-        "note": "Third time asking for 12/12/12 at 70. Jul 30 you got 12/10/10, Aug 3 you got 12/10/12 - set 2 is where you leak. Take the full 90 seconds before set 2 and drive it. Get all 36 clean and you move to 80 next lower day. Hamstrings are your weak link and they are also your lower back's best friend, so this one matters more than usual right now."
+        "name": "Supine Glute Bridge -> Single-Leg Glute Bridge",
+        "detail": "2 x 15 double-leg, then 2 x 10/leg single-leg. Bodyweight only.",
+        "rest": "45 sec",
+        "note": "Zero spinal load, and it keeps your glutes firing while the hinge is benched. Ribs DOWN, squeeze at the top, do not arch your low back to get higher - that is the mistake that makes a bridge feel like a back exercise. For the single-leg version, hug the non-working knee loosely to your chest."
       },
       {
         "id": "E",
-        "name": "Walking Lunge (DB)",
-        "detail": "35 lb - 3 x 8/leg",
-        "rest": "90 sec",
-        "note": "Reps cut from 10 to 8 per leg so you can actually own 35 lb. Aug 8 you got two sets at 35 and dropped to 30 for the third, but that was a hotel session on a tight back after a 4.5 hour car ride. Torso tall, knee tracks over the toe, drive through the front heel. Three clean sets of 8 at 35 and we go back to 10s next time."
+        "name": "Banded Clamshell + Side-Lying Hip Abduction",
+        "detail": "2 rounds: Clamshell x 15/side, Hip Abduction x 15/side",
+        "rest": "30 sec",
+        "note": "Glute medius work. Weak hip abductors make the lumbar spine do stabilizing work it should not be doing, which is relevant to a one-sided strain like yours. Light band or no band. Pelvis stays still - if you are rolling backward to get range, you are cheating it."
       },
       {
         "id": "F",
-        "name": "Core Circuit - BACK-SAFE RESET",
-        "detail": "2 rounds: Dead Bugs x 10/side, Side Plank 45 sec/side, Bird Dog x 8/side",
-        "rest": "45 sec between rounds",
-        "note": "Every movement here is anti-extension or anti-rotation - exactly what an irritated low back needs, and nothing loads the spine. Lower back pressed flat on the dead bugs, hips stacked on the side plank, one-second pause at the top of every bird dog. Do NOT skip this like you did on Jul 30 - right now this circuit is treatment, not accessory work."
+        "name": "Seated Leg Curl - LIGHT",
+        "detail": "50 lb - 2 x 15",
+        "rest": "60 sec",
+        "note": "Deliberately 20 lb below your working weight. Back fully supported, no spinal compression, and it moves blood through the hamstrings, which pull on the pelvis and influence how your low back feels. This is circulation work, not a set you push. If the machine seat makes you round your lower back to get in position, skip it."
+      },
+      {
+        "id": "G",
+        "name": "Leg Extension - LIGHT",
+        "detail": "60 lb - 2 x 15",
+        "rest": "60 sec",
+        "note": "Same logic - supported, easy, quad blood flow. Controlled tempo both directions, no slamming the stack. Skip if you are already at 50 minutes."
+      },
+      {
+        "id": "H",
+        "name": "Hip Flexor Stretch + Standing Hamstring Stretch",
+        "detail": "45 sec/side each, 2 rounds",
+        "rest": "none",
+        "note": "Half-kneeling hip flexor stretch: tuck the pelvis under BEFORE you push forward, or you just extend your lumbar spine and feel nothing in the hip. Four and a half hours in a car two weeks ago and a lot of travel since means your hip flexors are short, and short hip flexors tilt the pelvis and load the erectors. This is upstream of the actual problem."
       }
     ]
   }
