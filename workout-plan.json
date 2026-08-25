@@ -2,39 +2,39 @@
   "workout": {
     "date": "2026-08-25",
     "day_label": "Tuesday, August 25",
-    "session_type": "ACTIVE RECOVERY + Scapular Rehab (~30-35 min)",
-    "is_gym_day": false,
-    "warmup": "None needed - the walk is the session. Start easy.",
-    "coach_note": "You caught a real error and you were right to. I built you a full lower day 48 hours after Sunday's lower session, which is too soon, and it would have been your fourth session in five days - Friday, Sunday, Monday, Tuesday - which trips your own 4-in-5 rule. My first instinct to make today easy was correct, I just had the wrong reason for it. It is not your back that needs the day, it is your legs: your hamstrings were down to 7 reps by the last set on Sunday and you have trained four of the last six days while traveling and under-slept. So today is short and genuinely easy. The one thing that IS worth doing is the scapular work, because that tissue has now failed twice in ten weeks and gentle blood flow on day four helps a strain rather than hurting it. Thirty minutes, nothing heavy, no legs. Your full lower session is built and waiting for tomorrow - squats at 185 for 4x8, and the 80 lb leg curl you earned. Wednesday puts you 72 hours off Sunday, which is what that session deserves.",
-    "finisher": "None. Do not add anything to this.",
+    "session_type": "CARDIO + Scapular Rehab (~50 min)",
+    "is_gym_day": true,
+    "warmup": "First 5 min of the cardio piece at an easy pace - that is the warmup. No separate warmup needed.",
+    "coach_note": "Going with Lauren, and you want more than a walk - agreed, and 35-40 minutes of steady cardio is a better call than what I had. Cardio does not conflict with tomorrow's lower day the way more lifting would: no eccentric loading, so it adds no muscle damage on top of what you are already feeling, and steady blood flow is one of the better things for DOMS. Sore all over in a good way after four sessions in six days is exactly right. Two hard rules today. First, DO NOT USE THE ROWER - rowing is a horizontal pull that loads the rhomboids and mid-traps directly, which is the tissue you strained on Friday. It is the worst machine in the building for you right now. Second, if you take the elliptical, keep your hands OFF the moving handles - driving those arms is a push-pull through the same scapular stabilizers. Hold the stationary center posts or let your arms hang. Keep the whole thing conversational, Zone 2, no intervals and no sprints. You should be able to talk in full sentences the entire time. Push the intensity today and you will show up to tomorrow's squats already cooked - and tomorrow is the real session: 185 for 4x8 and the 80 lb leg curl you earned.",
+    "finisher": "None. The cardio is the session.",
     "exercises": [
       {
         "id": "A",
-        "name": "Walk - Easy",
-        "detail": "20-25 min. Incline treadmill at 3.0-3.3 mph / 4-6%, or just walk outside.",
+        "name": "Steady-State Cardio - ZONE 2",
+        "detail": "35-40 min. Elliptical, stationary bike, or incline treadmill. NOT the rower.",
         "rest": "none",
-        "note": "Conversational pace the whole way. If you would rather get it outdoors than on a treadmill, do that - you mentioned wanting to put up 8-10k steps on travel days and this counts. The point is circulation and moving your thoracic spine, not a training effect."
+        "note": "Conversational pace start to finish - full sentences without gasping, roughly 65-75% of max heart rate. ELLIPTICAL: hands on the stationary center posts, NOT the moving arm handles - those work the strained scapular tissue. BIKE: fine, no upper body involvement at all, arguably the safest choice today. INCLINE TREADMILL: fine, keep it around 3.3-3.5 mph at 6-8%. NO ROWER - horizontal pull, loads the injured rhomboids and mid-traps directly. No intervals, no sprints, no stair-climber grinding. Tomorrow is a heavy squat day and your legs need to arrive fresh."
       },
       {
         "id": "B",
         "name": "Scapular Rehab Block - PAIN-FREE ONLY",
         "detail": "3 rounds: Band Pull-Apart x 20 (light), Prone Y-Raise bodyweight x 12, Wall Slide x 10",
         "rest": "45 sec between rounds",
-        "note": "This is the actual purpose of today. Day 4 on a muscle strain is where gentle, loaded-but-light movement starts speeding recovery instead of interfering with it. LIGHT band - lighter than you think, you should be able to do 20 without strain. Y-raise face down with no weight at all, thumbs up, lift from the lower trap rather than shrugging. Wall slides with your back flat and forearms tracking the wall. The rule is absolute: pain-free or you stop. Dull working sensation is fine, sharp is not."
+        "note": "This is the part of today that is actually treating something - do not skip it because you already did cardio. Day 5 on a muscle strain is where gentle light-load movement speeds recovery. LIGHT band, lighter than you think. Y-raise face down with no weight, thumbs up, lift from the lower trap instead of shrugging. Wall slides with your back flat and forearms tracking the wall. Pain-free or you stop - dull working sensation fine, sharp is not."
       },
       {
         "id": "C",
         "name": "Thoracic Mobility",
         "detail": "Foam roll upper back x 8 slow passes, then Open Book rotation x 8/side",
         "rest": "none",
-        "note": "Roll the mid-back only, above the ribs and below the neck - do NOT roll your lower back. Open books: lie on your side, knees stacked and bent, arms straight out in front, open the top arm across your body and follow it with your eyes, breathe out at the end range. A stiff thoracic spine forces the scapular stabilizers to work harder to get range they should be getting from the joint, which is plausibly part of why that tissue keeps failing."
+        "note": "Roll the mid-back only - above the ribs, below the neck, NOT your lower back. Open books: on your side, knees stacked and bent, arms straight out front, open the top arm across your body and follow it with your eyes, exhale at end range. A stiff thoracic spine makes the scapular stabilizers fight for range the joint should be giving them - plausibly part of why that tissue keeps failing."
       },
       {
         "id": "D",
-        "name": "Light Core",
+        "name": "Light Core - OPTIONAL",
         "detail": "2 rounds: Dead Bugs x 12/side, Bird Dog x 10/side",
         "rest": "30 sec",
-        "note": "Optional, and only if you feel like it. No side planks - propping on the elbow loads the shoulder girdle on the bad side. Low back stays pressed flat on the dead bugs, reach long rather than high on the bird dogs."
+        "note": "Skip this if you are short on time - the cardio and the scapular work are what matter today. No side planks, propping on the elbow loads the shoulder girdle on the bad side."
       }
     ]
   }
