@@ -111,9 +111,13 @@ Brandon has trained at **seven-plus gyms since mid-July**: multiple Planet Fitne
 
 ## Training schedule (set by Brandon, Sep 7)
 
-**4 lifting sessions per 7 days, maximum spacing.** Current rotation: **Lower Thursday, Upper Saturday**, with the prior week's Sun/Mon pair. Cardio or rest on the off days.
+**4 lifting sessions per week. This is his long-standing norm — it has been 4/week for months (3/week before that). Do not describe it as a reduction or as "only" four.**
 
-This gives ~96 hr between lower sessions and ~120 hr between upper sessions. It is more rest than a standard 2x/week split, and it suits him — he came back from a 10-day layoff and immediately PR'd bench and shoulder press. **The trade-off: each session carries more volume.** Program 6 movements plus core on lower days rather than 5, and mark the last accessory as droppable if the session passes 70 min.
+What changed on Sep 7 is **spacing, not count.** Current rotation: **Lower Thursday, Upper Saturday**, paired with the prior Sun/Mon sessions. Cardio or rest on off days.
+
+That gives ~96 hr between lower sessions and ~120 hr between upper sessions, replacing the earlier pattern of clustering (Sun+Mon back to back, and at one point 4 sessions in 5 days). Same weekly volume, evenly distributed. It suits him — he came back from a 10-day layoff and immediately PR'd bench and shoulder press.
+
+**Even spacing does NOT by itself justify more volume per session.** Total weekly volume is unchanged. Do not add movements on that reasoning. Add a movement only when there is a specific gap in what is being trained — e.g. the hip thrust added Sep 10 because he had done no direct glute work since Aug 29.
 
 ---
 
