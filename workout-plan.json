@@ -1,40 +1,33 @@
 {
   "workout": {
-    "date": "2026-08-25",
-    "day_label": "Tuesday, August 25",
-    "session_type": "CARDIO + Scapular Rehab (~50 min)",
+    "date": "2026-09-08",
+    "day_label": "Tuesday, September 8",
+    "session_type": "CARDIO + Mobility (~50 min)",
     "is_gym_day": true,
-    "warmup": "First 5 min of the cardio piece at an easy pace - that is the warmup. No separate warmup needed.",
-    "coach_note": "Going with Lauren, and you want more than a walk - agreed, and 35-40 minutes of steady cardio is a better call than what I had. Cardio does not conflict with tomorrow's lower day the way more lifting would: no eccentric loading, so it adds no muscle damage on top of what you are already feeling, and steady blood flow is one of the better things for DOMS. Sore all over in a good way after four sessions in six days is exactly right. Two hard rules today. First, DO NOT USE THE ROWER - rowing is a horizontal pull that loads the rhomboids and mid-traps directly, which is the tissue you strained on Friday. It is the worst machine in the building for you right now. Second, if you take the elliptical, keep your hands OFF the moving handles - driving those arms is a push-pull through the same scapular stabilizers. Hold the stationary center posts or let your arms hang. Keep the whole thing conversational, Zone 2, no intervals and no sprints. You should be able to talk in full sentences the entire time. Push the intensity today and you will show up to tomorrow's squats already cooked - and tomorrow is the real session: 185 for 4x8 and the 80 lb leg curl you earned.",
-    "finisher": "None. The cardio is the session.",
+    "warmup": "First 5 min of the cardio piece, easy. That is the warmup.",
+    "coach_note": "You trained lower Sunday and upper yesterday, so today is cardio - same reasoning as two weeks ago. 48 hours is thin for another heavy squat day and your Wednesday session deserves fresh legs, because it is a big one. Now the actual news from your backlog, and it is good. YOUR SCAPULA IS CLEARED. Across four sessions you did chest-supported rows, front pulldowns, cable rows at 145, lat pulldowns, PULL-UPS, hanging knee raises, skull crushers, and you hoisted 60 lb dumbbells into a press - and reported zero pain on any of it. Skull crushers and heavy DB hoisting were both on the restricted list. They are off it. Second: your bench moved. 185 for 9 and 9 yesterday against 185 for 5/5/5/4 on Aug 2 - that is not a good day, that is a different lift. Same story on the shoulder press, where 60 lb dumbbells gave you 10 reps and 60 flatly failed you back on Jul 22. Third: your squat at 205 gave you 8/8/10 on Sunday with your BEST set last, which means you left reps there. One thing has not moved: the leg curl. You earned 80 lb on Aug 16 with a clean 12/12/12 and you have run 70 in every session since - 12/10/10, then 12/11. Travel machines are part of it, but it is now the only lift in your program that has gone nowhere in a month. Wednesday it goes to 80 and I do not want to see 70 again.",
+    "finisher": "None.",
     "exercises": [
       {
         "id": "A",
         "name": "Steady-State Cardio - ZONE 2",
-        "detail": "35-40 min. Elliptical, stationary bike, or incline treadmill. NOT the rower.",
+        "detail": "35-40 min. Elliptical, bike, or incline treadmill.",
         "rest": "none",
-        "note": "Conversational pace start to finish - full sentences without gasping, roughly 65-75% of max heart rate. ELLIPTICAL: hands on the stationary center posts, NOT the moving arm handles - those work the strained scapular tissue. BIKE: fine, no upper body involvement at all, arguably the safest choice today. INCLINE TREADMILL: fine, keep it around 3.3-3.5 mph at 6-8%. NO ROWER - horizontal pull, loads the injured rhomboids and mid-traps directly. No intervals, no sprints, no stair-climber grinding. Tomorrow is a heavy squat day and your legs need to arrive fresh."
+        "note": "Conversational the whole way - full sentences without gasping. No intervals, no sprints, no stair-climber grinding. Wednesday is a heavy squat day and your legs need to arrive fresh. Rower is fine again now that the scapula is clear, if you want the variety - but keep it steady-state, not a hard pull."
       },
       {
         "id": "B",
-        "name": "Scapular Rehab Block - PAIN-FREE ONLY",
-        "detail": "3 rounds: Band Pull-Apart x 20 (light), Prone Y-Raise bodyweight x 12, Wall Slide x 10",
-        "rest": "45 sec between rounds",
-        "note": "This is the part of today that is actually treating something - do not skip it because you already did cardio. Day 5 on a muscle strain is where gentle light-load movement speeds recovery. LIGHT band, lighter than you think. Y-raise face down with no weight, thumbs up, lift from the lower trap instead of shrugging. Wall slides with your back flat and forearms tracking the wall. Pain-free or you stop - dull working sensation fine, sharp is not."
+        "name": "Thoracic Mobility",
+        "detail": "Thread-the-Needle x 8/side, Open Book rotation x 8/side, foam roll upper back x 8 passes",
+        "rest": "none",
+        "note": "Thread-the-needle is the kneeling one you did on your own in Boston - arm behind the head, rotate up and across. Good instinct, keep it. Your scapular tissue has failed twice this summer and thoracic mobility is the cheapest insurance against a third. Ten minutes, twice a week, indefinitely."
       },
       {
         "id": "C",
-        "name": "Thoracic Mobility",
-        "detail": "Foam roll upper back x 8 slow passes, then Open Book rotation x 8/side",
-        "rest": "none",
-        "note": "Roll the mid-back only - above the ribs, below the neck, NOT your lower back. Open books: on your side, knees stacked and bent, arms straight out front, open the top arm across your body and follow it with your eyes, exhale at end range. A stiff thoracic spine makes the scapular stabilizers fight for range the joint should be giving them - plausibly part of why that tissue keeps failing."
-      },
-      {
-        "id": "D",
-        "name": "Light Core - OPTIONAL",
-        "detail": "2 rounds: Dead Bugs x 12/side, Bird Dog x 10/side",
-        "rest": "30 sec",
-        "note": "Skip this if you are short on time - the cardio and the scapular work are what matter today. No side planks, propping on the elbow loads the shoulder girdle on the bad side."
+        "name": "Core Circuit",
+        "detail": "2 rounds: Pallof Press 22.5 lb x 12/side, Kettlebell Plank Drag x 20 (30 lb), Dead Bugs x 24",
+        "rest": "45 sec",
+        "note": "The Boston circuit - you bumped the KB drag to 30 lb because 20 felt light, so 30 is the number now. Hips stay square on the drag, do not let them rotate as you reach under. Optional if you are short on time."
       }
     ]
   }

@@ -1471,5 +1471,281 @@
         "note": "15 minutes."
       }
     ]
+  },
+  {
+    "date": "2026-08-29",
+    "day_label": "Saturday, August 29",
+    "session_type": "Lower Body - Travel (Planet Fitness, Boston)",
+    "submitted_at": "2026-09-07T12:00:00.000Z",
+    "notes": "Boston, Planet Fitness near the hotel. 8 min walk there plus 10 min incline treadmill, then a real mobility warmup - bird dogs, good mornings, inchworms, and thread-the-needle (kneeling thoracic rotation). Worth noting he added thoracic rotation work on his own; that is directly useful for the scapular issue. Ran the squat up to 215 total on a self-directed ramp. NO STRAPS on the RDL. Disliked the glute bridge machine - the strap digs into the side of the hip - but preferred it to using a bench as a back pivot. Cut the finisher to 5 min because of a 7 min walk back and ~10k steps planned. Logged retroactively via coach Sept 7. NO SCAPULAR COMPLAINT this session.",
+    "exercises": [
+      {
+        "id": "A",
+        "name": "Smith Machine Squat",
+        "planned": "N/A - unprogrammed, self-directed ramp",
+        "weight": "",
+        "sets_reps": "",
+        "note": "Warmup 45/side (115 total) x 10, easy. Set 1 at 80/side (45+25+10) = 185 total: 6 reps, easy. Added 10/side for set 2 = 90/side = 205 total: 6 reps. Added 5/side for set 3 = 95/side = 215 total: 6 reps. Set 4 held at 215: 6 reps. BACK TO 215 - matches his Aug 3 home-gym peak, on a Planet Fitness Smith."
+      },
+      {
+        "id": "B",
+        "name": "Smith Machine Romanian Deadlift",
+        "planned": "N/A - unprogrammed",
+        "weight": "",
+        "sets_reps": "",
+        "note": "NO STRAPS. Warmup at 45/side. Working sets at 70/side (45+25) = 165 total: 10, 10, 10. Focused on hamstring stretch. Grip held up unstrapped at this load."
+      },
+      {
+        "id": "C",
+        "name": "Leg Extension",
+        "planned": "N/A - unprogrammed",
+        "weight": "",
+        "sets_reps": "",
+        "note": "80 lb x 12, 12, 12. Up from 75."
+      },
+      {
+        "id": "D",
+        "name": "Glute Bridge Machine",
+        "planned": "Substitute for hip thrust machine",
+        "weight": "",
+        "sets_reps": "",
+        "note": "85 x 12, 100 x 12, 115 x 12. DISLIKES THIS MACHINE - the strap digs into the side of his hip - but rates it better than using a bench as a back pivot on the Smith. Find a better glute option when equipment allows."
+      },
+      {
+        "id": "E",
+        "name": "Seated Leg Curl",
+        "planned": "N/A - unprogrammed",
+        "weight": "",
+        "sets_reps": "",
+        "note": "70 lb x 12, 10, 10. Still at 70 and still leaking on sets 2 and 3. He earned 80 back on Aug 16 (12/12/12) but has not actually run it - travel machines keep varying."
+      },
+      {
+        "id": "F",
+        "name": "Core Circuit",
+        "planned": "N/A - unprogrammed",
+        "weight": "",
+        "sets_reps": "",
+        "note": "2 rounds: Pallof Press 22.5 lb x 12/side; Kettlebell Plank Drag / pull-through x 20 (20 lb round 1, bumped to 30 lb round 2 - 20 felt light); Dead Bugs x 24."
+      },
+      {
+        "id": "G",
+        "name": "Finisher - Incline Walk",
+        "planned": "10 min",
+        "weight": "",
+        "sets_reps": "",
+        "note": "Cut to 5 min deliberately - 7 min walk back to the hotel and ~10k steps planned for the day. Reasonable call, noted."
+      }
+    ]
+  },
+  {
+    "date": "2026-08-30",
+    "day_label": "Sunday, August 30",
+    "session_type": "Upper Body - Travel (Planet Fitness, Boston)",
+    "submitted_at": "2026-09-07T12:00:00.000Z",
+    "notes": "Boston. 7 min walk plus 10 min incline warmup and stretching. Ran the whole session on Hammer Strength plate-loaded machines (per-arm loading) - new equipment, so these are fresh baselines rather than comparisons. Held ~2 min rest on every exercise and flagged it deliberately for data purposes. SIGNIFICANT: chest-supported rows and front pulldowns both completed with no scapular complaint, and skull crushers - which were restricted during the June strain - were done pain-free at 40 lb for 3 x 12. Logged retroactively via coach Sept 7. NO SCAPULAR COMPLAINT.",
+    "exercises": [
+      {
+        "id": "A",
+        "name": "Hammer Strength Shoulder Press - LEAD LIFT",
+        "planned": "N/A - new machine",
+        "weight": "",
+        "sets_reps": "",
+        "note": "PER ARM. 60 x 12 easy, 70 x 12 easy, 80 x 12. Ramped himself up across sets. He attributes it to a new machine plus leading with shoulders instead of chest - the lift-order change continuing to pay off. New baseline: 80/arm."
+      },
+      {
+        "id": "B",
+        "name": "Hammer Strength Chest Press",
+        "planned": "N/A - new machine",
+        "weight": "",
+        "sets_reps": "",
+        "note": "PER ARM at 80 lb: 9, 8, 8. Ran second behind the shoulder press. New baseline: 80/arm."
+      },
+      {
+        "id": "C",
+        "name": "Hammer Strength Chest-Supported Row",
+        "planned": "N/A - new machine",
+        "weight": "",
+        "sets_reps": "",
+        "note": "PER ARM. 55 x 12, then 60 x 10, 60 x 10. HORIZONTAL PULL WITH NO SCAPULAR PAIN - first real loaded row since the Aug 21 strain. Strong signal the strain is resolving. New baseline: 60/arm."
+      },
+      {
+        "id": "D",
+        "name": "Hammer Strength Front Pulldown",
+        "planned": "N/A - new machine",
+        "weight": "",
+        "sets_reps": "",
+        "note": "PER ARM. 60 x 12, 65 x 12, 70 x 12 - all three sets full reps, ramping each set. VERTICAL PULL, NO PAIN. New baseline: 70/arm."
+      },
+      {
+        "id": "E",
+        "name": "Lateral Raise",
+        "planned": "N/A",
+        "weight": "",
+        "sets_reps": "",
+        "note": "15 lb x 15, 3 sets. 90 sec rest. Consistent at 15s."
+      },
+      {
+        "id": "F",
+        "name": "Arms Circuit",
+        "planned": "N/A",
+        "weight": "",
+        "sets_reps": "",
+        "note": "Incline DB Curl 25 lb x 12, 12, 12 (up from the usual 20 lb). Skull Crusher with 40 lb curl bar x 12, 12, 12. NOTE: skull crushers were OFF during the June strain because of the overhead position - done here pain-free. Effectively cleared."
+      },
+      {
+        "id": "G",
+        "name": "Core Circuit",
+        "planned": "N/A",
+        "weight": "",
+        "sets_reps": "",
+        "note": "2 rounds: Dead Bugs x 24, Machine Knee Raise (back-supported) x 12, Side Plank 45 sec/side."
+      },
+      {
+        "id": "H",
+        "name": "Finisher - Incline Walk",
+        "planned": "10 min",
+        "weight": "",
+        "sets_reps": "",
+        "note": "Completed."
+      }
+    ]
+  },
+  {
+    "date": "2026-09-06",
+    "day_label": "Sunday, September 6",
+    "session_type": "Lower Body",
+    "submitted_at": "2026-09-07T12:00:00.000Z",
+    "notes": "Back from vacation/travel. Held 2 min rest on the main lifts and 90 sec on accessories. Best squat REP performance of the block - 205 for 8/8/10, with the 10 coming on the last set. Leg curl machine was occupied so he ran the core circuit first and came back to it, which is good in-session sequencing. NOTABLE: did PULL-UPS and HANGING knee raises in the core circuit with no scapular complaint - both load the lats and scapular stabilizers directly. Logged retroactively via coach Sept 7.",
+    "exercises": [
+      {
+        "id": "A",
+        "name": "Smith Machine Squat",
+        "planned": "N/A - unprogrammed",
+        "weight": "",
+        "sets_reps": "",
+        "note": "Warmup 45/side x 10. Working sets at 90/side (45+45) = 205 total: 8, 8, then 10 on set 3. 2 min rest. BEST REP PERFORMANCE AT 205 - compare Aug 23 at 185 for 7/7/7. Last set was his best set, which means there was more available."
+      },
+      {
+        "id": "B",
+        "name": "Smith Machine Romanian Deadlift",
+        "planned": "N/A - unprogrammed",
+        "weight": "",
+        "sets_reps": "",
+        "note": "Warmup at 105. Working sets at ~70/side = 165 total: 10, 10, 10. 2 min rest. Same load as Aug 29, all reps clean."
+      },
+      {
+        "id": "C",
+        "name": "Leg Extension",
+        "planned": "N/A - unprogrammed",
+        "weight": "",
+        "sets_reps": "",
+        "note": "85 x 12, then 90 x 10 on sets 2 and 3. 90 sec rest. Up from 80 on Aug 29."
+      },
+      {
+        "id": "D",
+        "name": "Walking Lunge (DB)",
+        "planned": "N/A - unprogrammed",
+        "weight": "",
+        "sets_reps": "",
+        "note": "30 lb x 10/leg x 3. Back to 30 after the 20 lb travel-fatigue session on Aug 23."
+      },
+      {
+        "id": "E",
+        "name": "Core Circuit (run early - leg curl machine occupied)",
+        "planned": "N/A",
+        "weight": "",
+        "sets_reps": "",
+        "note": "2 rounds: Pull-ups x 12, Hanging Knee Raise x 10, Plank Shoulder Tap x 20. PULL-UPS AND HANGING WORK, NO SCAPULAR PAIN - strong evidence the Aug 21 strain has resolved."
+      },
+      {
+        "id": "F",
+        "name": "Seated Leg Curl",
+        "planned": "N/A - unprogrammed",
+        "weight": "",
+        "sets_reps": "",
+        "note": "70 lb x 12, then 11. Came back to it after core. STILL AT 70 - this is the one lift that has not moved in a month. 80 is overdue."
+      },
+      {
+        "id": "G",
+        "name": "Finisher - Incline Walk",
+        "planned": "10 min",
+        "weight": "",
+        "sets_reps": "",
+        "note": "Completed."
+      }
+    ]
+  },
+  {
+    "date": "2026-09-07",
+    "day_label": "Monday, September 7",
+    "session_type": "Upper Body",
+    "submitted_at": "2026-09-07T12:00:00.000Z",
+    "notes": "BENCH PR SESSION. 185 for 9 and 9 - compare Aug 24 at 175 for 7/7, and Aug 2 at 185 for 5/5/5/4. Equipment was contested throughout (benches and dumbbells taken), so he resequenced on the fly and came back to the DB shoulder press later; good adaptation, though it means the shoulder press ran late and fatigued. Hit 60 lb dumbbells for 10 on the shoulder press - 60 failed badly back on Jul 22. Subbed a reverse cable fly for face pulls because no ropes were available. SKIPPED THE FINISHER deliberately - felt he had a good session, long work day ahead, and mentioned already feeling agitated. NO SCAPULAR COMPLAINT anywhere in this session including cable rows, pulldowns, and hoisting 60 lb dumbbells. Logged retroactively via coach Sept 7.",
+    "exercises": [
+      {
+        "id": "A",
+        "name": "Barbell Bench Press",
+        "planned": "N/A - unprogrammed",
+        "weight": "",
+        "sets_reps": "",
+        "note": "Warmup 135 x 10. Set 1 at 175: 10 reps. Bumped to 185: 9 reps on set 2, 9 again on set 3. PR ON REP VOLUME AT 185 - previous best at this load was 5/5/5/4 on Aug 2. Bench has moved decisively."
+      },
+      {
+        "id": "B",
+        "name": "Seated Cable Row",
+        "planned": "N/A - unprogrammed",
+        "weight": "",
+        "sets_reps": "",
+        "note": "145 lb x 10, 10, 9. First cable row since the strain - no pain. Below the 170 he was running pre-injury, so there is room to climb back."
+      },
+      {
+        "id": "C",
+        "name": "Lat Pulldown",
+        "planned": "N/A - unprogrammed",
+        "weight": "",
+        "sets_reps": "",
+        "note": "120 lb x 10, then 9. Straight bar, wide grip. Only 2 sets logged. No pain - compare Aug 24 where 115 produced a scapular twinge."
+      },
+      {
+        "id": "D",
+        "name": "DB Shoulder Press",
+        "planned": "N/A - unprogrammed - ran LATE due to equipment",
+        "weight": "",
+        "sets_reps": "",
+        "note": "55 lb x 12, then 60 lb x 10. 60 lb DBs for 10 is a milestone - 60 failed on Jul 22 and 55 was a struggle for most of August. Also worth noting: hoisting 60 lb dumbbells into position is the exact movement that strained him Aug 21, done here without incident. Ran late in the session because benches were taken, so this is an understated number."
+      },
+      {
+        "id": "E",
+        "name": "Reverse Cable Fly (face pull substitute)",
+        "planned": "No ropes available",
+        "weight": "",
+        "sets_reps": "",
+        "note": "15 lb per arm, crossing cables from overhead down past shoulder level: 12, 10, 9. Similar target to face pulls - rear delts and scapular retractors."
+      },
+      {
+        "id": "F",
+        "name": "Arms Circuit",
+        "planned": "N/A",
+        "weight": "",
+        "sets_reps": "",
+        "note": "Hammer Curl 25 lb 3 x 10. Tricep Pushdown 30 lb 3 x 10 - different machine that felt heavier than his usual, so the number is not comparable to the 40-47.5 lb he has run elsewhere."
+      },
+      {
+        "id": "G",
+        "name": "Core Circuit",
+        "planned": "N/A",
+        "weight": "",
+        "sets_reps": "",
+        "note": "2 rounds: Dead Bugs x 20, Side Plank 45 sec/side, Plank Shoulder Tap x 20."
+      },
+      {
+        "id": "H",
+        "name": "Finisher - Incline Walk",
+        "planned": "10-12 min",
+        "weight": "",
+        "sets_reps": "",
+        "note": "SKIPPED deliberately. Good session, long work day, and he noted already feeling agitated. Reasonable call - flagging the agitation comment as a data point on stress/recovery, not as a training problem."
+      }
+    ]
   }
 ]
