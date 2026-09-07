@@ -1473,6 +1473,31 @@
     ]
   },
   {
+    "date": "2026-08-25",
+    "day_label": "Tuesday, August 25",
+    "session_type": "Cardio + Mobility (programmed recovery day)",
+    "submitted_at": "2026-09-07T12:00:00.000Z",
+    "notes": "Programmed cardio/recovery day - went to the gym with Lauren. Brandon confirmed on Sep 7 that this session happened but referred to it as 'that Wednesday', so the exact date may be Aug 26. Logged under Aug 25, the day it was programmed and the day he said in real time he was heading to the gym. DATE UNCERTAIN - confirm if it matters. The lower body session planned for Aug 26 did NOT happen; he left for travel/vacation. Logged retroactively via coach Sept 7.",
+    "exercises": [
+      {
+        "id": "A",
+        "name": "Steady-State Cardio - Zone 2",
+        "planned": "35-40 min elliptical, bike or incline treadmill",
+        "weight": "",
+        "sets_reps": "",
+        "note": "Completed. Brandon had asked for something more substantial than the 20-25 min walk originally programmed - correct instinct, and cardio does not interfere with a following lower day the way more lifting would."
+      },
+      {
+        "id": "B",
+        "name": "Scapular Rehab + Mobility",
+        "planned": "Band pull-aparts, prone Y-raise, wall slides, thoracic mobility",
+        "weight": "",
+        "sets_reps": "",
+        "note": "Programmed alongside the cardio during the Aug 21 scapular strain recovery. Completion not separately confirmed."
+      }
+    ]
+  },
+  {
     "date": "2026-08-29",
     "day_label": "Saturday, August 29",
     "session_type": "Lower Body - Travel (Planet Fitness, Boston)",
