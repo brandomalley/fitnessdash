@@ -109,6 +109,14 @@ Brandon has trained at **seven-plus gyms since mid-July**: multiple Planet Fitne
 
 ---
 
+## Training schedule (set by Brandon, Sep 7)
+
+**4 lifting sessions per 7 days, maximum spacing.** Current rotation: **Lower Thursday, Upper Saturday**, with the prior week's Sun/Mon pair. Cardio or rest on the off days.
+
+This gives ~96 hr between lower sessions and ~120 hr between upper sessions. It is more rest than a standard 2x/week split, and it suits him — he came back from a 10-day layoff and immediately PR'd bench and shoulder press. **The trade-off: each session carries more volume.** Program 6 movements plus core on lower days rather than 5, and mark the last accessory as droppable if the session passes 70 min.
+
+---
+
 ## Open questions
 - **Where is he training now, and for how long?** The 2-month settled location determines whether we can run a consistent progression instead of re-baselining every week.
 - **Aug 15 session is still missing** from the log (a Saturday session he cut short).

@@ -1,33 +1,61 @@
 {
   "workout": {
-    "date": "2026-09-08",
-    "day_label": "Tuesday, September 8",
-    "session_type": "CARDIO + Mobility (~50 min)",
+    "date": "2026-09-10",
+    "day_label": "Thursday, September 10",
+    "session_type": "Lower Body - HYPERTROPHY BLOCK Day 1",
     "is_gym_day": true,
-    "warmup": "First 5 min of the cardio piece, easy. That is the warmup.",
-    "coach_note": "You trained lower Sunday and upper yesterday, so today is cardio - same reasoning as two weeks ago. 48 hours is thin for another heavy squat day and your Wednesday session deserves fresh legs, because it is a big one. Now the actual news from your backlog, and it is good. YOUR SCAPULA IS CLEARED. Across four sessions you did chest-supported rows, front pulldowns, cable rows at 145, lat pulldowns, PULL-UPS, hanging knee raises, skull crushers, and you hoisted 60 lb dumbbells into a press - and reported zero pain on any of it. Skull crushers and heavy DB hoisting were both on the restricted list. They are off it. Second: your bench moved. 185 for 9 and 9 yesterday against 185 for 5/5/5/4 on Aug 2 - that is not a good day, that is a different lift. Same story on the shoulder press, where 60 lb dumbbells gave you 10 reps and 60 flatly failed you back on Jul 22. Third: your squat at 205 gave you 8/8/10 on Sunday with your BEST set last, which means you left reps there. One thing has not moved: the leg curl. You earned 80 lb on Aug 16 with a clean 12/12/12 and you have run 70 in every session since - 12/10/10, then 12/11. Travel machines are part of it, but it is now the only lift in your program that has gone nowhere in a month. Wednesday it goes to 80 and I do not want to see 70 again.",
-    "finisher": "None.",
+    "warmup": "10 min incline walk (3.3-3.5 mph, 6-8%). Then 90/90 hip switches x 10/side, bodyweight glute bridge x 15, Cat-Cow x 10. RAMP THE SQUAT: 45/side x 8, then 70/side x 3. Do not skip the ramp - every session where you ramp you hit your numbers, every session where you skip it you open light and report feeling weak.",
+    "coach_note": "First session of the hypertrophy block. You ended the strength block yourself - you drifted into 8-12 reps across every recent session without being told to, so we are making it official. Main lifts 3-4 x 8-10, accessories 3 x 10-15, 2 min rest on compounds and 90 sec on accessories, which is already exactly what you do. Your Thursday/Saturday plan is good and I am building against it. Because you are now going 96 hours between lower sessions instead of 48, each one carries more volume - six movements today instead of five. That is the trade for the extra rest, and it is a fair one. Two things I want from today. First: THE LEG CURL GOES TO 80 AND STAYS THERE. You earned it on Aug 16 with a clean 12/12/12 at 70 and you have run 70 in every session since. It is the only lift in your program that has not moved in a month. Second: the squat is 215 for 3x8. On Sep 6 you did 205 for 8/8/10 and your BEST SET WAS YOUR LAST, which means you finished with reps still in the tank. On Aug 29 you handled 215 for four sets of 6. Eight is the ask. Also worth naming: you came back from ten days off, bad food and more drinking than usual, and immediately PR'd your bench and your shoulder press. The rest did not cost you anything. Remember that next time you are somewhere without a gym.",
+    "finisher": "10-12 min incline walk.",
     "exercises": [
       {
         "id": "A",
-        "name": "Steady-State Cardio - ZONE 2",
-        "detail": "35-40 min. Elliptical, bike, or incline treadmill.",
-        "rest": "none",
-        "note": "Conversational the whole way - full sentences without gasping. No intervals, no sprints, no stair-climber grinding. Wednesday is a heavy squat day and your legs need to arrive fresh. Rower is fine again now that the scapula is clear, if you want the variety - but keep it steady-state, not a hard pull."
+        "name": "Smith Machine Squat",
+        "detail": "215 lb (95 per side + 25 lb bar) - 3 x 8",
+        "rest": "2-3 min",
+        "note": "The jump is in reps, not load. Aug 29 you ran 215 for 6/6/6/6. Sep 6 you ran 205 for 8/8/10 and closed with your strongest set. Both of those say 215 for 8 is there. Brace hard before you unrack, chest up, controlled descent, drive through midfoot. If set 1 comes in under 6, drop to 205 and get all three sets of 8 there instead - reps are the currency this block, not the number on the bar. LOG PLATES PER SIDE, not total, since Smith bars vary between gyms."
       },
       {
         "id": "B",
-        "name": "Thoracic Mobility",
-        "detail": "Thread-the-Needle x 8/side, Open Book rotation x 8/side, foam roll upper back x 8 passes",
-        "rest": "none",
-        "note": "Thread-the-needle is the kneeling one you did on your own in Boston - arm behind the head, rotate up and across. Good instinct, keep it. Your scapular tissue has failed twice this summer and thoracic mobility is the cheapest insurance against a third. Ten minutes, twice a week, indefinitely."
+        "name": "Smith Machine Romanian Deadlift",
+        "detail": "165 lb (70 per side + bar) - 3 x 12",
+        "rest": "90 sec",
+        "note": "HOLD HERE. This load fixed your lower back - you have run it twice now, unstrapped, with zero complaints, after three straight sessions of back problems back in early August. The old problem was the load curve (205 to 235 in six days), not the movement. Deep hamstring stretch, slow controlled tempo, core braced, soft knee. We are not chasing weight on this lift again."
       },
       {
         "id": "C",
+        "name": "Seated Leg Curl",
+        "detail": "80 lb - 3 x 10-12",
+        "rest": "90 sec",
+        "note": "THE OVERDUE ONE. Earned on Aug 16 with 70 for 12/12/12, and you have run 70 in every session since - 12/10/10, then 12/11. First time at 80, so take what it gives you: 10 clean reps a set is a win, 12 is the target. Do not drop back to 70. If the machine at your gym runs different from the last one, note it, but start at 80."
+      },
+      {
+        "id": "D",
+        "name": "Hip Thrust Machine",
+        "detail": "200 lb - 3 x 12",
+        "rest": "90 sec",
+        "note": "Back in the rotation - you have not trained glutes directly since Aug 29. Full hip extension, hard squeeze at the top, ribs down, chin tucked, no hyperextension. FALLBACKS: glute bridge machine at 115 (you dislike it - the strap digs into your hip - but it works), or DB hip thrust with your upper back on a bench. Do NOT use the Smith with no back pad."
+      },
+      {
+        "id": "E",
+        "name": "Leg Extension",
+        "detail": "90 lb - 3 x 12",
+        "rest": "60 sec",
+        "note": "Sep 6 you got 85 x 12, then 90 x 10 twice with about 2 in reserve. Three sets of 12 at 90 is the honest next step. Controlled both directions, no slamming the stack, brief squeeze at the top."
+      },
+      {
+        "id": "F",
+        "name": "Walking Lunge (DB)",
+        "detail": "35 lb - 3 x 10/leg",
+        "rest": "90 sec",
+        "note": "Back to 35 after running 30 on Sep 6 and 20 on Aug 23 during the travel stretch. DUMBBELLS OFF A RACK AT HIP HEIGHT - never hoisted off the floor. That is the standing rule and it is what injured you twice. Torso tall, knee tracks over the toe, drive through the front heel. DROP THIS ONE if the session is running past 70 minutes."
+      },
+      {
+        "id": "G",
         "name": "Core Circuit",
-        "detail": "2 rounds: Pallof Press 22.5 lb x 12/side, Kettlebell Plank Drag x 20 (30 lb), Dead Bugs x 24",
-        "rest": "45 sec",
-        "note": "The Boston circuit - you bumped the KB drag to 30 lb because 20 felt light, so 30 is the number now. Hips stay square on the drag, do not let them rotate as you reach under. Optional if you are short on time."
+        "detail": "2 rounds: KB Plank Drag 30 lb x 20, Bird Dog x 16, Hollow Body Hold 30 sec",
+        "rest": "45 sec between rounds",
+        "note": "Rotated fresh - none of these were in your Sep 6 or Sep 7 circuits. KB drag at 30 lb since you said 20 felt light in Boston; hips stay square, do not let them rotate as you reach under. Bird dogs reach long rather than high, one second at full extension. Hollow body with your lower back pressed flat into the floor - if it arches, bend your knees more."
       }
     ]
   }
