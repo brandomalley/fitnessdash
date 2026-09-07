@@ -21,7 +21,7 @@ The block began Jul 14 at 4×5–6 with 2–3 min rest, and was planned to end i
 
 **This was a RECURRENCE of the June 9 rhomboid/mid-trap strain.** Same site, same mechanism (loaded DB setup), ~10 weeks apart.
 
-**Cleared on the evidence, not the calendar.** Between Aug 30 and Sep 7 he completed, all pain-free: chest-supported rows, front pulldowns, cable rows at 145, lat pulldowns, **pull-ups**, hanging knee raises, skull crushers (previously restricted), and hoisting 60 lb dumbbells into a press — the exact movement that caused it.
+**Cleared on the evidence, not the calendar.** Between Aug 30 and Sep 7 he completed, all pain-free: chest-supported rows, front pulldowns, cable rows at 145, lat pulldowns, **hanging** knee raises, skull crushers (previously restricted), and hoisting 60 lb dumbbells into a press — the exact movement that caused it.
 
 **Restrictions lifted:** skull crushers, T-bar row, KB bent-over row, heavy DB hoisting, hanging work. All back on the table.
 
@@ -45,7 +45,7 @@ The Aug 3–8 lower back complaints stopped once the hinge was periodized down. 
 | **DB Shoulder Press** (LEAD LIFT) | 55 × 12, **60 × 10** (Sep 7) | 60 is real, and it came LATE in the session because benches were taken. Program 60 for 3×10 in the lead slot. Stays first, permanently. |
 | **Seated Cable Row** | 145 × 10/10/9 (Sep 7) | Was 170 pre-injury. Climb back deliberately: 155 next, then 165. |
 | **Lat Pulldown** | 120 × 10/9 (Sep 7, straight bar wide grip) | Was 150 pre-injury. Go 130, then 140. Prefers the neutral-grip bar when available. |
-| **Pull-ups** | 12 reps in the Sep 6 core circuit | Was 4–5 strict in August. **The "12 reps each side" phrasing is ambiguous — confirm the real number before programming.** |
+| **Pull-ups** | **4–5 strict** (Aug 6, hotel: 4 pronated / 5 neutral) | Untested since. The Sep 6 "12 reps" was a dictation error — that was Pallof press. Retest before programming. |
 | Face Pulls | Ropes unavailable Sep 7; subbed reverse cable fly 15 lb/arm × 12/10/9 | Resume face pulls at 42.5 (functional trainer) when ropes exist |
 | Lateral Raise | 15 lb × 15 × 3 | Consistent |
 | Incline DB Curl | 25 lb × 12 × 3 | Up from 20 lb |
@@ -111,7 +111,6 @@ Brandon has trained at **seven-plus gyms since mid-July**: multiple Planet Fitne
 
 ## Open questions
 - **Where is he training now, and for how long?** The 2-month settled location determines whether we can run a consistent progression instead of re-baselining every week.
-- **Pull-ups: what is the actual rep number?** "12 reps each side" is ambiguous and it matters — 4–5 strict in August to 12 would be a large jump.
 - **Aug 15 session is still missing** from the log (a Saturday session he cut short).
 - **The Aug 25/26 cardio date is uncertain** — programmed for Tue Aug 25, he later referred to it as Wednesday. Logged under Aug 25.
 - Is the nutrition file fixable, or does tracking need a different home?
@@ -123,5 +122,5 @@ Brandon has trained at **seven-plus gyms since mid-July**: multiple Planet Fitne
 - **Excellent in-session judgment.** Drops weight, slows tempo, resequences around occupied equipment, and stops sets at the right moment instead of grinding. Trust it and log what he actually did.
 - **He will correct you, and he is usually right.** He caught a lower-day scheduling error and a misdiagnosed injury site in the same week. Take the correction, fix the record, and say so plainly.
 - Will sometimes exceed the programmed weight on his own. Good instinct — ask him to flag when he is feeling strong so the bigger number gets written in rather than tested cold.
-- **His voice-dictated logs contain transcription errors** — "265 lb dumbbells" meant 65, "1:40" meant 140, "12 reps each side" on pull-ups is unclear. When a number is self-contradictory, say so and ask rather than guessing.
+- **He dictates his logs with Wispr Flow, and it produces real transcription errors** — "265 lb dumbbells" meant 65, "1:40" meant 140, and "pull-ups, 12 reps each side" was actually Pallof press. **Errors substitute whole exercise names, not just numbers.** When anything is self-contradictory or out of character for his current level, flag it and ask rather than guessing — he corrects it immediately.
 - **He sometimes re-pastes the same note twice.** Aug 15 and Aug 8 arrived as identical text. Never log a session you cannot distinguish from one already recorded — a phantom entry is worse than a missing one.
