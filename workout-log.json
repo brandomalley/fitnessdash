@@ -1837,5 +1837,78 @@
         "note": ""
       }
     ]
+  },
+  {
+    "date": "2026-09-12",
+    "day_label": "Saturday, September 12",
+    "session_type": "Upper Body - Machine-Biased (protecting right scapula)",
+    "submitted_at": "2026-09-14T18:00:00.000Z",
+    "notes": "Reported his back at 'maybe 85%' - two days after the Sep 10 RDL tweak. He deliberately chose the chest-supported ROW MACHINE over cables, in his words 'to limit some movement in my upper back,' and ran higher reps throughout. That is correct self-management and it is also confirmation the scapular issue was still live. Shoulder press machine was taken so he used dumbbells instead. 2 min rest on bench and shoulder press, 90 sec on rows and pulldowns, 60 sec on face pulls. Logged retroactively via coach Sep 14.",
+    "exercises": [
+      {
+        "id": "A",
+        "name": "Hammer Strength Supine Bench Press (neutral grip)",
+        "planned": "N/A - unprogrammed",
+        "weight": "",
+        "sets_reps": "",
+        "note": "PER ARM, including the machine's own 10 lb arm weight. 100 lb/arm (90 loaded) x 12 on set 1. Added 10/arm to 110: 10 reps on set 2, 7 reps on set 3. New machine and a new baseline - 110/arm is the working number, chase 3x10."
+      },
+      {
+        "id": "B",
+        "name": "DB Shoulder Press",
+        "planned": "Shoulder press machine was taken",
+        "weight": "",
+        "sets_reps": "",
+        "note": "60 lb x 8, 8, then dropped to 55 lb x 7 on set 3. Confirms 60 is a real working weight - he got 60 x 10 on Sep 7 when it ran late in the session, and 8/8 here in the lead slot. 2 min rest."
+      },
+      {
+        "id": "C",
+        "name": "Seated Row Machine (chest-supported)",
+        "planned": "N/A - unprogrammed",
+        "weight": "",
+        "sets_reps": "",
+        "note": "CHOSE THE MACHINE DELIBERATELY to limit upper-back movement while the scapula was sore, and ran higher reps. 100 x 12, 110 x 12, 115 x 12 - slow and controlled with a pause at the back. All three sets of 12 clean. 90 sec rest."
+      },
+      {
+        "id": "D",
+        "name": "Lat Pulldown Machine",
+        "planned": "N/A - unprogrammed",
+        "weight": "",
+        "sets_reps": "",
+        "note": "100 x 12, then 120 x 12 and 120 x 12. 90 sec rest. HE FLAGGED THE MACHINE: 'the yellow one, not the purple one' - felt easier, so this is a different unit and the number is NOT comparable to his 150 lb pre-injury pulldown. Log which machine next time."
+      },
+      {
+        "id": "E",
+        "name": "Face Pulls",
+        "planned": "N/A - unprogrammed",
+        "weight": "",
+        "sets_reps": "",
+        "note": "30 lb x 15, 15, 15. Deliberately light. 60 sec rest."
+      },
+      {
+        "id": "F",
+        "name": "Arms Circuit - Rope Pushdown + Hammer Curl",
+        "planned": "N/A - unprogrammed",
+        "weight": "",
+        "sets_reps": "",
+        "note": "Set 1: pushdown 25 x 12, hammer curl 30 lb x 12. Set 2: pushdown 30 x 12, hammer curl 30 lb x 8. Set 3: pushdown 30 x 12, hammer curl 25 lb x 10. Settled on 30 lb for the pushdown. HAMMER CURL AT 30 LB IS A BUMP from his usual 25 - got 12 on the first round, faded after."
+      },
+      {
+        "id": "G",
+        "name": "Core Circuit",
+        "planned": "N/A",
+        "weight": "",
+        "sets_reps": "",
+        "note": "2 rounds: Pallof Press x 12/side, Dead Bugs x 24, Plank Shoulder Tap x 20."
+      },
+      {
+        "id": "H",
+        "name": "Finisher - Incline Walk",
+        "planned": "10 min",
+        "weight": "",
+        "sets_reps": "",
+        "note": "Completed."
+      }
+    ]
   }
 ]

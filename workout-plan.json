@@ -1,11 +1,11 @@
 {
   "workout": {
-    "date": "2026-09-10",
-    "day_label": "Thursday, September 10",
-    "session_type": "Lower Body - HYPERTROPHY BLOCK Day 1",
+    "date": "2026-09-15",
+    "day_label": "Tuesday, September 15",
+    "session_type": "Lower Body - RDL SUSPENDED (protecting right scapula)",
     "is_gym_day": true,
-    "warmup": "10 min incline walk (3.3-3.5 mph, 6-8%). Then 90/90 hip switches x 10/side, bodyweight glute bridge x 15, Cat-Cow x 10. RAMP THE SQUAT: 45/side x 8, then 70/side x 3. Do not skip the ramp - every session where you ramp you hit your numbers, every session where you skip it you open light and report feeling weak.",
-    "coach_note": "First session of the hypertrophy block. You ended the strength block yourself - you drifted into 8-12 reps across every recent session without being told to, so we are making it official. Main lifts 3-4 x 8-10, accessories 3 x 10-15, 2 min rest on compounds and 90 sec on accessories, which is already exactly what you do. Your Thursday/Saturday plan is good and I am building against it. To be clear about what changed: the COUNT is the same four sessions a week you have always run - what changed is the spacing, from clustered to evenly spread. Same weekly volume, better distributed. There are six movements today rather than five for a specific reason: you have done no direct glute work since Aug 29, so the hip thrust goes back in. If you would rather stay at five, drop the walking lunges - they overlap with the squat, and the hip thrust covers something nothing else in the session does. Two things I want from today. First: THE LEG CURL GOES TO 80 AND STAYS THERE. You earned it on Aug 16 with a clean 12/12/12 at 70 and you have run 70 in every session since. It is the only lift in your program that has not moved in a month. Second: the squat is 215 for 3x8. On Sep 6 you did 205 for 8/8/10 and your BEST SET WAS YOUR LAST, which means you finished with reps still in the tank. On Aug 29 you handled 215 for four sets of 6. Eight is the ask. Also worth naming: you came back from ten days off, bad food and more drinking than usual, and immediately PR'd your bench and your shoulder press. The rest did not cost you anything. Remember that next time you are somewhere without a gym.",
+    "warmup": "10 min incline walk (3.3-3.5 mph, 6-8%). Then 90/90 hip switches x 10/side, bodyweight glute bridge x 15, Cat-Cow x 10, Thread-the-Needle x 8/side. RAMP THE SQUAT: 45/side x 8, then 70/side x 3. Write it down, do it - every session you ramp you hit your numbers.",
+    "coach_note": "I marked your scapula resolved on Sep 7. It flared on Sep 10 and you were still at 85% on Saturday, so it is not resolved and I have reopened it. That is three episodes in fourteen weeks at the same spot. The Sep 10 flare tells us something the first two did not. June and August were both dumbbell SETUP injuries - hoisting a weight to your knee. Sep 10 happened mid-set on the Smith RDL, holding a loaded bar in a hinge. A loaded bar hangs off your shoulder girdle and pulls traction straight through the rhomboids and mid-traps. I flagged exactly this back on Aug 25 and swapped the RDL for a bodyweight back extension - but that swap never actually got run, the RDL went back in on Aug 29, and it has been in every lower session since. So today it is genuinely out. Bodyweight back extension, arms crossed, nothing hanging from your shoulders. It stays out until you get through three straight lower sessions with no symptoms. Everything else: hold the squat at 215, you were wrecked Thursday and still got 8/6/7, which is a fine result for a session you had no business feeling good in. Leg curl stays at 80 - the month-long stall is broken, do not go back to 70. Leg extension earned 100. One more thing and I want you to actually hear it: three strains at one site is past the point where programming is the answer. Get the PT appointment.",
     "finisher": "10-12 min incline walk.",
     "exercises": [
       {
@@ -13,49 +13,49 @@
         "name": "Smith Machine Squat",
         "detail": "215 lb (95 per side + 25 lb bar) - 3 x 8",
         "rest": "2-3 min",
-        "note": "The jump is in reps, not load. Aug 29 you ran 215 for 6/6/6/6. Sep 6 you ran 205 for 8/8/10 and closed with your strongest set. Both of those say 215 for 8 is there. Brace hard before you unrack, chest up, controlled descent, drive through midfoot. If set 1 comes in under 6, drop to 205 and get all three sets of 8 there instead - reps are the currency this block, not the number on the bar. LOG PLATES PER SIDE, not total, since Smith bars vary between gyms."
+        "note": "HOLD at 215 and get the clean 3x8. Thursday gave 8/6/7 and you'd been at a Phillies game the night before with cocktails, wings, and bad sleep - that is not a strength reading, that is a recovery reading. Rested, this is there. One watch item: racking the bar makes you pull your shoulder blades together to build a shelf. If that position lights up the right side, use a slightly wider hand placement and a lighter squeeze, and tell me."
       },
       {
         "id": "B",
-        "name": "Smith Machine Romanian Deadlift",
-        "detail": "165 lb (70 per side + bar) - 3 x 12",
+        "name": "45-Degree Back Extension - RDL IS SUSPENDED",
+        "detail": "Bodyweight, arms crossed on chest - 3 x 15",
         "rest": "90 sec",
-        "note": "HOLD HERE. This load fixed your lower back - you have run it twice now, unstrapped, with zero complaints, after three straight sessions of back problems back in early August. The old problem was the load curve (205 to 235 in six days), not the movement. Deep hamstring stretch, slow controlled tempo, core braced, soft knee. We are not chasing weight on this lift again."
+        "note": "BODYWEIGHT ONLY. No plate at the chest, no dumbbell, no bar - the entire point is a hinge with nothing hanging off your shoulder girdle. Pad at the hip crease, NOT up at the belly. Squeeze glutes and hamstrings to a straight line, do not arch past neutral, slow 3-second lower. Your lumbar spine is fine and this will feel easy; that is intentional. FALLBACK if no 45-degree bench: lying leg curl for a 4th set, or single-leg glute bridge 3 x 12/leg. Do NOT substitute any version of an RDL."
       },
       {
         "id": "C",
         "name": "Seated Leg Curl",
         "detail": "80 lb - 3 x 10-12",
         "rest": "90 sec",
-        "note": "THE OVERDUE ONE. Earned on Aug 16 with 70 for 12/12/12, and you have run 70 in every session since - 12/10/10, then 12/11. First time at 80, so take what it gives you: 10 clean reps a set is a win, 12 is the target. Do not drop back to 70. If the machine at your gym runs different from the last one, note it, but start at 80."
+        "note": "Hold 80. Thursday gave 11/9/8 on your first session at this weight while under-recovered - that is a normal first outing at a new load. Build toward 3x12 before adding. The month you spent stuck at 70 is over; 70 is not coming back."
       },
       {
         "id": "D",
-        "name": "Hip Thrust Machine",
-        "detail": "200 lb - 3 x 12",
+        "name": "Hammer Strength Glute Trainer (hip thrust)",
+        "detail": "70 lb loaded (machine adds ~50) - 3 x 12",
         "rest": "90 sec",
-        "note": "Back in the rotation - you have not trained glutes directly since Aug 29. Full hip extension, hard squeeze at the top, ribs down, chin tucked, no hyperextension. FALLBACKS: glute bridge machine at 115 (you dislike it - the strap digs into your hip - but it works), or DB hip thrust with your upper back on a bench. Do NOT use the Smith with no back pad."
+        "note": "Thursday you opened at 90 loaded and got 10, dropped to 70 and got a hard 12. Start at 70 for all three sets. Full hip extension, hard squeeze, ribs down, chin tucked, no hyperextension. If you're at a different PF without this machine: standard hip thrust machine at 200, or glute bridge machine at 115."
       },
       {
         "id": "E",
         "name": "Leg Extension",
-        "detail": "90 lb - 3 x 12",
+        "detail": "100 lb - 3 x 12",
         "rest": "60 sec",
-        "note": "Sep 6 you got 85 x 12, then 90 x 10 twice with about 2 in reserve. Three sets of 12 at 90 is the honest next step. Controlled both directions, no slamming the stack, brief squeeze at the top."
+        "note": "Earned it - 90 for a clean 12/12/12 on Thursday, your best-executed lift of that session. Straight to 100. Controlled both directions, no slamming the stack, brief squeeze at the top."
       },
       {
         "id": "F",
         "name": "Walking Lunge (DB)",
-        "detail": "35 lb - 3 x 10/leg",
+        "detail": "30 lb - 3 x 12/leg",
         "rest": "90 sec",
-        "note": "Back to 35 after running 30 on Sep 6 and 20 on Aug 23 during the travel stretch. DUMBBELLS OFF A RACK AT HIP HEIGHT - never hoisted off the floor. That is the standing rule and it is what injured you twice. Torso tall, knee tracks over the toe, drive through the front heel. DROP THIS ONE if the session is running past 70 minutes."
+        "note": "Progressing by reps, not load. I programmed 35 on Thursday and you ran 30 and got everything - so own 30 for 12 per leg first, then we go to 35. DUMBBELLS OFF A RACK AT HIP HEIGHT, never hoisted off the floor. Torso tall, knee over the toe, drive through the front heel. DROP THIS if the session passes 70 min."
       },
       {
         "id": "G",
         "name": "Core Circuit",
-        "detail": "2 rounds: KB Plank Drag 30 lb x 20, Bird Dog x 16, Hollow Body Hold 30 sec",
+        "detail": "2 rounds: Machine Knee Raise x 15, Bird Dog x 16, Dead Bugs x 24",
         "rest": "45 sec between rounds",
-        "note": "Rotated fresh - none of these were in your Sep 6 or Sep 7 circuits. KB drag at 30 lb since you said 20 felt light in Boston; hips stay square, do not let them rotate as you reach under. Bird dogs reach long rather than high, one second at full extension. Hollow body with your lower back pressed flat into the floor - if it arches, bend your knees more."
+        "note": "All back-safe with minimal scapular demand - no planks or side planks today, since propping on your elbow loads the shoulder girdle on the side that is sore. Use the back-supported knee raise station, not the hanging bar; hanging puts traction right through the strained tissue. Reach long not high on the bird dogs, lower back pressed flat on the dead bugs."
       }
     ]
   }

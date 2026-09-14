@@ -1,5 +1,5 @@
 # COACH STATE — live training status
-*Maintained by the coach. Last updated: September 7, 2026 (after the Aug 29 – Sep 7 backlog was logged)*
+*Maintained by the coach. Last updated: September 14, 2026 (after Sep 10 + Sep 12 were logged)*
 
 **Read this file at the start of every session, together with `workout-log.json`.** It holds current working weights, active decisions, and open questions. Where it disagrees with the skill's reference files, THIS FILE WINS — the reference files (`brandon-profile.md`, `exercise-library.md`) hold slow-changing background (meals, injury history, preferences) and their weight tables are stale as of June. This file holds the live state.
 
@@ -15,53 +15,70 @@ The block began Jul 14 at 4×5–6 with 2–3 min rest, and was planned to end i
 
 ---
 
-## RESOLVED — right scapular strain (Aug 21 → cleared Sep 6)
+## ACTIVE — right scapular / mid-back. THIRD EPISODE. HIGHEST PRIORITY.
 
-**What happened:** Aug 21, hotel gym, limited sleep. Strained the right mid-back at the inferior border of the shoulder blade while hoisting a 50 lb dumbbell to his knee to set up for a press. **The setup, not the lift.** Aborted the session at 20 min — correct call.
+**I marked this resolved on Sep 7. It flared again on Sep 10. It is not resolved.**
 
-**This was a RECURRENCE of the June 9 rhomboid/mid-trap strain.** Same site, same mechanism (loaded DB setup), ~10 weeks apart.
+| Date | Event | Mechanism |
+|------|-------|-----------|
+| Jun 9 | Rhomboid / mid-trap strain | 65 lb DB RDL, unstrapped |
+| Aug 21 | Recurrence, session aborted at 20 min | Hoisting a 50 lb DB to the knee |
+| **Sep 10** | **Tweak between the shoulder blades mid-set** | **Smith RDL at 165, set 2 — stopped at 10 reps and cut the exercise** |
+| Sep 12 | Still reporting "maybe 85%" | Chose the row machine over cables to limit upper-back movement |
 
-**Cleared on the evidence, not the calendar.** Between Aug 30 and Sep 7 he completed, all pain-free: chest-supported rows, front pulldowns, cable rows at 145, lat pulldowns, **hanging** knee raises, skull crushers (previously restricted), and hoisting 60 lb dumbbells into a press — the exact movement that caused it.
+**Three episodes in fourteen weeks at the same site.**
 
-**Restrictions lifted:** skull crushers, T-bar row, KB bent-over row, heavy DB hoisting, hanging work. All back on the table.
+### The RDL is now implicated, and that is new information
+The first two episodes were dumbbell *setup* problems. Sep 10 was different: he was mid-hinge holding a loaded Smith bar. **A loaded bar in a hinge hangs from the shoulder girdle and puts traction straight through the rhomboids and mid-traps** — the same reason the Aug 25 plan replaced the RDL with a bodyweight back extension. That substitution was written but never actually run; the RDL went back in on Aug 29 and has been in every lower session since.
 
-**Standing rules that DO NOT expire:**
-- **Every dumbbell comes off a rack at hip height or higher. Never hoisted from the floor to the knee.** This is the mechanism that has now injured him twice.
-- Thoracic mobility twice weekly, indefinitely — thread-the-needle, open books, foam roll upper back. He started doing thread-the-needle on his own in Boston; reinforce it.
-- **Two strains at the same site in ten weeks is a pattern.** A physical therapist assessment was recommended Aug 24 and has not happened. Raise it again if there is any third episode, and it is worth doing regardless.
+**PROGRAMMING DECISION — the loaded bilateral hinge is OUT until this is quiet for three consecutive lower sessions.** Replace with the **45-degree back extension, bodyweight, arms crossed on the chest** — same hamstring/glute hinge pattern, torso supported, nothing hanging from the shoulder girdle. No plate held at the chest, no dumbbell, no bar.
+
+### Standing rules
+- **Every dumbbell comes off a rack at hip height or higher.** Never hoisted from the floor to the knee.
+- **No loaded bilateral hinge** (Smith RDL, DB RDL, barbell RDL) until cleared. Back extension only.
+- Machine and chest-supported variants over cables and free weights on pulling movements while symptomatic — he chose this himself on Sep 12 and it was the right call.
+- Thoracic mobility twice weekly, indefinitely.
+- Watch the Smith squat: racking the bar requires scapular retraction to build a shelf. He ran 215 on Sep 10 without complaint, so it is currently tolerated, but it is the next thing to suspect if symptoms persist.
+
+### ESCALATE THE PT REFERRAL
+A physical therapist assessment was recommended on Aug 24 and has not happened. **Three episodes at one site is no longer a training problem to program around — it is a tissue that needs assessing.** Raise it directly and specifically, not as a footnote. Programming can manage the load; it cannot tell him why that area keeps failing.
 
 ## RESOLVED — lower back (was the Aug 10 active issue)
 
 The Aug 3–8 lower back complaints stopped once the hinge was periodized down. He has run **Smith RDL at 165 total for 3×10** on Aug 29 and Sep 6 with zero back complaints, unstrapped. The earlier problem was the load curve (205 → 235 in six days), not the movement. **Keep the hinge in the 8–12 rep range at moderate load. Do not chase heavy fives on the RDL again.**
 
+**NOTE (Sep 14): the lumbar spine remains fine — but the loaded RDL is now suspended anyway, because on Sep 10 it aggravated the SCAPULA, not the low back. Different tissue, different reason. See the active issue above.**
+
 ---
 
-## Current working weights (as of Sep 7, 2026)
+## Current working weights (as of Sep 14, 2026)
 
 ### Upper
 | Lift | Current | Next step |
 |------|---------|-----------|
-| **Barbell Bench** | 175 × 10, then **185 × 9, 9** (Sep 7) | Big jump — Aug 2 the same 185 gave 5/5/5/4. Run 185 for 3×10; when all 30 reps land, go 195. |
-| **DB Shoulder Press** (LEAD LIFT) | 55 × 12, **60 × 10** (Sep 7) | 60 is real, and it came LATE in the session because benches were taken. Program 60 for 3×10 in the lead slot. Stays first, permanently. |
-| **Seated Cable Row** | 145 × 10/10/9 (Sep 7) | Was 170 pre-injury. Climb back deliberately: 155 next, then 165. |
-| **Lat Pulldown** | 120 × 10/9 (Sep 7, straight bar wide grip) | Was 150 pre-injury. Go 130, then 140. Prefers the neutral-grip bar when available. |
+| **Barbell Bench** | 175 × 10, then **185 × 9, 9** (Sep 7) | Run 185 for 3×10 when a free bar is available; at 30 clean reps go 195. |
+| **HS Supine Bench (neutral grip)** | **110 lb/arm** × 10, 7 (Sep 12; includes the 10 lb arm) | New machine baseline. 100/arm gave a clean 12. Chase 3×10 at 110/arm. |
+| **DB Shoulder Press** (LEAD LIFT) | **60 lb** × 8, 8, then 55 × 7 (Sep 12) | 60 confirmed across two sessions. Chase 3×8–10 at 60. Stays first, permanently. **Rack the DBs at hip height — never hoist from the floor.** |
+| **Seated Row MACHINE** (chest-supported) | **115 lb** × 12 (Sep 12, clean 12/12/12 at 100→110→115) | PREFERRED over cables while the scapula is symptomatic. Go 120. |
+| Seated Cable Row | 145 × 10/10/9 (Sep 7) | Was 170 pre-injury. Hold off — machine rows instead until the back is quiet. |
+| **Lat Pulldown MACHINE** | 120 × 12/12 (Sep 12, "the yellow one") | He flagged the yellow unit as easier than the purple one — NOT comparable to his 150 lb pre-injury cable pulldown. **Log which machine.** Go 130 on the yellow. |
 | **Pull-ups** | **4–5 strict** (Aug 6, hotel: 4 pronated / 5 neutral) | Untested since. The Sep 6 "12 reps" was a dictation error — that was Pallof press. Retest before programming. |
-| Face Pulls | Ropes unavailable Sep 7; subbed reverse cable fly 15 lb/arm × 12/10/9 | Resume face pulls at 42.5 (functional trainer) when ropes exist |
+| Face Pulls | 30 lb × 15 × 3 (Sep 12, deliberately light) | Keep light while symptomatic. Do not chase weight here. |
 | Lateral Raise | 15 lb × 15 × 3 | Consistent |
 | Incline DB Curl | 25 lb × 12 × 3 | Up from 20 lb |
-| Hammer Curl | 25 lb × 10 × 3 | |
+| Hammer Curl | **30 lb** × 12, then faded to 8 / 25 lb × 10 (Sep 12) | Bump from 25. Run 30 for 3×10 before adding. | |
 | Skull Crusher | 40 lb curl bar × 12 × 3 | **CLEARED** — pain-free Aug 30 |
-| Rope Pushdown | Machine-dependent: 30–47.5 lb | Log the machine, not just the number |
+| Rope Pushdown | 30 lb × 12 × 2 (Sep 12, this machine runs heavy) | Machine-dependent, 25–47.5 lb range across gyms. Log the machine. |
 
 ### Lower
 | Lift | Current | Next step |
 |------|---------|-----------|
-| **Smith Squat** | **215 × 6×4** (Aug 29) · **205 × 8/8/10** (Sep 6) | Sep 6's best set was his LAST — he left reps there. Run 215 for 3×8. |
-| **Smith RDL** | 165 total (70/side) × 10 × 3, no straps | Holding here is correct. Hamstring stretch focus, moderate load, high rep. |
-| **Seated Leg Curl** | **70 lb — STALLED, this is the problem lift** | Earned 80 on Aug 16 (clean 12/12/12) and has run 70 every session since: 12/10/10, then 12/11. **Go to 80. Do not program 70 again.** |
-| Leg Extension | 85 × 12, 90 × 10/10 (Sep 6) | 90 for 3×12 |
-| Walking Lunge (DB) | 30 lb × 10/leg × 3 (Sep 6) | Back to 35 lb |
-| Hip Thrust Machine | 200 lb × 3×12 | Not used since August — reintroduce when a machine is available |
+| **Smith Squat** | **215 × 8/6/7** (Sep 10) | Missed the 3×8, but he was badly under-recovered — Phillies game the night before, cocktails, wings, poor sleep. HOLD 215 and get the clean 3×8 rested. |
+| **Smith RDL** | **SUSPENDED** — 165 × 12, then 10 and stopped (Sep 10) | **This is what tweaked his scapula on Sep 10.** Replaced by bodyweight 45° back extension until the back is quiet for 3 consecutive lower sessions. |
+| **Seated Leg Curl** | **80 lb** × 11/9/8 (Sep 10) | The month-long stall is broken — first session at 80. Hold 80 and build toward 3×12. Never program 70 again. |
+| Leg Extension | **90 lb × 12/12/12 clean** (Sep 10) | Earned the bump. Go 100. |
+| Walking Lunge (DB) | 30 lb × 10/leg × 3 (Sep 10 — programmed 35, used 30) | Get 3×12 at 30 before trying 35 again. |
+| **HS Glute Trainer** (hip thrust) | 70 lb loaded + ~50 lb machine × 12 (Sep 10) | New machine at the Sep 10 PF. 90 loaded was too heavy (10 reps); 70 gave a hard 12. Hold 70 loaded. |
 | Glute Bridge Machine | 115 × 12 (Aug 29) | **He dislikes it** — the strap digs into his hip. Use only if no hip thrust machine. |
 
 ### Hammer Strength baselines (travel gyms, PER ARM)
@@ -78,6 +95,12 @@ Pallof Press 22.5 lb × 12/side · KB Plank Drag **30 lb** × 20 (20 felt light)
 
 ### Rest periods — he standardized these himself and flagged them for data
 2 min on main compounds, 90 sec on accessories, 45 sec between core rounds.
+
+---
+
+## Encoding bug — FIXED, confirmed Sep 14
+
+The mojibake corruption in `workout-log.json` (special characters double-encoding on every app save, ballooning the file to 1.05 MB) was repaired Aug 24. **Brandon saved a session through the app on Sep 14 and the corruption did NOT return** — zero `Ã`/`Â` sequences, file size proportionate. Keep spot-checking on each read, but the bug appears resolved.
 
 ---
 
