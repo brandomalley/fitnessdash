@@ -132,15 +132,15 @@ Brandon has trained at **seven-plus gyms since mid-July**: multiple Planet Fitne
 
 ---
 
-## Training schedule (set by Brandon, Sep 7)
+## Training schedule
 
-**4 lifting sessions per week. This is his long-standing norm — it has been 4/week for months (3/week before that). Do not describe it as a reduction or as "only" four.**
+**4 lifting sessions per 7 days. This is his long-standing norm — it has been 4/week for months (3/week before that). Do not describe it as a reduction or as "only" four.**
 
-What changed on Sep 7 is **spacing, not count.** Current rotation: **Lower Thursday, Upper Saturday**, paired with the prior Sun/Mon sessions. Cardio or rest on off days.
+**The DAYS float; the SPACING is the rule.** He sets the specific days himself week to week (Thu/Sat one week, Mon/Wed the next) around travel and life. Do not assume a fixed weekday pattern — **ask or confirm which days before programming, and verify the real date with `date` first.**
 
-That gives ~96 hr between lower sessions and ~120 hr between upper sessions, replacing the earlier pattern of clustering (Sun+Mon back to back, and at one point 4 sessions in 5 days). Same weekly volume, evenly distributed. It suits him — he came back from a 10-day layoff and immediately PR'd bench and shoulder press.
+What he holds constant: **roughly 4 days between sessions of the same body part**, alternating lower and upper. Cardio or rest on off days. Example weeks: Sun/Mon + Thu/Sat (Sep 6–12); Mon/Wed + weekend (Sep 14 on).
 
-**Even spacing does NOT by itself justify more volume per session.** Total weekly volume is unchanged. Do not add movements on that reasoning. Add a movement only when there is a specific gap in what is being trained — e.g. the hip thrust added Sep 10 because he had done no direct glute work since Aug 29.
+**Even spacing does NOT by itself justify more volume per session.** Total weekly volume is unchanged. Add a movement only when there is a specific gap in what is being trained — e.g. the hip thrust added Sep 10 because he had done no direct glute work since Aug 29.
 
 ---
 
