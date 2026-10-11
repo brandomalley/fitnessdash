@@ -2842,11 +2842,16 @@ renderAll();
         localStorage.setItem(KEY, JSON.stringify(st));
       } catch(e){}
     }
-    function saveSoon(){ clearTimeout(t); t = setTimeout(save, 150); }
+    var restoring = 0;   // timestamp; scroll-saves are ignored briefly after a restore
+    function saveSoon(){
+      if (Date.now() - restoring < 800) return;   // iOS resets scroll on resume - don't record that
+      clearTimeout(t); t = setTimeout(save, 150);
+    }
 
     function scrollTabTo(name, y){
       var el = document.getElementById('tab-'+name);
       if (!el || !y) return;
+      restoring = Date.now();
       // two frames: the first lets the rendered content exist, the second beats iOS resetting it
       requestAnimationFrame(function(){
         el.scrollTop = y;
