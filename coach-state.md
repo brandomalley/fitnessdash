@@ -1,47 +1,86 @@
 # COACH STATE — live training status
-*Maintained by the coach. Last updated: September 14, 2026 (after Sep 10 + Sep 12 were logged)*
+*Maintained by the coach. Last updated: October 11, 2026 (after the Sep 16 – Oct 10 backlog was logged)*
 
 **Read this file at the start of every session, together with `workout-log.json`.** It holds current working weights, active decisions, and open questions. Where it disagrees with the skill's reference files, THIS FILE WINS — the reference files (`brandon-profile.md`, `exercise-library.md`) hold slow-changing background (meals, injury history, preferences) and their weight tables are stale as of June. This file holds the live state.
 
 ---
 
-## Where the program is right now
+## PROGRAM — FAT LOSS PHASE, starts Oct 12 2026
 
-**THE STRENGTH BLOCK IS OVER. He is already training hypertrophy — make it official.**
+**Brandon's stated goal (Oct 11): lose belly fat accumulated over three months of travel, MAINTAIN STRENGTH, 4 gym days a week. He does not want to use the scale.**
 
-The block began Jul 14 at 4×5–6 with 2–3 min rest, and was planned to end in late August. It is now September and Brandon has drifted into 8–12 reps on his own across every recent session: bench 175×10 then 185×9/9, squat 205 for 8/8/10, leg extension 12s, Hammer Strength machines at 12s. He was not told to do this. He found the rep range his body wanted.
+### The governing principle — do not get this backwards
+**The lifting is not the fat-loss tool. It is the muscle-protection tool.** Four sessions burn roughly 1,600–2,000 kcal a week. A 500 kcal/day food change is 3,500. Food is the lever by a factor of two, and it is the more reliable one.
 
-**Program it as a hypertrophy block from here:** main lifts 3–4 × 8–10, accessories 3 × 10–15, 2 min rest on compounds and 90 sec on accessories (which is already what he does). Revisit heavy 5s in late October at the Costa Rica home gym, which has a squat rack.
+So **do NOT convert his lifting into circuits, high-rep "metabolic" work, or anything that sacrifices load.** That is the standard mistake and it would cost him the exact thing he said he wants to keep. Heavy compounds in a calorie deficit, plus high protein, are what preserve lean mass. The deficit comes from the kitchen; cardio tops it up.
+
+### Session architecture (all four days)
+1. **Block 1 — two heavy compounds.** 3–4 × 6–8, full 2–3 min rest. **Untouched by the fat-loss goal.** This is the strength insurance.
+2. **Block 2 — accessories PAIRED as supersets.** 45–60 sec between pairs instead of 90 straight. Same volume, ~30% less time, higher average heart rate. This is where the fat-loss adjustment lives.
+3. **Block 3 — core circuit**, rotated.
+4. **Finisher — 12–15 min incline walk. NON-NEGOTIABLE in this phase.** He skips it when sessions run long; in a deficit phase it stays.
+
+### 4-day rotation — both lower days hinge AND squat, both upper days push AND pull
+Frequency matters more than specialization for holding strength in a deficit, so every muscle group gets hit twice a week. The days only flip which movement leads.
+
+| Day | Focus | Leads with |
+|-----|-------|-----------|
+| **A — Lower** | Squat emphasis | Barbell squat primary, hinge secondary |
+| **B — Upper** | Press emphasis | DB shoulder press (permanent lead), DB bench second |
+| **C — Lower** | Hinge emphasis | Barbell deadlift primary, machine squat/lunge secondary |
+| **D — Upper** | Pull emphasis | Row primary, pulldown second, pressing after |
+
+Hip thrust machine runs on Day A (he asked for it back, every other lower day). Free weights first throughout, per his stated preference.
+
+### Cardio and steps
+- **2 × 35–45 min Zone 2 on off days** — bike, elliptical or incline walk. Conversational the whole time. He liked this format in August.
+- **8–10k steps daily floor.** He hit 15–20k on NYC walking days without trying.
+- Zone 2 only. Do not program HIIT on top of four lifting days in a deficit — recovery is the limiting factor, and he already has a scapula with three strains in it.
+
+### Nutrition — THIS IS THE ACTUAL PROJECT
+**Targets already on file: 1,900 kcal/day, 140 g protein. Untracked since May 17 — five months.**
+
+**DIAGNOSED Oct 11: nothing is broken.** Both GitHub syncs share one token (`WorkoutLogSync._headers` calls `GitHubSync.getToken()`), and his workout-log pushes have been landing fine — so the token is valid and the push path works. `fitness-data.json` has not updated because **he simply has not pressed "Save Day" on the nutrition tab since May 17.** He kept logging workouts and stopped logging food.
+
+**Brandon chose (Oct 11) to resume tracking in the app.** So the fix is behavioral, not technical: start pressing Save Day. One caveat in the code worth knowing — `GitHubSync.push` opens with `if(!token) return;`, which fails **silently**, while `WorkoutLogSync.push` toasts a warning. If nutrition data ever stops again with no visible error, that silent return is the first suspect.
+- **Protein 140 g is the non-negotiable number** — it is what makes the deficit cost fat instead of muscle.
+- **Alcohol is the first cut.** He named it himself as elevated through the travel stretch.
+- Expect the first 2–3 weeks to show faster visible change than the real fat loss rate, because travel bloat, water and inflammation clear first. Do not let him over-read that, or under-read the slowdown after.
+
+### Measurement — NO SCALE, but WEEKLY WAIST TAPE (his choice, Oct 11)
+- **NO SCALE — he does not want to weigh himself. Do not ask for weight, do not ask him to reconsider.**
+- **Waist at the navel, once a week.** He offered this himself after initially declining. It is the primary number and it is literally the thing he is trying to change.
+- **Protocol matters more than the number** — an inconsistent measurement is worse than none:
+  - Same morning each week, before eating or drinking
+  - Level with the navel, tape parallel to the floor all the way around
+  - **At the end of a normal exhale. Not sucked in, not pushed out.**
+  - Snug against skin without compressing it
+  - Record to the nearest quarter inch
+- **Read the trend, not the week.** Day-to-day waist swings of half an inch come from food volume, sodium and bowel timing. Three weeks of direction is signal; one week is noise. Say this out loud the first time a week goes the wrong way, because it will.
+- Also worth having: **monthly progress photos** and how clothes fit, as the qualitative backup.
+- **Guardrail (second signal):** lifts holding = the deficit is right. **Lifts falling across two consecutive sessions on the same movement = deficit too aggressive or protein too low, and the fix is food, not less training.** With no tape and no scale, this is the early-warning system.
+- Target rate: **0.5–1 lb of fat per week.** Faster than that in a 50-year-old-style recomp usually means muscle going with it.
+
+### What this phase does NOT change
+Rep ranges on the main lifts. Rest periods on the main lifts. The progression logic. He is still trying to add weight to the bar — that is the point.
 
 ---
 
-## ACTIVE — right scapular / mid-back. THIRD EPISODE. HIGHEST PRIORITY.
+## SCAPULA — quiet since Sep 16. Watch, do not declare victory.
 
-**I marked this resolved on Sep 7. It flared again on Sep 10. It is not resolved.**
+**History: three episodes in fourteen weeks.** Jun 9 (65 lb DB RDL, unstrapped) · Aug 21 (hoisting a 50 lb DB to the knee, session aborted) · Sep 10 (mid-set on the Smith RDL at 165). I called it resolved on Sep 7 and it flared on Sep 10, so the bar for clearing it now is behavior over time, not a single clean session.
 
-| Date | Event | Mechanism |
-|------|-------|-----------|
-| Jun 9 | Rhomboid / mid-trap strain | 65 lb DB RDL, unstrapped |
-| Aug 21 | Recurrence, session aborted at 20 min | Hoisting a 50 lb DB to the knee |
-| **Sep 10** | **Tweak between the shoulder blades mid-set** | **Smith RDL at 165, set 2 — stopped at 10 reps and cut the exercise** |
-| Sep 12 | Still reporting "maybe 85%" | Chose the row machine over cables to limit upper-back movement |
+**Last complaint: Sep 16**, when he held the lat pulldown at 115 because it felt "a little tight." Since then, **six consecutive sessions with zero complaints**, including:
+- Smith deadlifts (Sep 19) and **barbell deadlifts from the floor at 155** (Oct 9) — loaded hinge, the Sep 10 mechanism
+- Hanging knee raises (Sep 14, Sep 25), 80 lb DB bench, cable rows back to 150, pulldowns back to 135 (Oct 10)
 
-**Three episodes in fourteen weeks at the same site.**
+**RDL SUSPENSION LIFTED.** The three-clean-lower-sessions bar is met (Sep 19, Sep 25, Oct 9). Loaded hinging is back in. Keep it in the 8–12 rep range at moderate load; **do not run the load curve that broke it in August (205 → 235 in six days).**
 
-### The RDL is now implicated, and that is new information
-The first two episodes were dumbbell *setup* problems. Sep 10 was different: he was mid-hinge holding a loaded Smith bar. **A loaded bar in a hinge hangs from the shoulder girdle and puts traction straight through the rhomboids and mid-traps** — the same reason the Aug 25 plan replaced the RDL with a bodyweight back extension. That substitution was written but never actually run; the RDL went back in on Aug 29 and has been in every lower session since.
-
-**PROGRAMMING DECISION — the loaded bilateral hinge is OUT until this is quiet for three consecutive lower sessions.** Replace with the **45-degree back extension, bodyweight, arms crossed on the chest** — same hamstring/glute hinge pattern, torso supported, nothing hanging from the shoulder girdle. No plate held at the chest, no dumbbell, no bar.
-
-### Standing rules
-- **Every dumbbell comes off a rack at hip height or higher.** Never hoisted from the floor to the knee.
-- **No loaded bilateral hinge** (Smith RDL, DB RDL, barbell RDL) until cleared. Back extension only.
-- Machine and chest-supported variants over cables and free weights on pulling movements while symptomatic — he chose this himself on Sep 12 and it was the right call.
+### Standing rules — these do NOT expire
+- **Every dumbbell comes off a rack at hip height or higher. Never hoisted from the floor to the knee.** Two of the three episodes were this exact movement.
 - Thoracic mobility twice weekly, indefinitely.
-- Watch the Smith squat: racking the bar requires scapular retraction to build a shelf. He ran 215 on Sep 10 without complaint, so it is currently tolerated, but it is the next thing to suspect if symptoms persist.
-
-### ESCALATE THE PT REFERRAL
-A physical therapist assessment was recommended on Aug 24 and has not happened. **Three episodes at one site is no longer a training problem to program around — it is a tissue that needs assessing.** Raise it directly and specifically, not as a footnote. Programming can manage the load; it cannot tell him why that area keeps failing.
+- At the first sign of tightness: hold the weight, finish the session, and report it. He does this well without being told.
+- **He has still not seen a physical therapist.** Recommended Aug 24 and again Sep 14. Three strains at one site means something structural is unexplained. It is quiet now, which makes this the EASY time to get it assessed rather than the urgent one. Raise it once more, then let it be his call.
 
 ## RESOLVED — lower back (was the Aug 10 active issue)
 
@@ -51,44 +90,163 @@ The Aug 3–8 lower back complaints stopped once the hinge was periodized down. 
 
 ---
 
-## Current working weights (as of Sep 14, 2026)
+## Current working weights — HOME GYM, Costa Rica (as of Oct 11, 2026)
 
 ### Upper
 | Lift | Current | Next step |
 |------|---------|-----------|
-| **Barbell Bench** | 175 × 10, then **185 × 9, 9** (Sep 7) | Run 185 for 3×10 when a free bar is available; at 30 clean reps go 195. |
-| **HS Supine Bench (neutral grip)** | **110 lb/arm** × 10, 7 (Sep 12; includes the 10 lb arm) | New machine baseline. 100/arm gave a clean 12. Chase 3×10 at 110/arm. |
-| **DB Shoulder Press** (LEAD LIFT) | **60 lb** × 8, 8, then 55 × 7 (Sep 12) | 60 confirmed across two sessions. Chase 3×8–10 at 60. Stays first, permanently. **Rack the DBs at hip height — never hoist from the floor.** |
-| **Seated Row MACHINE** (chest-supported) | **115 lb** × 12 (Sep 12, clean 12/12/12 at 100→110→115) | PREFERRED over cables while the scapula is symptomatic. Go 120. |
-| Seated Cable Row | 145 × 10/10/9 (Sep 7) | Was 170 pre-injury. Hold off — machine rows instead until the back is quiet. |
-| **Lat Pulldown MACHINE** | 120 × 12/12 (Sep 12, "the yellow one") | He flagged the yellow unit as easier than the purple one — NOT comparable to his 150 lb pre-injury cable pulldown. **Log which machine.** Go 130 on the yellow. |
-| **Pull-ups** | **4–5 strict** (Aug 6, hotel: 4 pronated / 5 neutral) | Untested since. The Sep 6 "12 reps" was a dictation error — that was Pallof press. Retest before programming. |
-| Face Pulls | 30 lb × 15 × 3 (Sep 12, deliberately light) | Keep light while symptomatic. Do not chase weight here. |
-| Lateral Raise | 15 lb × 15 × 3 | Consistent |
-| Incline DB Curl | 25 lb × 12 × 3 | Up from 20 lb |
-| Hammer Curl | **30 lb** × 12, then faded to 8 / 25 lb × 10 (Sep 12) | Bump from 25. Run 30 for 3×10 before adding. | |
-| Skull Crusher | 40 lb curl bar × 12 × 3 | **CLEARED** — pain-free Aug 30 |
-| Rope Pushdown | 30 lb × 12 × 2 (Sep 12, this machine runs heavy) | Machine-dependent, 25–47.5 lb range across gyms. Log the machine. |
+| **DB Bench Press** | **80 lb** × 9/8/6 (Oct 10) | New high — was capped at 75 at PF. Hold 80, build to 3×8. He prefers the free bar/DBs over the Smith; he said so twice. |
+| **DB Shoulder Press** (LEAD LIFT) | **60 lb** × 8/8/8 (Oct 10) | Third session confirming 60. Build to 3×10. Stays first. **Rack the DBs at hip height.** |
+| Incline DB Bench | 75 lb × 10/9/9 (Sep 21) | Alternate with flat. Retest at the home gym where 80s exist. |
+| **Seated Cable Row** | **150 lb** × 10/10 (Oct 10) | Back to pre-injury territory, pain-free. Chase 3×12 at 150. |
+| **Lat Pulldown** | **135 lb** × 10/10/9 (Oct 10) | Also back to pre-injury. Go 3×10 clean, then 150. |
+| Face Pulls | **70 lb** × 15 × 3 (Oct 10, home stack) | Home gym cable runs much heavier than PF's 30 lb. 70 is correct here. |
+| Lateral Raise | 15 lb × 15 × 3 | Consistent for months. |
+| Reverse Cable Fly | 10–15 lb/side × 12 | Light by design. |
+| Skull Crusher | 40 lb bar × 12 (Sep 16, Sep 21) | **Fully cleared** and running at volume. |
+| Incline DB Curl | 25 lb × 10–12 | |
+| Hammer Curl | 25–30 lb × 12 | 30 lb works but fades by set 2. |
+| Rope Pushdown | **90 lb** × 12, 80 on the last set (Oct 10, home stack) | Home stack. Not comparable to the 30–60 lb PF numbers. |
+| HS Supine Bench (travel) | 100 lb/arm × 10/10/8 (Sep 30) | Travel baseline only. |
 
 ### Lower
 | Lift | Current | Next step |
 |------|---------|-----------|
-| **Smith Squat** | **215 × 8/6/7** (Sep 10) | Missed the 3×8, but he was badly under-recovered — Phillies game the night before, cocktails, wings, poor sleep. HOLD 215 and get the clean 3×8 rested. |
-| **Smith RDL** | **SUSPENDED** — 165 × 12, then 10 and stopped (Sep 10) | **This is what tweaked his scapula on Sep 10.** Replaced by bodyweight 45° back extension until the back is quiet for 3 consecutive lower sessions. |
-| **Seated Leg Curl** | **80 lb** × 11/9/8 (Sep 10) | The month-long stall is broken — first session at 80. Hold 80 and build toward 3×12. Never program 70 again. |
-| Leg Extension | **90 lb × 12/12/12 clean** (Sep 10) | Earned the bump. Go 100. |
-| Walking Lunge (DB) | 30 lb × 10/leg × 3 (Sep 10 — programmed 35, used 30) | Get 3×12 at 30 before trying 35 again. |
-| **HS Glute Trainer** (hip thrust) | 70 lb loaded + ~50 lb machine × 12 (Sep 10) | New machine at the Sep 10 PF. 90 loaded was too heavy (10 reps); 70 gave a hard 12. Hold 70 loaded. |
-| Glute Bridge Machine | 115 × 12 (Aug 29) | **He dislikes it** — the strap digs into his hip. Use only if no hip thrust machine. |
+| **Barbell Back Squat** (FREE) | **205 lb** × 6, 6 — after 225 × 4 (Oct 9) | New primary squat. Build 205 to 3×8 before touching 225 again. **SAFETY PINS BELOW DEPTH, EVERY SET — he trains alone.** |
+| **Barbell Deadlift** (floor) | **155 lb** × 10, 10 (Oct 9) | Back in the program after months off. Highest-risk lift he owns. 10 lb at a time, 8–12 reps, never on a bad-sleep day. |
+| Smith Squat | 205 (90/side) × 3×8 clean (Sep 14, Sep 25) | Fallback / travel option now that the free bar is in. |
+| 45° Back Extension | Bodyweight 3×12–15 | Ran it Sep 14 and Sep 25 — he said it was "tougher than I thought." Keep it as the hinge on any day the deadlift is skipped. |
+| **Seated Leg Curl** (home machine) | **88 lb** × 10, 8 (Oct 9) | The old home-gym machine. 77 was easy. Build 88 to 3×10. Ignore the PF 80 and the Sep 25 "115–125" — that unit was miscalibrated. |
+| **Leg Extension** (new home machine) | **90 lb** × 10 × 3 (Oct 9) | Fresh baseline on a new unit. Build to 3×12 then add. |
+| Walking Lunge (DB) | 30 lb × 10/leg × 3 | Get 3×12 at 30 before 35. |
+| **Hip Thrust Machine** | 200 lb × 3×12 (home machine, pre-travel) | **He asked for this back in — run it every other lower session.** Retest the weight on the first outing. |
+| Glute Lift Machine (travel) | 100 lb × 12 (Sep 14) | Travel substitute. |
+| Leg Press / Squat Machine | Available at home, unused since July | Variety rotation only — free barbell squat is the primary. |
 
-### Hammer Strength baselines (travel gyms, PER ARM)
-Established Aug 30 in Boston. Use these instead of guessing when he hits a PF with Hammer Strength.
-| Machine | Working weight |
-|---------|----------------|
-| Shoulder Press | 80/arm × 12 |
-| Chest Press | 80/arm × 8–9 |
-| Chest-Supported Row | 60/arm × 10 |
-| Front Pulldown | 70/arm × 12 |
+### Core (rotate, never repeat a circuit back to back)
+Pallof Press 22.5 lb × 12/side · KB Plank Drag **30 lb** × 20 (20 felt light) · Dead Bugs 20–24 · Side Plank 45 sec/side · Plank Shoulder Tap 20 · Hanging or machine Knee Raise 10–12 · Bird Dog 16
+
+### Rest periods — he standardized these himself and flagged them for data
+2 min on main compounds, 90 sec on accessories, 45 sec between core rounds.
+
+---
+
+## ENCODING BUG — STILL LIVE. ROOT CAUSE FOUND. ONE-LINE FIX.
+
+**I wrongly declared this fixed on Sep 14.** I verified against a stale raw.githubusercontent copy that predated Brandon's app save — the exact CDN-lag trap this file warns about. Verified again Oct 11 against the true file: **210 `Ã` and 337 `Â` sequences, re-mangled one generation from the repair.**
+
+### Root cause — `index.html`, WorkoutLogSync
+The read and the write use different encodings.
+
+**Line 2311 — READ (wrong):**
+```js
+existing = JSON.parse(atob(meta.content.replace(/\n/g,'')));
+```
+`atob` yields raw bytes as latin-1 characters.
+
+**WRITE (correct, UTF-8):**
+```js
+const b64 = btoa(unescape(encodeURIComponent(payload)));
+```
+
+Asymmetric. Every app save re-reads UTF-8 bytes as latin-1 and re-encodes them, so each non-ASCII character doubles in byte length on every cycle. `·` became tens of thousands of bytes and the file hit 1.05 MB before the Aug 24 repair.
+
+### The fix — change line 2311 to:
+```js
+existing = JSON.parse(decodeURIComponent(escape(atob(meta.content.replace(/\n/g,'')))));
+```
+That makes the read symmetric with the write. **Until this ships, every app save re-corrupts the log and the repair has to be redone.**
+
+### Verification rule — do not repeat my mistake
+**Never verify a push against `raw.githubusercontent.com` immediately after a write.** It lags 1–5 minutes and will happily serve the pre-write copy. Verify on the blob page (`github.com/.../blob/main/<file>`) and check the "Latest commit" line, or wait and re-fetch with a cache-buster.
+
+---
+
+## Nutrition — THIS IS THE ACTUAL PROJECT
+**Targets already on file: 1,900 kcal/day, 140 g protein. Untracked since May 17 — five months.**
+
+**DIAGNOSED Oct 11: nothing is broken.** Both GitHub syncs share one token (`WorkoutLogSync._headers` calls `GitHubSync.getToken()`), and his workout-log pushes have been landing fine — so the token is valid and the push path works. `fitness-data.json` has not updated because **he simply has not pressed "Save Day" on the nutrition tab since May 17.** He kept logging workouts and stopped logging food.
+
+**Brandon chose (Oct 11) to resume tracking in the app.** So the fix is behavioral, not technical: start pressing Save Day. One caveat in the code worth knowing — `GitHubSync.push` opens with `if(!token) return;`, which fails **silently**, while `WorkoutLogSync.push` toasts a warning. If nutrition data ever stops again with no visible error, that silent return is the first suspect.
+- **Protein 140 g is the non-negotiable number** — it is what makes the deficit cost fat instead of muscle.
+- **Alcohol is the first cut.** He named it himself as elevated through the travel stretch.
+- Expect the first 2–3 weeks to show faster visible change than the real fat loss rate, because travel bloat, water and inflammation clear first. Do not let him over-read that, or under-read the slowdown after.
+
+### Measurement — NO SCALE, but WEEKLY WAIST TAPE (his choice, Oct 11)
+- **NO SCALE — he does not want to weigh himself. Do not ask for weight, do not ask him to reconsider.**
+- **Waist at the navel, once a week.** He offered this himself after initially declining. It is the primary number and it is literally the thing he is trying to change.
+- **Protocol matters more than the number** — an inconsistent measurement is worse than none:
+  - Same morning each week, before eating or drinking
+  - Level with the navel, tape parallel to the floor all the way around
+  - **At the end of a normal exhale. Not sucked in, not pushed out.**
+  - Snug against skin without compressing it
+  - Record to the nearest quarter inch
+- **Read the trend, not the week.** Day-to-day waist swings of half an inch come from food volume, sodium and bowel timing. Three weeks of direction is signal; one week is noise. Say this out loud the first time a week goes the wrong way, because it will.
+- Also worth having: **monthly progress photos** and how clothes fit, as the qualitative backup.
+- **Guardrail (second signal):** lifts holding = the deficit is right. **Lifts falling across two consecutive sessions on the same movement = deficit too aggressive or protein too low, and the fix is food, not less training.** With no tape and no scale, this is the early-warning system.
+- Target rate: **0.5–1 lb of fat per week.** Faster than that in a 50-year-old-style recomp usually means muscle going with it.
+
+### What this phase does NOT change
+Rep ranges on the main lifts. Rest periods on the main lifts. The progression logic. He is still trying to add weight to the bar — that is the point.
+
+---
+
+## SCAPULA — quiet since Sep 16. Watch, do not declare victory.
+
+**History: three episodes in fourteen weeks.** Jun 9 (65 lb DB RDL, unstrapped) · Aug 21 (hoisting a 50 lb DB to the knee, session aborted) · Sep 10 (mid-set on the Smith RDL at 165). I called it resolved on Sep 7 and it flared on Sep 10, so the bar for clearing it now is behavior over time, not a single clean session.
+
+**Last complaint: Sep 16**, when he held the lat pulldown at 115 because it felt "a little tight." Since then, **six consecutive sessions with zero complaints**, including:
+- Smith deadlifts (Sep 19) and **barbell deadlifts from the floor at 155** (Oct 9) — loaded hinge, the Sep 10 mechanism
+- Hanging knee raises (Sep 14, Sep 25), 80 lb DB bench, cable rows back to 150, pulldowns back to 135 (Oct 10)
+
+**RDL SUSPENSION LIFTED.** The three-clean-lower-sessions bar is met (Sep 19, Sep 25, Oct 9). Loaded hinging is back in. Keep it in the 8–12 rep range at moderate load; **do not run the load curve that broke it in August (205 → 235 in six days).**
+
+### Standing rules — these do NOT expire
+- **Every dumbbell comes off a rack at hip height or higher. Never hoisted from the floor to the knee.** Two of the three episodes were this exact movement.
+- Thoracic mobility twice weekly, indefinitely.
+- At the first sign of tightness: hold the weight, finish the session, and report it. He does this well without being told.
+- **He has still not seen a physical therapist.** Recommended Aug 24 and again Sep 14. Three strains at one site means something structural is unexplained. It is quiet now, which makes this the EASY time to get it assessed rather than the urgent one. Raise it once more, then let it be his call.
+
+## RESOLVED — lower back (was the Aug 10 active issue)
+
+The Aug 3–8 lower back complaints stopped once the hinge was periodized down. He has run **Smith RDL at 165 total for 3×10** on Aug 29 and Sep 6 with zero back complaints, unstrapped. The earlier problem was the load curve (205 → 235 in six days), not the movement. **Keep the hinge in the 8–12 rep range at moderate load. Do not chase heavy fives on the RDL again.**
+
+**NOTE (Sep 14): the lumbar spine remains fine — but the loaded RDL is now suspended anyway, because on Sep 10 it aggravated the SCAPULA, not the low back. Different tissue, different reason. See the active issue above.**
+
+---
+
+## Current working weights — HOME GYM, Costa Rica (as of Oct 11, 2026)
+
+### Upper
+| Lift | Current | Next step |
+|------|---------|-----------|
+| **DB Bench Press** | **80 lb** × 9/8/6 (Oct 10) | New high — was capped at 75 at PF. Hold 80, build to 3×8. He prefers the free bar/DBs over the Smith; he said so twice. |
+| **DB Shoulder Press** (LEAD LIFT) | **60 lb** × 8/8/8 (Oct 10) | Third session confirming 60. Build to 3×10. Stays first. **Rack the DBs at hip height.** |
+| Incline DB Bench | 75 lb × 10/9/9 (Sep 21) | Alternate with flat. Retest at the home gym where 80s exist. |
+| **Seated Cable Row** | **150 lb** × 10/10 (Oct 10) | Back to pre-injury territory, pain-free. Chase 3×12 at 150. |
+| **Lat Pulldown** | **135 lb** × 10/10/9 (Oct 10) | Also back to pre-injury. Go 3×10 clean, then 150. |
+| Face Pulls | **70 lb** × 15 × 3 (Oct 10, home stack) | Home gym cable runs much heavier than PF's 30 lb. 70 is correct here. |
+| Lateral Raise | 15 lb × 15 × 3 | Consistent for months. |
+| Reverse Cable Fly | 10–15 lb/side × 12 | Light by design. |
+| Skull Crusher | 40 lb bar × 12 (Sep 16, Sep 21) | **Fully cleared** and running at volume. |
+| Incline DB Curl | 25 lb × 10–12 | |
+| Hammer Curl | 25–30 lb × 12 | 30 lb works but fades by set 2. |
+| Rope Pushdown | **90 lb** × 12, 80 on the last set (Oct 10, home stack) | Home stack. Not comparable to the 30–60 lb PF numbers. |
+| HS Supine Bench (travel) | 100 lb/arm × 10/10/8 (Sep 30) | Travel baseline only. |
+
+### Lower
+| Lift | Current | Next step |
+|------|---------|-----------|
+| **Barbell Back Squat** (FREE) | **205 lb** × 6, 6 — after 225 × 4 (Oct 9) | New primary squat. Build 205 to 3×8 before touching 225 again. **SAFETY PINS BELOW DEPTH, EVERY SET — he trains alone.** |
+| **Barbell Deadlift** (floor) | **155 lb** × 10, 10 (Oct 9) | Back in the program after months off. Highest-risk lift he owns. 10 lb at a time, 8–12 reps, never on a bad-sleep day. |
+| Smith Squat | 205 (90/side) × 3×8 clean (Sep 14, Sep 25) | Fallback / travel option now that the free bar is in. |
+| 45° Back Extension | Bodyweight 3×12–15 | Ran it Sep 14 and Sep 25 — he said it was "tougher than I thought." Keep it as the hinge on any day the deadlift is skipped. |
+| **Seated Leg Curl** (home machine) | **88 lb** × 10, 8 (Oct 9) | The old home-gym machine. 77 was easy. Build 88 to 3×10. Ignore the PF 80 and the Sep 25 "115–125" — that unit was miscalibrated. |
+| **Leg Extension** (new home machine) | **90 lb** × 10 × 3 (Oct 9) | Fresh baseline on a new unit. Build to 3×12 then add. |
+| Walking Lunge (DB) | 30 lb × 10/leg × 3 | Get 3×12 at 30 before 35. |
+| **Hip Thrust Machine** | 200 lb × 3×12 (home machine, pre-travel) | **He asked for this back in — run it every other lower session.** Retest the weight on the first outing. |
+| Glute Lift Machine (travel) | 100 lb × 12 (Sep 14) | Travel substitute. |
+| Leg Press / Squat Machine | Available at home, unused since July | Variety rotation only — free barbell squat is the primary. |
 
 ### Core (rotate, never repeat a circuit back to back)
 Pallof Press 22.5 lb × 12/side · KB Plank Drag **30 lb** × 20 (20 felt light) · Dead Bugs 20–24 · Side Plank 45 sec/side · Plank Shoulder Tap 20 · Hanging or machine Knee Raise 10–12 · Bird Dog 16
@@ -114,21 +272,29 @@ The mojibake corruption in `workout-log.json` (special characters double-encodin
 
 ---
 
-## Equipment reality — read before programming any weight
+## HOME GYM — Costa Rica, settled as of Oct 7 (several months)
 
-Brandon has trained at **seven-plus gyms since mid-July**: multiple Planet Fitness locations, PF Boston, PF Eugene, several hotel gyms, one PF with a squat rack.
+**This is the big change. Three months of training at seven-plus gyms is over.** He is back at his own gym and explicitly asked to dial in the weights here and build a proper routine. **Every number below from Oct 9–10 is a HOME GYM number and is the baseline that matters now.** Planet Fitness and hotel numbers are historical — do not program from them.
 
-- **Smith bars vary and are often unmarked.** ~24–25 lb estimated. Two machines with identical plates can differ 10–20 lb in effective resistance. **Program and log PLATES PER SIDE.**
-- **Functional trainer stacks run a different ratio than standard stacks.** A 60 lb face pull on a standard stack is 37.5–42.5 on a functional trainer. Not a strength change.
-- **Cable increments vary** — some 120→135→150, some 160→170 with no 5 lb step.
-- **Hotel gyms:** DBs only, usually capped at 75 lb, KBs at 30 lb, no barbell, no Smith.
-- **Always write a named fallback into every exercise.** He has been shut out of the leg curl machine twice and had benches occupied on Sep 7.
-- **Always log which gym.**
+### Equipment available
+- **Full free weights**, including dumbbells past 75 lb (he immediately went to 80 on bench)
+- **Barbell squat rack** — he squatted free for the first time on Oct 9
+- **Hip thrust machine** he specifically likes and wants back in, "maybe every other workout"
+- **Leg press**, and the **squat machine** (pendulum) he used before leaving
+- Leg extension is a **NEW unit** since he left — fresh baseline at 90 lb
+- Leg curl is the **original machine** — 88 lb working, which is the pre-travel calibration
+- Cable stack runs heavier than PF: face pulls at **70 lb**, rope pushdown at **90 lb**
 
-### Free-weight transition status
-- **Bench: TRANSITIONED.** Free barbell since Aug 2, on his own initiative. Carryover from the Smith was near-total.
-- **Squat: NOT transitioned.** Still Smith. Free squatting is a different skill. October on-ramp at the Costa Rica home gym: Wk1 135 × 4×6, Wk2 155, Wk3 175. Safety pins below depth on every set — he trains alone.
-- **Floor deadlifts remain off.**
+### His stated preference
+**Free weights wherever possible** — his reasoning is that they are more available in crowded gyms and the skill carries when he travels. Honor that: barbell and dumbbell first, machines for the accessory and glute work.
+
+### Free-weight transition status — UPDATED
+- **Bench: free/DB, done.** 80 lb DBs.
+- **Squat: TRANSITIONED, and he skipped the on-ramp.** The plan was 135 / 155 / 175 across three weeks; he went to 225 for 4 on day one, then 205 for 6×2. He got it — but **he trains alone, so safety pins set below depth are mandatory on every working set.** Working weight 205 for 6.
+- **Floor deadlifts: BACK IN**, 155 × 10. Previously off the program. **This is the highest-risk lift he owns given three scapular strains and a lumbar history — progress it slowly, 10 lb at a time, and never on a bad-sleep day.**
+
+### Still true about machine numbers
+Cable stacks, leg curl units and Smith bars vary wildly between gyms — a 30 lb PF face pull and a 70 lb home face pull are the same effort. **Always log which gym and which machine.** The Sep 25 leg curl at 115–125 was a light machine, not a strength jump.
 
 ---
 
@@ -145,11 +311,11 @@ What he holds constant: **roughly 4 days between sessions of the same body part*
 ---
 
 ## Open questions
-- **Where is he training now, and for how long?** The 2-month settled location determines whether we can run a consistent progression instead of re-baselining every week.
-- **Aug 15 session is still missing** from the log (a Saturday session he cut short).
-- **The Aug 25/26 cardio date is uncertain** — programmed for Tue Aug 25, he later referred to it as Wednesday. Logged under Aug 25.
-- Is the nutrition file fixable, or does tracking need a different home?
-- He mentioned "feeling agitated" on Sep 7 and skipped his finisher for it. Not a training problem on its own; watch whether it recurs.
+- **Retest the hip thrust machine weight** on its first outing back — 200 lb is a pre-travel number.
+- **Aug 15 session is still missing** from the log (a Saturday he cut short). Probably gone for good.
+- **Nutrition has been dark since May 17.** Five months. `fitness-data.json` stopped updating. Biggest gap in the program by far, and now that he is settled it is the obvious thing to fix.
+- **PT assessment still not booked.** Raised Aug 24 and Sep 14.
+- He mentioned "feeling agitated" (Sep 7) and "a little tired" (Sep 21). Not training problems on their own; watch for a pattern.
 
 ## How Brandon works
 - Wants **specific weights every time.** Never "moderate" or "as tolerated."
