@@ -2812,6 +2812,92 @@ renderAll();
 })();
 
 renderAll();
+
+// ---- Scroll + tab memory (survives backgrounding, timer switches, reloads, re-renders) ----
+// Added Oct 11 2026. Purely additive: if anything here fails the app behaves exactly as before.
+(function scrollMemory(){
+  try {
+    if ('scrollRestoration' in history) history.scrollRestoration = 'manual';
+    var KEY = 'fit_scrollpos';
+    var STALE_MS = 6 * 60 * 60 * 1000;   // ignore a saved spot older than 6 hours
+    var t = null;
+
+    function tabs(){ return Array.prototype.slice.call(document.querySelectorAll('.tab')); }
+    function activeName(){
+      var el = document.querySelector('.tab.active');
+      return el ? el.id.replace('tab-','') : 'workout';
+    }
+    function read(){
+      try { var s = JSON.parse(localStorage.getItem(KEY)||'{}'); return (s && typeof s==='object') ? s : {}; }
+      catch(e){ return {}; }
+    }
+    function save(){
+      try {
+        var st = read();
+        st.pos = st.pos || {};
+        var el = document.querySelector('.tab.active');
+        if (el) st.pos[el.id] = el.scrollTop;
+        st.tab = activeName();
+        st.at  = Date.now();
+        localStorage.setItem(KEY, JSON.stringify(st));
+      } catch(e){}
+    }
+    function saveSoon(){ clearTimeout(t); t = setTimeout(save, 150); }
+
+    function scrollTabTo(name, y){
+      var el = document.getElementById('tab-'+name);
+      if (!el || !y) return;
+      // two frames: the first lets the rendered content exist, the second beats iOS resetting it
+      requestAnimationFrame(function(){
+        el.scrollTop = y;
+        requestAnimationFrame(function(){ if (Math.abs(el.scrollTop - y) > 2) el.scrollTop = y; });
+      });
+    }
+
+    function restore(){
+      var st = read();
+      if (!st.tab) return;
+      if (st.at && (Date.now() - st.at) > STALE_MS) return;
+      if (st.tab !== activeName() && document.getElementById('tab-'+st.tab)) {
+        if (typeof window.showTab === 'function') window.showTab(st.tab);
+      }
+      scrollTabTo(st.tab, st.pos && st.pos['tab-'+st.tab]);
+    }
+
+    tabs().forEach(function(el){ el.addEventListener('scroll', saveSoon, {passive:true}); });
+
+    document.addEventListener('visibilitychange', function(){
+      if (document.visibilityState === 'hidden') save(); else restore();
+    });
+    window.addEventListener('pagehide', save);
+    window.addEventListener('blur', save);
+
+    // Switching tabs returns you to where you were in that tab
+    var _showTab = window.showTab;
+    if (typeof _showTab === 'function') {
+      window.showTab = function(name){
+        save();
+        _showTab(name);
+        var st = read();
+        scrollTabTo(name, st.pos && st.pos['tab-'+name]);
+      };
+    }
+
+    // renderWorkout() rebuilds the list on note edits and plan reloads - hold position across it
+    var _renderWorkout = window.renderWorkout;
+    if (typeof _renderWorkout === 'function') {
+      window.renderWorkout = function(){
+        var el = document.getElementById('tab-workout');
+        var y = el ? el.scrollTop : 0;
+        var r = _renderWorkout.apply(this, arguments);
+        if (el && y) requestAnimationFrame(function(){ el.scrollTop = y; });
+        return r;
+      };
+    }
+
+    restore();
+  } catch(e){ /* never break the app over scroll memory */ }
+})();
 </script>
 </body>
 </html>
