@@ -262,6 +262,36 @@ The mojibake corruption in `workout-log.json` (special characters double-encodin
 
 ---
 
+## GARMIN WATCH — added Oct 13 2026. Read the trust rules before using any of it.
+
+Brandon started wearing a Garmin ~Oct 11 and gave access to Garmin Connect via Chrome (he is signed in; `connect.garmin.com/app/home`, `/app/sleep`, `/app/stress`, `/app/heart-rate`, `/app/body-battery`). **Two days of data — nothing here establishes a trend yet. Revisit around Oct 25 for a first real read.**
+
+### TRUST THESE
+| Metric | Oct 13 reading | Why it is useful |
+|--------|---------------|------------------|
+| **Resting heart rate** | **46 bpm** (7-day avg also 46, but that is really a 2-day avg) | The single best number on the watch for him. Genuinely athletic for his age and training load. **A sustained rise of 5+ bpm over several days = under-recovery, illness, or too big a deficit.** This is now the early-warning system the fat-loss phase was missing. |
+| **Sleep duration** | 8h 02m (bed 9:30 PM, wake 5:32 AM) | Consistent early schedule. Was previously self-reported 1–10 and mostly blank. |
+| **Sleep stages** | Deep 52m · Light 5h 03m · REM 2h 07m | Deep is ~11% of total, on the low side (13–23% is typical). **Deep sleep is the stage alcohol destroys** — watch it against his drinking. |
+| **Stress** | 30/100 · Rest 5h28, Low 40m, Med 1h55, **High 50m** (partial day) | He has twice volunteered feeling "agitated" (Sep 7) and "a little tired" (Sep 21). This makes that measurable. Watch whether high-stress days line up with sessions where he reports feeling heavy. |
+| **Resting calories** | 1,123 by mid-day | Over 2+ weeks this becomes a better TDEE estimate than our 2,200–2,500 guess. He has long suspected his real TDEE is lower. |
+
+### DO NOT TRUST — and do not let these into the deficit math
+| Metric | Oct 13 reading | Why it is wrong |
+|--------|---------------|------------------|
+| **Calories burned, lifting** | **130 kcal** for a full lower-body session | Off by 3–4x. His sessions run 350–500. **Never use Garmin burn figures for lifting.** Overcounting burn is the classic way a fat-loss phase stalls. |
+| **"Work time" / set count** | 10:21 work time, 14 sets, for a ~70 min session | He did not hit the set button cleanly, and it would be unreliable even if he had. |
+| **Peak HR during lifting** | 109 bpm | Wrist optical HR is poor during resistance training — grip and forearm flexion corrupt the signal, and HR tracks strength effort badly anyway. |
+
+### Standing advice given Oct 13
+**Stop trying to log sets on the watch.** His own app already captures real weights, reps and notes, and does it far better. Use the watch to record the session as an activity only for HR/stress context, or do not record it at all. Duplicating his log on the watch is worse at the job.
+
+**Body Battery is empty** — it needs several consecutive nights of tracked sleep before it populates. Check again after a week of consistent wear; it is the best single recovery proxy Garmin offers and worth having.
+
+### How this changes the program
+The fat-loss phase had one hard objective signal (the strength log) plus a weekly waist tape. **RHR now adds a second independent recovery signal**, which matters a lot given he will not use a scale. Guardrail becomes: waist dropping + lifts holding + RHR stable = the deficit is right. **RHR climbing while the waist drops = cutting too hard.**
+
+---
+
 ## Nutrition — currently dark, and that is the biggest gap in the program
 
 **`fitness-data.json` has not updated since May 17, 2026.** No calories, protein, sleep, weight, or deficit data for nearly four months. All coaching since then has been training-only. Either the app stopped saving that file or the save is broken — worth diagnosing.
