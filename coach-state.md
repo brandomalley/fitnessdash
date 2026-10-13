@@ -90,7 +90,7 @@ The Aug 3–8 lower back complaints stopped once the hinge was periodized down. 
 
 ---
 
-## Current working weights — HOME GYM, Costa Rica (as of Oct 11, 2026)
+## Current working weights — HOME GYM, Costa Rica (as of Oct 13, 2026)
 
 ### Upper
 | Lift | Current | Next step |
@@ -112,14 +112,14 @@ The Aug 3–8 lower back complaints stopped once the hinge was periodized down. 
 ### Lower
 | Lift | Current | Next step |
 |------|---------|-----------|
-| **Barbell Back Squat** (FREE) | **205 lb** × 6, 6 — after 225 × 4 (Oct 9) | New primary squat. Build 205 to 3×8 before touching 225 again. **SAFETY PINS BELOW DEPTH, EVERY SET — he trains alone.** |
+| **Barbell Back Squat** (FREE) | **205 lb × 8/7/6** (Oct 12, with a rep in reserve on set 3) | Up from 6/6 three days earlier — 21 reps vs 16 at the same load. Hold 205 and close out 3×8; he left one on the table, it is right there. **SAFETY PINS BELOW DEPTH, EVERY SET — he trains alone.** |
 | **Barbell Deadlift** (floor) | **155 lb** × 10, 10 (Oct 9) | Back in the program after months off. Highest-risk lift he owns. 10 lb at a time, 8–12 reps, never on a bad-sleep day. |
 | Smith Squat | 205 (90/side) × 3×8 clean (Sep 14, Sep 25) | Fallback / travel option now that the free bar is in. |
 | 45° Back Extension | Bodyweight 3×12–15 | Ran it Sep 14 and Sep 25 — he said it was "tougher than I thought." Keep it as the hinge on any day the deadlift is skipped. |
-| **Seated Leg Curl** (home machine) | **88 lb** × 10, 8 (Oct 9) | The old home-gym machine. 77 was easy. Build 88 to 3×10. Ignore the PF 80 and the Sep 25 "115–125" — that unit was miscalibrated. |
-| **Leg Extension** (new home machine) | **90 lb** × 10 × 3 (Oct 9) | Fresh baseline on a new unit. Build to 3×12 then add. |
-| Walking Lunge (DB) | 30 lb × 10/leg × 3 | Get 3×12 at 30 before 35. |
-| **Hip Thrust Machine** | 200 lb × 3×12 (home machine, pre-travel) | **He asked for this back in — run it every other lower session.** Retest the weight on the first outing. |
+| **Seated Leg Curl** (home machine) | **88 lb × 3 full sets, called it "fine"** (Oct 12, on sore hamstrings) | Stall fully broken. 88 is owned. Build to 3×12, then 95–100. Ignore the PF 80 and the Sep 25 "115–125" — that unit was miscalibrated. |
+| **Leg Extension** (new home machine) | **90 lb × 12** on set 3; opened at 75 × 12 × 2 (Oct 12) | He opened light because he "felt heavy" on set 1 — sore and under-recovered. 90 for 12 is confirmed. Program 90 for all 3 sets. |
+| Walking Lunge (DB) | 30 lb × 12/11/10 per leg (Oct 12) | One good set off a clean 3×12. Hold 30 until all three land, then 35. |
+| **Hip Thrust Machine** | **180 lb × 12 × 2** (Oct 12; opened at 140, easy) | Retest done. 180 confirmed with room to spare. **Go 200 next Day A.** Runs every other lower session per his request. |
 | Glute Lift Machine (travel) | 100 lb × 12 (Sep 14) | Travel substitute. |
 | Leg Press / Squat Machine | Available at home, unused since July | Variety rotation only — free barbell squat is the primary. |
 
@@ -215,7 +215,7 @@ The Aug 3–8 lower back complaints stopped once the hinge was periodized down. 
 
 ---
 
-## Current working weights — HOME GYM, Costa Rica (as of Oct 11, 2026)
+## Current working weights — HOME GYM, Costa Rica (as of Oct 13, 2026)
 
 ### Upper
 | Lift | Current | Next step |
@@ -237,14 +237,14 @@ The Aug 3–8 lower back complaints stopped once the hinge was periodized down. 
 ### Lower
 | Lift | Current | Next step |
 |------|---------|-----------|
-| **Barbell Back Squat** (FREE) | **205 lb** × 6, 6 — after 225 × 4 (Oct 9) | New primary squat. Build 205 to 3×8 before touching 225 again. **SAFETY PINS BELOW DEPTH, EVERY SET — he trains alone.** |
+| **Barbell Back Squat** (FREE) | **205 lb × 8/7/6** (Oct 12, with a rep in reserve on set 3) | Up from 6/6 three days earlier — 21 reps vs 16 at the same load. Hold 205 and close out 3×8; he left one on the table, it is right there. **SAFETY PINS BELOW DEPTH, EVERY SET — he trains alone.** |
 | **Barbell Deadlift** (floor) | **155 lb** × 10, 10 (Oct 9) | Back in the program after months off. Highest-risk lift he owns. 10 lb at a time, 8–12 reps, never on a bad-sleep day. |
 | Smith Squat | 205 (90/side) × 3×8 clean (Sep 14, Sep 25) | Fallback / travel option now that the free bar is in. |
 | 45° Back Extension | Bodyweight 3×12–15 | Ran it Sep 14 and Sep 25 — he said it was "tougher than I thought." Keep it as the hinge on any day the deadlift is skipped. |
-| **Seated Leg Curl** (home machine) | **88 lb** × 10, 8 (Oct 9) | The old home-gym machine. 77 was easy. Build 88 to 3×10. Ignore the PF 80 and the Sep 25 "115–125" — that unit was miscalibrated. |
-| **Leg Extension** (new home machine) | **90 lb** × 10 × 3 (Oct 9) | Fresh baseline on a new unit. Build to 3×12 then add. |
-| Walking Lunge (DB) | 30 lb × 10/leg × 3 | Get 3×12 at 30 before 35. |
-| **Hip Thrust Machine** | 200 lb × 3×12 (home machine, pre-travel) | **He asked for this back in — run it every other lower session.** Retest the weight on the first outing. |
+| **Seated Leg Curl** (home machine) | **88 lb × 3 full sets, called it "fine"** (Oct 12, on sore hamstrings) | Stall fully broken. 88 is owned. Build to 3×12, then 95–100. Ignore the PF 80 and the Sep 25 "115–125" — that unit was miscalibrated. |
+| **Leg Extension** (new home machine) | **90 lb × 12** on set 3; opened at 75 × 12 × 2 (Oct 12) | He opened light because he "felt heavy" on set 1 — sore and under-recovered. 90 for 12 is confirmed. Program 90 for all 3 sets. |
+| Walking Lunge (DB) | 30 lb × 12/11/10 per leg (Oct 12) | One good set off a clean 3×12. Hold 30 until all three land, then 35. |
+| **Hip Thrust Machine** | **180 lb × 12 × 2** (Oct 12; opened at 140, easy) | Retest done. 180 confirmed with room to spare. **Go 200 next Day A.** Runs every other lower session per his request. |
 | Glute Lift Machine (travel) | 100 lb × 12 (Sep 14) | Travel substitute. |
 | Leg Press / Squat Machine | Available at home, unused since July | Variety rotation only — free barbell squat is the primary. |
 
@@ -307,6 +307,16 @@ Cable stacks, leg curl units and Smith bars vary wildly between gyms — a 30 lb
 What he holds constant: **roughly 4 days between sessions of the same body part**, alternating lower and upper. Cardio or rest on off days. Example weeks: Sun/Mon + Thu/Sat (Sep 6–12); Mon/Wed + weekend (Sep 14 on).
 
 **Even spacing does NOT by itself justify more volume per session.** Total weekly volume is unchanged. Add a movement only when there is a specific gap in what is being trained — e.g. the hip thrust added Sep 10 because he had done no direct glute work since Aug 29.
+
+---
+
+## Standing process failure — PUSH BEFORE THE SESSION, NOT AFTER
+
+**Oct 12: Brandon reported sore hamstrings the night before. I modified the plan — leg curl down to 77 for 2 rounds instead of 88 for 3 — and could not push it, because Chrome dropped off. He trained from the UNMODIFIED plan in the app and ran 88 for three sets.**
+
+It was fine: he reported "fine" and no hamstring issue, and 88 is now confirmed. But the modification never reached him, and that is a systems failure, not a coaching one.
+
+**Rule: a plan change is not delivered until it is verified live in the repo.** If the push cannot complete, say so in the same message as the advice and give the modified numbers in plain text in the chat, so the change reaches him even when the file does not. Do not describe a modified session as though the app has it.
 
 ---
 

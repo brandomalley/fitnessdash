@@ -1,47 +1,61 @@
 {
   "workout": {
-    "date": "2026-10-12",
-    "day_label": "Monday, October 12",
-    "session_type": "DAY A - Lower (squat emphasis) - FAT LOSS PHASE",
+    "date": "2026-10-14",
+    "day_label": "Wednesday, October 14",
+    "session_type": "DAY B - Upper (press emphasis) - FAT LOSS PHASE",
     "is_gym_day": true,
-    "warmup": "10 min incline walk. Then 90/90 hip switches x 10/side, bodyweight glute bridge x 15, Cat-Cow x 10. RAMP THE SQUAT: 135 x 8, then 185 x 3. Write it down and do it - every session you ramp, you hit your numbers.",
-    "coach_note": "Day one of the fat loss phase, and I want to be straight with you about how this works, because the obvious version of it would cost you the thing you said you want to keep. You asked for workouts focused on optimal fat burn. The honest answer is that your workouts are not where fat loss happens. Four sessions a week burn maybe 1,600-2,000 calories. A 500-a-day change in what you eat is 3,500. Food is twice the lever and it is the more reliable one. If I turned your lifting into high-rep fat-burning circuits, you would burn maybe 150 more calories per session and you would lose strength - the exact trade you told me you do not want. So the heavy work stays heavy. Squat, deadlift, press, row: same loads, same reps, same full rest. That is what makes a calorie deficit cost you fat instead of muscle. What DOES change: your accessories now run as paired supersets with 45-60 seconds between pairs instead of 90 straight. Same volume, less time, higher heart rate. And the incline walk finisher stops being optional - in this phase it is part of the session. Two off-day cardio sessions, 35-45 min of easy Zone 2, and an 8-10k step floor. Then the real work, which is the kitchen: 140 g of protein is the number that matters most, alcohol is the first thing to cut, and I have had zero intake data since May 17. Last thing - skip the scale, I agree with you, but measure your waist at the navel once a week, mornings before eating. That plus your strength log tells us everything: waist dropping and lifts holding means it is working. Lifts falling means the deficit is too big and the fix is more food, not less training.",
-    "finisher": "12-15 min incline walk. NOT optional this phase.",
+    "warmup": "10 min incline walk. Band pull-aparts x 20, arm circles, Thread-the-Needle x 8/side. RAMP THE SHOULDER PRESS: 35 lb x 8 slow, then 45 x 5. RAMP THE BENCH when you get there: 45 lb x 9, then 65 x 5. Write the ramps in and do them - every session you ramp, you hit your numbers.",
+    "coach_note": "Monday was a good session and everything in it moved. Squat 205 for 8/7/6 against 6/6 three days earlier - that is 21 reps at the same load versus 16, and you noted a rep still in reserve on set 3, so the clean 3x8 is right there. Hip thrust retest landed at 180 for 12 twice after 140 felt easy, so that goes to 200 next lower day. Leg extension 90 for 12. Lunges 12/11/10. And you did the 12 minute finisher, which is the part that usually gets dropped. One thing I owe you straight: Sunday you told me your hamstrings were sore and I modified the plan - leg curl down to 77 for two rounds instead of 88 for three. That change never reached you, because Chrome dropped before I could push it and the app still had the original. You ran 88 for three sets and called it fine, so no harm, and 88 is now confirmed as yours. But you trained off a plan I had already revised, and that is on my process, not your execution. I have written a rule into your file: if I cannot push a change, I give you the numbers in plain text in the chat instead of describing a session the app does not have. Today is upper. Shoulder press leads, permanently - it is the single change that has paid off most this whole program. Then bench at 80, row at 150, pulldown at 135, and the accessories run paired like Monday.",
+    "finisher": "12-15 min incline walk. NOT optional this phase - you did it Monday, keep it.",
     "exercises": [
       {
         "id": "A1",
-        "name": "BLOCK 1 - Barbell Back Squat (SAFETY PINS MANDATORY)",
-        "detail": "205 lb - 3 x 8",
-        "rest": "2-3 min - take it all",
-        "note": "Heavy stays heavy. Friday gave 225 x 4 then 205 x 6, 6 - the ask is 205 for 8. You train alone and you skipped the planned on-ramp to get here, so PINS SET BELOW DEPTH ON EVERY SET including the ramp. Brace before you unrack, chest up, controlled down, full depth, drive through midfoot. Clean 3x8 and we go to 215 next time, not back to 225 for singles."
+        "name": "BLOCK 1 - DB Shoulder Press (LEAD LIFT)",
+        "detail": "60 lb - 3 x 8-10",
+        "rest": "2 min",
+        "note": "Stays first, permanently. Saturday gave 60 for 8/8/8 - the ask is to push toward 10. Three sessions have now confirmed 60, which is a weight that flatly failed you on Jul 22 when it ran second behind the bench. Upright back pad, DBs on your thighs, kick one knee at a time. RACK THE DUMBBELLS AT HIP HEIGHT - never hoisted off the floor. That rule is what two scapular strains bought."
       },
       {
         "id": "A2",
-        "name": "BLOCK 1 - Hip Thrust Machine (RETEST)",
-        "detail": "Start 180 lb - 3 x 12",
+        "name": "BLOCK 1 - DB Bench Press",
+        "detail": "80 lb - 3 x 8",
+        "rest": "2-3 min",
+        "note": "Saturday was your first outing with the 80s: 9, 8, 6. The drop to 6 says this is an honest working weight, not a gift - so hold 80 and close out 3x8 before adding. Controlled eccentric, do not bounce off the chest. Monitor the left shoulder; if it pinches, drop to 75 and tell me."
+      },
+      {
+        "id": "A3",
+        "name": "Seated Cable Row",
+        "detail": "150 lb - 3 x 12",
         "rest": "2 min",
-        "note": "You asked for this back and it runs on Day A from now on. 200 lb is a July number and you have not touched this machine in three months, so START AT 180 and find the real weight. Easy 12 at 180? Go 200 for sets 2 and 3 and report what landed. Full hip extension, hard glute squeeze, ribs down, chin tucked, no hyperextension at the top."
+        "note": "Saturday: 135 x 12, then 150 for 10 and 10. The ask is 12s at 150. This is your pre-injury territory and it is now pain-free, which is worth noting - in September you were down at 145 and feeling the scapula. Chest up, slow, hard squeeze at the back, no yanking with the low back."
+      },
+      {
+        "id": "A4",
+        "name": "Lat Pulldown",
+        "detail": "135 lb - 3 x 10",
+        "rest": "90 sec",
+        "note": "Saturday: 135 for 10, 10, 9. Close out all three at 10 and then we go to 150. Neutral or close grip if the bar is there - that is the grip you have tolerated best since the strain. Full stretch at the top, drive the elbows down."
       },
       {
         "id": "B1",
-        "name": "BLOCK 2 PAIR - Leg Extension + Seated Leg Curl",
-        "detail": "Leg Extension 90 lb x 12, then straight into Seated Leg Curl 88 lb x 10. 3 rounds.",
-        "rest": "45-60 sec between ROUNDS only - no rest between the two movements",
-        "note": "THIS IS THE FAT-LOSS ADJUSTMENT. Same sets and reps you would have done anyway, just paired back to back. Go extension straight into curl, then rest 45-60 sec and repeat. Your heart rate stays up and you save about ten minutes. Leg extension is the NEW home machine (90 was 10/10/10 Friday - chase 12s). Leg curl is your original machine where 88 gave 10 then 8 - ignore every leg curl number from the trip, those machines were calibrated differently."
+        "name": "BLOCK 2 PAIR - Face Pulls + Lateral Raise",
+        "detail": "Face Pulls 70 lb x 15, then straight into Lateral Raise 15 lb x 15. 3 rounds.",
+        "rest": "45-60 sec between ROUNDS only",
+        "note": "Paired, same as Monday - this is the fat-loss adjustment and it saves you about ten minutes. No rest between the two movements. Face pulls at 70 is the home stack, not comparable to the 30 lb you were using at Planet Fitness. Elbows high and wide, pull to the forehead, pause at the back. Lateral raises: lead with the elbow, stop at shoulder height, and do not force the last reps when the shoulders gas out."
       },
       {
         "id": "B2",
-        "name": "BLOCK 2 - Walking Lunge (DB)",
-        "detail": "30 lb - 3 x 12/leg",
-        "rest": "75 sec",
-        "note": "Progressing by reps, not load - own 30 for 12 per leg before we go to 35. DUMBBELLS OFF A RACK AT HIP HEIGHT, never hoisted off the floor. That rule does not expire. Torso tall, knee over the toe, drive through the front heel. Drop this one if the session passes 70 min - it is the lowest-value movement here."
+        "name": "BLOCK 2 PAIR - Rope Pushdown + Hammer Curl",
+        "detail": "Rope Pushdown 90 lb x 12, then straight into Hammer Curl 30 lb x 10. 3 rounds.",
+        "rest": "45-60 sec between ROUNDS only",
+        "note": "Saturday you ran the pushdown at 90 and dropped to 80 on the last set - fine, do the same if you need it. Hammer curls at 30 gave you 12 then faded to 8 on Sep 12, so the target is a solid 3x10 at 30 before adding. Elbows pinned, no swinging. Drop the third round if the session passes 70 minutes."
       },
       {
         "id": "C",
         "name": "BLOCK 3 - Core Circuit",
-        "detail": "2 rounds: Pallof Press 25 lb x 12/side, Hanging Knee Raise x 12, KB Plank Drag 30 lb x 20",
+        "detail": "2 rounds: Side Plank 45 sec/side, Ab Wheel x 10, Bicycle Kicks x 30",
         "rest": "45 sec between rounds",
-        "note": "Rotated fresh - not Friday's or Saturday's combination. Hanging knee raises are fine; you ran them Sep 14 and Sep 25 with no scapular issue. Hips square on the plank drag, do not let them rotate as you reach under."
+        "note": "Rotated fresh - not Monday's circuit and not Saturday's. Ab wheel is back in your rotation as of Oct 9; start from the knees and only extend as far as your lower back stays neutral. Side planks: hips stacked, ribs down. Slow and controlled on the bicycles, not a race."
       }
     ]
   }
