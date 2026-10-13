@@ -262,6 +262,33 @@ The mojibake corruption in `workout-log.json` (special characters double-encodin
 
 ---
 
+## WEIGHT — 188.8 lb, Oct 12 2026. First reading in five months.
+
+| Date | Weight | Note |
+|------|--------|------|
+| Apr 12, 2026 | 181.6 lb | Program start |
+| May 7, 2026 | **176.8 lb** | The low. Last logged weight before the gap. |
+| **Oct 12, 2026** | **188.8 lb** | **+12.0 lb vs the May low · +7.2 lb vs the April start** |
+
+**The rate: 0.53 lb/week over 23 weeks — roughly a 266 kcal/day average surplus.** That is a modest, slow drift, not a blowout. It is consistent with mostly-reasonable eating plus a bad three-month travel stretch, all of it untracked since May 17.
+
+### Honest composition read
+**Some of it is muscle. Most of it is not.** The strength gains over those same five months are real and documented: bench 185 for 5/5/5/4 → 185 for 9/9 · DB bench 75 → 80 · shoulder press 55-was-a-struggle → 60 for 8/8/8 · Smith squat 185 → 215 and now a free bar at 225 · leg curl 70 → 88 · cable row back to 150. You do not add that without adding tissue. But a man his age does not gain 12 lb of muscle in five months while traveling and drinking more than usual. **Best estimate: 3–5 lb lean, 7–9 lb fat.** That matches his own report of noticeable belly fat.
+
+### The useful frame — do not let him miss this
+**Getting back to ~180 now would look and perform nothing like 181.6 did in April**, because of what he has built underneath. The target is not the April number, it is the April number with five months of strength on top. That makes this a recomp win in progress, not a failure to undo.
+
+### Implications
+- **This validates the fat loss phase**, which he started Oct 12 — two days before this reading. The timing is right.
+- **Nutrition tracking is now the whole ballgame.** Five months dark and +12 lb is one story, not two. He committed Oct 11 to resuming Save Day in the app.
+- **Realistic path: 0.5–1 lb/week.** 8 lb of fat is 8–16 weeks. Do not chase faster — faster costs the strength he just spent five months buying.
+- **Counter-evidence worth citing when he gets discouraged: resting heart rate 46 bpm.** He is carrying more weight and is cardiovascularly in excellent shape. This is not a man who fell apart.
+
+### Measurement policy — ASK, do not assume
+He said Oct 11 he did not want to use the scale, then weighed himself Oct 12 and volunteered the number. **Do not shame the inconsistency and do not push the scale on him.** As of Oct 13 the question of whether weight becomes a tracked metric was put back to him. Until he says otherwise: waist tape weekly is primary, strength log is the guardrail, RHR is the recovery signal, weight is optional and his call.
+
+---
+
 ## GARMIN WATCH — added Oct 13 2026. Read the trust rules before using any of it.
 
 Brandon started wearing a Garmin ~Oct 11 and gave access to Garmin Connect via Chrome (he is signed in; `connect.garmin.com/app/home`, `/app/sleep`, `/app/stress`, `/app/heart-rate`, `/app/body-battery`). **Two days of data — nothing here establishes a trend yet. Revisit around Oct 25 for a first real read.**
