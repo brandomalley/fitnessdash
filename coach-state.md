@@ -327,7 +327,18 @@ Brandon started wearing a Garmin ~Oct 11 and gave access to Garmin Connect via C
 ### Standing advice given Oct 13
 **Stop trying to log sets on the watch.** His own app already captures real weights, reps and notes, and does it far better. Use the watch to record the session as an activity only for HR/stress context, or do not record it at all. Duplicating his log on the watch is worse at the job.
 
-**Body Battery is empty** — it needs several consecutive nights of tracked sleep before it populates. Check again after a week of consistent wear; it is the best single recovery proxy Garmin offers and worth having.
+### DEVICE: Garmin Forerunner 645 Music — confirmed Oct 13 from a photo of the case back
+Released early 2018. **Roughly eight years old**, with a correspondingly old optical sensor several generations behind current Garmin hardware. This materially changes what the data is worth.
+
+**CORRECTION — Body Battery does not exist on this watch.** On Oct 13 I told Brandon it was empty because it needed more nights of sleep data and to check back in a week. That was wrong: **the FR645 Music does not support Body Battery at all.** It will never populate. Do not tell him to wait for it.
+
+**Also absent: Pulse Ox / SpO2.** No blood-oxygen sensor, which means no respiration-informed sleep analysis. Newer Garmins blend SpO2 and respiration into sleep staging; this one cannot, so its deep/light/REM split is built from **accelerometer plus heart rate only**. Downgrade sleep stages from "directionally useful" to **"basically noise on this hardware."** Total sleep duration remains usable. Stop quoting him deep-sleep minutes as if they mean something.
+
+**Still solid on this device:** resting heart rate (resting PPG is the easy case and even an old sensor handles it — the 46 bpm stands), steps, and total sleep duration with the usual overestimate bias.
+
+**Fit matters more on old hardware.** The photographed watch is visibly well worn. Worth one reminder: clean the sensor window, wear it snug, a finger's width above the wrist bone. Fit is the single biggest controllable factor in optical HR quality.
+
+**Do not push him to upgrade.** For the two things actually driving decisions here — RHR trend and sleep duration — the 645 is adequate. A newer watch would add Body Battery and Training Readiness, which would be genuinely useful given his injury history, but it is a nice-to-have, not a requirement.
 
 ### How this changes the program
 The fat-loss phase had one hard objective signal (the strength log) plus a weekly waist tape. **RHR now adds a second independent recovery signal**, which matters a lot given he will not use a scale. Guardrail becomes: waist dropping + lifts holding + RHR stable = the deficit is right. **RHR climbing while the waist drops = cutting too hard.**
