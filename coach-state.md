@@ -284,8 +284,23 @@ The mojibake corruption in `workout-log.json` (special characters double-encodin
 - **Realistic path: 0.5–1 lb/week.** 8 lb of fat is 8–16 weeks. Do not chase faster — faster costs the strength he just spent five months buying.
 - **Counter-evidence worth citing when he gets discouraged: resting heart rate 46 bpm.** He is carrying more weight and is cardiovascularly in excellent shape. This is not a man who fell apart.
 
-### Measurement policy — ASK, do not assume
-He said Oct 11 he did not want to use the scale, then weighed himself Oct 12 and volunteered the number. **Do not shame the inconsistency and do not push the scale on him.** As of Oct 13 the question of whether weight becomes a tracked metric was put back to him. Until he says otherwise: waist tape weekly is primary, strength log is the guardrail, RHR is the recovery signal, weight is optional and his call.
+### Measurement policy — SETTLED Oct 13
+
+**Weekly weigh-in is IN, on THURSDAY MORNINGS.** Brandon proposed Wed or Thu himself, reasoning that it puts distance between the reading and weekend drinks or a sandwich. That reasoning is correct — alcohol and high-sodium food hold water for 2–3 days — and Thursday was chosen as the later of the two, giving a full Mon–Wed washout. It also sits 3 days clear of Monday's heavy lower session, so squat-related inflammation and glycogen water have settled.
+
+**Weight and waist get measured the SAME Thursday morning, same conditions.** One weekly ritual, not two:
+- After the bathroom, **before eating or drinking anything**
+- Minimal clothing, same amount each week
+- Waist level with the navel, tape parallel to the floor, **at the end of a normal exhale** — not sucked in
+- Weight to the nearest 0.2 lb, waist to the nearest quarter inch
+
+**Consistency of conditions matters more than the exact day.** A reading taken at a different time of day or after food is not comparable and is worse than no reading.
+
+**Read the trend, not the week.** 2–4 lb of day-to-day weight noise is normal and so is half an inch on the tape. **Three weeks of direction is signal; one week is noise.** Say this out loud the first time a week goes the wrong way, because it will — and he has a history of reading single data points as verdicts (see "bloated and fat," Sep 19).
+
+**First controlled baseline: Thursday Oct 15, 2026.** The 188.8 on Oct 12 was uncontrolled — treat Oct 15 as the real starting point.
+
+**The full dashboard:** weight (weekly Thu) · waist (weekly Thu) · strength log (every session, the guardrail) · RHR from Garmin (the recovery signal) · monthly photos.
 
 ---
 
