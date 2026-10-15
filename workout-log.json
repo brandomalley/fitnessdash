@@ -2457,11 +2457,11 @@
     ]
   },
   {
-    "date": "2026-10-14",
-    "day_label": "Wednesday, October 14",
+    "date": "2026-10-15",
+    "day_label": "Thursday, October 15",
     "session_type": "DAY B - Upper (press emphasis) - FAT LOSS PHASE",
     "submitted_at": "2026-10-15T18:10:48.872Z",
-    "notes": "Did 12 min incline finisher.",
+    "notes": "Did 12 min incline finisher. DATE CORRECTED Oct 15: the app recorded this as Oct 14 because it carries the workout-plan.json date, but Brandon confirmed he trained Thursday morning Oct 15. Garmin independently logs the activity on Oct 15. WATCH FIT WAS GOOD this session, unlike the previous one - see the Garmin comparison in coach-state.",
     "exercises": [
       {
         "id": "A1",

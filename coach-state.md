@@ -1,5 +1,5 @@
 # COACH STATE — live training status
-*Maintained by the coach. Last updated: October 13, 2026 (Oct 12 session · Garmin FR645 · weight 188.8 · Thursday weigh-in)*
+*Maintained by the coach. Last updated: October 15, 2026 (first controlled weigh-in · Garmin wrist-fit evidence)*
 
 **Read this file at the start of every session, together with `workout-log.json`.** It holds current working weights, active decisions, and open questions. Where it disagrees with the skill's reference files, THIS FILE WINS — the reference files (`brandon-profile.md`, `exercise-library.md`) hold slow-changing background (meals, injury history, preferences) and their weight tables are stale as of June. This file holds the live state.
 
@@ -137,7 +137,12 @@ Pallof Press 22.5 lb × 12/side · KB Plank Drag **30 lb** × 20 (20 felt light)
 |------|--------|------|
 | Apr 12, 2026 | 181.6 lb | Program start |
 | May 7, 2026 | **176.8 lb** | The low. Last logged weight before the gap. |
-| **Oct 12, 2026** | **188.8 lb** | **+12.0 lb vs the May low · +7.2 lb vs the April start** |
+| Oct 12, 2026 | 188.8 lb | UNCONTROLLED reading — unknown time of day, not fasted. **Not comparable. Do not use as a baseline.** |
+| **Oct 15, 2026** | **186.6 lb** | **FIRST CONTROLLED BASELINE.** Thursday morning, fasted, per protocol. This is the number every future Thursday is measured against. |
+
+**The 2.2 lb difference between Oct 12 and Oct 15 is NOT fat loss and must be said plainly if he raises it.** Three days at a modest deficit cannot produce 2.2 lb of fat (that would require a ~2,500 kcal/day deficit). It is measurement conditions: the Oct 12 reading was uncontrolled, the Oct 15 one was fasted and first thing. **This is the trap working in the favourable direction, which is exactly when it is most tempting to believe — flag it rather than let him bank it.**
+
+**Waist: NOT measured Oct 15 — he does not have a tape measure yet.** Chase this once, gently: the waist number is the primary metric for a belly-fat goal and weight alone will not show recomposition. Any cloth or paper tape works; a strip of string marked and held against a ruler works too.
 
 **The rate: 0.53 lb/week over 23 weeks — roughly a 266 kcal/day average surplus.** That is a modest, slow drift, not a blowout. It is consistent with mostly-reasonable eating plus a bad three-month travel stretch, all of it untracked since May 17.
 
@@ -208,6 +213,29 @@ Released early 2018. **Roughly eight years old**, with a correspondingly old opt
 **Fit matters more on old hardware.** The photographed watch is visibly well worn. Clean the sensor window, wear it snug, a finger's width above the wrist bone — fit is the single biggest controllable factor in optical HR quality.
 
 **Do not push him to upgrade.** For the two things actually driving decisions here — RHR trend and sleep duration — the 645 is adequate. A newer watch would add Body Battery and Training Readiness, genuinely useful given his injury history, but it is a nice-to-have, not a requirement.
+
+### WRIST FIT — proven to matter, with numbers (Oct 15)
+
+Brandon suspected the watch was sitting badly during his Oct 13 session and correctly fitted on Oct 15. The Garmin data confirms it beyond argument:
+
+| | Oct 13 (bad fit) | Oct 15 (good fit) |
+|---|---|---|
+| Avg HR | **69 bpm** | **104 bpm** |
+| Max HR | 122 bpm | 154 bpm |
+| Calories | 130 | 669 |
+| Sets logged | 14 | 28 (276 reps) |
+
+**An average of 69 bpm during resistance training is barely above his resting rate of 46.** The watch was not reading him at all that session. 104 avg / 154 max is a believable lifting profile. **Any session with an avg HR under ~85 should be treated as a failed read and discarded, not interpreted.**
+
+### Calories — still do not trust them, now for the opposite reason
+669 is far more plausible than 130, but it is a **GROSS** figure. Of a 1:44:02 session, only **50:29 was work time and 53:32 was rest.** About **198 kcal of that 669 is just his resting metabolism over 104 minutes** — calories he would have burned on the couch. The genuine extra from training is nearer **450–470, and probably less**, because Garmin infers burn from heart rate and HR overstates energy cost during resistance work.
+
+**Compounding factor: gym temperature averaged 85.9 °F.** Heat raises heart rate independently of effort, which inflates both the HR average and every HR-derived number on the page. His Costa Rica gym is hot; treat HR-based output there as biased high.
+
+**Rule stands: never add Garmin workout calories into deficit math.** Roughly a third of that number is not workout at all.
+
+### Session length is drifting
+1:44:02 total with rest exceeding work time. His stated preference is ~65–70 min, and the paired supersets in this phase were meant to shorten sessions, not lengthen them. Either rest periods are creeping or the timer ran during non-training time. Worth one check-in, not a lecture.
 
 ### How this changes the program
 The fat-loss phase had one hard objective signal (the strength log) plus a weekly waist tape. **RHR now adds a second independent recovery signal**, which matters a lot given he will not use a scale. Guardrail becomes: waist dropping + lifts holding + RHR stable = the deficit is right. **RHR climbing while the waist drops = cutting too hard.**
