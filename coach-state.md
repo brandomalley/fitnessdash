@@ -1,5 +1,5 @@
 # COACH STATE — live training status
-*Maintained by the coach. Last updated: October 15, 2026 (first controlled weigh-in · Garmin wrist-fit evidence)*
+*Maintained by the coach. Last updated: October 15, 2026 (controlled weigh-in · wrist-fit evidence · 80-min session template)*
 
 **Read this file at the start of every session, together with `workout-log.json`.** It holds current working weights, active decisions, and open questions. Where it disagrees with the skill's reference files, THIS FILE WINS — the reference files (`brandon-profile.md`, `exercise-library.md`) hold slow-changing background (meals, injury history, preferences) and their weight tables are stale as of June. This file holds the live state.
 
@@ -234,8 +234,28 @@ Brandon suspected the watch was sitting badly during his Oct 13 session and corr
 
 **Rule stands: never add Garmin workout calories into deficit math.** Roughly a third of that number is not workout at all.
 
-### Session length is drifting
-1:44:02 total with rest exceeding work time. His stated preference is ~65–70 min, and the paired supersets in this phase were meant to shorten sessions, not lengthen them. Either rest periods are creeping or the timer ran during non-training time. Worth one check-in, not a lecture.
+### SESSION LENGTH — target 80 min door to door. CORRECTED Oct 15.
+
+**I got this wrong first time and said rest was exceeding work time and rests were creeping.** Both claims were built on numbers that do not mean what I thought.
+
+**What the 1:44:02 actually was:** door-to-door gym time. Brandon starts the activity before his warm-up walk and stops it after the finisher. Subtract the 10 min warm-up and 12 min finisher and the **actual lifting was ~82 minutes**, not 104.
+
+**The work/rest split is meaningless on his watch.** He uses the set button as a REST TIMER between sets and often does not mark the start of an exercise. So "work time," "rest time," "total sets" and "total reps" are artifacts of how he uses the button, not measurements. **Never quote those four fields back to him.** On a strength activity, only **average HR, max HR and total duration** are worth reading.
+
+### His stated target: 1:20 door to door
+Budget: 22 min of walking (10 warm-up + 12 finisher) leaves **58 minutes for lifting** — so about 24 minutes has to come out of an 82-minute block.
+
+**The fix is ANTAGONIST PAIRING of the main lifts, and it costs nothing.** Explain the rest math if he ever doubts it:
+- Straight sets at 2 min rest → each set of a lift gets exactly **2:00** of recovery.
+- Paired with an opposing movement → lift, ~1:00 on the other exercise, 2:00 rest, lift again = **~3:00** of recovery for that lift.
+
+**More rest per lift, less total session time.** It is better sequencing, not a compromise. Pair push with pull on upper days, quad with hamstring on lower days.
+
+**The one lift that stays UNPAIRED: the barbell deadlift.** Highest-risk movement he owns given three scapular strains plus lumbar history. He gets it fresh and undistracted. On upper days the lead DB shoulder press likewise stays alone.
+
+**Template (Oct 17 onward):** 1 unpaired heavy lift → 2 paired blocks → core → finisher walk. If Oct 17 lands near 80 min, roll this structure out to all four days.
+
+**Escape hatch, in priority order:** drop the third round of the second pair, then cut core to one round. **Never cut the finisher walk and never cut the warm-up** — the warm-up is injury insurance given his history.
 
 ### How this changes the program
 The fat-loss phase had one hard objective signal (the strength log) plus a weekly waist tape. **RHR now adds a second independent recovery signal**, which matters a lot given he will not use a scale. Guardrail becomes: waist dropping + lifts holding + RHR stable = the deficit is right. **RHR climbing while the waist drops = cutting too hard.**
