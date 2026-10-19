@@ -241,7 +241,12 @@ html,body{height:100%;background:var(--bg);color:var(--text);font-family:-apple-
 .wl-inp{background:var(--card);border:1px solid var(--border);border-radius:8px;color:var(--text);font-size:13px;padding:8px 10px;width:100%;outline:none;box-sizing:border-box}
 .wl-inp:focus{border-color:var(--blue)}
 .wl-lbl{font-size:10px;color:var(--text2);margin-bottom:3px}
-.wl-note{width:100%;background:var(--card);border:1px solid var(--border);border-radius:8px;color:var(--text);font-size:12px;padding:8px 10px;resize:none;outline:none;font-family:inherit;box-sizing:border-box}
+.wl-note{width:100%;background:var(--card);border:1px solid var(--border);border-radius:8px;color:var(--text);font-size:13px;line-height:1.45;padding:9px 10px;resize:vertical;outline:none;font-family:inherit;box-sizing:border-box}
+.wl-plan{margin:2px 0 7px}
+.wl-plan>summary{font-size:10px;color:var(--text2);cursor:pointer;list-style:none;opacity:.8}
+.wl-plan>summary::-webkit-details-marker{display:none}
+.wl-plan>summary::before{content:'\25b8 ';font-size:9px}
+.wl-plan[open]>summary::before{content:'\25be '}
 .wl-note:focus{border-color:var(--blue)}
 .wl-submit{display:block;width:100%;background:var(--blue);color:#fff;border:none;border-radius:12px;padding:14px;font-size:15px;font-weight:700;cursor:pointer;margin-top:6px}
 .wl-submit:active{opacity:.8}
@@ -1705,7 +1710,21 @@ function renderBar(id,items,target,on,off) {
 }
 
 // ---- Render: Workout ----
-function calcCheckedKcal(workout,checks,finisherDone){
+function getFinisherMins(date){
+  var v = parseFloat(localStorage.getItem('fit_finisher_mins_'+date));
+  return (!isNaN(v) && v>0 && v<=180) ? v : 10;
+}
+function dayLabelFor(w){
+  if(w && w.day_label) return w.day_label;
+  if(!w || !w.date) return '';
+  try {
+    var p = String(w.date).split('-');
+    var d = new Date(+p[0], (+p[1])-1, +p[2]);
+    if(isNaN(d.getTime())) return w.date;
+    return d.toLocaleDateString('en-US',{weekday:'long', month:'long', day:'numeric'});
+  } catch(e){ return w.date; }
+}
+function calcCheckedKcal(workout,checks,finisherDone,finisherMins){
   if(!workout||!workout.exercises)return 0;
   const exTypeName=(workout.session_type||"").toLowerCase();
   const exType=EX_TYPES.find(function(t){return exTypeName.includes(t.id)||exTypeName.includes(t.label.toLowerCase().split(" ")[0]);})||EX_TYPES[0];
@@ -1713,7 +1732,8 @@ function calcCheckedKcal(workout,checks,finisherDone){
   const total=workout.exercises.length;
   const done=workout.exercises.filter(function(e){return wChecks[e.id];}).length;
   const perEx=total>0?Math.round((exType.gymKcal||0)/total):0;
-  const finKcal=finisherDone?Math.round((exType.cardioRate||0)*(exType.baseMins||0)):0;
+  const _mins=(finisherMins!=null&&!isNaN(finisherMins))?finisherMins:getFinisherMins(workout.date);
+  const finKcal=finisherDone?Math.round((exType.cardioRate||0)*_mins):0;
   return (exType.warmupKcal||0)+(perEx*done)+finKcal;
 }
 
@@ -1727,8 +1747,9 @@ function renderWorkout() {
   }).join('');
   if(workout) {
     document.getElementById('wk-type').textContent = workout.session_type;
-    document.getElementById('wk-date').textContent = workout.day_label;
-    document.getElementById('wk-warmup').innerHTML = '<div class="warm-fin"><strong>Warmup:</strong> '+esc(workout.warmup)+'</div>';
+    document.getElementById('wk-date').textContent = dayLabelFor(workout);
+    document.getElementById('wk-warmup').innerHTML = workout.warmup
+      ? '<div class="warm-fin"><strong>Warmup:</strong> '+esc(workout.warmup)+'</div>' : '';
     document.getElementById('wk-exercises').innerHTML = workout.exercises.map(function(e){
       return '<div class="ex-card"><div class="ex-id">'+esc(e.id)+'</div>'
         +'<div class="ex-body"><div class="ex-name">'+esc(e.name)+'</div>'
@@ -1736,7 +1757,8 @@ function renderWorkout() {
         +(e.rest?'<div style="font-size:11px;color:var(--text2);margin-bottom:3px">&#x23F1; '+esc(e.rest)+'</div>':'')
         +'<div class="ex-note">'+esc(e.note)+'</div></div></div>';
     }).join('');
-    document.getElementById('wk-finisher').innerHTML = '<div class="warm-fin"><strong>Finisher:</strong> '+esc(workout.finisher)+'</div>';
+    document.getElementById('wk-finisher').innerHTML = workout.finisher
+      ? '<div class="warm-fin"><strong>Finisher:</strong> '+esc(workout.finisher)+'</div>' : '';
     const wDate = workout.date;
     const wChecks = checks['w_'+wDate]||{};
     const wNotes = DB.getWkNotes()['w_'+wDate]||{};
@@ -1769,11 +1791,27 @@ function renderWorkout() {
     const finisherEl = document.getElementById('wk-finisher-check');
     const finisherDone = !!localStorage.getItem('fit_finisher_'+wDate);
     if(finisherEl) {
+      const finMins = getFinisherMins(wDate);
+      const _ft=(workout.session_type||'').toLowerCase();
+      const _fx=EX_TYPES.find(function(t){return _ft.includes(t.id)||_ft.includes(t.label.toLowerCase().split(' ')[0]);})||EX_TYPES[0];
+      const finKcalNow=Math.round((_fx.cardioRate||0)*finMins);
       finisherEl.innerHTML = '<div class="ex-card" style="flex-direction:row;align-items:center;gap:12px;padding:12px 14px">'
         +'<button class="ex-chk'+(finisherDone?' done':'')+'" id="finisher-chk-btn" style="flex-shrink:0">'+(finisherDone?'✓':'')+'</button>'
-        +'<div><div class="ex-name" style="font-size:13px">Finisher: Incline Walk · 10 min</div>'
-        +'<div style="font-size:11px;color:var(--text2);margin-top:2px">'+(finisherDone?'+50 kcal counted':'Tap to mark complete · +50 kcal')+'</div>'
-        +'</div></div>';
+        +'<div style="flex:1;min-width:0"><div class="ex-name" style="font-size:13px">Finisher: Incline Walk</div>'
+        +'<div style="display:flex;align-items:center;gap:7px;margin-top:5px;flex-wrap:wrap">'
+        +'<input id="finisher-mins-inp" type="number" inputmode="numeric" min="1" max="180" step="1" value="'+finMins+'"'
+        +' style="width:62px;padding:6px 8px;border-radius:8px;border:1px solid var(--border);background:var(--card);color:var(--text);font-size:13px;box-sizing:border-box">'
+        +'<span style="font-size:11px;color:var(--text2)">min · '+(finisherDone?('+'+finKcalNow+' kcal counted'):('tap ✓ when done · +'+finKcalNow+' kcal'))+'</span>'
+        +'</div></div></div>';
+      const _fmi=document.getElementById('finisher-mins-inp');
+      if(_fmi){
+        _fmi.addEventListener('click', function(ev){ ev.stopPropagation(); });
+        _fmi.addEventListener('change', function(){
+          var v=parseFloat(this.value);
+          if(!isNaN(v)&&v>0&&v<=180){ localStorage.setItem('fit_finisher_mins_'+wDate, String(v)); }
+          renderWorkout();
+        });
+      }
       document.getElementById('finisher-chk-btn') && document.getElementById('finisher-chk-btn').addEventListener('click', function(){
         if(localStorage.getItem('fit_finisher_'+wDate)) {
           localStorage.removeItem('fit_finisher_'+wDate);
@@ -1790,7 +1828,7 @@ function renderWorkout() {
       const doneNow=workout.exercises.filter(function(e){return wChecksNow[e.id];}).length;
       const totalNow=workout.exercises.length;
       const finNow=!!localStorage.getItem("fit_finisher_"+wDate);
-      const kcalNow=calcCheckedKcal(workout,checks,finNow);
+      const kcalNow=calcCheckedKcal(workout,checks,finNow,getFinisherMins(wDate));
       if(doneNow>0||finNow){
         calBurnedEl.style.display="block";
         calBurnedEl.textContent="🔥 "+kcalNow+" kcal burned ("+doneNow+"/"+totalNow+" exercises"+(finNow?" + finisher":"")+")";
@@ -2308,8 +2346,16 @@ const WorkoutLogSync = {
       if(getRes.ok) {
         const meta = await getRes.json();
         sha = meta.sha;
-        try { existing = JSON.parse(atob(meta.content.replace(/\n/g,''))); } catch(e) { existing = []; }
-        if(!Array.isArray(existing)) existing = [];
+        try {
+          // Must mirror the write side (btoa(unescape(encodeURIComponent(x)))) or accents mojibake
+          existing = JSON.parse(decodeURIComponent(escape(atob(meta.content.replace(/\n/g,'')))));
+        } catch(parseErr) {
+          console.error('WorkoutLogSync: existing log unreadable', parseErr);
+          throw new Error('Could not read your existing log, so nothing was overwritten. Your history is safe. Try again in a moment.');
+        }
+        if(!Array.isArray(existing)) {
+          throw new Error('Existing log is not a list, so nothing was overwritten. Your history is safe.');
+        }
       }
       // Append new session
       existing.push(session);
@@ -2324,6 +2370,7 @@ const WorkoutLogSync = {
       return true;
     } catch(e) {
       console.error('WorkoutLogSync:', e);
+      WorkoutLogSync.lastError = e && e.message ? e.message : String(e);
       return false;
     }
   }
@@ -2335,7 +2382,7 @@ function openWorkoutLog() {
   const wNotes = DB.getWkNotes()['w_'+workout.date]||{};
 
   document.getElementById('modal-title').textContent = '💪 Log Workout';
-  document.getElementById('modal-sub').textContent = workout.day_label + ' · ' + workout.session_type;
+  document.getElementById('modal-sub').textContent = dayLabelFor(workout) + ' · ' + workout.session_type;
 
   let body = '<div style="margin-bottom:10px">';
   body += '<div class="wl-lbl">Session notes (optional)</div>';
@@ -2346,12 +2393,8 @@ function openWorkoutLog() {
     const savedNote = wNotes[e.id]||'';
     body += '<div class="wl-ex-row">';
     body += '<div class="wl-ex-name">'+esc(e.id)+' · '+esc(e.name)+'</div>';
-    body += '<div class="wl-ex-planned">Planned: '+esc(e.detail)+'</div>';
-    body += '<div class="wl-grid">';
-    body += '<div><div class="wl-lbl">Weight (lb)</div><input class="wl-inp" id="wl-w-'+e.id+'" type="text" inputmode="decimal" placeholder="e.g. 57.5"></div>';
-    body += '<div><div class="wl-lbl">Sets × Reps</div><input class="wl-inp" id="wl-r-'+e.id+'" type="text" placeholder="e.g. 3×10"></div>';
-    body += '</div>';
-    body += '<textarea class="wl-note" id="wl-n-'+e.id+'" rows="1" placeholder="Notes…">'+esc(savedNote)+'</textarea>';
+    body += '<details class="wl-plan"><summary>Planned</summary><div class="wl-ex-planned">'+esc(e.detail)+(e.rest?' · Rest: '+esc(e.rest):'')+'</div></details>';
+    body += '<textarea class="wl-note" id="wl-n-'+e.id+'" rows="5" placeholder="Everything here — weight, sets, reps, how it felt">'+esc(savedNote)+'</textarea>';
     body += '</div>';
   });
 
@@ -2373,23 +2416,23 @@ async function submitWorkoutLog() {
       id: e.id,
       name: e.name,
       planned: e.detail,
-      weight: (document.getElementById('wl-w-'+e.id)||{value:''}).value.trim(),
-      sets_reps: (document.getElementById('wl-r-'+e.id)||{value:''}).value.trim(),
       note: (document.getElementById('wl-n-'+e.id)||{value:''}).value.trim()
     };
   });
 
   const session = {
     date: workout.date,
-    day_label: workout.day_label,
+    day_label: dayLabelFor(workout),
     session_type: workout.session_type,
     submitted_at: new Date().toISOString(),
+    finisher_minutes: localStorage.getItem('fit_finisher_'+workout.date) ? getFinisherMins(workout.date) : null,
     notes: sessionNote,
     exercises: exercises
   };
 
+  WorkoutLogSync.lastError = null;
   const ok = await WorkoutLogSync.push(session);
-  document.getElementById('modal-bg').classList.remove('open');
+  if(ok) { document.getElementById('modal-bg').classList.remove('open'); }
   if(ok) {
     // Mark today's exercise so the BURNED display updates immediately
     const todayLog = DB.getToday();
@@ -2400,9 +2443,9 @@ async function submitWorkoutLog() {
       const finisherDone = !!localStorage.getItem('fit_finisher_'+workout.date);
       todayLog.exercise.id    = exType.id;
       todayLog.exercise.gym   = exType.gym;
-      todayLog.exercise.kcal  = calcCheckedKcal(workout, DB.getChecks(), finisherDone);
+      todayLog.exercise.kcal  = calcCheckedKcal(workout, DB.getChecks(), finisherDone, getFinisherMins(workout.date));
       todayLog.exercise.cardio= exType.cardio;
-      todayLog.exercise.mins  = finisherDone ? exType.baseMins : 0;
+      todayLog.exercise.mins  = finisherDone ? getFinisherMins(workout.date) : 0;
       DB.setToday(todayLog);
       renderSummary();
       renderExerciseGrid();
@@ -2411,7 +2454,9 @@ async function submitWorkoutLog() {
     renderWorkout();
     toast('✅ Workout logged to GitHub!');
   } else {
-    toast('⚠️ Save failed — check GitHub token in More tab');
+    btn.disabled = false;
+    btn.textContent = '✅ Save to GitHub';
+    toast('⚠️ ' + (WorkoutLogSync.lastError || 'Save failed — check GitHub token in More tab') + ' Your notes are still here.');
   }
 }
 
