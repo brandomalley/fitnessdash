@@ -1,35 +1,36 @@
 {
   "workout": {
-    "date": "2026-10-19",
-    "session_type": "DAY D - Upper (pull emphasis) - 80 MIN TARGET",
+    "date": "2026-10-20",
+    "day_label": "Tuesday, October 20",
+    "session_type": "DAY A - Lower (squat emphasis) - 80 MIN TARGET",
     "exercises": [
       {
         "id": "A",
-        "name": "BLOCK 1 PAIR - Lat Pulldown + DB Bench Press",
-        "detail": "Lat Pulldown 135 lb x 8-10, then straight into DB Bench Press 70 lb x 10. 3 rounds. Bench is DELIBERATELY 70 today, not 80 - it is the antagonist filler on a pull day, not the lead lift. Do not chase 80.",
-        "rest": "90 sec after each full round"
+        "name": "BLOCK 1 - Barbell Back Squat (SAFETY PINS MANDATORY) - ALONE, NOT PAIRED",
+        "detail": "205 lb - 3 x 8. Last time you went 8/7/6 with at least 1 in reserve on set 3. Same weight, chase 8/8/7. Pins set every single set.",
+        "rest": "2-3 min"
       },
       {
         "id": "B",
-        "name": "BLOCK 1 PAIR - Seated Cable Row + DB Shoulder Press",
-        "detail": "Seated Cable Row 165 lb x 10-12 (UP from 150 - you went 3x12 clean last time), then straight into DB Shoulder Press 50 lb x 10. 3 rounds. Shoulder press is 50 today, not 60 - 60 stays the lead on press day only.",
-        "rest": "90 sec after each full round"
+        "name": "BLOCK 1 - Hip Thrust Machine",
+        "detail": "200 lb - 3 x 12 (UP from 180 - you got 12 clean on all three sets). If 12 goes easy again, next lower day is 220.",
+        "rest": "90 sec"
       },
       {
         "id": "C",
-        "name": "BLOCK 2 PAIR - Face Pulls + Hammer Curl",
-        "detail": "Face Pulls 80 lb x 15 (UP from 70 - all 3 sets were clean), then straight into Hammer Curl 30 lb x 10. 3 rounds. If round 2 arms are cooked, drop curls to 25 and keep the reps - that worked last time.",
-        "rest": "60-75 sec after each full round"
+        "name": "BLOCK 2 PAIR - Leg Press + Seated Leg Curl",
+        "detail": "Leg Press 340 lb x 10 (Saturday you finished at 370, so 340 is a real working weight not a retest), then straight into Seated Leg Curl 88 lb x 10. 3 rounds.",
+        "rest": "90 sec after each full round"
       },
       {
         "id": "D",
         "name": "BLOCK 3 - Core Circuit",
-        "detail": "2 rounds: Pallof Press 25 lb x 12/side, Hanging Knee Raise x 12, Dead Bugs x 24"
+        "detail": "2 rounds: Pallof Press 25 lb x 12/side, Dead Bugs x 24, Side Plank 45 sec/side. NO hanging work today - your grip has been the limiter two sessions running, give it a break."
       },
       {
         "id": "E",
-        "name": "FINISHER - Incline Walk (YOUR CALL ON DURATION)",
-        "detail": "Target 10-12 min, but duration is yours - log whatever you actually do. HARD RULE after Saturday: keep HR under 140 and stop if you feel lightheaded. Lightheaded is not a push-through signal. Drop speed or incline to stay under the cap rather than toughing it out. Note your HR range and minutes in the box."
+        "name": "FINISHER - Incline Walk",
+        "detail": "Set the minutes in the app to whatever you actually do. GOVERN BY BREATHING, NOT HR - in this heat your HR reads 10-20 bpm high at the same real workload, so do not chase a number. Pace you could speak a sentence at. HARD STOP on lightheadedness. This is a lower day, which is when Saturday's episode happened, so cool actively: water over head and neck, wet towel, fan. Log your HR range this time."
       }
     ]
   }
