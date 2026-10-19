@@ -1,40 +1,35 @@
 {
   "workout": {
-    "date": "2026-10-17",
-    "day_label": "Saturday, October 17",
-    "session_type": "DAY C - Lower (hinge emphasis) - 80 MIN TARGET",
-    "is_gym_day": true,
-    "warmup": "10 min incline walk. Then 90/90 hip switches x 10/side, bodyweight glute bridge x 15, Cat-Cow x 10. RAMP THE DEADLIFT: 95 x 8, then 135 x 5. Do not skip the ramp - it is the difference between hitting your numbers and feeling weak.",
-    "coach_note": "New structure, built to land at 80 minutes door to door. First, I owe you a correction: I said your rest time exceeded your work time and that rests were creeping. That was a bad read. Your 1:44 was door-to-door including the 10 minute warm-up walk and the 12 minute finisher - so the actual lifting was about 82 minutes, not 104. And the work/rest split Garmin showed is meaningless, because you use that button as a rest timer rather than marking exercises. I will stop quoting work time, rest time, set count and rep count entirely. HR and total duration are the only things on that screen worth reading. To get from 82 minutes of lifting down to 58, the fix is ANTAGONIST PAIRING on the main lifts, and here is why it costs you nothing: with straight sets at 2 minutes rest, each deadlift set gets exactly 2 minutes of recovery. Paired with a movement that uses different muscles, you deadlift, then do the other exercise for about a minute, then rest 2 minutes - so the deadlift now gets nearly THREE minutes of recovery while the total session gets shorter. You get more rest per lift and less time in the gym. That is not a compromise, it is just better sequencing. The deadlift stays on its own because it is the highest-risk lift you own and I want you fresh and undistracted for it. Everything after it pairs up. If this lands near 80 minutes, this becomes the template for all four days.",
-    "finisher": "10-12 min incline walk. Still part of the session.",
+    "date": "2026-10-19",
+    "session_type": "DAY D - Upper (pull emphasis) - 80 MIN TARGET",
     "exercises": [
       {
         "id": "A",
-        "name": "BLOCK 1 - Barbell Deadlift (floor) - ALONE, NOT PAIRED",
-        "detail": "165 lb - 3 x 10",
-        "rest": "2-3 min, take all of it",
-        "note": "Up 10 lb from the 155 x 10, 10 on Oct 9. This lift stays unpaired on purpose - it is the highest-risk movement in your program given three scapular strains and a lumbar history, and I want you fresh and thinking about nothing else. Hips back, bar against the shins, neutral spine, drive the floor away. Reset every rep, no bouncing. 10 lb at a time and no faster, however easy it feels. If your sleep was poor, run 155 and tell me."
+        "name": "BLOCK 1 PAIR - Lat Pulldown + DB Bench Press",
+        "detail": "Lat Pulldown 135 lb x 8-10, then straight into DB Bench Press 70 lb x 10. 3 rounds. Bench is DELIBERATELY 70 today, not 80 - it is the antagonist filler on a pull day, not the lead lift. Do not chase 80.",
+        "rest": "90 sec after each full round"
       },
       {
         "id": "B",
-        "name": "BLOCK 2 PAIR - Leg Press + Seated Leg Curl",
-        "detail": "Leg Press 3 x 10 (find your weight - unused since July), then straight into Seated Leg Curl 88 lb x 10. 3 rounds.",
-        "rest": "2 min between ROUNDS only - no rest between the two movements",
-        "note": "Quads then hamstrings - opposing muscles, so neither steals from the other. LEG PRESS IS A RETEST: you have not touched it since July when it was 390 lb, and that was a different gym. Start around 270-300, find a weight where 10 is honest work, and report what landed. Leg curl holds at 88 - you ran three full sets on sore hamstrings on Oct 12, so it is yours now. Controlled on both, no locking the knees at the top of the press."
+        "name": "BLOCK 1 PAIR - Seated Cable Row + DB Shoulder Press",
+        "detail": "Seated Cable Row 165 lb x 10-12 (UP from 150 - you went 3x12 clean last time), then straight into DB Shoulder Press 50 lb x 10. 3 rounds. Shoulder press is 50 today, not 60 - 60 stays the lead on press day only.",
+        "rest": "90 sec after each full round"
       },
       {
         "id": "C",
-        "name": "BLOCK 2 PAIR - Leg Extension + Walking Lunge",
-        "detail": "Leg Extension 90 lb x 12, then straight into Walking Lunge 30 lb x 12/leg. 3 rounds.",
-        "rest": "60-75 sec between ROUNDS only",
-        "note": "Leg extension at 90 for all three sets this time - you got 12 on set 3 on Oct 12 after opening at 75, so the weight is confirmed. Lunges stay at 30 until you get all three sets of 12 per leg; you were at 12/11/10 last time, so it is one good set away. DUMBBELLS OFF A RACK AT HIP HEIGHT - never off the floor. That rule does not expire. DROP THE THIRD ROUND of this pair if you are past 70 minutes."
+        "name": "BLOCK 2 PAIR - Face Pulls + Hammer Curl",
+        "detail": "Face Pulls 80 lb x 15 (UP from 70 - all 3 sets were clean), then straight into Hammer Curl 30 lb x 10. 3 rounds. If round 2 arms are cooked, drop curls to 25 and keep the reps - that worked last time.",
+        "rest": "60-75 sec after each full round"
       },
       {
         "id": "D",
         "name": "BLOCK 3 - Core Circuit",
-        "detail": "2 rounds: Pallof Press 25 lb x 12/side, Hanging Knee Raise x 12, Dead Bugs x 24",
-        "rest": "45 sec between rounds",
-        "note": "Rotated off Thursday's circuit. Hips square on the Pallof, no rotation. Lower back pressed flat on the dead bugs. If the clock is against you, cut this to one round rather than skipping the finisher walk."
+        "detail": "2 rounds: Pallof Press 25 lb x 12/side, Hanging Knee Raise x 12, Dead Bugs x 24"
+      },
+      {
+        "id": "E",
+        "name": "FINISHER - Incline Walk (YOUR CALL ON DURATION)",
+        "detail": "Target 10-12 min, but duration is yours - log whatever you actually do. HARD RULE after Saturday: keep HR under 140 and stop if you feel lightheaded. Lightheaded is not a push-through signal. Drop speed or incline to stay under the cap rather than toughing it out. Note your HR range and minutes in the box."
       }
     ]
   }
